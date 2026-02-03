@@ -1,6 +1,6 @@
 {
-	"label": "Items (Nuits agitées et dures journées)",
-	"mapping": {	
+  "label": "Articoli (Notti Brave & Giorni Duri)",
+  "mapping": {
     "sduration": {
       "path": "system.duration.value",
       "converter": "spells_duration_range_target_damage"
@@ -12,28 +12,28 @@
     "starget": {
       "path": "system.target.value",
       "converter": "spells_duration_range_target_damage"
-    },    
+    },
     "sdamage": {
       "path": "system.damage.value",
       "converter": "spells_duration_range_target_damage"
     },
     "tests": "system.tests.value"
-  },	
-	"entries": [
-		{
-      "id":"Playing Card and Note",
-      "name":"Jouer aux cartes et Notes"
+  },
+  "entries": [
+    {
+      "id": "Playing Card and Note",
+      "name": "Carta da gioco e nota"
     },
-		{
-			"id": "Suffused with Ulgu",
-			"name": "Imprégné avec Uglu",
-			"tests": "Focalisation (Ulgu) pour la Discrétion; tout sort des Ombres incantés dans les 8 mètyres reçoivent + 1 DR",
-			"description": "<p>Vous êtes imprégné avec le Vent Gris de Magie, que ceux avec une Seconde Vue perçoivent comme une ombre, un brouillard mouvant autour de votre corps.</p>\n<p>Vous pouvez utiliser votre Compétence <em>Focalisation (Uglu)</em> au lieu de la Compétence Discrétion pour tout les tests applicables.</p>\n<pDe plus, toutes les réussites aux Tests d'Incantation de sorts des Ombres dans un rayons de 8 mètres autour de vous bénéficient de + 1DR. Ce bonus ne peut être octroyé qu'une seule fois, peu importe le nombre de personnes possédant ce Talent à proximité du lanceur de sort.</p>"
-		},
-		{
-			"id": "Reveal the Inner Beauty",
-			"name": "Révéler la Beauté Intérieure",
-			"description": "<p>Vous causez la décomposition rapide d'un objet ou d'un individu que vous touchez. Si la cible n'est pas organique, elle devient fragile, et inutilisable. Si la cible est organique, elle mûrit rapidement jusqu'à flétrir, s'ouvrant puis répandant son contenu aux alentours. Une créature vivante doit réussir un Test de <em>Résistance Intermédiaire (+0)</em> pour résister au sort. Sur un échec, la cible vieillit de <a class='chat-roll'>2d10</a> années et perd de manière permanente –<a class='chat-roll'>1d10</a>% en CC, CT, Force, Endurance, Agilité et Dextérité.</p>"
-		}
-	]
+    {
+      "id": "Suffused with Ulgu",
+      "name": "Soffuso di Ulgu",
+      "tests": "Incanalare (Ulgu) per Nascondersi; qualsiasi incantesimo Ombra lanciato entro 8 metri guadagna +1 LS",
+      "description": "<p>Il Personaggio è permeato dal Vento Grigio della Magia. Chi è dotato di Seconda Vista scorge una sorta di nebbia illusoria e mutevole che s’irradia dal suo corpo.</p>\n<p>Può scegliere di utilizzare l’Abilità Incanalare (<em>Ulgu</em>) al posto dell’Abilità Nascondersi nelle Prove relative.</p>\n<p>Inoltre, ogni tentativo riuscito di lanciare incantesimi della Sfera delle Ombre nel raggio di 7 metri fa guadagnare un LS. Questo bonus può essere reclamato una sola volta, indipendentemente da quanti Personaggi <em>Soffusi di Ulgu</em> si trovano vicini all’incantatore.</p>"
+    },
+    {
+      "id": "Reveal the Inner Beauty",
+      "name": "Rivelare la Bellezza Interiore",
+      "description": "<p>Il Mago fa deteriorare rapidamente un oggetto o un individuo toccato. Se inorganico, questo Incantesimo rende l’oggetto fragile e inadatto all’uso. Se organico, il soggetto matura rapidamente fino a quando non inizia a guastarsi, spaccandosi e riversando il suo contenuto puzzolente ovunque. Un essere vivente deve effettuare una <strong>Prova Difficile (+0) di Resistenza</strong>per resistere a questo Incantesimo. In caso di fallimento, il bersaglio invecchia di [[/r 2d10]] anni e perde permanentemente -[[/r 1d10]]% delle seguenti Caratteristiche: Abilità in Combattimento, Abilità Balistica, Forza, Resistenza, Agilità e Destrezza.</p>"
+    }
+  ]
 }

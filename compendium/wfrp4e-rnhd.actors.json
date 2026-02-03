@@ -1,5 +1,5 @@
 {
-  "label": "Acteurs (Nuits agitées et dures journées)",
+  "label": "Personaggi (Notti Brave & Giorni Duri)",
   "mapping": {
     "description": "system.details.biography.value",
     "gmNotes": "system.details.gmnotes.value",
@@ -13,132 +13,132 @@
     }
   },
   "folders": {
-    "A Day At The Trials": "Une journée au tribunal",
-    "A Night At The Opera": "Une nuit à l'opéra",
-    "A Rough Night At The Three Feathers": "Une nuit agitée aux Trois Plumes",
-    "Lord of Ubersreik": "Seigneur d'Ubersreik",
-    "Nastassia's Wedding": "Le mariage de Nastassia"
+    "A Day At The Trials": "Un Giorno a Processo",
+    "A Night At The Opera": "Una Notte All'Opera",
+    "A Rough Night At The Three Feathers": "Notte Brava alle Tre Piume",
+    "Lord of Ubersreik": "Il Signore di Ubersreik",
+    "Nastassia's Wedding": "Le Nozze di Nastassia"
   },
   "entries": {
     "Albrecht Oldenhaller": {
       "name": "Albrecht Oldenhaller",
       "tokenName": "Albrecht Oldenhaller",
-      "description": "<section id=\"secret-l57yQWg2yvVUo1Dt\" class=\"secret\"><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#plot-6-–-family-honour]{Intrigue n° 6 - Dans les meilleures familles}</p></section>"
+      "description": "<section id=\"secret-l57yQWg2yvVUo1Dt\" class=\"secret\"><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-6-–-l-onore-della-famiglia]{Trama 6 – L’Onore della famiglia}</p></section>"
     },
     "Allrella": {
       "name": "Allrella",
       "tokenName": "Allrella",
-      "gmNotes": "<p><strong>Membres de l’Ordo Ultima - @UUID[Actor.N5yE3yifdjZ77UKU]{Helga}, @UUID[Actor.Q5nA8TjPG9UfgBUa]{Elphoise}, @UUID[Actor.0Lk2REtzh9XVM8nB]{Allrella}</strong></p><p>Les cultistes de l'Ordo Ultima sont loin de leur terrain de jeu habituel de Nuln. Donc, ils sirotent leurs boissons, essayant de leur mieux de ne pas paraître suspects quand ils observent @UUID[Actor.hDdur1pQxsvvWzXd]{Rechtshandler}, marmonnant occasionnellement des prières inventées à Verena pour renforcer leur couverture d'érudits voyageurs. Chaque cultiste porte une lettre O jointe avec une lettre U tatouées sur le sein gauche et ils parlent tous avec des accents citadins de Nuln.</p><p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#plot-3-–-a-face-from-the-past]{Intrigue n° 3 – Un visage surgissant du passé}</p>"
+      "gmNotes": "<p><strong>Membri dell'Ordo Ultima - @UUID[Actor.N5yE3yifdjZ77UKU]{Helga}, @UUID[Actor.Q5nA8TjPG9UfgBUa]{Elphoise}, @UUID[Actor.0Lk2REtzh9XVM8nB]{Allrella}</strong></p><p>I Cultisti dell’<em>Ordo Ultima</em> sono lontani dalla loro città natale, Nuln. Così si concentrano sui loro bicchieri, dando il meglio di sé per non apparire sospetti mentre tengono d’occhio @UUID[Compendium.wfrp4e-rnhd.actors.hDdur1pQxsvvWzXd]{Rechtshandler}; di tanto in tanto borbottano preghiere inventate per Verena, così da sostenere la copertura di studiosi in viaggio. Ogni cultista ha una lettera O racchiusa in una lettera U tatuate sul lato sinistro del petto; tutti parlano con l’accento cittadino di Nuln.</p><p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-3-–-un-volto-dal-passato]{Trama 3 – Un Volto dal Passato}</p>"
     },
     "Andrea Pfeffer": {
       "name": "Andréa Pfeffer",
       "tokenName": "Andréa Pfeffer",
-      "gmNotes": "<p>Le capitaine @UUID[Actor.xJGrg8I8NsemrsNR]{Erwin Blucher} de la @UUID[Compendium.wfrp4e-starter-set.journals.TSyoR9nSk7cehypG.JournalEntryPage.tCh9vROs0eeTuEwA]{Tour de Magnus} et le capitaine Andréa Pfeffer du Guet d'Ubersreik ne s'apprécient pas beaucoup. Mais ils trouvent la compagnie de l'autre infiniment préférable au champ de bataille politique sur lequel ils se retrouvent.</p><p>À moins qu'elle ne s'y soit engagée autrement, Andréa se retirera relativement tôt pour parler à ses hommes qui gardent l'extérieur du manoir. Blucher comptera alors sur la bière pour se distraire.</p>"
+      "gmNotes": "<p>Il tozzo capitano @UUID[Actor.xJGrg8I8NsemrsNR]{Erwin Blucher} della @UUID[Compendium.wfrp4e-starter-set.journals.TSyoR9nSk7cehypG.JournalEntryPage.tCh9vROs0eeTuEwA]{Torre Magnus} e il capitano dalla chioma fiammeggiante Andrea Pfeffer della Guardia di Ubersreik non si piacciono molto. Trovano, però, la reciproca compagnia infinitamente preferibile al campo di battaglia politico in cui si trovano immersi. </p><p>Se non viene impiegata diversamente, Andrea si allontana relativamente presto per parlare con i suoi uomini di guardia fuori dalla magione. Blucher a quel punto si butta sulla birra, per il proprio sollazzo.</p>"
     },
     "Bart Fehrwalder": {
       "name": "Bart Fehrwalder",
       "tokenName": "Bart Fehrwalder",
-      "gmNotes": "<p>Les « Morriens » @UUID[Actor.8xawBmyhzCFVRCSY]{Gunni}, @UUID[Actor.meBFhv03FOIxxEuv]{Bart} et @UUID[Actor.xpRHuMinqcOTfLhL]{Hans-Frederick} se font passer pour des Morriens transportant un corps destiné à être inhumé. Ils ont revêtu toute une panoplie qu'ils ont volée dans un temple de Morr. Ils ne parlent de façon théâtrale et monotone que pour maintenir leur couverture. Lorsqu'ils ne se font pas passer pour des Morriens, les trois hommes ont des voix aigües avec de forts accents de Nuln, leur ton montant à la fin de chaque phrase.</p><p><strong>Le corps</strong></p><p>@UUID[Actor.YW7PY6OHt5krs2pj]{Josef Aufwiegler} est le « corps » que les « Morriens » transportent dans leur cercueil. Aufwiegler est un agitateur recherché pour avoir incité à l'émeute à Nuln. Bien qu'il ait payé les contrebandiers pour le mener en lieu sûr, il ne s'attendait pas à être drogué, ni mis dans un cercueil, ou à être entouré par des Morriens à tête de crane à son réveil ! Quand il rouvre les yeux, confus et encore engourdi par les drogues, Josef panique.<p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#plot-5-–-ashes-to-ashes]{Intrigue n° 5 – Tu étais poussière et tu redeviendras poussière}</p>"
+      "gmNotes": "<p>Les « Morriens » @UUID[Actor.8xawBmyhzCFVRCSY]{Gunni}, @UUID[Actor.meBFhv03FOIxxEuv]{Bart} e @UUID[Actor.xpRHuMinqcOTfLhL]{Hans-Frederick} si presentano come seguaci di Morr nell’atto di trasportare un corpo per la sepoltura. Sono equipaggiati con armamentario rubato da un tempio di Morr. Si esprimono sempre in modo teatrale e con un tono monocorde per mantenere la copertura. Quando non si presentano come seguaci di Morr, tutti e tre gli uomini rivelano voci acute con un forte accento di Nuln, il cui tono si alza alla fine di ogni frase.</p><p><strong>Il Corpo</strong></p><p@UUID[Actor.YW7PY6OHt5krs2pj]{Josef Aufwiegler} è il ‘corpo’ che i ‘seguaci di Morr’ trasportano all’interno della bara. Aufwiegler è un agitatore ricercato per aver causato i disordini di Nuln. Sebbene abbia pagato i contrabbandieri per essere condotto in salvo, non si aspettava di venire drogato. E neppure infilato dentro a una bara. O di essere, al suo risveglio, circondato da seguaci di Morr dal volto di teschio! Quando si risveglia, confuso e rintronato dai narcotici, Josef si fa prendere dal panico.</p><p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-5-–-cenere-alla-cenere]{Trama 5 – Cenere alla Cenere}</p>"
     },
     "Big 'Curls'": {
-      "name": "« Grosses Boucles »",
-      "tokenName": "« Grosses Boucles »",
-      "gmNotes": "<p>@UUID[Actor.1gLZGKozh6nrBjGr]{Thomas} est un homme puissant habitué à tout contrôler, que ce soit ses bateaux, ses réseaux de contrebande ou avec sa @UUID[Actor.RVDzvuNLOyMHpboL]{future femme}. Ayant appris les infidélités de sa fiancée avec le Baron, il a fait appel à son @UUID[Actor.qKIlKSoDoQYCTMGE]{oncle Mho}, à @UUID[Actor.0SY3YBbsrNa6bvZ6]{Larz le dingue} et à @UUID[Actor.Wnn6QYqqbvG5gotp]{« Grosses Boucles »} pour l'aider à lui apprendre certaines leçons importantes. Tous parlent avec des accents de la classe inférieure du Reikland.</p><p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#plot-4-–-creating-a-scene]{Intrigue n° 4 – Faire un scandale}</p>"
+      "name": "Grosso 'Riccioli'",
+      "tokenName": "Grosso 'Riccioli'",
+      "gmNotes": "<p>@UUID[Actor.1gLZGKozh6nrBjGr]{Thomas} è un uomo abituato a tenere tutto sotto controllo, sia con le sue barche, sia con il suo contrabbando di anelli, sia con la sua futura moglie. Dopo aver appreso dell’infedeltà della @UUID[Actor.RVDzvuNLOyMHpboL]{sua fidanzata} con il Barone, ha chiamato a sé @UUID[Actor.qKIlKSoDoQYCTMGE]{Zio Mho}, @UUID[Actor.0SY3YBbsrNa6bvZ6]{Matto Larz}, e @UUID[Actor.Wnn6QYqqbvG5gotp]{Grosso 'Riccioli'} per farsi aiutare a impartire un’importante lezione. Tutti gli uomini parlano con un accento del Reikland di infimo livello.</p><p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-4-–-la-scenata]{Trama 4 – La Scenata}</p>"
     },
     "Bloodletter of Khorne": {
-      "name": "Sanguinaires de Khorne",
-      "tokenName": "Sanguinaires de Khorne",
-      "description": "<section id=\"secret-9qMtg7ExXFbV6pSQ\" class=\"secret\"><p>Les démons de Khorne Les Sanguinaires tuent tout ce qui se trouve sur leur passage, ne cherchant qu'à faire couler le sang. Pour rendre cette rencontre plus difficile ou plus épique, ajoutez des @UUID[Compendium.wfrp4e-core.items.lV7Bxi3T3ps4QBlc]{mutations} ou les Traits de créature @UUID[Compendium.wfrp4e-core.items.k9539MBTFplxsysT]{Coriace}, @UUID[Compendium.wfrp4e-core.items.9NROryHer1uXAKwY]{Élite}, @UUID[Compendium.wfrp4e-core.items.HbrwGhUl0ZXz4kLA]{Endurant} ou @UUID[Compendium.wfrp4e-core.items.9MjH4xyVrd3Inzak]{Rapide}.</p><p>Élus de Khorne, les sanguinaires règnent sur les champs de bataille du Vieux Monde, arrachant crânes et vies en l’honneur du dieu du Sang. Des dents pointues et acérées dépassent de leur monstrueux visage cornu. Leur peau rouge-sang est dure comme l’airain, forgée sur l’enclume de guerres incessantes. Chaque sanguinaire porte une Lame des Enfers, diaboliquement tranchante et trempée dans le sang versé, qu’il manie avec témérité, se délectant du doux plaisir de la tuerie aveugle.</p></section>"
+      "name": "Sanguinari di Khorne",
+      "tokenName": "Sanguinari di Khorne",
+      "description": "<section id=\"secret-9qMtg7ExXFbV6pSQ\" class=\"secret\"><p>I Sanguinari uccidono qualsiasi cosa si pari sul loro cammino, preoccupandosi solo di far scorrere del sangue. Per rendere questo scontro più stimolante e carico di pathos, è possibile aggiungere @UUID[Compendium.wfrp4e-core.items.lV7Bxi3T3ps4QBlc]{Mutazioni} oppure i Tratti delle Creature: @UUID[Compendium.wfrp4e-core.items.k9539MBTFplxsysT]{Tosto}, @UUID[Compendium.wfrp4e-core.items.9NROryHer1uXAKwY]{Elite}, @UUID[Compendium.wfrp4e-core.items.HbrwGhUl0ZXz4kLA]{Gagliardo} o @UUID[Compendium.wfrp4e-core.items.9MjH4xyVrd3Inzak]{Rapido}.</p><p>I Sanguinari, prescelti da Khorne, vanno a caccia per i campi di battaglia del Vecchio Mondo, mietendo teschi e vite in onore del Dio del Sangue. Hanno denti appuntiti come aghi, mostruosi volti cornuti, la pelle rosso sangue dura come bronzo forgiato sull’incudine di una guerra eterna. Ognuno è armato con una Lama Infernale, una spada diabolicamente affilata che gronda sangue e viene maneggiata con assoluta noncuranza, mentre il Demone si gode l’insensato massacro.</p></section>"
     },
     "Boatman": {
-      "name": "Batelier",
-      "tokenName": "Batelier",
-      "gmNotes": "<p>Il y a beaucoup de cochers et de bateliers, tous humains, qui logent aux Trois Plumes. La plupart boivent jusqu'à l'ivresse avant de se traîner vers le dortoir.</p>"
+      "name": "Barcaiolo",
+      "tokenName": "Barcaiolo",
+      "gmNotes": "<p>Vi è un discreto numero di cocchieri e barcaioli: tutti umani che soggiornano alle Tre Piume. La maggior parte di loro beve fino a ubriacarsi, prima di trascinarsi nel dormitorio comune.</p>"
     },
     "Bodyguards and Men-At-Arms": {
-      "name": "Gardes du corps et hommes d'armes",
-      "tokenName": "Gardes du corps et hommes d'armes",
-      "description": "<section id=\"secret-0Y14dFJbDJCBQwkY\" class=\"secret\"><p><strong>Statut</strong>: Argent 3</p>\n<p>La @UUID[Actor.J8AHNs6dcy40mhXr]{Gravin} a beaucoup de serviteurs, femmes de chambres, hommes d'armes, gardes du corps et d'autres divers serviteurs, tous revêtus de leurs livrées magenta et jaune. Dans son personnel se trouvent Hans Erpresser, un serviteur avec un petit penchant pour le chantage (utilisez les caractéristiques Femmes de chambre et Serviteurs pour lui) et @UUID[Actor.eOlJad1Pky9vNevM]{Éliza}, une nouvelle employée qui n'est pas tout à fait ce qu'elle parait être.</p></section>"
+      "name": "Guardie del Corpo e Uomini d'Arme",
+      "tokenName": "Guardie del Corpo e Uomini d'Arme",
+      "description": "<section id=\"secret-0Y14dFJbDJCBQwkY\" class=\"secret\"><p><strong>Statut</strong>: Argento 3</p>\n<p>La @UUID[Actor.J8AHNs6dcy40mhXr]{Grafina} ha numerosi domestici, ancelle, uomini d’arme, guardie del corpo, altri membri del personale e associati vari, tutti abbigliati con una livrea magenta e gialla. Nel suo stato maggiore vi sono Hans Erpresser, servitore con un debole per il ricatto (per lui, utilizzare le statistiche di ancelle e servi) ed @UUID[Actor.eOlJad1Pky9vNevM]{Eliza}, nuova assunta che non è esattamente quel che appare.</p></section>"
     },
     "Borgun Foambeard": {
-      "name": "Borgan Barbedemousse",
-      "tokenName": "Borgan Barbedemousse",
-      "gmNotes": "<p><span class=\"fontstyle0\">Borgan Barbedemousse est un brasseur local réputé. Austère et large d'épaules, il passe la plupart de son temps à surveiller son personnel qui gère les boissons dans la salle à manger. Il s'intéresse peu aux « affaires des hommes » et n'a aucune envie de participer à un bal masqué, mais @UUID[Actor.6SbnET9r1ewR2QCF]{Holzenauer} paie sa bière à prix d'or, alors il s'en accommode du mieux qu'il peut.</span></p>"
+      "name": "Borgun Barbaspuma",
+      "tokenName": "Borgun Barbaspuma",
+      "gmNotes": "<p><span class=\"fontstyle0\">Borgun Barbaspuma è un birraio locale con un’ottima reputazione. Cupo e dalla larghe spalle, trascorre la maggior parte del suo tempo a controllare il proprio personale intento a preparare la libagione nella sala da pranzo. Egli ha scarso interesse per gli ‘affari degli uomini’ e non desidera affatto partecipare a un ballo in maschera, ma @UUID[Actor.6SbnET9r1ewR2QCF]{Holzenauer} sta pagando del buon oro per la sua birra, pertanto assume il miglior broncio di cui dispone.</span></p>"
     },
     "Brecht Kavenner": {
       "name": "Brecht Kavenner",
       "tokenName": "Brecht Kavenner",
-      "gmNotes": "<p>Kavenner, doté d'une voix nasillarde, est l'avocat personnel de la @UUID[Actor.CcqiAghkzgp9u1In]{Comtesse}. Il est considéré comme un homme sévère et dévoué, qui se consacre tout entier à sa femme, ses enfants, et au @UUID[JournalEntry.NcH9OhleJFfaUdon.JournalEntryPage.9bWE0Ayt5XGQf50r]{culte de Verena}. Il utilise cette bonne réputation pour dissimuler sa double vie en tant que cultiste des plus performants et des plus dépravés de l'<em>Ordo Ultima</em>. Chargé il y a trois ans de corrompre la Comtesse pour le compte du Prince du Plaisir, il l'a trouvée inexplicablement intraitable. Ce qui lui embrouille les idées, et l'agace tout autant. Pour cette raison, il s'en prend invariablement à ses inférieurs.</p>"
+      "gmNotes": "<p>Kavenner, dalla voce nasale, è l’avvocato personale della @UUID[Actor.CcqiAghkzgp9u1In]{Contessa}. Conosciuto come uomo severo e devoto, totalmente dedito alla moglie, ai figli e al @UUID[JournalEntry.NcH9OhleJFfaUdon.JournalEntryPage.9bWE0Ayt5XGQf50r]{culto di Verena}, utilizza questa buona reputazione per mascherare la sua seconda vita come uno dei cultisti di maggior successo e depravazione dell’<em>Ordo Ultima</em>. Tre anni prima, incaricato di corrompere la Contessa al servizio del Principe del Piacere, l’ha trovata inspiegabilmente incorruttibile. Tutto ciò lo confonde e lo infastidisce in egual misura, la qualcosa si riversa immancabilmente sui suoi sottoposti.</p>"
     },
     "Brocks": {
       "name": "Brocks",
       "tokenName": "Brocks",
-      "gmNotes": "<p>Le baron @UUID[Actor.hoYxD4qqwxPJai2L]{Eberhardt von Dammenblatz} a ordonné à ses deux espions de Nuln, Brocks et Reiner, de mettre enfin un terme à son litige avec Liebwitz. Les deux agents parlent comme des roturiers, et aucun n'est particulièrement performant dans son travail. Si @UUID[Actor.eOlJad1Pky9vNevM]{Dominique} est encore en vie, elle reçoit l'ordre de les diriger, ce qui lui déplaît, étant donné qu'elle préfère travailler seule. Elle se coupe les cheveux assez court pour la mission, les teint en roux, et adopte un lourd accent de Stirlander, bouseux au possible. Utilisez le profil de personnage page 18 pour Dominique.</p>"
+      "gmNotes": "<p>Il Barone @UUID[Actor.hoYxD4qqwxPJai2L]{Eberhardt von Dammenblatz} ha ordinato alle sue due spie di Nuln – Brocks e Reiner – di porre fine al problema Liebwitz. Entrambi hanno un accento di strada, sono grintosi e nessuno dei due è particolarmente capace nel proprio lavoro. Se @UUID[Actor.eOlJad1Pky9vNevM]{Dominique} è ancora in vita, viene inviata per guidarli, cosa che odia e la infastidisce, dato che preferisce lavorare da sola. Taglia i capelli corti e li tinge di rosso per la missione e adotta un apertissimo accento dello Stirland, tale che non potrebbe sembrare più ‘bifolca’ neanche se ci provasse.</p>"
     },
     "Bruno Franke": {
       "name": "Bruno Franke",
       "tokenName": "Bruno Franke",
-      "gmNotes": "<p>Bruno, le champion de justice de la @UUID[Actor.J8AHNs6dcy40mhXr]{Gravin}, est une armoire à glace surmontée d'un visage souriant de manière espiègle. Son accent d'Altdorf est prononcé : il est né, il y a presque quarante ans, dans la capitale impériale de parents originaires du Sud. Son rire est très reconnaissable et contagieux et il adore les bons défis.</p>"
+      "gmNotes": "<p>Bruno, il campione giudiziario della @UUID[Actor.J8AHNs6dcy40mhXr]{Grafina}, è un armadio di muscoli dominato da un volto sorridente e con un accenno di malizia. Parla con un profondo accento di Altdorf: è nato, quasi quarant’anni fa, nella capitale imperiale da genitori originari delle Terre Meridionali. Possiede una distintiva risata contagiosa e ama le belle sfide.</p>"
     },
     "Cannon and Mortar Students": {
-      "name": "Étudiants artilleurs",
-      "tokenName": "Étudiants artilleurs",
-      "description": "<section id=\"secret-kYjLBt5BHBmjhLC6\" class=\"secret\"><p><strong>Statut: </strong>Bronze 4</p><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#plot-2-–-a-student-prank]{Intrigue n° 2 - Une farce d’étudiant}</p></section>"
+      "name": "Studenti di Cannone e Mortaio",
+      "tokenName": "Studenti di Cannone e Mortaio",
+      "description": "<section id=\"secret-kYjLBt5BHBmjhLC6\" class=\"secret\"><p><strong>Status: </strong>Bronzo 4</p><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-2-–-uno-scherzo-da-studenti]{Trama 2 – Uno Scherzo da Studenti}</p></section>"
     },
     "Celestine Hoch": {
-      "name": "Célestine Hoch",
-      "tokenName": "Célestine Hoch",
-      "gmNotes": "<p>@UUID[Compendium.wfrp4e-starter-set.journals.TSyoR9nSk7cehypG.JournalEntryPage.YPtYlkm1obschPba]{Le temple de Shallya}</p>"
+      "name": "Celestine Hoch",
+      "tokenName": "Celestine Hoch",
+      "gmNotes": "<p>@UUID[Compendium.wfrp4e-starter-set.journals.TSyoR9nSk7cehypG.JournalEntryPage.YPtYlkm1obschPba]{Tempio di Shallya}</p>"
     },
     "Christoph Engel": {
       "name": "Christoph Engel",
       "tokenName": "Christoph Engel",
-      "gmNotes": "<p>Peu de gens connaissent ou comprennent Christoph Engel, aussi appelé le Gardien gris, le seul sorcier originaire de la ville. Engel garde ses opinions pour lui, et affiche un visage et un accent différents à chaque personne qu'il rencontre. Il s'occupe des ombres, des illusions, et de politique. Il est employé par @UUID[Actor.hcAF95tFaOdoZoeF]{dame Nacht} pour tester les autochtones. Il n'a pas ici de caractéristiques, car il n'engage pas directement le dialogue avec quiconque, préférant s'éclipser et lancer ses sorts (qui peuvent faire ce que vous pensez être le plus efficace pour le scénario) comme il le désire, quand personne ne regarde ou ne peut détecter son influence.</p><p>@UUID[JournalEntry.xKUxWd7rOHDNdp9h.JournalEntryPage.EObulGGxYS7Poog4#plot-4-–-the-ladys-test]{Intrigue n° 4 - Le test de la Dame}</p><blockquote class=\"foundry-note\"><p>Les statistiques de ce PNJ ne sont pas officielles et doivent être considérées comme fan-made</p></blockquote>"
+      "gmNotes": "<p>Pochi conoscono o comprendono Christoph Engel, l’unico mago nato in città. Engel tiene per sé i propri consigli, e si presenta con espressione e accento diversi per ogni persona che incontra. Ha a che fare con le ombre, le illusioni e la politica e viene impiegato da @UUID[Actor.hcAF95tFaOdoZoeF]{Lady Nacht} per mettere alla prova la gente del posto. Non vengono fornite le sue statistiche in quanto egli non si confronta con nessuno, preferendo svignarsela e lanciare incantesimi a suo piacimento (può fare quello che il GM ritenga sia meglio per l’avventura), mentre nessuno lo sta osservando o è in grado di rilevarne l’effetto.</p><p>@UUID[JournalEntry.xKUxWd7rOHDNdp9h.JournalEntryPage.EObulGGxYS7Poog4#trama-4-–-la-prova-di-sua-signoria]{Trama 4 - La prova di sua signoria}</p><blockquote class=\"foundry-note\"><p>Le statistiche fornite per questo attore non sono ufficiali e devono essere considerate fan-made</p></blockquote>"
     },
     "Clothilde Telland": {
       "name": "Clothilde Telland",
       "tokenName": "Clothilde Telland",
-      "gmNotes": "<p>La Duchesse douairière est à la recherche de son quatrième mari, après le regrettable accident de son troisième époux dans les canaux du Telland. Elle est bruyante, aguichante et n'hésite pas à montrer la gemme géante à tous ceux qui s'intéressent à l'exposition de son imposante poitrine.</p><p> @UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-7-–-the-rose-tiger]{Intrigue n° 7 - Le Tigre rose}</p>"
+      "gmNotes": "<p>La Duchessa vedova è in cerca del suo quarto marito, dopo che il terzo ebbe uno sfortunato incidente facendo scendere una chiatta nei canali del Telland. È appariscente, civettuola e desiderosa di mostrare la sua gemma gigante a chiunque fissi il suo prosperoso seno.</p><p> @UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-7-–-la-tigre-rose]{Trama 7 – La Tigre Rosé}</p>"
     },
     "Coachman": {
-      "name": "Cocher",
-      "tokenName": "Cocher",
-      "gmNotes": "<p>Il y a beaucoup de cochers et de bateliers, tous humains, qui logent aux Trois Plumes. La plupart boivent jusqu'à l'ivresse avant de se traîner vers le dortoir.</p>"
+      "name": "Cocchiere",
+      "tokenName": "Cocchiere",
+      "gmNotes": "<p>Vi è un discreto numero di cocchieri e barcaioli: tutti umani che soggiornano alle Tre Piume. La maggior parte di loro beve fino a ubriacarsi, prima di trascinarsi nel dormitorio comune.</p>"
     },
     "Crazy Larz": {
-      "name": "Larz le dingue",
-      "tokenName": "Larz le dingue",
-      "gmNotes": "<p>@UUID[Actor.1gLZGKozh6nrBjGr]{Thomas} est un homme puissant habitué à tout contrôler, que ce soit ses bateaux, ses réseaux de contrebande ou avec sa @UUID[Actor.RVDzvuNLOyMHpboL]{future femme}. Ayant appris les infidélités de sa fiancée avec le Baron, il a fait appel à son @UUID[Actor.qKIlKSoDoQYCTMGE]{oncle Mho}, à @UUID[Actor.0SY3YBbsrNa6bvZ6]{Larz le dingue} et à @UUID[Actor.Wnn6QYqqbvG5gotp]{« Grosses Boucles »} pour l'aider à lui apprendre certaines leçons importantes. Tous parlent avec des accents de la classe inférieure du Reikland.</p><p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#plot-4-–-creating-a-scene]{Intrigue n° 4 – Faire un scandale}</p>"
+      "name": "Matto Larz",
+      "tokenName": "Matto Larz",
+      "gmNotes": "<p>@UUID[Actor.1gLZGKozh6nrBjGr]{Thomas} è un uomo abituato a tenere tutto sotto controllo, sia con le sue barche, sia con il suo contrabbando di anelli, sia con la sua futura moglie. Dopo aver appreso dell’infedeltà della @UUID[Actor.RVDzvuNLOyMHpboL]{sua fidanzata} con il Barone, ha chiamato a sé @UUID[Actor.qKIlKSoDoQYCTMGE]{Zio Mho}, à @UUID[Actor.0SY3YBbsrNa6bvZ6]{Matto Larz}, e @UUID[Actor.Wnn6QYqqbvG5gotp]{Grosso 'Riccioli'} per farsi aiutare a impartire un’importante lezione. Tutti gli uomini parlano con un accento del Reikland di infimo livello..</p><p>@UUID[JournalEntry.g4vOyAOCjOl4EHBO.JournalEntryPage.vCbvOWyg16kon6e7#trama-4-–-la-scenata]{Trama 4 – La Scenata}</p>"
     },
     "Cultist of the Jade Sceptre": {
-      "name": "Cultiste du Sceptre de Jade",
-      "tokenName": "Cultiste du Sceptre de Jade",
-      "description": "<section id=\"secret-oimVbag1l2hbo3z4\" class=\"secret\"><p><strong>Statut: </strong>Or 2</p><p>Ces jeunes nobles insensés se perdent dans leur poursuite incessante des plaisirs défendus et ne recherchent rien d'autre qu'étancher leur soif impie du sang rouge comme du vin de leurs pairs. Ce n'est pas la première fois qu'ils invoquent des @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{démonettes}. Et s'ils parviennent à leurs fins, ce ne sera pas la dernière.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-5-–-unspeakable-acts]{Intrigue n° 5 - Actes innommables}</p></section>"
+      "name": "Cultisti dello Scettro di Giada",
+      "tokenName": "Cultisti dello Scettro di Giada",
+      "description": "<section id=\"secret-oimVbag1l2hbo3z4\" class=\"secret\"><p><strong>Status: </strong>Oro 2</p><p>Questi sciocchi giovani nobili si sono perduti a caccia di piaceri proibiti, in un appagamento senza fine, e non cercano altro che di placare la loro oscura sete con il sangue nero dei propri coetanei. Questa non è la prima volta che convocano delle @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{Demonette}. E, se dovessero proseguire su questa strada, non sarà nemmeno l'ultima.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-5-–-atti-indicibili]{Trama 5 – Atti Indicibili}</p></section>"
     },
     "Detlef Sierck": {
       "name": "Detlef Sierck",
       "tokenName": "Detlef Sierck",
-      "gmNotes": "<p>Sierck est un génie, il ne peut le nier. Acteur, dramaturge et poète incomparable, même ses plus grands critiques ne doutent pas de son talent. De près et sans maquillage de scène, il est clair que Detlef a bien profité de la vie, un an ou deux de trop. Sur scène, il soutient son ventre mou avec un corset et a clairement dépassé, certainement de beaucoup, les trente-six ans qu'il prétend avoir. Il porte des moustaches démodées, pour mieux cacher ses dents brunies, et il a l'air hagard quand il est seul. Cependant, lorsqu'il fait appel à son charme, le fringant meneur d'hommes, ce rôle qu'il a perfectionné tout au long de nombreuses années d'extraordinaires interprétations, reprend vie, et laisse peu de gens indifférents.</p><p> @UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#plot-3-–-critics-rebutted]{Intrigue n°3 - Critiques réfutées}</p>"
+      "gmNotes": "<p>Sierck è un genio, un fatto che nemmeno lui può mettere in dubbio. Attore, drammaturgo e poeta senza confronti, anche i suoi più grandi detrattori non dubitano del suo talento. Da vicino, e senza trucco di scena, appare chiaro che Detlef ha fatto la bella vita per un paio d’anni di troppo: quando va in scena, avvolge il ventre floscio in un corsetto, ed è forse più vecchio dei 36 anni che afferma di avere, probabilmente molto più vecchio. Porta lunghi baffi fuori moda – così da nascondere meglio i denti ingialliti – e pare un inquieto, quando viene lasciato solo. Tuttavia, quando sfodera il suo carisma, prende vita il prestante primattore che ha perfezionato dopo molti anni di straordinarie esibizioni, e pochi gli rimangono indifferenti.</p><p> @UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-3-–-critiche-respinte]{Trama 3 – Critiche respinte}</p>"
     },
     "Dominique Herveaux": {
       "name": "Dominique Herveaux",
       "tokenName": "Dominique Herveaux",
-      "gmNotes": "<p>« Éliza la servante » est en fait un assassin embauché par le @UUID[Actor.hoYxD4qqwxPJai2L]{Baron Eberhardt von Dammenblatz} pour tuer le @UUID[Actor.jCSHbThjx9ti6rR1]{champion de justice} de la @UUID[Actor.J8AHNs6dcy40mhXr]{gravin Maria Ulrike}. Elle joue la plantureuse femme de chambre minaudant à la perfection, tout à fait prête à subir toute forme d'indignité pour se rapprocher de sa cible.</p>\n<p>Si sa couverture est grillée, elle jurera dans son Bretonnien natal, son Reikspiel parfait n'étant plus qu'un souvenir, avant de battre en retraite à toute vitesse.</p>"
+      "gmNotes": "<p>‘Eliza, la serva’ in realtà è un’assassina al soldo del Barone @UUID[Actor.hoYxD4qqwxPJai2L]{Baron Eberhardt von Dammenblatz} con il compito di uccidere il @UUID[Actor.jCSHbThjx9ti6rR1]{campione giudiziario} della @UUID[Actor.J8AHNs6dcy40mhXr]{Grafina Maria Ulrike}. Interpreta perfettamente la parte della cameriera leziosa e dalle forme generose, piuttosto disposta a sopportare qualsiasi offesa pur di avvicinarsi al proprio obiettivo.</p>\n<p>Se la sua copertura salta, impreca nel suo nativo Bretonniano, dimenticandosi del perfetto Reikspiel assimilato, prima di battere in una frettolosa ritirata.</p>"
     },
     "Eberhardt von Dammenblatz": {
       "name": "Eberhardt von Dammenblatz",
       "tokenName": "Eberhardt von Dammenblatz",
-      "gmNotes": "<p>Proche de la quarantaine, Eberhardt a été en colère toute sa vie. Bien que les années dans l'armée régulière l'aient laissé relativement en forme, il n'a jamais réellement été un combattant, préférant les polémiques féroces aux solutions physiques. D'ailleurs, il débat souvent. Comme la majorité de la noblesse du Wissenland, son accent est urbain, mais un peu monotone.</p><p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#plot-1-–-trial-by-combat]{Intrigue n° 1 – Duel judiciaire}</p>"
+      "gmNotes": "<p>Il Barone Eberhardt von Dammenblatz è sul finire dei 30 anni; Eberhardt ha vissuto costantemente nella stizza. Sebbene anni nell’esercito Imperiale lo abbiano mantenuto relativamente in forma, non è mai stato un combattente, preferendo i feroci dibattiti agli scontri fisici. Anzi, discute sempre molto. Come la maggior parte dei nobili del Wissenland, ha un accento cittadino, seppure un po’ monocorde.</p><p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#Trama-1-–-singolar-tenzone]{Trama 1 – Singolar tenzone}</p>"
     },
     "Edvard Lowenhertz": {
       "name": "Edvard Lowenhertz",
       "tokenName": "Edvard Lowenhertz",
-      "gmNotes": "<p>Edvard Lowenhertz possède une voix riche aux accents mélodramatiques, même lorsqu'il s'agit de discuter du temps qu'il fait. Sa fille, @UUID[Actor.743hhaYZkzT80Y92]{Edwina}, est en admiration devant son père, et l'a encouragé activement pendant des années à se venger de ceux qui se sont moqué de lui. Son coeur se brise lorsque son père lit et relit ces vieilles critiques. Alors les larmes coulent et le désespoir la submerge. Pour être sûre qu'elle n'est pas reconnue au théâtre, car elle y assiste souvent, Edwina arbore une fausse moustache, ce qui ne trompe personne.</p><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#plot-3-–-critics-rebutted]{Intrigue n°3 - Critiques réfutées}</p>"
+      "gmNotes": "<p>Edvard Lowenhertz ha una voce corposa che trasuda teatrale melodramma, anche quando disquisisce del tempo. La figlia, @UUID[Actor.743hhaYZkzT80Y92]{Edwina},  prova grande ammirazione nei confronti del padre e lo incoraggia alacremente da anni a vendicarsi di coloro che lo hanno stigmatizzato. Dopotutto, le si spezza il cuore quando suo padre legge e rilegge quelle prime recensioni; soprattutto quando le lacrime scorrono e la disperazione lo domina. Per assicurarsi di non essere riconosciuta a teatro, poiché assiste spesso agli spettacoli, Edwina indossa un paio di baffi fasulli che difficilmente ingannerebbero qualcuno.</p><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-3-–-critiche-respinte]{Trama 3 - Critiche respinte}</p>"
     },
     "Edwina Lowenhertz": {
       "name": "Edwina Lowenhertz",
       "tokenName": "Edwina Lowenhertz",
-      "gmNotes": "<p>@UUID[Actor.UQ2EKtuW4BmJcbJc]{Edvard Lowenhertz} possède une voix riche aux accents mélodramatiques, même lorsqu'il s'agit de discuter du temps qu'il fait. Sa fille, Edwina, est en admiration devant son père, et l'a encouragé activement pendant des années à se venger de ceux qui se sont moqué de lui. Son coeur se brise lorsque son père lit et relit ces vieilles critiques. Alors les larmes coulent et le désespoir la submerge. Pour être sûre qu'elle n'est pas reconnue au théâtre, car elle y assiste souvent, Edwina arbore une fausse moustache, ce qui ne trompe personne.</p><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#plot-3-–-critics-rebutted]{Intrigue n°3 - Critiques réfutées}</p>"
+      "gmNotes": "<p>Edvard Lowenhertz ha una voce corposa che trasuda teatrale melodramma, anche quando disquisisce del tempo. La figlia, @UUID[Actor.743hhaYZkzT80Y92]{Edwina},  prova grande ammirazione nei confronti del padre e lo incoraggia alacremente da anni a vendicarsi di coloro che lo hanno stigmatizzato. Dopotutto, le si spezza il cuore quando suo padre legge e rilegge quelle prime recensioni; soprattutto quando le lacrime scorrono e la disperazione lo domina. Per assicurarsi di non essere riconosciuta a teatro, poiché assiste spesso agli spettacoli, Edwina indossa un paio di baffi fasulli che difficilmente ingannerebbero qualcuno.</p><p>@UUID[JournalEntry.SsYATFVcPahLsAHN.JournalEntryPage.jmhqqWatzKzHAwoV#trama-3-–-critiche-respinte]{Trama 3 - Critiche respinte}</p>"
     },
     "Elphoise": {
       "name": "Elphoise",
@@ -191,9 +191,9 @@
       "description": "<section id=\"secret-0aLyNzXtnT54SSlK\" class=\"secret\"><p><strong>Status</strong>: Or 2</p><p>Le jovial magistrat @UUID[Actor.lNFJYc1SY1wPN7on]{Hannes Richter} est dans la soixantaine et teint ses cheveux dans le vain espoir de paraître plus jeune. La magistrate @UUID[Actor.NC7pIVFvbWv9Hxz5]{Hanna Anwalt} est presque aveugle, se reposant sur l'assistant-magistrat Gerhard Urteil pour la guider. Urteil est puissant en théorie, mais en réalité il n'est rien de plus que les yeux, les oreilles et l'homme à tout faire d'Anwalt.</p><p>@UUID[JournalEntry.pDZu2xSFXlFumvtN.JournalEntryPage.V5nWWGLyW9hWgUbs#plot-5-–-a-few-gold-crowns-more]{Intrigue n° 5 – Et pour quelques couronnes de plus}</p></section>"
     },
     "Gert": {
-      "name": "Geert",
-      "tokenName": "Geert",
-      "gmNotes": "<p>@UUID[Actor.hVO7ScsPtmyul85F]{Geert} et @UUID[Actor.ykdWommB6UYZR0EE]{Jan} sont deux des voyous les plus présentables d'Albrecht le Poisson. Mais ils ont beau tenter de s'intégrer, ils ont du mal à y parvenir. Leurs attitudes, manières et leur accent chantant de Marienburg les rendent suspects. Tous ceux qui font attention ne peuvent le rater.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-4-–-a-matter-of-business]{Intrigue n° 4 - Une question d’affaires}</p>"
+      "name": "Gert",
+      "tokenName": "Gert",
+      "gmNotes": "<p>Gli scagnozzi di Albrecht il Pesce. @UUID[Actor.hVO7ScsPtmyul85F]{Gert} e @UUID[Actor.ykdWommB6UYZR0EE]{Jan} sono due degli sgherri più capaci e presentabili di Albrecht il Pesce. Ma, non importa quanto tentino di immedesimarsi, proprio non ci riescono. Il loro comportamento, le loro maniere e il cantilenare di Marienburg li rende lampanti. Sono inconfondibili per chiunque vi presti attenzione.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-4-–-una-questione-di-affari]{Trama 4 – Una questione di affari}</p>"
     },
     "Glimbrin Oddsocks": {
       "name": "Glimbrin Drol'detype",
@@ -287,12 +287,12 @@
     "Inta-Dapesht": {
       "name": "Inta-Dapesht",
       "tokenName": "Inta-Dapesht",
-      "description": "<section id=\"secret-lZGMZUg3ypRorILw\" class=\"secret\"><p>L'âme d'Inta-Dapesht est liée à la lame qu'il portait durant sa vie. À présent son repos est dérangé et il tuera toute personne qui empêche son épée de revenir vers le lieu de son dernier repos.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-3-–-a-collectors-item]{Intrigue n° 3 - Un objet de collection}</p></section>"
+      "description": "<section id=\"secret-lZGMZUg3ypRorILw\" class=\"secret\"><p>Lo Spettro Nehekhariano. L’anima di Inta-Dapesht è un tutt’uno con la lama che portava in vita. Ora il suo sonno è stato turbato e uccide chiunque voglia impedire che la sua spada venga restituita al proprio legittimo luogo di riposo.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-3-–-un-oggetto.da-collezione]{Trama 3 – Un oggetto da collezione}</p></section>"
     },
     "Jan": {
       "name": "Jan",
       "tokenName": "Jan",
-      "gmNotes": "<p>@UUID[Actor.hVO7ScsPtmyul85F]{Geert} et @UUID[Actor.ykdWommB6UYZR0EE]{Jan} sont deux des voyous les plus présentables d'Albrecht le Poisson. Mais ils ont beau tenter de s'intégrer, ils ont du mal à y parvenir. Leurs attitudes, manières et leur accent chantant de Marienburg les rendent suspects. Tous ceux qui font attention ne peuvent le rater.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-4-–-a-matter-of-business]{Intrigue n° 4 - Une question d’affaires}</p>"
+      "gmNotes": "<p>Gli scagnozzi di Albrecht il Pesce. @UUID[Actor.hVO7ScsPtmyul85F]{Gert} e @UUID[Actor.ykdWommB6UYZR0EE]{Jan} sono due degli sgherri più capaci e presentabili di Albrecht il Pesce. Ma, non importa quanto tentino di immedesimarsi, proprio non ci riescono. Il loro comportamento, le loro maniere e il cantilenare di Marienburg li rende lampanti. Sono inconfondibili per chiunque vi presti attenzione.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-4-–-una-questione-di-affari]{Trama 4 – Una questione di affari}</p>"
     },
     "Jean-Luc de Cadent": {
       "name": "Jean-Luc de Cadent",
@@ -307,7 +307,7 @@
     "Joachim Bitterfeld": {
       "name": "Joachim Bitterfeld",
       "tokenName": "Joachim Bitterfeld",
-      "gmNotes": "<p>@UUID[Actor.rRnBE8V1qUvN44ed]{Nastassia} ne ressemble en rien à @UUID[Actor.KfVnMx7Bn1DWErM6]{son père} : elle est de petite taille, douce et déterminée à fuir ses devoirs par amour. Joachim Bitterfeld est l'élu de son coeur et elle a décidé de l'épouser. Elle n'a guère pensé à la difficulté de dissimuler son accent aristocratique prononcé et à une vie sans serviteurs, mais Joachim, lui, a l'esprit pratique. En fait, il a déjà prévu en grande partie le déroulement de l'évasion de Nastassia.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-2-–-star-crossed-lovers]{Intrigue n° 2 - Amours contrariées}</p>"
+      "gmNotes": "La nobildonna messa all’angolo e l’amante di umili origini. <p>@UUID[Actor.rRnBE8V1qUvN44ed]{Nastassia} è l’esatto opposto di @UUID[Actor.KfVnMx7Bn1DWErM6]{suo padre}: piccola, dolce e piuttosto propensa a fuggire dai suoi doveri per amore. Joachim Bitterfeld ha completamente rapito il suo cuore e lei è determinata a fuggire insieme al suo prode compagno. Sebbene lei non abbia ancora pensato a come nascondere il suo clamoroso accento di ceto elevato e ad accettare una vita senza servi, Joachim la sa lunga; è stato lui, in effetti, a programmare gran parte del piano di fuga di Nastassia.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-2-–-amanti-sfortunati]{Trama 2 – Amanti sfortunati}</p>"
     },
     "Josef Aufwiegler": {
       "name": "Josef Aufwiegler",
@@ -317,7 +317,7 @@
     "Josef von Angendorf": {
       "name": "Josef von Angendorf",
       "tokenName": "Josef von Angendorf",
-      "gmNotes": "<p>En tant que graf Josef, le Spectre joue le rôle d'un charmant jeune noble pas très malin, sans aucun autre centre d'intérêt que la dernière mode et les ragots. En tant que Spectre, le graf Josef est spirituel, charmant et toujours à l'affut d'un bon mot, si l'occasion se présente.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-7-–-the-rose-tiger]{Intrigue n° 7 - Le Tigre rose}</p>"
+      "gmNotes": "<p>Lo Spettro. Come il Graf Josef, lo Spettro interpreta il ruolo di un giovane nobile, affascinante e scaltro, senza passioni se non per la moda e i pettegolezzi. Come lo Spettro, il Graf Josef è spiritoso, affascinante e con la battuta pronta ogni volta che se ne presenta l’occasione.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-7-–-la-tigre-rose]{Trama 7 – La Tigre Rosé}</p>"
     },
     "Kappan's Racketeers": {
       "name": "Les rançonneurs de Kappan",
@@ -327,7 +327,7 @@
     "Karl-Heinz": {
       "name": "Karl-Heinz",
       "tokenName": "Karl-Heinz",
-      "description": "<section id=\"secret-ZtgiaDCQuz9CRsys\" class=\"secret\"><p>Les troubles s'accumulent dans tout l'Empire (voir la section de la campagne de l'<strong>Ennemi intérieur</strong> pour en savoir plus), ainsi beaucoup de nobles locaux, surtout les Toppenheimer et les Pfeifraucher, se tiennent prêts à une confrontation.</p></section>"
+      "description": "<section id=\"secret-ZtgiaDCQuz9CRsys\" class=\"secret\"><p> Giovani nobili. Vi sono tumulti in tutto l’Impero (vedere la campagna <strong>Il Nemico Dentro</strong> per saperne di più), così molti nobili locali, in particolare i Toppenheimer e i Pfeifraucher, non vedono l’ora di menare le mani.</p></section>"
     },
     "Lorith Silverleaf": {
       "name": "Lorith Feuilledargent",
@@ -337,7 +337,7 @@
     "Manfred von Saponatheim": {
       "name": "Manfred von Saponatheim",
       "tokenName": "Manfred von Saponatheim",
-      "gmNotes": "<p>Manfred représente le secret honteux de la Maison Saponatheim. Enfermé loin des regards indiscrets depuis plus de trente ans, le véritable héritier du duché de Saponatheim est sur le point d'obtenir sa vengeance. Parfaitement incapable de parler, Manfred communique par le biais de grognements tristes et de gémissements. S'il coupait sa tignasse hirsute et peignait sa barbe emmêlée, la plupart des gens seraient stupéfaits de sa ressemblance avec @UUID[Actor.KfVnMx7Bn1DWErM6]{son père}</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-6-–-in-the-best-of-families]{Intrigue n° 6 - Dans les meilleures familles}</p>"
+      "gmNotes": "<p>Manfred von Saponatheim. Manfred è lo scheletro nell’armadio della Casata Saponatheim. Tenuto distante da occhi indiscreti per quasi tre decenni, il vero erede del ducato di Saponatheim sta per vendicarsi. Quasi incapace di esprimersi, Manfred comunica attraverso grugniti e tristi gemiti. Se mai dovesse tagliarsi gli incolti capelli e la barba arruffata, i più sarebbero sbalorditi da quanto assomigli a @UUID[Actor.KfVnMx7Bn1DWErM6]{suo padre}.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-6-–-come-nelle-migliori-famiglie]{Trama 6 – Come nelle migliori famiglie}</p>"
     },
     "Maria-Ulrike von Liebwitz": {
       "name": "Maria-Ulrike von Liebwitz",
@@ -372,7 +372,7 @@
     "Nastassia von Saponatheim": {
       "name": "Nastassia von Saponatheim",
       "tokenName": "Nastassia von Saponatheim",
-      "gmNotes": "<p>Nastassia ne ressemble en rien à @UUID[Actor.KfVnMx7Bn1DWErM6]{son père} : elle est de petite taille, douce et déterminée à fuir ses devoirs par amour. @UUID[Actor.Nnas6TyUYFPQJgDa]{Joachim Bitterfeld} est l'élu de son coeur et elle a décidé de l'épouser. Elle n'a guère pensé à la difficulté de dissimuler son accent aristocratique prononcé et à une vie sans serviteurs, mais Joachim, lui, a l'esprit pratique. En fait, il a déjà prévu en grande partie le déroulement de l'évasion de Nastassia.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-2-–-star-crossed-lovers]{Intrigue n° 2 - Amours contrariées}</p>"
+      "gmNotes": "<p>La nobildonna messa all’angolo e l’amante di umili origini. @UUID[Actor.rRnBE8V1qUvN44ed]{Nastassia} è l’esatto opposto di @UUID[Actor.KfVnMx7Bn1DWErM6]{suo padre}: piccola, dolce e piuttosto propensa a fuggire dai suoi doveri per amore. Joachim Bitterfeld ha completamente rapito il suo cuore e lei è determinata a fuggire insieme al suo prode compagno. Sebbene lei non abbia ancora pensato a come nascondere il suo clamoroso accento di ceto elevato e ad accettare una vita senza servi, Joachim la sa lunga; è stato lui, in effetti, a programmare gran parte del piano di fuga di Nastassia.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-2-–-amanti-sfortunati]{Trama 2 – Amanti sfortunati}</p>"
     },
     "Noble Servant": {
       "name": "Serviteur royal",
@@ -474,9 +474,9 @@
       "description": "<section id=\"secret-ZMqSSP5yvHjOIsoD\" class=\"secret\"><p><strong>Statut : </strong>Argent 1</p><p>Le théâtre Staatsoper emploie toute sorte de personnel pour assurer le service et divertir l'élite cultivée de Nuln. Vous pouvez utiliser les exemples suivants s'il vous faut des caractéristiques.</p></section>"
     },
     "Taggee": {
-      "name": "Agent marqué",
-      "tokenName": "Agent marqué",
-      "description": "<section id=\"secret-AXXeGYhnblps0USY\" class=\"secret\"><p><strong>Statut : </strong>Or 2</p><p>Raja Shrimant Rao d'Ind a envoyé ses meilleurs agents mettre la main sur son rubis rose. Deux des quatre espions sont entraînés à combattre avec des Griffes de Tigre, qui ressemblent à des gants renforcés munis de quatre lames saillantes. Elles possèdent les mêmes caractéristiques qu'une Dague mais leur utilisation se base sur la Compétence Corps à corps (Bagarre) avec les règles additionnelles suivantes : sur un Test réussi de Corps à corps (Bagarre), la blessure occasionnée peut sembler avoir été provoquée par un gros chat ou un autre animal similaire.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-7-–-the-rose-tiger]{Intrigue n° 7 - Le Tigre rose}</p></section>"
+      "name": "Taggee",
+      "tokenName": "Taggee",
+      "description": "<section id=\"secret-AXXeGYhnblps0USY\" class=\"secret\"><p><strong>Status:  </strong>Oro 2</p><p>Agenti Taggee. Raja Shrimant Rao dell’Ind ha inviato i suoi migliori agenti taggee per riappropriarsi del suo rubino rosa. Due sono addestrati a combattere con il Bagh Nakh (Artigli di Tigre), che si presenta come un tirapugni con quattro lame sporgenti. Il Bagh Nakh ha le stesse statistiche del pugnale, ma necessita dell'abilità Mischia (Rissa) e usa le seguenti regole aggiuntive: in una Prova di Mischia (Rissa) riuscita, il GM può far risultare qualsiasi ferita inflitta come se fosse stata causata da un grosso felino o animale simile.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-7-–-la-tigre-rose]{Trama 7 – La Tigre Rosé}</p></section>"
     },
     "Thomas Prahmhandler": {
       "name": "Thomas Prahmhandler",
@@ -521,7 +521,7 @@
     "Wilhelm von Saponatheim": {
       "name": "Wilhelm von Saponatheim",
       "tokenName": "Wilhelm von Saponatheim",
-      "gmNotes": "<p>Le graf Wilhelm a toujours, sa vie durant, tout contrôlé, donc il déteste avoir besoin de ce mariage pour l'argent qu'il lui garantit. Il n'apprécie pas du tout que sa @UUID[Actor.rRnBE8V1qUvN44ed]{petite fille} se marie avec ce petit pleurnicheur de Wissenlander !</p><p>Mais c'est son propre père qui avait manigancé cette union et un père doit être obéi. C'est donc en dédaignant toutes les autres réjouissances qu'il écluse le stock de vin de Tilée apporté par les Ambosstein. Cela rend tous les étrangers à sa cour presque tolérables.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#plot-3-–-a-collectors-item]{Intrigue n° 3 - Un objet de collection}</p>"
+      "gmNotes": "<p>L’anfitrione. Il Graf Wilhelm ha avuto il controllo di tutta la sua vita, pertanto odia il fatto di aver bisogno di questo matrimonio per ottenere denaro. Non sopporta inoltre che la sua @UUID[Actor.rRnBE8V1qUvN44ed]{amata bimba} debba sposare un piccolo frignone del Wissenland! Ma tutto questo è stato organizzato da suo padre ed egli dev’essere obbedito. Aggrotta la fronte per tutta la durata dei festeggiamenti, bevendo pesantemente dalle casse di vino tileano portate dagli Ambosstein. L'unica cosa che gli rende quasi tollerabili tutti gli stranieri giunti al suo castello.</p><p>@UUID[JournalEntry.7JmoqchNSsLrwZwz.JournalEntryPage.9F9hrdjcrIXmEJTm#trama-3-–-un-oggetto-da-collezione]{Trama 3 – Un oggetto da collezione}</p>"
     },
     "Young Noble": {
       "name": "Jeune noble",

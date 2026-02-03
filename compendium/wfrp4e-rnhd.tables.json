@@ -1,59 +1,59 @@
 {
-	"label": "Tables (Nuits agitées et dures journées)",
+  "label": "Tabelle (Notti Brave & Giorni Duri)",
   "mapping": {
     "results": {
       "path": "results",
       "converter": "resultConverter"
     }
   },
-	"entries": [
-		{
-			"id": "Career - Gnome",
-			"name": "Carrières - Gnome"
-		},
-		{
-			"id": "Eye Colour - Gnome",
-			"name": "Couleur des Yeux - Gnome",
+  "entries": [
+    {
+      "id": "Career - Gnome",
+      "name": "Carriera - Gnomo"
+    },
+    {
+      "id": "Eye Colour - Gnome",
+      "name": "Colore degli Occhi - Gnomo",
       "results": {
-        "2-2": "Bleu clair",
-        "3-3": "Bleu",
-        "4-4": "Marron terre",
-        "5-7": "Turquoise",
-        "8-11": "Vert clair",
-        "12-14": "Noisette",
-        "15-17": "Marron clair",
-        "18-18": "Marron",
-        "19-19": "Marron foncé",
-        "20-20": "Violet"
+        "2-2": "Celeste",
+        "3-3": "Blu scuro",
+        "4-4": "Marrone terra",
+        "5-7": "Turchese",
+        "8-11": "Verde pallido",
+        "12-14": "Nocciola",
+        "15-17": "Marrone pallido",
+        "18-18": "Marrone",
+        "19-19": "Marrone scuro",
+        "20-20": "Viola"
       }
-		},
-		{
-			"id": "Hair Colour - Gnome",
-			"name": "Couleur des Cheveux - Gnome",
+    },
+    {
+      "id": "Hair Colour - Gnome",
+      "name": "Colore dei Capelli - Gnomo",
       "results": {
-        "2-2": "Noir",
-        "3-3": "Marron Foncé",
-        "4-4": "Auburn",
-        "5-7": "Brun",
-        "8-11": "Brun Clair",
-        "12-14": "Gingembre",
-        "15-17": "Blond roux",
-        "18-18": "Blond doré",
-        "19-19": "Blond cendré",
-        "20-20": "Blanc"
+        "2-2": "Nero",
+        "3-3": "Castano scuro",
+        "4-4": "Biondo ramato",
+        "5-7": "Castano",
+        "8-11": "Castano chiaro",
+        "12-14": "Rosso",
+        "15-17": "Biondo rosso",
+        "18-18": "Biondo oro",
+        "19-19": "Biondo cenere",
+        "20-20": "Bianco"
       }
-		},
-		{
-			"id": "Species (Rough Nights & Hard Days)",
-			"name": "Espèces (Nuits Agitées & Dures Journées",
+    },
+    {
+      "id": "Species (Rough Nights & Hard Days)",
+      "name": "Specie (Notti Brave & Giorni Duri)",
       "results": {
-        "1-89": "Humain",
-        "90-93":"Halfling",
-        "94-97": "Nain",
-        "98-98": "Gnome",
-        "99-99": "Haut Elfe",
-        "100-100": "Elfe Sylvain"    
-		  }
+        "1-89": "Umano",
+        "90-93": "Halfling",
+        "94-97": "Nano",
+        "98-98": "Gnomo",
+        "99-99": "Alto Elfo",
+        "100-100": "Elfo Silvano"
+      }
     }
-	]
+  ]
 }
