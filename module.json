@@ -1,6 +1,6 @@
 {
-  "title": "WFRP4e - Core Module in Italiano",
-  "description": "Traduzione Italiana per Warhammer Fantasy Roleplay 4e",
+  "title": "Core Module in Italiano",
+  "description": "Traduzione Italiana per Warhammer Fantasy Roleplay 4th edizione",
   "authors": [
     {
       "name": "Heyrold",
@@ -8,7 +8,7 @@
     }
   ],
   "url": "https://github.com/heyrold73/wh4-it-translation",
-  "version": "1.0.0",
+  "version": "9.3.2",
   "esmodules": [
     "modules/babele-register.js",
     "modules/addon-register.js",
@@ -100,11 +100,23 @@
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "label": "Talenti con Effetti Tradotti",
+      "type": "Item",
+      "name": "talenti-con-effetti-tradotti",
+      "path": "packs/talenti-con-effetti-tradotti",
+      "system": "wfrp4e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
     {
-      "name": "Module WFRP4 IT",
+      "name": "Moduli Aggiuntivi",
       "sorting": "m",
       "color": "#00435c",
       "packs": [
@@ -113,13 +125,14 @@
         "antidotes-and-remedes",
         "aides-de-jeu-fr",
         "dons-de-rhya",
-        "plats-dauberges"
+        "plats-dauberges",
+        "talenti-con-effetti-tradotti"
       ],
       "folders": []
     }
   ],
   "manifest": "https://github.com/heyrold73/wh4-it-translation/releases/latest/download/module.json",
-  "download": "https://github.com/heyrold73/wh4-it-translation/releases/latest/download/module.zip",
+  "download": "https://github.com/heyrold73/wh4-it-translation/releases/latest/download/module.json",
   "id": "wh4-it-translation",
   "compatibility": {
     "minimum": "13",
