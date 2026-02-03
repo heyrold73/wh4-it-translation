@@ -5,49 +5,58 @@ import statParserFR from "./import-stat-2.js";
 /************************************************************************************/
 let compmod = "wfrp4e-core";
 const vo_conditions = {
-  "ablaze": "Ablaze",
-  "bleeding": "Bleeding",
-  "blinded": "Blinded",
-  "broken": "Broken",
-  "deafened": "Deafened",
-  "entangled": "Entangled",
-  "fatigued": "Fatigued",
-  "poisoned": "Poisoned",
-  "prone": "Prone",
-  "stunned": "Stunned",
-  "surprised": "Surprised",
-  "unconscious": "Unconscious",
-  "grappling": "Grappling",
-  "fear": "Fear",
-  "defeated": "Defeated"
-}
+  ablaze: "Ablaze",
+  bleeding: "Bleeding",
+  blinded: "Blinded",
+  broken: "Broken",
+  deafened: "Deafened",
+  entangled: "Entangled",
+  fatigued: "Fatigued",
+  poisoned: "Poisoned",
+  prone: "Prone",
+  stunned: "Stunned",
+  surprised: "Surprised",
+  unconscious: "Unconscious",
+  grappling: "Grappling",
+  fear: "Fear",
+  defeated: "Defeated",
+};
 
 const __SELECT_BONUS_PREFIX_D = {
-  "initiative": 1,
-  "intelligence": 1,
-  "endurance": 1,
-  "agilite": 1,
-  "agilité": 1
-}
+  initiative: 1,
+  intelligence: 1,
+  endurance: 1,
+  agilite: 1,
+  agilité: 1,
+};
 
 /************************************************************************************/
 export class WFRP4FrTranslation {
-
   static parseSpellContent(spell) {
     if (spell.system.range?.value) {
-      spell.system.range.value = this.processSpellContent(spell.system.range.value)
+      spell.system.range.value = this.processSpellContent(
+        spell.system.range.value,
+      );
     }
     if (spell.system.damage?.value) {
-      spell.system.damage.value = this.processSpellContent(spell.system.damage.value)
+      spell.system.damage.value = this.processSpellContent(
+        spell.system.damage.value,
+      );
     }
     if (spell.system.duration?.value) {
-      spell.system.duration.value = this.processSpellContent(spell.system.duration?.value)
+      spell.system.duration.value = this.processSpellContent(
+        spell.system.duration?.value,
+      );
     }
-    if ( spell.system.range?.value) {
-      spell.system.range.value = this.processSpellContent(spell.system.range?.value)
+    if (spell.system.range?.value) {
+      spell.system.range.value = this.processSpellContent(
+        spell.system.range?.value,
+      );
     }
-    if (spell.system.target?.value ) {
-      spell.system.target.value = this.processSpellContent(spell.system.target?.value)
+    if (spell.system.target?.value) {
+      spell.system.target.value = this.processSpellContent(
+        spell.system.target?.value,
+      );
     }
   }
 
@@ -60,23 +69,31 @@ export class WFRP4FrTranslation {
     let re = /(.*)\s+[Bb]onus\s*(\w*)/i;
     let res = re.exec(value);
     let unit = "";
-    if (res) { // Test "<charac> Bonus <unit>" pattern
-      if (res[1]) { // We have char name, then convert it
+    if (res) {
+      // Test "<charac> Bonus <unit>" pattern
+      if (res[1]) {
+        // We have char name, then convert it
         translw = game.i18n.localize(res[1].trim());
-        let bonusPrefix = (translw.toLowerCase() in __SELECT_BONUS_PREFIX_D) ? "Bonus d'" : "Bonus de ";
-        translw = bonusPrefix + translw
+        let bonusPrefix =
+          translw.toLowerCase() in __SELECT_BONUS_PREFIX_D
+            ? "Bonus d'"
+            : "Bonus de ";
+        translw = bonusPrefix + translw;
       }
       unit = res[2];
     } else {
       re = /(\d+) (\w+)/i;
       res = re.exec(value);
-      if (res) { // Test : "<number> <unit>" pattern
+      if (res) {
+        // Test : "<number> <unit>" pattern
         translw = res[1];
         unit = res[2];
-      } else { // Test
+      } else {
+        // Test
         re = /(\w+) (\w+)/i;
         res = re.exec(value);
-        if (res) { // Test : "<charac> <unit>" pattern
+        if (res) {
+          // Test : "<charac> <unit>" pattern
           translw = game.i18n.localize(res[1].trim());
           unit = res[2];
         }
@@ -87,7 +104,8 @@ export class WFRP4FrTranslation {
     if (unit == "days") unit = "jours";
     if (unit == "yard") unit = "mètre";
     if (unit == "yards") unit = "mètres";
-    if (unit == "Bonus") { // Another weird management
+    if (unit == "Bonus") {
+      // Another weird management
       console.log("Translating bonus", unit);
       translw = "Bonus de " + translw;
     } else {
@@ -98,8 +116,7 @@ export class WFRP4FrTranslation {
 }
 
 /************************************************************************************/
-Hooks.once('init', () => {
-
+Hooks.once("init", () => {
   // Check various settings in the installation
   game.modules.forEach((module, id) => {
     if (id == "wfrp4e-core" && module.active) {
@@ -108,12 +125,15 @@ Hooks.once('init', () => {
   });
   game.wfrp4efr = {
     compmod: compmod,
-    vo_conditions: vo_conditions
-  }
+    vo_conditions: vo_conditions,
+  };
 
-  game.wfrp4e.apps.StatBlockParser.parseStatBlock = async function (statString, type = "npc") {
+  game.wfrp4e.apps.StatBlockParser.parseStatBlock = async function (
+    statString,
+    type = "npc",
+  ) {
     return statParserFR(statString, type);
-  }
+  };
 
   console.log("WFRP4E-FR | Loading Babele translation module ...");
   loadScripts();
@@ -216,18 +236,16 @@ Hooks.once('init', () => {
 
   /*---------------------------------------------------------------------*/
   // Converters area
-  if (game.babele !== 'undefined') {
-
+  if (game.babele !== "undefined") {
     game.babele.register({
-      module: 'wh4-fr-translation',
-      lang: 'fr',
-      dir: 'compendium'
-    })
+      module: "wh4-it-translation",
+      lang: "it",
+      dir: "compendium",
+    });
 
     game.babele.registerConverters({
-
-      "career_skills": (skills_list) => {
-        let validCompendiums = game.wfrp4e.tags.getPacksWithTag("skill")
+      career_skills: (skills_list) => {
+        let validCompendiums = game.wfrp4e.tags.getPacksWithTag("skill");
         //DEBUG: console.log( "Thru here ...", compendium, skills_list);
         if (skills_list) {
           let i;
@@ -236,24 +254,36 @@ Hooks.once('init', () => {
           for (i = 0; i < len; i++) {
             skills_list[i] = skills_list[i].trim();
             for (let compData of validCompendiums) {
-              let translItem = game.babele.translate(compData.metadata.id, { name: skills_list[i], type: "skill" }, true)
-              let transl = translItem?.name || undefined
-              if (!transl) transl = skills_list[i]
+              let translItem = game.babele.translate(
+                compData.metadata.id,
+                { name: skills_list[i], type: "skill" },
+                true,
+              );
+              let transl = translItem?.name || undefined;
+              if (!transl) transl = skills_list[i];
               if (transl == skills_list[i]) {
                 let res = re.exec(skills_list[i]);
                 if (res) {
                   let subword = game.i18n.localize(res[2].trim());
                   let s1 = res[1].trim() + " ()";
-                  translItem = game.babele.translate(compData.metadata.id, { name: s1, type: "skill" }, true)
-                  let translw = translItem?.name || undefined
+                  translItem = game.babele.translate(
+                    compData.metadata.id,
+                    { name: s1, type: "skill" },
+                    true,
+                  );
+                  let translw = translItem?.name || undefined;
                   if (translw && translw != s1) {
                     let res2 = re.exec(translw);
                     transl = res2[1] + "(" + subword + ")";
                   } else {
                     s1 = res[1].trim() + " ( )";
-                    translItem = game.babele.translate(compData.metadata.id, { name: s1, type: "skill" }, true)
-                    translw = translItem?.name || undefined
-                    if(translw) {
+                    translItem = game.babele.translate(
+                      compData.metadata.id,
+                      { name: s1, type: "skill" },
+                      true,
+                    );
+                    translw = translItem?.name || undefined;
+                    if (translw) {
                       let res2 = re.exec(translw);
                       transl = res2[1] + "(" + subword + ")";
                     } else {
@@ -263,73 +293,93 @@ Hooks.once('init', () => {
                 }
               }
               skills_list[i] = transl;
-              if (translItem?.system)
-                break;
+              if (translItem?.system) break;
             }
           }
         }
-        return skills_list
+        return skills_list;
       },
-      "role_skills": (skills) => {
-        let skills_list = skills.split(',');
+      role_skills: (skills) => {
+        let skills_list = skills.split(",");
         let skillsFR = game.babele.converters.career_skills(skills_list);
-        return skillsFR.join(', ')
+        return skillsFR.join(", ");
       },
-      "process_effects": (effectsData, translations, data, tc, tc_translations) => {
+      process_effects: (
+        effectsData,
+        translations,
+        data,
+        tc,
+        tc_translations,
+      ) => {
         //console.log("Effects :", effectsData, translations, data, tc, tc_translations)
         for (let e of effectsData) {
-          let origName = e.name
-          e.name = tc_translations.name || game.i18n.localize(e.name)
-          if ( e.flags?.wfrp4e?.scriptData) {
+          let origName = e.name;
+          e.name = tc_translations.name || game.i18n.localize(e.name);
+          if (e.flags?.wfrp4e?.scriptData) {
             for (let script of e.flags.wfrp4e.scriptData) {
               if (script?.label) {
                 // Quand le label du script est strictement identique au nom de l'item concerné
-                if ( script.label.toLowerCase() == origName.toLowerCase() ) {
-                  script.label = e.name
-                } else if (script.label.toLowerCase().includes("tests to affect")) {
-                  script.label = script.label.replace("Tests to affect", "Tests relatifs à ")
-                } else if (script.label.toLowerCase().includes("using torn muscle")) {
-                  script.label = script.label.replace("Using Torn Muscle", "Utilisation du muscle déchiré ")
+                if (script.label.toLowerCase() == origName.toLowerCase()) {
+                  script.label = e.name;
+                } else if (
+                  script.label.toLowerCase().includes("tests to affect")
+                ) {
+                  script.label = script.label.replace(
+                    "Tests to affect",
+                    "Tests relatifs à ",
+                  );
+                } else if (
+                  script.label.toLowerCase().includes("using torn muscle")
+                ) {
+                  script.label = script.label.replace(
+                    "Using Torn Muscle",
+                    "Utilisation du muscle déchiré ",
+                  );
                 } else {
-                  script.label = game.i18n.localize(script.label)
+                  script.label = game.i18n.localize(script.label);
                 }
               }
             }
           }
         }
-        return effectsData
+        return effectsData;
       },
-      "resultConverter": (results, translated) => {
+      resultConverter: (results, translated) => {
         //console.log("STUF PARSING", results, translated)
         if (translated) {
           for (let data of results) {
             if (translated[`${data.range[0]}-${data.range[1]}`]) {
-              data.description = translated[`${data.range[0]}-${data.range[1]}`]
+              data.description =
+                translated[`${data.range[0]}-${data.range[1]}`];
             }
           }
-          return results
+          return results;
         }
         // Auto patch
-        if (results[0].description.includes("wfrp4e-core.career-descriptions")) {
-          results[0].description = "wfrp4e-core.journals"
+        if (
+          results[0].description.includes("wfrp4e-core.career-descriptions")
+        ) {
+          results[0].description = "wfrp4e-core.journals";
         }
         if (results[0].description.includes("wfrp4e-core.journal")) {
           for (let data of results) {
-            let career = data.description.match(/{(.*)}/)
+            let career = data.description.match(/{(.*)}/);
             //console.log(">>>>>", career)
             if (career?.[1]) {
-              let careerFR = game.babele.converters.career_careergroup(career[1])
-              data.description = data.description.replace(career[1], careerFR)
+              let careerFR = game.babele.converters.career_careergroup(
+                career[1],
+              );
+              data.description = data.description.replace(career[1], careerFR);
             }
           }
         }
         if (results?.[0].documentUuid) {
-          return game.babele.converters.tableResults(results)
+          return game.babele.converters.tableResults(results);
         }
-        return results
+        return results;
       },
 
-      "npc_details": (details) => {
+      npc_details: (details) => {
         let newDetails = foundry.utils.duplicate(details);
         if (details.species?.value)
           newDetails.species.value = game.i18n.localize(details.species.value);
@@ -340,60 +390,77 @@ Hooks.once('init', () => {
         return newDetails;
       },
 
-      "career_talents": (talents_list) => {
-        let validCompendiums = game.wfrp4e.tags.getPacksWithTag("talent")
+      career_talents: (talents_list) => {
+        let validCompendiums = game.wfrp4e.tags.getPacksWithTag("talent");
         let i;
         if (talents_list) {
           let len = talents_list.length;
           let re = /(.*)\((.*)\)/i;
           for (i = 0; i < len; i++) {
             for (let compData of validCompendiums) {
-              let translItem = game.babele.translate(compData.metadata.id, { name: talents_list[i] }, true);
+              let translItem = game.babele.translate(
+                compData.metadata.id,
+                { name: talents_list[i] },
+                true,
+              );
               // Specific case management
               if (talents_list[i] === "Trapper") {
-                translItem = game.babele.translate(compData.metadata.id, { name:  "a7v422EZcOUUC20X" }, true);
+                translItem = game.babele.translate(
+                  compData.metadata.id,
+                  { name: "a7v422EZcOUUC20X" },
+                  true,
+                );
               }
               if (talents_list[i] === "Inspiring") {
-                translItem = game.babele.translate(compData.metadata.id, { name:  "WCXnFSV4WOSmzzc4" }, true);
+                translItem = game.babele.translate(
+                  compData.metadata.id,
+                  { name: "WCXnFSV4WOSmzzc4" },
+                  true,
+                );
               }
-              let transl = translItem?.name || undefined
-              if (!transl) transl = talents_list[i]
+              let transl = translItem?.name || undefined;
+              if (!transl) transl = talents_list[i];
               if (transl == talents_list[i]) {
                 let res = re.exec(talents_list[i]);
                 if (res) {
                   let subword = game.i18n.localize(res[2].trim());
                   let s1 = res[1].trim(); // No () in talents table
-                  translItem = game.babele.translate(compData.metadata.id, { name: s1 }, true)
-                  let translw = translItem?.name || undefined
+                  translItem = game.babele.translate(
+                    compData.metadata.id,
+                    { name: s1 },
+                    true,
+                  );
+                  let translw = translItem?.name || undefined;
                   if (translw && translw != s1) {
                     transl = translw + " (" + subword + ")";
                   }
                 }
               }
               talents_list[i] = transl;
-              if (translItem?.system)
-                break;
+              if (translItem?.system) break;
             }
           }
         }
         return talents_list;
       },
-      "npc_characteristics": (chars) => { // Auto-convert char names in the sheet
+      npc_characteristics: (chars) => {
+        // Auto-convert char names in the sheet
         for (let key in chars) {
           let char = chars[key];
           let abrev = char["abrev"];
           let toTransl = "CHAR." + abrev;
-          if (game.i18n.localize(toTransl) != toTransl) { // Manages unknown language
+          if (game.i18n.localize(toTransl) != toTransl) {
+            // Manages unknown language
             char["label"] = game.i18n.localize("CHAR." + abrev);
             char["abrev"] = game.i18n.localize("CHARAbbrev." + abrev);
           }
         }
         return chars;
       },
-      "bestiary_traits": (beast_traits, translations) => {
+      bestiary_traits: (beast_traits, translations) => {
         if (!beast_traits) {
-          console.log("No beast traits found here ...")
-          return beast_traits
+          console.log("No beast traits found here ...");
+          return beast_traits;
         }
         //console.log("TRANS:", beast_traits)
         for (let trait_en of beast_traits) {
@@ -401,145 +468,233 @@ Hooks.once('init', () => {
           let nbt = "";
           let name_en = trait_en.name.trim(); // strip \r in some traits name
           if (!trait_en.name || trait_en.name.length == 0) {
-            console.log("Wrong item name found!!!!")
-            continue
+            console.log("Wrong item name found!!!!");
+            continue;
           }
           //console.log(">>>>>>>> Parsing", trait_en.name)
           if (trait_en.type == "trait") {
-            if (name_en.includes("Tentacles")) { // Process specific Tentacles case
+            if (name_en.includes("Tentacles")) {
+              // Process specific Tentacles case
               let re = /(.d*)x Tentacles/i;
               let res = re.exec(name_en);
-              if (res?.[1])
-                nbt = res[1] + "x ";
+              if (res?.[1]) nbt = res[1] + "x ";
               name_en = "Tentacles";
-            } else if (name_en.includes("(") && name_en.includes(")")) { // Then process specific traits name with (xxxx) inside
+            } else if (name_en.includes("(") && name_en.includes(")")) {
+              // Then process specific traits name with (xxxx) inside
               let re = /(.*) \((.*)\)/i;
               let res = re.exec(name_en);
               name_en = res[1]; // Get the root traits name
               special = " (" + game.i18n.localize(res[2].trim()) + ")"; // And the special keyword
             }
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("trait")
+            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("trait");
             for (let compData of validCompendiums) {
-              let trait_fr = game.babele.translate(compData.metadata.id, { name: name_en, system:{description:{value: trait_en.system.description.value}} }, true)
+              let trait_fr = game.babele.translate(
+                compData.metadata.id,
+                {
+                  name: name_en,
+                  system: {
+                    description: { value: trait_en.system.description.value },
+                  },
+                },
+                true,
+              );
               if (trait_fr?.name && trait_fr?.name != name_en) {
-                trait_fr.name = trait_fr.name || trait_en.name
+                trait_fr.name = trait_fr.name || trait_en.name;
                 trait_en.name = nbt + trait_fr.name + special;
-                trait_en.system.description.value = trait_fr.system.description.value;
-                if (trait_en.system?.specification && isNaN(trait_en.system.specification.value)) { // This is a string, so translate it
+                trait_en.system.description.value =
+                  trait_fr.system.description.value;
+                if (
+                  trait_en.system?.specification &&
+                  isNaN(trait_en.system.specification.value)
+                ) {
+                  // This is a string, so translate it
                   //console.log("Translating : ", trait_en.system.specification.value);
-                  trait_en.system.specification.value = game.i18n.localize(trait_en.system.specification.value.trim());
+                  trait_en.system.specification.value = game.i18n.localize(
+                    trait_en.system.specification.value.trim(),
+                  );
                 }
-                break // Translation has been found, skip other compendiums
+                break; // Translation has been found, skip other compendiums
               }
             }
           } else if (trait_en.type == "skill") {
-            if (name_en.includes("(") && name_en.includes(")")) { // Then process specific skills name with (xxxx) inside
+            if (name_en.includes("(") && name_en.includes(")")) {
+              // Then process specific skills name with (xxxx) inside
               let re = /(.*) +\((.*)\)/i;
               let res = re.exec(name_en);
               name_en = res[1].trim(); // Get the root skill name
               special = " (" + game.i18n.localize(res[2].trim()) + ")"; // And the special keyword
             }
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("skill")
+            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("skill");
             for (let compData of validCompendiums) {
-              let trait_fr = game.babele.translate(compData.metadata.id, { name: name_en, system:{description:{value: trait_en.system.description.value}}  }, true)
+              let trait_fr = game.babele.translate(
+                compData.metadata.id,
+                {
+                  name: name_en,
+                  system: {
+                    description: { value: trait_en.system.description.value },
+                  },
+                },
+                true,
+              );
               //console.log(">>>>> Skill FR ?", trait_fr, name_en, special)
               if (trait_fr?.name && trait_fr?.name != name_en) {
-                trait_fr.name = trait_fr.name || name_en
+                trait_fr.name = trait_fr.name || name_en;
                 trait_en.name = trait_fr.name + special;
-                trait_en.system.description.value = trait_fr.system.description.value;
+                trait_en.system.description.value =
+                  trait_fr.system.description.value;
                 break; // Translation has been found, skip other compendiums
               }
             }
           } else if (trait_en.type == "prayer") {
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("prayer")
+            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("prayer");
             for (let compData of validCompendiums) {
-              let trait_fr = game.babele.translate(compData.metadata.id, { name: name_en, system:{description:{value: trait_en.system.description.value}}  }, true)
+              let trait_fr = game.babele.translate(
+                compData.metadata.id,
+                {
+                  name: name_en,
+                  system: {
+                    description: { value: trait_en.system.description.value },
+                  },
+                },
+                true,
+              );
               if (trait_fr?.name && trait_fr?.name != name_en) {
-                WFRP4FrTranslation.parseSpellContent(trait_en)
-                trait_fr.name = trait_fr.name || name_en
+                WFRP4FrTranslation.parseSpellContent(trait_en);
+                trait_fr.name = trait_fr.name || name_en;
                 trait_en.name = trait_fr.name + special;
                 if (trait_fr.system?.description?.value) {
-                  trait_en.system.description.value = trait_fr.system.description.value;
+                  trait_en.system.description.value =
+                    trait_fr.system.description.value;
                 }
                 break;
               }
             }
           } else if (trait_en.type == "spell") {
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("spell")
+            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("spell");
             for (let compData of validCompendiums) {
-              let trait_fr = game.babele.translate(compData.metadata.id, { name: name_en, system:{description:{value: trait_en.system.description.value}}  }, true)
+              let trait_fr = game.babele.translate(
+                compData.metadata.id,
+                {
+                  name: name_en,
+                  system: {
+                    description: { value: trait_en.system.description.value },
+                  },
+                },
+                true,
+              );
               if (trait_fr?.name && trait_fr?.name != name_en) {
-                WFRP4FrTranslation.parseSpellContent(trait_en)
-                trait_fr.name = trait_fr.name || name_en
+                WFRP4FrTranslation.parseSpellContent(trait_en);
+                trait_fr.name = trait_fr.name || name_en;
                 trait_en.name = trait_fr.name + special;
                 if (trait_fr.system?.description?.value) {
-                  trait_en.system.description.value = trait_fr.system.description.value;
+                  trait_en.system.description.value =
+                    trait_fr.system.description.value;
                 }
                 break;
               }
             }
           } else if (trait_en.type == "talent") {
-            if (name_en.includes("(") && name_en.includes(")")) { // Then process specific skills name with (xxxx) inside
+            if (name_en.includes("(") && name_en.includes(")")) {
+              // Then process specific skills name with (xxxx) inside
               let re = /(.*) +\((.*)\)/i;
               let res = re.exec(name_en);
               name_en = res[1].trim(); // Get the root talent name, no parenthesis this time...
               special = " (" + game.i18n.localize(res[2].trim()) + ")"; // And the special keyword
             }
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("talent")
+            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("talent");
             for (let compData of validCompendiums) {
               if (name_en === "Trapper") {
-                name_en =  "a7v422EZcOUUC20X"
+                name_en = "a7v422EZcOUUC20X";
               }
               if (name_en === "Inspiring") {
-                name_en = "WCXnFSV4WOSmzzc4"
+                name_en = "WCXnFSV4WOSmzzc4";
               }
-              trait_en.name = name_en // Reset the name to the original one
-              let trait_fr = game.babele.translate(compData.metadata.id, trait_en, true)
+              trait_en.name = name_en; // Reset the name to the original one
+              let trait_fr = game.babele.translate(
+                compData.metadata.id,
+                trait_en,
+                true,
+              );
               if (trait_fr?.name && trait_fr?.name != name_en) {
-                trait_fr.name = trait_fr.name || name_en // Security since babele v10
+                trait_fr.name = trait_fr.name || name_en; // Security since babele v10
                 //console.log(">>>>> Talent ?", trait_fr, name_en, special, trait_fr.name);
-                if (trait_fr.name && (trait_fr.name == "Sprinter" || trait_fr.name != name_en)) { // Talent translated!
-                  trait_en.name = trait_fr.name.trim() + special
-                  if (trait_fr.system?.tests?.value) { // Why ???
+                if (
+                  trait_fr.name &&
+                  (trait_fr.name == "Sprinter" || trait_fr.name != name_en)
+                ) {
+                  // Talent translated!
+                  trait_en.name = trait_fr.name.trim() + special;
+                  if (trait_fr.system?.tests?.value) {
+                    // Why ???
                     trait_en.system.tests.value = trait_fr.system.tests.value;
                   }
-                  if (trait_fr.system?.description?.value) { // Why ???
-                    trait_en.system.description.value = trait_fr.system.description.value;
+                  if (trait_fr.system?.description?.value) {
+                    // Why ???
+                    trait_en.system.description.value =
+                      trait_fr.system.description.value;
                   }
                 }
                 break;
               }
             }
           } else if (trait_en.type == "career") {
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("career")
+            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("career");
             for (let compData of validCompendiums) {
-              let career_fr = game.babele.translate(compData.metadata.id, trait_en, true);
+              let career_fr = game.babele.translate(
+                compData.metadata.id,
+                trait_en,
+                true,
+              );
               if (career_fr?.name && career_fr?.name != name_en) {
-                trait_en.name = career_fr.name || trait_en.name
+                trait_en.name = career_fr.name || trait_en.name;
                 // DEBG: console.log(">>>>> Career ?", career_fr.name );
                 trait_en.system = foundry.utils.duplicate(career_fr.system);
                 break;
               }
             }
           } else if (trait_en.type == "vehicleRole") {
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag("vehicleRole")
+            let validCompendiums =
+              game.wfrp4e.tags.getPacksWithTag("vehicleRole");
             for (let compData of validCompendiums) {
-              let role_fr = game.babele.translate(compData.metadata.id, trait_en, true);
+              let role_fr = game.babele.translate(
+                compData.metadata.id,
+                trait_en,
+                true,
+              );
               if (role_fr?.name && role_fr?.name != name_en) {
-                trait_en.name = role_fr.name || trait_en.name
+                trait_en.name = role_fr.name || trait_en.name;
                 // DEBG: console.log(">>>>> Role ?", role_fr.name );
                 trait_en.system = foundry.utils.duplicate(role_fr.system);
                 break;
               }
             }
-          } else if (trait_en.type == "trapping" || trait_en.type == "weapon" || trait_en.type == "armour" || trait_en.type == "container" || trait_en.type == "money") {
-            let validCompendiums = game.wfrp4e.tags.getPacksWithTag(["trapping"], ["weapon", "armour", "container", "money"])
+          } else if (
+            trait_en.type == "trapping" ||
+            trait_en.type == "weapon" ||
+            trait_en.type == "armour" ||
+            trait_en.type == "container" ||
+            trait_en.type == "money"
+          ) {
+            let validCompendiums = game.wfrp4e.tags.getPacksWithTag(
+              ["trapping"],
+              ["weapon", "armour", "container", "money"],
+            );
             for (let compData of validCompendiums) {
-              let trapping_fr = game.babele.translate(compData.metadata.id, { name: name_en, system:{description:{value: trait_en.system.description.value}}  }, true);
+              let trapping_fr = game.babele.translate(
+                compData.metadata.id,
+                {
+                  name: name_en,
+                  system: {
+                    description: { value: trait_en.system.description.value },
+                  },
+                },
+                true,
+              );
               if (trapping_fr?.name && trapping_fr?.name != name_en) {
-                trait_en.name = trapping_fr.name || trait_en.name
+                trait_en.name = trapping_fr.name || trait_en.name;
                 if (trapping_fr.system?.description?.value) {
-                  trait_en.system.description.value = trapping_fr.system.description.value
+                  trait_en.system.description.value =
+                    trapping_fr.system.description.value;
                 }
                 break;
               }
@@ -547,67 +702,78 @@ Hooks.once('init', () => {
           }
         }
         //console.log(">>>>>>>><OUTPUT", beast_traits)
-        return beast_traits
+        return beast_traits;
       },
       // To avoid duplicateing class for all careers
-      "generic_localization": (value) => {
-        let ret = value
+      generic_localization: (value) => {
+        let ret = value;
         if (value) {
           ret = game.i18n.localize(value.trim());
-          if (!ret) ret = value
+          if (!ret) ret = value;
         }
-        return ret
+        return ret;
       },
-      "trapping_qualities_flaws": (value) => {
+      trapping_qualities_flaws: (value) => {
         if (value) {
           let newQF = [];
-          let list = value
-          if (typeof (value) == "string") {
-            let myList = value.split(",")
-            list = []
+          let list = value;
+          if (typeof value == "string") {
+            let myList = value.split(",");
+            list = [];
             for (let l of myList) {
-              list.push({ name: l.trim() })
+              list.push({ name: l.trim() });
             }
           }
           for (let i = 0; i < list.length; i++) {
-            newQF[i] = foundry.utils.duplicate(list[i])
+            newQF[i] = foundry.utils.duplicate(list[i]);
             if (newQF[i].name == "Trap Blade") {
               newQF[i].name = "TrapBlade"; // Auto-patch, without space!
               //console.log("PATCHED", trim);
             }
-            let oldName = newQF[i].name
-            newQF[i].name = game.i18n.localize(oldName)
-            if (!newQF[i].name) newQF[i].name = oldName
+            let oldName = newQF[i].name;
+            newQF[i].name = game.i18n.localize(oldName);
+            if (!newQF[i].name) newQF[i].name = oldName;
           }
           return newQF;
         }
       },
       // Search back in careers the translated name of the groupe (as it is the name of the level career itself)
-      "career_careergroup": (value) => {
+      career_careergroup: (value) => {
         // Manage exception - Dirty hack
-        if (value == 'Slayer') {
+        if (value == "Slayer") {
           return "Tueur";
         }
-        if (value == 'Druidic Priest') {
+        if (value == "Druidic Priest") {
           return "Druide";
         }
         //console.log("Carre groupe : ", value )
         // Per default
-        let validCompendiums = game.wfrp4e.tags.getPacksWithTag("career")
+        let validCompendiums = game.wfrp4e.tags.getPacksWithTag("career");
         for (let compData of validCompendiums) {
-          let newName = game.babele.translate(compData.metadata.id, { name: value }).name
-          if (!newName) newName = value
-          return newName
+          let newName = game.babele.translate(compData.metadata.id, {
+            name: value,
+          }).name;
+          if (!newName) newName = value;
+          return newName;
         }
-        ui.notifications.error("Impossible de trouver la carrière " + value + ". Elle n'est probablement pas traduite.", { permanent: true })
-        return value
+        ui.notifications.error(
+          "Impossible de trouver la carrière " +
+            value +
+            ". Elle n'est probablement pas traduite.",
+          { permanent: true },
+        );
+        return value;
       },
 
-      "mutations_modifier": (value) => { // This is really UGLYYYY i know, but i started like this and discovered afterward that many strings were not easy to automate... Sorry :)
+      mutations_modifier: (value) => {
+        // This is really UGLYYYY i know, but i started like this and discovered afterward that many strings were not easy to automate... Sorry :)
         //console.log("Parsing mutation :", value);
         if (!value) return;
         value = value.toLowerCase();
-        value = value.replace("gain a broken condition if you fail a test derived from ", "Gagnez un état Brisé si vous échouez à un test dérivé de ");
+        value = value.replace(
+          "gain a broken condition if you fail a test derived from ",
+          "Gagnez un état Brisé si vous échouez à un test dérivé de ",
+        );
         value = value.replace("weapon skill", "Capacité de Combat");
         value = value.replace("ballistic skill", "Capacité de Tir");
         value = value.replace("strength", "Force");
@@ -622,35 +788,57 @@ Hooks.once('init', () => {
         value = value.replace("subject to frenzy", "Sujet à la Frénésie");
         value = value.replace("you do not scar", "Aucune cicatrice");
         value = value.replace("movement", "Mouvement");
-        value = value.replace("armor points to all locations", "PA sur tout le corps");
-        value = value.replace("to any test when alone", "à tout les tests lorsque seul");
+        value = value.replace(
+          "armor points to all locations",
+          "PA sur tout le corps",
+        );
+        value = value.replace(
+          "to any test when alone",
+          "à tout les tests lorsque seul",
+        );
         value = value.replace("track", "Pistage");
-        value = value.replace("to any test not hurting another", "à tout les Tests n'aggressant pas autrui");
-        value = value.replace("on tests to hurt", "pour les tests impliquant une agression")
-        value = value.replace("to all language tests when speaking", "à tout les Tests de Langue lorsque vous parlez");
-        value = value.replace("on perception tests involving sight", "aux Tests de Perception impliquant la Vue");
-        value = value.replace("to all Sociabilité tests", "à tout les Tests de Sociabilité");
+        value = value.replace(
+          "to any test not hurting another",
+          "à tout les Tests n'aggressant pas autrui",
+        );
+        value = value.replace(
+          "on tests to hurt",
+          "pour les tests impliquant une agression",
+        );
+        value = value.replace(
+          "to all language tests when speaking",
+          "à tout les Tests de Langue lorsque vous parlez",
+        );
+        value = value.replace(
+          "on perception tests involving sight",
+          "aux Tests de Perception impliquant la Vue",
+        );
+        value = value.replace(
+          "to all Sociabilité tests",
+          "à tout les Tests de Sociabilité",
+        );
         return value;
       },
-      "talent_name": (name, translation) => {
-        console.log("NAME !!!", name, translation)
+      talent_name: (name, translation) => {
+        console.log("NAME !!!", name, translation);
       },
-      "effects": (effects, translations) => {
+      effects: (effects, translations) => {
         if (!effects) return;
         if (!translations) return;
         for (let i = 0; i < effects.length; i++) {
           let effect = effects[i];
-          effect.label = translations['label' + i];
+          effect.label = translations["label" + i];
         }
-        return effects
+        return effects;
       },
-      "diseases_effects": (effects, translations) => {
+      diseases_effects: (effects, translations) => {
         if (!effects) return;
         for (const element of effects) {
           let effect = element;
           let label = effect.label;
           let gravity = "";
-          if (label.includes("(") && label.includes(")")) { // Then process specific skills name with (xxxx) inside
+          if (label.includes("(") && label.includes(")")) {
+            // Then process specific skills name with (xxxx) inside
             let re = /(.*) +\((.*)\)/i;
             let res = re.exec(label);
             label = res[1].trim(); // Get the gravity
@@ -660,27 +848,23 @@ Hooks.once('init', () => {
         }
       },
       // Auto-translate duration
-      "spells_duration_range_target_damage": (value) => {
+      spells_duration_range_target_damage: (value) => {
         return WFRP4FrTranslation.processSpellContent(value);
       },
       // Auto-translate disease duration units
-      "disease_duration_unit": (unit) => {
+      disease_duration_unit: (unit) => {
         return game.i18n.localize(unit).capitalize();
-      }
-  });
+      },
+    });
   }
-
 });
 
-
 /*---------------------------------------------------------------------*/
-Hooks.once('ready', () => {
-
-  import("https://www.uberwald.me/fvtt_appcount/count-class-ready.js").then(moduleCounter => {
-    console.log("ClassCounter loaded", moduleCounter)
-    moduleCounter.ClassCounter.registerUsageCount("wh4-fr-translation")
-  }).catch(err =>
-    console.log("No stats available, giving up.")
-  )
-
+Hooks.once("ready", () => {
+  import("https://www.uberwald.me/fvtt_appcount/count-class-ready.js")
+    .then((moduleCounter) => {
+      console.log("ClassCounter loaded", moduleCounter);
+      moduleCounter.ClassCounter.registerUsageCount("wh4-it-translation");
+    })
+    .catch((err) => console.log("No stats available, giving up."));
 });

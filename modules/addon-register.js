@@ -7,13 +7,17 @@ const _patch_eis = () => {
   if (game.wfrp4e?.config?.symptoms?.["delirium"]) {
     game.wfrp4e.config.symptoms["delirium"] = "Délire";
 
-    game.wfrp4e.config.symptomDescriptions["delirium"] = "Votre sensibilité va et vient, avec des moments de clarté remplaçés subitement Your sensibility comes and goes, with moments of clarity replaced suddenly par des accès de délire, des hallucinations et de la terreur. Faites un <b>Test de Force Mentale Intermédiaire (+0)</b> chaque heure, et consultez la table <b><a class='table-click' data-table='delirium'>Délires</a></b> table.";
-    game.wfrp4e.config.symptomTreatment["delirium"] = "Certaines autorités traitent le délire comme un fièvre, avec les mêmes prescriptions. Les médicaments coutent quelques sous à quelques pistoles, en seulement 10% sont efficaces.<br><br>Avec des soins corrects, un test de <b>Guérison Intermédiaire (0)</b> arrêtes les hallucinations pour <b><a class = 'chat-roll'>1d10</a></b> heures.<br><br>Il est aussi courant de soigner les patients délirants avec des drogues tranquillisantes, comme la Fleur de Lune ou même de la Racine de Mandragore, pour garder les patients calmes pendant la crise, les envoyant dans un sommeil agité jusqu'à ce qu'il erécupèrent ou meurent.";
+    game.wfrp4e.config.symptomDescriptions["delirium"] =
+      "Votre sensibilité va et vient, avec des moments de clarté remplaçés subitement Your sensibility comes and goes, with moments of clarity replaced suddenly par des accès de délire, des hallucinations et de la terreur. Faites un <b>Test de Force Mentale Intermédiaire (+0)</b> chaque heure, et consultez la table <b><a class='table-click' data-table='delirium'>Délires</a></b> table.";
+    game.wfrp4e.config.symptomTreatment["delirium"] =
+      "Certaines autorités traitent le délire comme un fièvre, avec les mêmes prescriptions. Les médicaments coutent quelques sous à quelques pistoles, en seulement 10% sont efficaces.<br><br>Avec des soins corrects, un test de <b>Guérison Intermédiaire (0)</b> arrêtes les hallucinations pour <b><a class = 'chat-roll'>1d10</a></b> heures.<br><br>Il est aussi courant de soigner les patients délirants avec des drogues tranquillisantes, comme la Fleur de Lune ou même de la Racine de Mandragore, pour garder les patients calmes pendant la crise, les envoyant dans un sommeil agité jusqu'à ce qu'il erécupèrent ou meurent.";
 
     game.wfrp4e.config.symptoms["swelling"] = "Gonflement";
-    game.wfrp4e.config.symptomDescriptions["swelling"] = "Une partie du corps gonfle jusqu'à plusieurs fois sa taille normale, devenant rouge vif ou violette et devenant presque inutilisable. La partie du corps affectée correspond normalement à une plaie ou une morsure provoquant le gonflement, ou l'endroit où une maladie ou une infection est entrée dans le corps. <br> <br> <b> Tête </b>: Les yeux et la langue enflent, les joues deviennent livides, la mâchoire est toujours ouverte. Il est impossible de manger, mais des liquides légers peuvent être sirotés en petites quantités. Tous les tests nécessitant la parole sont plus difficiles de 3 niveaux. <br> <b> Bras </b>: le bras et la main gonflent, les articulations des épaules et du coude ne peuvent plus bouger et la main devient inutile. Pour la durée du gonflement, le bras compte comme Amputé. <br> <b> Corps </b>: Le corps entier gonfle jusqu'à ce que la victime ne puisse plus porter de vêtements. Tous les tests impliquant le mouvement deviennent difficiles de 3 niveaux. <br> <b> Jambe </b>: La jambe gonfle de manière grotesque, devenant aussi large que la partie la plus large de la cuisse sur toute sa longueur. Le pied est presque indiscernable. Pour la durée du gonflement, la jambe compte comme amputée (WFRP, page 180).";
+    game.wfrp4e.config.symptomDescriptions["swelling"] =
+      "Une partie du corps gonfle jusqu'à plusieurs fois sa taille normale, devenant rouge vif ou violette et devenant presque inutilisable. La partie du corps affectée correspond normalement à une plaie ou une morsure provoquant le gonflement, ou l'endroit où une maladie ou une infection est entrée dans le corps. <br> <br> <b> Tête </b>: Les yeux et la langue enflent, les joues deviennent livides, la mâchoire est toujours ouverte. Il est impossible de manger, mais des liquides légers peuvent être sirotés en petites quantités. Tous les tests nécessitant la parole sont plus difficiles de 3 niveaux. <br> <b> Bras </b>: le bras et la main gonflent, les articulations des épaules et du coude ne peuvent plus bouger et la main devient inutile. Pour la durée du gonflement, le bras compte comme Amputé. <br> <b> Corps </b>: Le corps entier gonfle jusqu'à ce que la victime ne puisse plus porter de vêtements. Tous les tests impliquant le mouvement deviennent difficiles de 3 niveaux. <br> <b> Jambe </b>: La jambe gonfle de manière grotesque, devenant aussi large que la partie la plus large de la cuisse sur toute sa longueur. Le pied est presque indiscernable. Pour la durée du gonflement, la jambe compte comme amputée (WFRP, page 180).";
 
-    game.wfrp4e.config.symptomTreatment["swelling"] = "La plupart des traitements consistent à plonger la partie affectée, ou parfois tout le corps, dans un bain d'eau glacée pour réduire la chaleur qui accompagne les gonflements. Un <b> Test de Guérison Difficile (-20) étendu </b> nécessitant +3 DR réduit le renflement de <b> <a class ='chat-roll'> 2d10 </a> </b> heures. Chaque test dure une heure. Le patient se retrouve avec l'Etat Exténué +1 pour chaque test effectué au cours du processus. <br> <br> A la place, certains médecins saignent le patient avec une lame ou des sangsues. Un <b>Test de Guérison étendu </b> réussi nécessitant +4 SL et des Outils (médecin) réduit le renflement de (<a class ='chat-roll'> 1d10 </a> + Bonus d'Endurance du patient) heures. Chaque test a une difficulté de base <b> impossible (-50) </b> et dure une demi-heure.";
+    game.wfrp4e.config.symptomTreatment["swelling"] =
+      "La plupart des traitements consistent à plonger la partie affectée, ou parfois tout le corps, dans un bain d'eau glacée pour réduire la chaleur qui accompagne les gonflements. Un <b> Test de Guérison Difficile (-20) étendu </b> nécessitant +3 DR réduit le renflement de <b> <a class ='chat-roll'> 2d10 </a> </b> heures. Chaque test dure une heure. Le patient se retrouve avec l'Etat Exténué +1 pour chaque test effectué au cours du processus. <br> <br> A la place, certains médecins saignent le patient avec une lame ou des sangsues. Un <b>Test de Guérison étendu </b> réussi nécessitant +4 SL et des Outils (médecin) réduit le renflement de (<a class ='chat-roll'> 1d10 </a> + Bonus d'Endurance du patient) heures. Chaque test a une difficulté de base <b> impossible (-50) </b> et dure une demi-heure.";
 
     game.wfrp4e.config.loreEffects["tzeentch"] = {
       label: "Domaine de Tzeentch",
@@ -21,10 +25,10 @@ const _patch_eis = () => {
       transfer: true,
       flags: {
         wfrp4e: {
-          "effectApplication": "apply",
-          "effectTrigger": "oneTime",
-          "lore": true,
-          "script": `
+          effectApplication: "apply",
+          effectTrigger: "oneTime",
+          lore: true,
+          script: `
              if (this.actor.isOwner)
                 args.actor.setupSkill("Résistance", {context : {failure: "1 Point de Corruption reçu", success : "1 Point de Chance gagné"}}).then(setupData => {
                     args.actor.basicTest(setupData).then(test =>
@@ -38,48 +42,67 @@ const _patch_eis = () => {
                           args.actor.update({"system.status.corruption.value" : args.actor.system.status.corruption.value + 1})
                          }
                      })
-                  })`
-        }
-      }
-    }
+                  })`,
+        },
+      },
+    };
   }
-}
+};
 
 /************************************************************************************/
 const _patch_up_in_arms = () => {
-
   game.wfrp4e.config.hitLocationTables["quadruped"] = "Quadrupède";
-  let batter = game.wfrp4e.config.groupAdvantageActions.find(ga => ga.name == "Batter")
+  let batter = game.wfrp4e.config.groupAdvantageActions.find(
+    (ga) => ga.name == "Batter",
+  );
   if (batter) {
-    batter.name = "Battre"
-    batter.description = "oFQuand vouqs affrontez un opposant plus doué que vous, parfois la force brute peut réussir là où les autres approches ont échoué.",
-      batter.effect = "<strong>Action Spéciale</strong>: pour battre votre adversaire, effectuez un Test opposé de Force contre lui (vous utilisez tout les deux votre Attribut de Force). Si vous remportez le Test, votre adversaire subit l'Etat <i>A Terre</i> et perd -1 Avantage. Si vous perdez le Test, votre adversaire gagne +1 Avantage et votre action se termine. Si vous remportez le Test, vous ne gagnez pas l'Avantage habituel pour avoir remporté un Test Opposé. "
+    batter.name = "Battre";
+    ((batter.description =
+      "oFQuand vouqs affrontez un opposant plus doué que vous, parfois la force brute peut réussir là où les autres approches ont échoué."),
+      (batter.effect =
+        "<strong>Action Spéciale</strong>: pour battre votre adversaire, effectuez un Test opposé de Force contre lui (vous utilisez tout les deux votre Attribut de Force). Si vous remportez le Test, votre adversaire subit l'Etat <i>A Terre</i> et perd -1 Avantage. Si vous perdez le Test, votre adversaire gagne +1 Avantage et votre action se termine. Si vous remportez le Test, vous ne gagnez pas l'Avantage habituel pour avoir remporté un Test Opposé. "));
   }
-  let trick = game.wfrp4e.config.groupAdvantageActions.find(ga => ga.name == "Trick")
+  let trick = game.wfrp4e.config.groupAdvantageActions.find(
+    (ga) => ga.name == "Trick",
+  );
   if (trick) {
-    trick.name = "Coup tordu"
-    trick.description = "Vous prenez un instant pour lancer de la terre dans les yeux d'un adversaire ou pour l'enflammer en lui jetant de l'huile en feu dessus. Cette manoeuvre est risquée, et peu d'ennemis tombent deux fois dans le même panneau.",
-      trick.effect = "<strong>Action Spéciale</strong>: Pour duper votre adversaire, effectuez un Test opposé d'Agilité contre lui (vous utilisez tout les deux votre Attribut d'Agilité). Si vous remportez le Test, vous gagnez +1 Avantage. Si le MJ pense que la situation le justifie, vous pouvez aussi forcer votre ennemi à recevoir l'Etat Aveuglé, Empêtré ou En flammes à votre choix.Si vous perdez le Test opposé, votre adversaire gagne +1 Avantage et votre action se termine. Le MJ peut refuser l'utilisation de n'importe lequel de ces Etats si vous n'avez pas d'objet adapté sous la main ou si vous avez déja infligé cet Etat à cet adversaire. Si vous remportez le Test, vous ne gagnez pas l'Avantage habituel pour avoir remporté un Test Opposé."
+    trick.name = "Coup tordu";
+    ((trick.description =
+      "Vous prenez un instant pour lancer de la terre dans les yeux d'un adversaire ou pour l'enflammer en lui jetant de l'huile en feu dessus. Cette manoeuvre est risquée, et peu d'ennemis tombent deux fois dans le même panneau."),
+      (trick.effect =
+        "<strong>Action Spéciale</strong>: Pour duper votre adversaire, effectuez un Test opposé d'Agilité contre lui (vous utilisez tout les deux votre Attribut d'Agilité). Si vous remportez le Test, vous gagnez +1 Avantage. Si le MJ pense que la situation le justifie, vous pouvez aussi forcer votre ennemi à recevoir l'Etat Aveuglé, Empêtré ou En flammes à votre choix.Si vous perdez le Test opposé, votre adversaire gagne +1 Avantage et votre action se termine. Le MJ peut refuser l'utilisation de n'importe lequel de ces Etats si vous n'avez pas d'objet adapté sous la main ou si vous avez déja infligé cet Etat à cet adversaire. Si vous remportez le Test, vous ne gagnez pas l'Avantage habituel pour avoir remporté un Test Opposé."));
   }
-  let addeffort = game.wfrp4e.config.groupAdvantageActions.find(ga => ga.name == "Additional Effort")
+  let addeffort = game.wfrp4e.config.groupAdvantageActions.find(
+    (ga) => ga.name == "Additional Effort",
+  );
   if (addeffort) {
-    addeffort.name = "Effort supplémentaire"
-    addeffort.description = "Dans une situation désespérée, vous pouvez utiliser l'élan que vous acquis pour augmenter vos chances de succès.",
-      addeffort.effect = "<strong>Bonus à l'action</strong>: vous gagnez un bonus de +10 sur n'importe quel Test avant de l'effectuer. Vous pouvez dépenser des Avantages supplémentaires pour ajouter un bonus de +10 supplémentaire par Avantage dépensé. Par exemple, vous pourriez dépenser 3 Avantages pour obtenir un bonus de +20 ou 4 Avantages pour un bonus de +30. Ce Test ne génère jamais d'Avantage pour la personne qui l'effectue."
+    addeffort.name = "Effort supplémentaire";
+    ((addeffort.description =
+      "Dans une situation désespérée, vous pouvez utiliser l'élan que vous acquis pour augmenter vos chances de succès."),
+      (addeffort.effect =
+        "<strong>Bonus à l'action</strong>: vous gagnez un bonus de +10 sur n'importe quel Test avant de l'effectuer. Vous pouvez dépenser des Avantages supplémentaires pour ajouter un bonus de +10 supplémentaire par Avantage dépensé. Par exemple, vous pourriez dépenser 3 Avantages pour obtenir un bonus de +20 ou 4 Avantages pour un bonus de +30. Ce Test ne génère jamais d'Avantage pour la personne qui l'effectue."));
   }
-  let flee = game.wfrp4e.config.groupAdvantageActions.find(ga => ga.name == "Flee from Harm")
+  let flee = game.wfrp4e.config.groupAdvantageActions.find(
+    (ga) => ga.name == "Flee from Harm",
+  );
   if (flee) {
-    flee.name = "Retraite stratégique"
-    flee.description = "Vous profitez d'un temps mort ou d'une diversion pour rompre le combat.",
-      flee.effect = "<strong>Mouvement</strong>: Vous pouvez vous déplaçez pouir vous éloigner de vos adversaires sans pénalité. Cet effet remplace les règles de @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#disengaging]{Désengagement}."
+    flee.name = "Retraite stratégique";
+    ((flee.description =
+      "Vous profitez d'un temps mort ou d'une diversion pour rompre le combat."),
+      (flee.effect =
+        "<strong>Mouvement</strong>: Vous pouvez vous déplaçez pouir vous éloigner de vos adversaires sans pénalité. Cet effet remplace les règles de @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#disengaging]{Désengagement}."));
   }
-  let addaction = game.wfrp4e.config.groupAdvantageActions.find(ga => ga.name == "Additional Action")
+  let addaction = game.wfrp4e.config.groupAdvantageActions.find(
+    (ga) => ga.name == "Additional Action",
+  );
   if (addaction) {
-    addaction.name = "Action Supplémentaire"
-    addaction.description = "Vous profitez d'une ouverture pour accomplir quelque chose de remarquable.",
-      addaction.effect = "<strong>Action gratuite</strong>: Vous effectuez une Action supplémentaire. Cette action ne génère jamais d'Avantage pour le personnage qui l'accomplit. Vous ne pouvez dépenser d'Avantages pour effectuer une Action supplémentaire qu'une fois par Tour."
+    addaction.name = "Action Supplémentaire";
+    ((addaction.description =
+      "Vous profitez d'une ouverture pour accomplir quelque chose de remarquable."),
+      (addaction.effect =
+        "<strong>Action gratuite</strong>: Vous effectuez une Action supplémentaire. Cette action ne génère jamais d'Avantage pour le personnage qui l'accomplit. Vous ne pouvez dépenser d'Avantages pour effectuer une Action supplémentaire qu'une fois par Tour."));
   }
-}
+};
 
 /************************************************************************************/
 /* Manages /auberge command */
@@ -87,21 +110,23 @@ const _manage_inn_roll = async (content, msg) => {
   // Split input into arguments
   let command = content.split(" ").map(function (item) {
     return item.trim();
-  })
+  });
 
   console.log("COMMANDES", command);
   if (command[0] == "/auberge" && command[1]) {
     msg["type"] = 0;
     msg["rollMode"] = "gmroll";
-    let compendium = game.packs.get('wh4-fr-translation.plats-dauberges')
+    let compendium = game.packs.get("wh4-fr-translation.plats-dauberges");
     game.packs.get(compendium);
-    let rollList = await compendium.getDocuments()
+    let rollList = await compendium.getDocuments();
     for (const element of rollList) {
       let rollTab = element;
       console.log("Got compendium...", rollList, rollTab.name);
       if (rollTab.name.toLowerCase().includes(command[1].toLowerCase())) {
         let my_rollTable;
-        await compendium.getDocument(rollTab._id).then(mytab => my_rollTable = mytab);
+        await compendium
+          .getDocument(rollTab._id)
+          .then((mytab) => (my_rollTable = mytab));
         my_rollTable.draw({ rollMode: "gmroll" });
         return false;
       }
@@ -110,51 +135,107 @@ const _manage_inn_roll = async (content, msg) => {
   if (content.includes("/auberge")) {
     msg["type"] = 0;
     msg["rollMode"] = "gmroll";
-    msg["content"] = "Syntaxe : /auberge MOT_CLE, avec MOT_CLE parmi:<br>BoissonsBase, BoissonsFortes, Desserts, PlatsCommuns, PlatsExcellents, PlatsMaritimes, PlatsMédiocres, PlatsQualité,        PlatsRivières<br>Des raccourcis sont possibles avec une partie du nom : /auberge Base (correspond à BoissonBase) ou /auberge Mari (correspond à PlatsMaritimes), etc."
+    msg["content"] =
+      "Syntaxe : /auberge MOT_CLE, avec MOT_CLE parmi:<br>BoissonsBase, BoissonsFortes, Desserts, PlatsCommuns, PlatsExcellents, PlatsMaritimes, PlatsMédiocres, PlatsQualité,        PlatsRivières<br>Des raccourcis sont possibles avec une partie du nom : /auberge Base (correspond à BoissonBase) ou /auberge Mari (correspond à PlatsMaritimes), etc.";
     ChatMessage.create(msg);
     return false;
   }
-}
+};
 
 /************************************************************************************/
 let __eis_tables = {
-  "animalmishap": 1, "beasthead": 1, "coincedentalenc": 1, "demonic-mien": 1,
-  "expandedmutatemental": 1, "expandedmutatephys": 1, "fixations": 1,
-  "harmfulenc": 1, "positiveenc": 1, "weather": 1, "mutatephys": 1,
-  "vehiclemishap": 1, "quadruped": 1, "ridingmishap": 1,
-  "delirium": 1
-}
+  animalmishap: 1,
+  beasthead: 1,
+  coincedentalenc: 1,
+  "demonic-mien": 1,
+  expandedmutatemental: 1,
+  expandedmutatephys: 1,
+  fixations: 1,
+  harmfulenc: 1,
+  positiveenc: 1,
+  weather: 1,
+  mutatephys: 1,
+  vehiclemishap: 1,
+  quadruped: 1,
+  ridingmishap: 1,
+  delirium: 1,
+};
 let __dotr_tables = {
-  "rowingboat": 1, "sailingboat": 1, "wind-direction": 1, "waterborne": 1, "traderumour": 1
-}
+  rowingboat: 1,
+  sailingboat: 1,
+  "wind-direction": 1,
+  waterborne: 1,
+  traderumour: 1,
+};
 let __wfrp4e_tables = {
-  "career": 1, "critbody": 1, "critleg": 1, "doom": 1, "doom2": 1, "eyes": 1, "majormis": 1, "mutatemental": 1, "oops": 1, "species": 1, "travel": 1,
-  "hitloc": 1, "critarm": 1, "crithead": 1, "delirium": 1, "event": 1, "hair": 1, "minormis": 1, "mutatephys": 1, "talents": 1, "wrath": 1,
-  "astral": 1, "corruption": 1, "snake": 1, "spider": 1, "job": 1
-
-}
-let __to_table_translate = [{ name: "traits", transl: "Traits" }, { name: "talents", transl: "Talents" }, { name: "skills", transl: "Compétences" },
-{ name: "careers", transl: "Carrières" }, { name: "spells", transl: "Sorts" }, { name: "prayers", transl: "Bénédictions et Miracles" },
-{ name: "injuries", transl: "Blessures" }, { name: "criticals", transl: "Critiques" }, { name: "trappings", transl: "Equipement" },
-{ name: "bestiary", transl: "Bestiaire" }, { name: "diseases", transl: "Maladies" }
-]
+  career: 1,
+  critbody: 1,
+  critleg: 1,
+  doom: 1,
+  doom2: 1,
+  eyes: 1,
+  majormis: 1,
+  mutatemental: 1,
+  oops: 1,
+  species: 1,
+  travel: 1,
+  hitloc: 1,
+  critarm: 1,
+  crithead: 1,
+  delirium: 1,
+  event: 1,
+  hair: 1,
+  minormis: 1,
+  mutatephys: 1,
+  talents: 1,
+  wrath: 1,
+  astral: 1,
+  corruption: 1,
+  snake: 1,
+  spider: 1,
+  job: 1,
+};
+let __to_table_translate = [
+  { name: "traits", transl: "Traits" },
+  { name: "talents", transl: "Talents" },
+  { name: "skills", transl: "Compétences" },
+  { name: "careers", transl: "Carrières" },
+  { name: "spells", transl: "Sorts" },
+  { name: "prayers", transl: "Bénédictions et Miracles" },
+  { name: "injuries", transl: "Blessures" },
+  { name: "criticals", transl: "Critiques" },
+  { name: "trappings", transl: "Equipement" },
+  { name: "bestiary", transl: "Bestiaire" },
+  { name: "diseases", transl: "Maladies" },
+];
 
 /************************************************************************************/
 const __create_translation_tables = async (compmod) => {
   for (let iterData of __to_table_translate) {
-
-    let entityName = compmod + '.' + iterData.name;
+    let entityName = compmod + "." + iterData.name;
     let compData = game.packs.get(entityName);
     let compFull = await compData.getContent();
     let htmlTab = "<table border='1'><tbody>";
     for (let entryData of compFull) {
-      htmlTab += "<tr><td>" + entryData.data.originalName + "</td><td>@Compendium[" + entityName + '.' + entryData.id + "]{" + entryData.name + "}</td></tr>\n";
-    };
+      htmlTab +=
+        "<tr><td>" +
+        entryData.data.originalName +
+        "</td><td>@Compendium[" +
+        entityName +
+        "." +
+        entryData.id +
+        "]{" +
+        entryData.name +
+        "}</td></tr>\n";
+    }
     htmlTab += "</table>";
-    let myjournal = await JournalEntry.create({ name: 'Traduction des ' + iterData.transl, content: htmlTab });
+    let myjournal = await JournalEntry.create({
+      name: "Traduction des " + iterData.transl,
+      content: htmlTab,
+    });
     game.journal.insert(myjournal);
   }
-}
+};
 
 /************************************************************************************
  * The default static compendium of translation tables must be aut-mapped to the relevant
@@ -172,58 +253,67 @@ const __auto_patch_translation_journal_compendium = async (compmod) => {
     }
     compData.locked = true;
   }
-}
+};
 
 /************************************************************************************/
 const loadCompendiumData = async (compendium) => {
   const pack = game.packs.get(compendium);
-  return await pack?.getDocuments() ?? [];
-}
+  return (await pack?.getDocuments()) ?? [];
+};
 
 /* -------------------------------------------- */
 /************************************************************************************/
-const loadCompendium = async (compendium, filter = item => true) => {
+const loadCompendium = async (compendium, filter = (item) => true) => {
   let compendiumData = await loadCompendiumData(compendium);
   return compendiumData.filter(filter);
-}
+};
 
 /************************************************************************************/
 const patch_core_tables = (tableList) => {
-  if (game.version) { // v9 and above
+  if (game.version) {
+    // v9 and above
     return;
   }
-  FilePicker.browse("data", "modules/WH4-fr-translation/tables/").then(resp => {
-    for (let file of resp.files) {
-      let filename = file.substring(file.lastIndexOf("/") + 1, file.indexOf(".json"))
-      if (tableList[filename] == 1) { // Matching table name -> patch !
-        fetch(file).then(r => r.json()).then(records => {
-          game.wfrp4e.tables[filename] = records;
-        });
+  FilePicker.browse("data", "modules/WH4-fr-translation/tables/").then(
+    (resp) => {
+      for (let file of resp.files) {
+        let filename = file.substring(
+          file.lastIndexOf("/") + 1,
+          file.indexOf(".json"),
+        );
+        if (tableList[filename] == 1) {
+          // Matching table name -> patch !
+          fetch(file)
+            .then((r) => r.json())
+            .then((records) => {
+              game.wfrp4e.tables[filename] = records;
+            });
+        }
       }
-    }
-  });
-}
+    },
+  );
+};
 
 /************************************************************************************/
 const patch_trade_gazeteer = () => {
   if (game.wfrp4e.config.trade?.gazetteer) {
-    fetch("modules/wh4-fr-translation/trade/gazetteer_dotr.json").then(r => r.json()).then(records => {
-      game.wfrp4e.config.trade.gazetteer = records;
-    });
+    fetch("modules/wh4-fr-translation/trade/gazetteer_dotr.json")
+      .then((r) => r.json())
+      .then((records) => {
+        game.wfrp4e.config.trade.gazetteer = records;
+      });
   }
-}
+};
 
 /************************************************************************************/
 const __check_fix_wrong_modules = (chatFlag, patchFinished) => {
-
   WH4FRPatchConfig.perform_patch();
 
   let coreFound = false;
   game.modules.forEach((module, name) => {
-
     //console.log("TESTING MODULE", module)
     if (module.id == "wfrp4e-core" && module.active) {
-      coreFound = true
+      coreFound = true;
       patch_core_tables(__wfrp4e_tables);
     }
     if (module.id == "wfrp4e-eis" && module.active) {
@@ -232,96 +322,117 @@ const __check_fix_wrong_modules = (chatFlag, patchFinished) => {
     }
     if (module.id == "wfrp4e-dotr" && module.active) {
       patch_core_tables(__dotr_tables);
-      patch_trade_gazeteer()
+      patch_trade_gazeteer();
     }
 
     if (module.id == "wfrp4e-up-in-arms" && module.active) {
       _patch_up_in_arms();
     }
 
-    if (module.id == 'ogre-kingdom-wfrp4e' && module.active) {
+    if (module.id == "ogre-kingdom-wfrp4e" && module.active) {
       WH4FRPatchConfig.perform_ogrekingdom_patch();
       if (game.user.isGM && chatFlag)
-        ChatMessage.create({ content: "<div><strong>Le module Ogre-Kingdom a été detecté et automatiquement patché.</strong></div>", whisper: ChatMessage.getWhisperRecipients("GM") });
+        ChatMessage.create({
+          content:
+            "<div><strong>Le module Ogre-Kingdom a été detecté et automatiquement patché.</strong></div>",
+          whisper: ChatMessage.getWhisperRecipients("GM"),
+        });
     }
 
-    if (module.id == "wfrp4e-ew" && module.active && game.user.isGM && chatFlag) {
+    if (
+      module.id == "wfrp4e-ew" &&
+      module.active &&
+      game.user.isGM &&
+      chatFlag
+    ) {
       ChatMessage.create({
-        content: "<div><strong>Vous avez le module EW (wfrp4e-ew ?) installé. Malheureusement, ce module n'est pas compatible avec" +
+        content:
+          "<div><strong>Vous avez le module EW (wfrp4e-ew ?) installé. Malheureusement, ce module n'est pas compatible avec" +
           " les traductions et vient casser le fonctionnement de la traduction. Veuillez recopier les compendiums dans votre monde, désactiver le module et re-démarrer le monde</strong></div>",
-        whisper: ChatMessage.getWhisperRecipients("GM")
+        whisper: ChatMessage.getWhisperRecipients("GM"),
       });
     }
   });
   if (!coreFound) {
     if (game.user.isGM && chatFlag) {
       ChatMessage.create({
-        content: "<div><strong>Le module Core WFRP4E n'a pas été trouvé ou activé. Veuillez acheter et/ou activer ce module de base avant de continuer.</strong></div>",
-        whisper: ChatMessage.getWhisperRecipients("GM")
+        content:
+          "<div><strong>Il modulo Core WFRP4E non è stato trovato o attivato. Acquista e/o attiva questo modulo core prima di continuare.</strong></div>",
+        whisper: ChatMessage.getWhisperRecipients("GM"),
       });
     }
   } else if (game.user.isGM && patchFinished) {
-      ChatMessage.create({
-        content: "<div>Les modules WFRP4E ont été <strong>patchés avec succés</strong>. Vous pouvez y aller et que <strong>Shallya vous garde !</strong></div><div>Derniers changements : Support WFRP4E v8.3.X</div></ul>",
-        user: game.user.id,
-        whisper: ChatMessage.getWhisperRecipients("GM")
-      });
-    }
-}
+    ChatMessage.create({
+      content:
+        "<div>I moduli WFRP4E sono stati <strong>tradotti con successo</strong>. Puoi andare e che <strong>Shallya vegli su di te!</strong></div><div>Ultime modifiche: Supporto per WFRP4E v8.3.X</div></ul>",
+      user: game.user.id,
+      whisper: ChatMessage.getWhisperRecipients("GM"),
+    });
+  }
+};
 
 const __history = [
-  "Nouveautés 9.0.0: <ul><li>Support Foundry v13 et diverses petites corrections !</li></ul>"
-]
+  "Nuove funzionalità nella versione 9.0.0: <ul><li>Supporto Foundry v13 e varie correzioni minori!</li></ul>",
+];
 
 /************************************************************************************/
 const convertColumnToMulti = (table) => {
   let columns = table.columns;
-  let newTable = foundry.utils.duplicate(table)
+  let newTable = foundry.utils.duplicate(table);
 
   delete newTable.columns;
-  newTable.rows = table.rows.map(i => { return { range: {} } })
-  newTable.multi = table.columns
+  newTable.rows = table.rows.map((i) => {
+    return { range: {} };
+  });
+  newTable.multi = table.columns;
 
   for (let column of columns) {
     for (let row of newTable.rows) {
-      row[column] = {}
-      row.range[column] = []
+      row[column] = {};
+      row.range[column] = [];
     }
   }
 
   for (let index in newTable.rows) {
     for (let column in table.rows[index].range) {
-      newTable.rows[index][column] = { name: table.rows[index].name }
-      newTable.rows[index].range[column] = table.rows[index].range[column]
+      newTable.rows[index][column] = { name: table.rows[index].name };
+      newTable.rows[index].range[column] = table.rows[index].range[column];
     }
   }
   return newTable;
-}
+};
 
 /************************************************************************************/
 const __patchStyleSheet = () => {
   for (let styleSheet of document.styleSheets) {
     if (styleSheet?.href.includes("wfrp4e.css")) {
-      let found = 0
+      let found = 0;
       for (let i = 0; i < styleSheet.cssRules.length; i++) {
-        let rule = styleSheet.cssRules[i]
-        if (rule.selectorText == '.sidebar-popout') {
-          console.log("DELETE RULE", rule)
-          found = i
+        let rule = styleSheet.cssRules[i];
+        if (rule.selectorText == ".sidebar-popout") {
+          console.log("DELETE RULE", rule);
+          found = i;
         }
       }
-      styleSheet.deleteRule(found)
+      styleSheet.deleteRule(found);
     }
   }
-}
+};
 
 /************************************************************************************/
 const __add_actors_translation = () => {
-  const lang = game.settings.get('core', 'language');
-  if (lang == "fr") {
+  const lang = game.settings.get("core", "language");
+  if (lang == "it") {
     for (let metadata of game.packs) {
-      console.log("Checking pack", metadata.collection, metadata.documentName, metadata.metadata.id, game.babele.isTranslated(metadata));
-      if (!game.babele.isTranslated(metadata) &&
+      console.log(
+        "Checking pack",
+        metadata.collection,
+        metadata.documentName,
+        metadata.metadata.id,
+        game.babele.isTranslated(metadata),
+      );
+      if (
+        !game.babele.isTranslated(metadata) &&
         metadata.collection != "wfrp4e-core.actors" &&
         metadata.collection != "wfrp4e-core.bestiary" &&
         metadata.collection != "wfrp4e-ua1.actors" &&
@@ -332,28 +443,32 @@ const __add_actors_translation = () => {
         metadata.collection != "wfrp4e-pbtt.actors" &&
         metadata.collection != "wfrp4e-middenheim.actors" &&
         metadata.collection != "wfrp4e-horned-rat.actors" &&
-        metadata.documentName === 'Actor') {
+        metadata.documentName === "Actor"
+      ) {
         let translations = {
-          "label": metadata.name,
-          "mapping": {
-            "name": "name",
-            "description": "system.details.biography.value",
-            "items": {
-              "path": "items",
-              "converter": "bestiary_traits"
+          label: metadata.name,
+          mapping: {
+            name: "name",
+            description: "system.details.biography.value",
+            items: {
+              path: "items",
+              converter: "bestiary_traits",
             },
-            "characteristics": {
-              "path": "system.characteristics",
-              "converter": "npc_characteristics"
+            characteristics: {
+              path: "system.characteristics",
+              converter: "npc_characteristics",
             },
-            "details": {
-              "path": "system.details",
-              "converter": "npc_details"
-            }
-          }
-        }
+            details: {
+              path: "system.details",
+              converter: "npc_details",
+            },
+          },
+        };
         //console.log(metadata, translations)
-        game.babele.packs.set(metadata.metadata.id, new TranslatedCompendium(metadata.metadata, translations))
+        game.babele.packs.set(
+          metadata.metadata.id,
+          new TranslatedCompendium(metadata.metadata, translations),
+        );
       }
     }
   }
@@ -362,14 +477,12 @@ const __add_actors_translation = () => {
     game.wfrp4e.warnDialog.close();
     game.wfrp4e.warnDialog = null;
   }
-}
-
+};
 
 /************************************************************************************/
 /* Hook for specific command */
 Hooks.on("chatMessage", (html, content, msg) => {
-
-  if (content.toLowerCase().includes('auberge')) {
+  if (content.toLowerCase().includes("auberge")) {
     _manage_inn_roll(content, msg);
     return false;
   }
@@ -377,59 +490,54 @@ Hooks.on("chatMessage", (html, content, msg) => {
 
 /************************************************************************************/
 /* Additionnal hooks ready */
-Hooks.on('ready', () => {
-
+Hooks.on("ready", () => {
   if (game.user.isGM) {
     game.wfrp4e.warnDialog = new Dialog({
-      title: "Chargement de la traduction FR - Merci d'attendre",
-      content: `<img src="modules/wh4-fr-translation/images/warhammer-v1-logo.webp"><p class="wfrp4-fr-message">Les moines de l'ordre de l'Enclume, associés aux légistes de Talabaheim, préparent la traduction Bretonnienne de ce monde...</h3><p class="wfrp4-fr-message">Merci d'attendre la disparition de ce message pour vaquer dans l'Empire.</p> <p class="wfrp4-fr-message">Si une bénédiction de Shallya apparait dans le tchat, c'est que tout s'est bien passé.</p>`,
-      buttons: {
-      }
-    })
+      title: "Caricamento traduzione Italiana - Attendi",
+      content: `<img src="modules/wh4-it-translation/images/wfrp4e-logo.jpg"><p class="wfrp4-fr-message">I monaci dell'Ordine dell'Incudine, in collaborazione con gli avvocati di Remas, stanno preparando la traduzione Tileana di questo mondo...</h3><p class="wfrp4-fr-message">Si prega di attendere che questo messaggio scompaia prima di muoversi nell'Impero.</p> <p class="wfrp4-fr-message">Se nella chat appare una benedizione di Shallya, significa che tutto è andato bene.</p>`,
+      buttons: {},
+    });
     game.wfrp4e.warnDialog.render(true, { focus: true, left: 20, top: 20 });
     let chatData = {
       user: game.user.id,
       rollMode: game.settings.get("core", "rollMode"),
-      whisper: ChatMessage.getWhisperRecipients('GM'),
-      content: `<div>Les modules WFRP4E sont <strong>en cours de patch pour traduction</strong>... Merci <strong>d'attendre le message de fin</strong> (dans environ 20 secondes)<p>Pour rappel et à titre informatif, il faut activer ce module de traduction FR <strong>avant</strong> de procéder à l'importation des données des modules C7 (core compris). Autrement dit, activez ce module FR <strong>AVANT</strong> tout autre module.</p><p>Support et informations sur le Discord FR de Foundry :  https://discord.gg/pPSDNJk</p></div>`
-    }
+      whisper: ChatMessage.getWhisperRecipients("GM"),
+      content: `<div>I moduli WFRP4E sono in fase di patching per la traduzione... Attendi il messaggio di completamento (circa 20 secondi).<p>Come promemoria e per tua informazione, devi attivare questo modulo di traduzione in italiano <strong>prima</strong> di importare i dati del modulo C7 (incluso il core). In altre parole, attiva questo modulo in italiano <strong>PRIMA</strong> di qualsiasi altro modulo.</p></div>`,
+    };
     ChatMessage.create(chatData);
   }
 
   // Patch function for effects
-  game.wfrp4e.utility.findKey = warhammer.utility.findKey
+  game.wfrp4e.utility.findKey = warhammer.utility.findKey;
 
   /** New modifiers */
   game.wfrp4e.config.difficultyModifiers = {
-    "veasy": 60,
-    "easy": 40,
-    "banal": 30,
-    "average": 20,
-    "medium": 10,
-    "challenging": 0,
-    "difficult": -10,
-    "hard": -20,
-    "vhard": -30,
-    "doom": -40
-  }
+    veasy: 60,
+    easy: 40,
+    banal: 30,
+    average: 20,
+    medium: 10,
+    challenging: 0,
+    difficult: -10,
+    hard: -20,
+    vhard: -30,
+    doom: -40,
+  };
   game.wfrp4e.config.difficultyLabels = {
-
-    "veasy": "Très Facile (+60)",
-    "easy": "Facile (+40)",
-    "banal": "Banal (+30)",
-    "average": "Accessible (+20)",
-    "medium": "Faisable (+10)",
-    "challenging": "Intermédiaire (+0)",
-    "difficult": "Complexe (-10)",
-    "hard": "Difficile (-20)",
-    "vhard": "Très Difficile (-30)",
-    "doom": "Maudit (-40)"
-  }
+    veasy: "Molto Facile (+60)",
+    easy: "Facile (+40)",
+    banal: "Banale (+30)",
+    average: "Media (+20)",
+    medium: "Fattibile (+10)",
+    challenging: "Impegnativa (+0)",
+    difficult: "Difficile (-10)",
+    hard: "Ardua (-20)",
+    vhard: "Molto Ardua (-30)",
+    doom: "Futile (-40)",
+  };
 
   game.wfrp4e.warnDialog.render(true, { focus: true, left: 20, top: 20 });
   //setTimeout( __check_fix_wrong_modules, 2000, true, false);
   setTimeout(__check_fix_wrong_modules, 20000, true, true);
   setTimeout(__add_actors_translation, 21000, false, true);
-
-
 });
