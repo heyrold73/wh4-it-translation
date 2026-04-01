@@ -1,0 +1,3354 @@
+{
+  "label": "Journals (Core Rulebook)",
+  "folders": {},
+  "entries": {
+    "Raphael Julevno": {
+      "name": "Raphael Julevno",
+      "tokenName": "Magister Julevno",
+      "items": {
+        "Library of Prophetic Texts": {
+          "name": "Biblioteca di Testi Profetici"
+        },
+        "Collection of Lustrian Gold Plaques": {
+          "name": "Collezione di Placche d’Oro Lustriane"
+        },
+        "Animal Care": {
+          "name": "Allevare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Channelling (Azyr)": {
+          "name": "Incanalare (Azyr)"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Entertain (Fortune Telling)": {
+          "name": "Intrattenere (Predizione)"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Battle)": {
+          "name": "Linguaggio (Battaglia)"
+        },
+        "Language (Classical)": {
+          "name": "Linguaggio (Classico)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Language (Tilean)": {
+          "name": "Linguaggio (Tileano)"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Lore (Astronomy)": {
+          "name": "Conoscenza (Astronomia)"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Prophecy)": {
+          "name": "Conoscenza (Profezia)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Research": {
+          "name": "Ricercare"
+        },
+        "Stealth (Urban)": {
+          "name": "Nascondersi (Urbano)"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Arcane Magic (Heavens)": {
+          "name": "Magia Arcana (Empireo)"
+        },
+        "Attractive": {
+          "name": "Attraente"
+        },
+        "Coolheaded": {
+          "name": "Razionale"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Doomed": {
+          "name": "Predestinato"
+        },
+        "Instinctive Diction": {
+          "name": "Dizione Istintiva"
+        },
+        "Magical Sense": {
+          "name": "Senso Magico"
+        },
+        "Orientation": {
+          "name": "Senso dell'Orientamento"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Resistance (Disease)": {
+          "name": "Resistenza (Malattia)"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sharp": {
+          "name": "Acuto"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "Well-prepared": {
+          "name": "Preparato"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Sword": {
+          "name": "Spada"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Melee": {
+          "name": "Mischia"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Grand Astromancer": {
+          "name": "Grande Astromante"
+        },
+        "Staff topped with Telescope": {
+          "name": "Bastone con Telescopio"
+        },
+        "Bearing": {
+          "name": "Bussola"
+        },
+        "Conserve": {
+          "name": "Conserva"
+        },
+        "Dart": {
+          "name": "Dardo"
+        },
+        "Drain": {
+          "name": "Risucchio"
+        },
+        "Gust": {
+          "name": "Folata"
+        },
+        "Murmured Whisper": {
+          "name": "Sussurro"
+        },
+        "Spring": {
+          "name": "Sorgente"
+        },
+        "Sounds": {
+          "name": "Suoni"
+        },
+        "Shock": {
+          "name": "Shock"
+        },
+        "Twitch": {
+          "name": "Scossone"
+        },
+        "Warning": {
+          "name": "Avvertimento"
+        },
+        "Cerulean Shield": {
+          "name": "Scudo Ceruleo"
+        },
+        "Comet of Casandora": {
+          "name": "Cometa di Cassandora"
+        },
+        "Curse of Fate": {
+          "name": "Maledizione del Fato"
+        },
+        "Divination": {
+          "name": "Divinazione"
+        },
+        "Fate’s Fickle Fingers": {
+          "name": "Dita Capricciose del Fato"
+        },
+        "Fate Illuminated": {
+          "name": "Fato Rivelato"
+        },
+        "Lens on the Sky": {
+          "name": "Lente del Cielo"
+        },
+        "Mistral From the Stratosphere": {
+          "name": "Maestrale della Stratosfera"
+        },
+        "Project Spirit": {
+          "name": "Proiettare Spirito"
+        },
+        "Starcrossed": {
+          "name": "Sventura"
+        },
+        "Storm of Shemtek": {
+          "name": "Tempesta di Shemtek"
+        },
+        "T’Essla’s Arc": {
+          "name": "Arco di T'Essla"
+        },
+        "Thorsen’s Thunderstorm": {
+          "name": "Tormenta di Thorsen"
+        },
+        "Augury": {
+          "name": "Auspicio"
+        },
+        "Azure Blades": {
+          "name": "Lame Azzurre"
+        },
+        "Standard Robes": {
+          "name": "Vesti Standard"
+        },
+        "Aethyric Armour (Heavens)": {
+          "name": "Armatura Aethyrica (Empireo)"
+        },
+        "Aethyric Arms (Heavens)": {
+          "name": "Arma Aethyrica (Empireo)"
+        },
+        "Blast (Heavens)": {
+          "name": "Scoppio (Empireo)"
+        },
+        "Bolt (Heavens)": {
+          "name": "Strale (Empireo)"
+        },
+        "Chain Attack (Heavens)": {
+          "name": "Attacco Concatenato (Empireo)"
+        },
+        "Dome (Heavens)": {
+          "name": "Cupola (Empireo)"
+        },
+        "Flight (Heavens)": {
+          "name": "Volo (Empireo)"
+        },
+        "Magic Shield (Heavens)": {
+          "name": "Scudo Magico (Empireo)"
+        },
+        "Move Object (Heavens)": {
+          "name": "Muovere Oggetto (Empireo)"
+        },
+        "Push (Heavens)": {
+          "name": "Spinta (Empireo)"
+        }
+      }
+    },
+    "Immanuel-Ferrand Holswig-Schliestein": {
+      "name": "Immanuel-Ferrand Holswig-Schliestein",
+      "tokenName": "Immanuel-Ferrand",
+      "items": {
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Animal Care": {
+          "name": "Allevare"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Channelling (Ulgu)": {
+          "name": "Incanalare (Ulgu)"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Heal": {
+          "name": "Guarire"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Battle)": {
+          "name": "Linguaggio (Battaglia)"
+        },
+        "Language (Bretonnian)": {
+          "name": "Linguaggio (Bretonniano)"
+        },
+        "Language (Classical)": {
+          "name": "Linguaggio (Classico)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Language (Wastelander)": {
+          "name": "Linguaggio (Wasteland)"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Lore (Altdorf)": {
+          "name": "Conoscenza (Altdorf)"
+        },
+        "Lore (Heraldry)": {
+          "name": "Conoscenza (Araldica)"
+        },
+        "Lore (History)": {
+          "name": "Conoscenza (Storia)"
+        },
+        "Lore (Politics)": {
+          "name": "Conoscenza (Politica)"
+        },
+        "Lore (Reikland)": {
+          "name": "Conoscenza (Reikland)"
+        },
+        "Lore (Warfare)": {
+          "name": "Conoscenza (Arte della Guerra)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Cavalry)": {
+          "name": "Mischia (Cavalleria)"
+        },
+        "Melee (Fencing)": {
+          "name": "Mischia (Scherma)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Ranged (Bow)": {
+          "name": "Mira (Arco)"
+        },
+        "Ranged (Blackpowder)": {
+          "name": "Mira (Armi da Fuoco)"
+        },
+        "Ride (Horse)": {
+          "name": "Cavalcare (Cavalli)"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Secret Signs (Black Chamber)": {
+          "name": "Segni Segreti (Camera Nera)"
+        },
+        "Sleight of Hand": {
+          "name": "Rapidità di Mano"
+        },
+        "Stealth (Urban)": {
+          "name": "Nascondersi (Urbano)"
+        },
+        "Track": {
+          "name": "Seguire Tracce"
+        },
+        "Trade (Farrier)": {
+          "name": "Mestiere (Maniscalco)"
+        },
+        "Arcane Magic (Lore of Shadows)": {
+          "name": "Magia Arcana (Sapere delle Ombre)"
+        },
+        "Blather": {
+          "name": "Blaterare"
+        },
+        "Carouser": {
+          "name": "Beone"
+        },
+        "Commanding Presence": {
+          "name": "Presenza Maestosa"
+        },
+        "Doomed": {
+          "name": "Predestinato"
+        },
+        "Etiquette (Nobles, Servants, Soldiers)": {
+          "name": "Etichetta (Nobili, Servitori, Soldati)"
+        },
+        "Gregarious": {
+          "name": "Amichevole"
+        },
+        "Luck": {
+          "name": "Fortuna"
+        },
+        "Noble Blood": {
+          "name": "Sangue Blu"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Roughrider": {
+          "name": "Nato in Sella"
+        },
+        "Schemer": {
+          "name": "Cospiratore"
+        },
+        "Strike Mighty Blow": {
+          "name": "Colpo Poderoso"
+        },
+        "Wealthy": {
+          "name": "Ricco"
+        },
+        "Sword": {
+          "name": "Spada"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Melee": {
+          "name": "Mischia"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Spymaster": {
+          "name": "Maestro delle Spie"
+        },
+        "Fine Set of Grey Clothing decorated with Holswig-Schliestein Family Crest": {
+          "name": "Abiti di Qualità grigi con lo stemma degli Holswig-Schliestein"
+        },
+        "Quill and Ink": {
+          "name": "Penna e Inchiostro"
+        },
+        "Hooded Green Velvet Cloak": {
+          "name": "Mantello di Velluto Verde con Cappuccio"
+        },
+        "Sheet of Parchment": {
+          "name": "Foglio di Pergamena"
+        },
+        "Pouch": {
+          "name": "Borsa"
+        },
+        "Dart": {
+          "name": "Dardo"
+        },
+        "Eavesdrop": {
+          "name": "Origliare"
+        },
+        "Magic Flame": {
+          "name": "Fiamma Magica"
+        },
+        "Open Lock": {
+          "name": "Aprire Serrature"
+        },
+        "Sounds": {
+          "name": "Suoni"
+        },
+        "Twitch": {
+          "name": "Scossone"
+        },
+        "Choking Shadows": {
+          "name": "Ombre Soffocanti"
+        },
+        "Entangle (Shadow)": {
+          "name": "Aggrovigliare (Ombra)"
+        },
+        "Illusion": {
+          "name": "Illusione"
+        },
+        "Mystifying Miasma": {
+          "name": "Miasma Ingannatore"
+        },
+        "Terrifying (Shadow)": {
+          "name": "Terrificante (Ombra)"
+        }
+      }
+    },
+    "Incarnate Elemental of Death": {
+      "name": "Elementale Incarnato della Morte",
+      "tokenName": "Elementale Incarnato della Morte",
+      "items": {
+        "Consume Life": {
+          "name": "Consumare Vita"
+        },
+        "Amethyst Fog": {
+          "name": "Nebbia d'Ametista"
+        },
+        "Hourglass of Shyish": {
+          "name": "Clessidra di Shyish"
+        },
+        "Soundless": {
+          "name": "Senza Suono"
+        },
+        "Bite": {
+          "name": "Morso"
+        },
+        "Constrictor": {
+          "name": "Costrittore"
+        },
+        "Construct": {
+          "name": "Costrutto"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Stride": {
+          "name": "Passo Lungo"
+        },
+        "Terror": {
+          "name": "Terrore"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Ward": {
+          "name": "Protezione"
+        },
+        "Weapon (Teeth and Horns)": {
+          "name": "Arma (Denti e Corna)"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Immunity": {
+          "name": "Immunità"
+        },
+        "Grim": {
+          "name": "Tetro"
+        }
+      }
+    },
+    "Combat Familiar": {
+      "name": "Famiglio Combattente",
+      "tokenName": "Famiglio Combattente",
+      "items": {
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Two-handed)": {
+          "name": "Mischia (Armi a Due Mani)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Fearless (Size Large or Smaller)": {
+          "name": "Temerario (Taglia Grande o Inferiore)"
+        },
+        "Lightning Reflexes": {
+          "name": "Riflessi Fulminei"
+        },
+        "Small": {
+          "name": "Piccolo"
+        },
+        "Sturdy": {
+          "name": "Robusto"
+        },
+        "Very Strong": {
+          "name": "Forzuto"
+        },
+        "Warrior Born": {
+          "name": "Nato Guerriero"
+        },
+        "Magical": {
+          "name": "Magico"
+        },
+        "Zweihander": {
+          "name": "Zweihander"
+        },
+        "Dagger": {
+          "name": "Pugnale"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Suffuse with (Wind)": {
+          "name": "Infuso di (Vento)"
+        }
+      }
+    },
+    "Tochter Grunfeld": {
+      "name": "Tochter Grunfeld",
+      "tokenName": "Magister Grunfeld",
+      "items": {
+        "Enchanted Staff": {
+          "name": "Bastone Incantato"
+        },
+        "Golden Sickle": {
+          "name": "Falcetto D'Oro"
+        },
+        "Magical Licence": {
+          "name": "Licenza di Mago"
+        },
+        "College Library": {
+          "name": "Biblioteca del Collegio"
+        },
+        "Workshop at College": {
+          "name": "Laboratorio al Collegio"
+        },
+        "Animal Care": {
+          "name": "Allevare"
+        },
+        "Channelling (Ghyran)": {
+          "name": "Incanalare (Ghyran)"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Evaluate": {
+          "name": "Valutare"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Battle)": {
+          "name": "Linguaggio (Battaglia)"
+        },
+        "Language (Bretonnian)": {
+          "name": "Linguaggio (Bretonniano)"
+        },
+        "Language (Gospodarinyi)": {
+          "name": "Linguaggio (Gospodarinyi)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Plants)": {
+          "name": "Conoscenza (Piante)"
+        },
+        "Lore (Stirland)": {
+          "name": "Conoscenza (Stirland)"
+        },
+        "Lore (Sylvania)": {
+          "name": "Conoscenza (Sylvania)"
+        },
+        "Lore (Undead)": {
+          "name": "Conoscenza (Non Morti)"
+        },
+        "Lore (Warfare)": {
+          "name": "Conoscenza (Arte della Guerra)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Ride (Horse)": {
+          "name": "Cavalcare (Cavalli)"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Arcane Magic (Life)": {
+          "name": "Magia Arcana (Vita)"
+        },
+        "Combat Aware": {
+          "name": "Vigile"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Fast Hands": {
+          "name": "Mani Veloci"
+        },
+        "Frightening": {
+          "name": "Spaventoso"
+        },
+        "Instinctive Diction": {
+          "name": "Dizione Istintiva"
+        },
+        "Iron Will": {
+          "name": "Volontà di Ferro"
+        },
+        "Magical Sense": {
+          "name": "Senso Magico"
+        },
+        "Menacing": {
+          "name": "Minaccioso"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Rover": {
+          "name": "Girovago"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "War Wizard": {
+          "name": "Mago da Guerra"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Melee": {
+          "name": "Mischia"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Grimoire": {
+          "name": "Grimorio"
+        },
+        "Druid Lord": {
+          "name": "Signore dei Druidi"
+        },
+        "Whiff of Ghyran": {
+          "name": "Sentore di Ghyran"
+        },
+        "Rapid Growth": {
+          "name": "Crescita Rapida"
+        },
+        "Animal Friend": {
+          "name": "Amico Animale"
+        },
+        "Bearing": {
+          "name": "Bussola"
+        },
+        "Conserve": {
+          "name": "Conserva"
+        },
+        "Dart": {
+          "name": "Dardo"
+        },
+        "Gust": {
+          "name": "Folata"
+        },
+        "Murmured Whisper": {
+          "name": "Sussurro"
+        },
+        "Produce Small Animal": {
+          "name": "Creare Piccoli Animali"
+        },
+        "Spring": {
+          "name": "Sorgente"
+        },
+        "Twitch": {
+          "name": "Scossone"
+        },
+        "Warning": {
+          "name": "Avvertimento"
+        },
+        "Almanac": {
+          "name": "Almanacco"
+        },
+        "Barkskin": {
+          "name": "Pelle di Corteccia"
+        },
+        "Dwellers Below": {
+          "name": "Abitanti del Sottosuolo"
+        },
+        "Forest of Thorns": {
+          "name": "Foresta di Spine"
+        },
+        "Leaf Fall": {
+          "name": "Foglie Cadenti"
+        },
+        "Lifebloom": {
+          "name": "Linfa Vitale"
+        },
+        "Regenerate": {
+          "name": "Rigenerare"
+        },
+        "Verdant Apotheosis": {
+          "name": "Apoteosi Vegetale"
+        },
+        "Sword": {
+          "name": "Spada"
+        },
+        "Standard Robes": {
+          "name": "Vesti Standard"
+        },
+        "Arrow Shield (Life)": {
+          "name": "Riparo dalle Frecce (Vita)"
+        },
+        "Blast (Life)": {
+          "name": "Scoppio (Vita)"
+        },
+        "Bridge (Life)": {
+          "name": "Ponte (Vita)"
+        },
+        "Dark Vision (Life)": {
+          "name": "Vista Oscura (Vita)"
+        },
+        "Entangle (Life)": {
+          "name": "Aggrovigliare (Vita)"
+        },
+        "Flight (Life)": {
+          "name": "Volo (Vita)"
+        },
+        "Push (Life)": {
+          "name": "Spinta (Vita)"
+        },
+        "Ward (Life)": {
+          "name": "Protezione (Vita)"
+        }
+      }
+    },
+    "Power Familiar": {
+      "name": "Famiglio del Potere",
+      "tokenName": "Famiglio del Potere",
+      "items": {
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Stealth (Urban)": {
+          "name": "Nascondersi (Urbano)"
+        },
+        "Stealth (Rural)": {
+          "name": "Nascondersi (Rurale)"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Small": {
+          "name": "Piccolo"
+        },
+        "Magical": {
+          "name": "Magico"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Language (Classical)": {
+          "name": "Linguaggio (Classico)"
+        },
+        "Magical Assistant": {
+          "name": "Assistente Magico"
+        },
+        "Dagger": {
+          "name": "Pugnale"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Suffuse with (Wind)": {
+          "name": "Infuso di (Vento)"
+        }
+      }
+    },
+    "Incarnate Elemental of Fire": {
+      "name": "Elementale Incarnato del Fuoco",
+      "tokenName": "Elementale Incarnato del Fuoco",
+      "items": {
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Construct": {
+          "name": "Costrutto"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Spellcaster": {
+          "name": "Incantatore"
+        },
+        "Stride": {
+          "name": "Passo Lungo"
+        },
+        "Terror": {
+          "name": "Terrore"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Ward": {
+          "name": "Protezione"
+        },
+        "Weapon (Huge Glaive)": {
+          "name": "Arma (Enorme Falcione)"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Immunity": {
+          "name": "Immunità"
+        },
+        "Grim": {
+          "name": "Tetro"
+        }
+      }
+    },
+    "Balthasar Gelt": {
+      "name": "Balthasar Gelt",
+      "tokenName": "Patriarca Gelt",
+      "items": {
+        "Quicksilver (Pegasus housed at the Imperial Zoo)": {
+          "name": "Mercurio (Pegaso alloggiato nel Serraglio Imperiale)"
+        },
+        "Private Library and Workshop at the Gold College": {
+          "name": "Biblioteca e Laboratorio Privati nel Collegio d’Oro"
+        },
+        "Gold Coins as and when he needs them": {
+          "name": "Tutte le Monete d’Oro che gli occorrono"
+        },
+        "Vial of Panacea Universalis": {
+          "name": "Fiala di Panacea Universale"
+        },
+        "Amulet of Sea Gold": {
+          "name": "Amuleto del Mare d’Oro"
+        },
+        "The Gleaming Robe": {
+          "name": "Veste Scintillante"
+        },
+        "Suffuse with Chamon": {
+          "name": "Infuso di Chamon"
+        },
+        "Channelling (Chamon)": {
+          "name": "Incanalare (Chamon)"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Evaluate": {
+          "name": "Valutare"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Guilder)": {
+          "name": "Linguaggio (Mercantile)"
+        },
+        "Language (Khazalid)": {
+          "name": "Linguaggio (Khazalid)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Language (Wastelander)": {
+          "name": "Linguaggio (Wasteland)"
+        },
+        "Lore (Chemistry)": {
+          "name": "Conoscenza (Chimica)"
+        },
+        "Lore (Engineering)": {
+          "name": "Conoscenza (Ingegneria)"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Metallurgy)": {
+          "name": "Conoscenza (Metallurgia)"
+        },
+        "Lore (Science)": {
+          "name": "Conoscenza (Scienza)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Research": {
+          "name": "Ricercare"
+        },
+        "Ride (Horse)": {
+          "name": "Cavalcare (Cavalli)"
+        },
+        "Ride (Pegasus)": {
+          "name": "Cavalcare (Pegasi)"
+        },
+        "Trade (Alchemist)": {
+          "name": "Mestiere (Alchimista)"
+        },
+        "Trade (Blacksmith)": {
+          "name": "Mestiere (Fabbro)"
+        },
+        "Trade (Engineer)": {
+          "name": "Mestiere (Ingegnere)"
+        },
+        "Trade (Goldsmith)": {
+          "name": "Mestiere (Orafo)"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Arcane Magic (Metal)": {
+          "name": "Magia Arcana (Metallo)"
+        },
+        "Argumentative": {
+          "name": "Polemico"
+        },
+        "Bookish": {
+          "name": "Topo di Biblioteca"
+        },
+        "Concoct": {
+          "name": "Distillare"
+        },
+        "Coolheaded": {
+          "name": "Razionale"
+        },
+        "Craftsman (Goldsmith)": {
+          "name": "Artigiano (Orafo)"
+        },
+        "Dealmaker": {
+          "name": "Affarista"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Doomed": {
+          "name": "Predestinato"
+        },
+        "Etiquette (Guilder, Scholar)": {
+          "name": "Etichetta (Gilde, Accademici)"
+        },
+        "Instinctive Diction": {
+          "name": "Dizione Istintiva"
+        },
+        "Magical Sense": {
+          "name": "Senso Magico"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Resistance (Poison)": {
+          "name": "Resistente (Veleni)"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "War Wizard": {
+          "name": "Mago da Guerra"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Melee": {
+          "name": "Mischia"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Wealthy": {
+          "name": "Ricco"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Alchemist Lord": {
+          "name": "Signore degli Alchimisti"
+        },
+        "Sword": {
+          "name": "Spada"
+        },
+        "Bearing": {
+          "name": "Bussola"
+        },
+        "Dazzle": {
+          "name": "Abbagliare"
+        },
+        "Dart": {
+          "name": "Dardo"
+        },
+        "Drain": {
+          "name": "Risucchio"
+        },
+        "Gust": {
+          "name": "Folata"
+        },
+        "Light": {
+          "name": "Luce"
+        },
+        "Open Lock": {
+          "name": "Aprire Serrature"
+        },
+        "Shock": {
+          "name": "Shock"
+        },
+        "Twitch": {
+          "name": "Scossone"
+        },
+        "Warning": {
+          "name": "Avvertimento"
+        },
+        "Crucible of Chamon": {
+          "name": "Crogiolo di Chamon"
+        },
+        "Curse of Rust": {
+          "name": "Maledizione della Ruggine"
+        },
+        "Enchant Weapon": {
+          "name": "Incantare Arma"
+        },
+        "Feather of Lead": {
+          "name": "Piume di Piombo"
+        },
+        "Forge of Chamon": {
+          "name": "Forgia di Chamon"
+        },
+        "Gehenna’s Golden Globe": {
+          "name": "Globo d'Oro di Gehenna"
+        },
+        "Glittering Robe": {
+          "name": "Veste Scintillante"
+        },
+        "Goldsteel Shielding": {
+          "name": "Scudo d'Aureacciaio"
+        },
+        "Meteoric Ironclad": {
+          "name": "Corazza Meteorica"
+        },
+        "Prismatic Refraction of Habermas": {
+          "name": "Rifrazione Prismatica di Habermas"
+        },
+        "Replication of Levorg": {
+          "name": "Replica di Levorg"
+        },
+        "Transmutation of Chamon": {
+          "name": "Trasmutazione di Chamon"
+        },
+        "Hardness": {
+          "name": "Durezza"
+        },
+        "Shining Orbs": {
+          "name": "Globi Scintillanti"
+        },
+        "Enchanted Staff": {
+          "name": "Bastone Incantato"
+        },
+        "Al-kahest": {
+          "name": "Al-kahest"
+        },
+        "Mark of Chamon": {
+          "name": "Marchio di Chamon"
+        },
+        "Aethyric Armour (Metal)": {
+          "name": "Armatura Aethyrica (Metallo)"
+        },
+        "Aethyric Arms (Metal)": {
+          "name": "Arma Aethyrica (Metallo)"
+        },
+        "Blast (Metal)": {
+          "name": "Scoppio (Metallo)"
+        },
+        "Bolt (Metal)": {
+          "name": "Strale (Metallo)"
+        },
+        "Breath (Metal)": {
+          "name": "Soffio (Metallo)"
+        },
+        "Bridge (Metal)": {
+          "name": "Ponte (Metallo)"
+        },
+        "Chain Attack (Metal)": {
+          "name": "Attacco Concatenato (Metallo)"
+        },
+        "Corrosive Blood (Metal)": {
+          "name": "Sangue Corrosivo (Metallo)"
+        },
+        "Fearsome (Metal)": {
+          "name": "Temibile (Metallo)"
+        },
+        "Flight (Metal)": {
+          "name": "Volo (Metallo)"
+        },
+        "Teleport (Metal)": {
+          "name": "Teletrasporto (Metallo)"
+        },
+        "Ward (Metal)": {
+          "name": "Protezione (Metallo)"
+        }
+      }
+    },
+    "P’tarix – The One Who Writes": {
+      "name": "P’tarix – Colui Che Scrive",
+      "tokenName": "P’tarix",
+      "items": {
+        "Vast array of Ink Pots": {
+          "name": "Grande Scorta di Calamai"
+        },
+        "Quills": {
+          "name": "Penne"
+        },
+        "Sand for blotting": {
+          "name": "Sabbia per Asciugare"
+        },
+        "Parchment": {
+          "name": "Pergamena"
+        },
+        "Corruption": {
+          "name": "Corruzione"
+        },
+        "Daemonic": {
+          "name": "Demoniaco"
+        },
+        "Distracting": {
+          "name": "Distraente"
+        },
+        "Fear": {
+          "name": "Paura"
+        },
+        "Immunity to Psychology": {
+          "name": "Immunità alla Psicologia"
+        },
+        "Mutation": {
+          "name": "Mutazione"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Spell Syphon": {
+          "name": "Drenare Incantesimi"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Weapon (Quill)": {
+          "name": "Arma (Penna)"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Write (not Read)": {
+          "name": "Scrivere (non Leggere)"
+        }
+      }
+    },
+    "Fenbeast": {
+      "name": "Malabestia",
+      "tokenName": "Malabestia",
+      "items": {
+        "Stupid": {
+          "name": "Stupido"
+        },
+        "Hungry": {
+          "name": "Affamato"
+        },
+        "Construct": {
+          "name": "Costrutto"
+        },
+        "Dark Vision": {
+          "name": "Vista Oscura"
+        },
+        "Die Hard": {
+          "name": "Duro da Uccidere"
+        },
+        "Infected": {
+          "name": "Infetto"
+        },
+        "Regenerate": {
+          "name": "Rigenerare"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Swamp-strider": {
+          "name": "Palustre"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Weapon": {
+          "name": "Arma"
+        },
+        "Frenzy": {
+          "name": "Furia"
+        },
+        "Infestation": {
+          "name": "Infestazione"
+        },
+        "Territorial": {
+          "name": "Territoriale"
+        }
+      }
+    },
+    "Ashamira Dib": {
+      "name": "Ashamira Dib",
+      "tokenName": "Magister Dib",
+      "items": {
+        "Practical Robes of the Light Order": {
+          "name": "Vesti Pratiche dell'Ordine della Luce"
+        },
+        "Suffuse with Hysh": {
+          "name": "Infuso di Hysh"
+        },
+        "Channelling (Hysh)": {
+          "name": "Incanalare (Hysh)"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Entertain (Singing)": {
+          "name": "Intrattenere (Canto)"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Language (Nehekharan)": {
+          "name": "Linguaggio (Nehekharano)"
+        },
+        "Language (Reikspiel)": {
+          "name": "Linguaggio (Reikspiel)"
+        },
+        "Lore (Araby)": {
+          "name": "Conoscenza (Arabia)"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Necromancy)": {
+          "name": "Conoscenza (Necromanzia)"
+        },
+        "Lore (Nehekhara)": {
+          "name": "Conoscenza (Nehekhara)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Stealth (Rural)": {
+          "name": "Nascondersi (Rurale)"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Arcane Magic (Light)": {
+          "name": "Magia Arcana (Luce)"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Melee": {
+          "name": "Mischia"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Hierophant": {
+          "name": "Ierofante"
+        },
+        "Grimoire": {
+          "name": "Grimorio"
+        },
+        "Enchanted Staff": {
+          "name": "Bastone Incantato"
+        },
+        "Bearing": {
+          "name": "Bussola"
+        },
+        "Dazzle": {
+          "name": "Abbagliare"
+        },
+        "Conserve": {
+          "name": "Conserva"
+        },
+        "Light": {
+          "name": "Luce"
+        },
+        "Magic Flame": {
+          "name": "Fiamma Magica"
+        },
+        "Shock": {
+          "name": "Shock"
+        },
+        "Warning": {
+          "name": "Avvertimento"
+        },
+        "Daemonbane": {
+          "name": "Flagello del Demone"
+        },
+        "Dazzling Brightness": {
+          "name": "Luce Accecante"
+        },
+        "Eyes of Volans": {
+          "name": "Occhi di Volans"
+        },
+        "Light of Purity": {
+          "name": "Luce di Purezza"
+        },
+        "Phâ’s Protection": {
+          "name": "Protezione di Phâ"
+        },
+        "Pierce the Veil": {
+          "name": "Lacerare il Velo"
+        },
+        "Stoicism": {
+          "name": "Stoicismo"
+        },
+        "Mark of Hysh": {
+          "name": "Marchio di Hysh"
+        },
+        "Aethyric Armour (Light)": {
+          "name": "Armatura Aethyrica (Luce)"
+        }
+      }
+    },
+    "Egrimm van Horstmann": {
+      "name": "Egrimm van Horstmann",
+      "tokenName": "Egrimm",
+      "items": {
+        "Chaos Armour": {
+          "name": "Armatura del Caos"
+        },
+        "Cloak of Golden Glamour": {
+          "name": "Manto dell’Incanto Dorato"
+        },
+        "The Skull of Katam": {
+          "name": "Il Teschio di Katam"
+        },
+        "Animal Care": {
+          "name": "Allevare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Channelling (Dhar)": {
+          "name": "Incanalare (Dhar)"
+        },
+        "Channelling (Hysh)": {
+          "name": "Incanalare (Hysh)"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Entertain (Acting)": {
+          "name": "Intrattenere (Recitare)"
+        },
+        "Entertain (Singing)": {
+          "name": "Intrattenere (Canto)"
+        },
+        "Evaluate": {
+          "name": "Valutare"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Classical)": {
+          "name": "Linguaggio (Classico)"
+        },
+        "Language (Dark Tongue)": {
+          "name": "Linguaggio (Lingua Oscura)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Lore (Altdorf)": {
+          "name": "Conoscenza (Altdorf)"
+        },
+        "Lore (Daemonology)": {
+          "name": "Conoscenza (Demonologia)"
+        },
+        "Lore (Dark Magic)": {
+          "name": "Conoscenza (Magia Oscura)"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Nehekhara)": {
+          "name": "Conoscenza (Nehekhara)"
+        },
+        "Lore (Tzeentch)": {
+          "name": "Conoscenza (Tzeentch)"
+        },
+        "Lore (Warfare)": {
+          "name": "Conoscenza (Arte della Guerra)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Pick Lock": {
+          "name": "Scassinare"
+        },
+        "Research": {
+          "name": "Ricercare"
+        },
+        "Ride (Dragon)": {
+          "name": "Cavalcare (Draghi)"
+        },
+        "Ride (Horse)": {
+          "name": "Cavalcare (Cavalli)"
+        },
+        "Sleight of Hand": {
+          "name": "Rapidità di Mano"
+        },
+        "Stealth (Rural)": {
+          "name": "Nascondersi (Rurale)"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Animal Affinity": {
+          "name": "Affinità Animale"
+        },
+        "Cat-tongued": {
+          "name": "Lingua di gatto"
+        },
+        "Chaos Magic (Tzeentch)": {
+          "name": "Magia del Caos (Tzeentch)"
+        },
+        "Combat Aware": {
+          "name": "Vigile"
+        },
+        "Commanding Presence": {
+          "name": "Presenza Maestosa"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Doomed": {
+          "name": "Predestinato"
+        },
+        "Fast Hands": {
+          "name": "Mani Veloci"
+        },
+        "Frightening": {
+          "name": "Spaventoso"
+        },
+        "Impassioned Zeal": {
+          "name": "Fervore"
+        },
+        "Instinctive Diction": {
+          "name": "Dizione Istintiva"
+        },
+        "Iron Will": {
+          "name": "Volontà di Ferro"
+        },
+        "Lightning Reflexes": {
+          "name": "Riflessi Fulminei"
+        },
+        "Luck": {
+          "name": "Fortuna"
+        },
+        "Magical Sense": {
+          "name": "Senso Magico"
+        },
+        "Menacing": {
+          "name": "Minaccioso"
+        },
+        "Nimble Fingered": {
+          "name": "Dita Agili"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Savant (Tzeentch)": {
+          "name": "Genio (Tzeentch)"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "Strike Mighty Blow": {
+          "name": "Colpo Poderoso"
+        },
+        "Strong-minded": {
+          "name": "Volontà di Ferro"
+        },
+        "Tower of Memories": {
+          "name": "Torre di Memorie"
+        },
+        "Very Resilient": {
+          "name": "Saldo"
+        },
+        "War Wizard": {
+          "name": "Mago da Guerra"
+        },
+        "Wilful Corruption": {
+          "name": "Corruzione Deliberata"
+        },
+        "Afraid": {
+          "name": "Timoroso"
+        },
+        "Armour": {
+          "name": "Armatura"
+        },
+        "Corruption": {
+          "name": "Corruzione"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Arcane Magic (Daemonology, Lore of Light)": {
+          "name": "Magia Arcana (Demonologia, Sapere della Luce)"
+        },
+        "Chaos Runeblade": {
+          "name": "Lama Runica del Caos"
+        },
+        "Hollow Heart": {
+          "name": "Cuore Vuoto"
+        },
+        "Dart": {
+          "name": "Dardo"
+        },
+        "Drain": {
+          "name": "Risucchio"
+        },
+        "Eavesdrop": {
+          "name": "Origliare"
+        },
+        "Open Lock": {
+          "name": "Aprire Serrature"
+        },
+        "Sounds": {
+          "name": "Suoni"
+        },
+        "Warning": {
+          "name": "Avvertimento"
+        },
+        "Manifest Lesser Daemon": {
+          "name": "Manifestare Demone Minore"
+        },
+        "Octagram": {
+          "name": "Octacolo"
+        },
+        "Detect Daemon": {
+          "name": "Individuare Demone"
+        },
+        "Abulla’s Snare": {
+          "name": "Laccio di Abulla"
+        },
+        "Assault of Stone": {
+          "name": "Assalto di Pietra"
+        },
+        "Banishment": {
+          "name": "Esilio"
+        },
+        "Blinding Light": {
+          "name": "Fulgore Abbagliante"
+        },
+        "Driving Intent": {
+          "name": "Intenzione Trainante"
+        },
+        "Eyes of Volans": {
+          "name": "Occhi di Volans"
+        },
+        "Hands of Karkora": {
+          "name": "Mani di Karkora"
+        },
+        "Net of Amyntok": {
+          "name": "Rete di Amyntok"
+        },
+        "Speed of Thought": {
+          "name": "Velocità di Pensiero"
+        },
+        "Time Amok": {
+          "name": "Tempo Impazzito"
+        },
+        "Grimoire of Dark Magicks": {
+          "name": "Grimorio di Magie Oscure"
+        },
+        "Talisman of Tzeentch": {
+          "name": "Talismano di Tzeentch"
+        },
+        "Distracting": {
+          "name": "Distraente"
+        },
+        "Ward": {
+          "name": "Protezione"
+        },
+        "Bolt (Light)": {
+          "name": "Strale (Luce)"
+        },
+        "Blast (Light)": {
+          "name": "Scoppio (Luce)"
+        },
+        "Corrosive Blood (Light)": {
+          "name": "Sangue Corrosivo (Luce)"
+        },
+        "Distracting (Light)": {
+          "name": "Distraente (Luce)"
+        },
+        "Entangle (Light)": {
+          "name": "Aggrovigliare (Luce)"
+        },
+        "Flight (Light)": {
+          "name": "Volo (Luce)"
+        },
+        "Teleport (Light)": {
+          "name": "Teletrasporto (Luce)"
+        },
+        "Ward (Light)": {
+          "name": "Protezione (Luce)"
+        },
+        "Bolt of Change": {
+          "name": "Dardo di Cambiamento"
+        },
+        "Boon of Tzeentch": {
+          "name": "Dono di Tzeentch"
+        },
+        "Blue Fire of Tzeentch": {
+          "name": "Fuoco Blu di Tzeentch"
+        },
+        "Curse of Tzeentch": {
+          "name": "Maledizione di Tzeentch"
+        },
+        "The Flickering Flames of Fickle Fate": {
+          "name": "Fiamme Tremanti del Fato Capriccioso"
+        },
+        "Mindfire": {
+          "name": "Fuoco Mentale"
+        },
+        "Pink Fire of Tzeentch": {
+          "name": "Fuoco Rosa di Tzeentch"
+        },
+        "Transformation of Tzeentch": {
+          "name": "Trasformazione di Tzeentch"
+        },
+        "Treason of Tzeentch": {
+          "name": "Tradimento di Tzeentch"
+        },
+        "Tzeentch's Firestorm": {
+          "name": "Tempesta di Fuoco di Tzeentch"
+        },
+        "Tzeentch's Golden Aura": {
+          "name": "Aura Dorata di Tzeentch"
+        },
+        "Sense the Skein": {
+          "name": "Percepire il Groviglio"
+        },
+        "Word of Tzeentch": {
+          "name": "Parola di Tzeentch"
+        }
+      }
+    },
+    "Spell Familiar": {
+      "name": "Famiglio Incantatore",
+      "tokenName": "Famiglio Incantatore",
+      "items": {
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Channelling (Wind)": {
+          "name": "Incanalare (Vento)"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Language (Classical)": {
+          "name": "Linguaggio (Classico)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Research": {
+          "name": "Ricercare"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Small": {
+          "name": "Piccolo"
+        },
+        "Magical": {
+          "name": "Magico"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Dagger": {
+          "name": "Pugnale"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Suffuse with (Wind)": {
+          "name": "Infuso di (Vento)"
+        }
+      }
+    },
+    "Library Disc of Tzeentch": {
+      "name": "Disco-Biblioteca di Tzeentch",
+      "tokenName": "Disco-Biblioteca",
+      "items": {
+        "Armour (5)": {
+          "name": "Corazzato (5)"
+        },
+        "Corruption": {
+          "name": "Corruzione"
+        },
+        "Daemonic": {
+          "name": "Demoniaco"
+        },
+        "Distracting": {
+          "name": "Distraente"
+        },
+        "Fear": {
+          "name": "Paura"
+        },
+        "Flight": {
+          "name": "Volo"
+        },
+        "Immunity to Psychology": {
+          "name": "Immunità alla Psicologia"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Weapon (Bite)": {
+          "name": "Arma (Morso)"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        }
+      }
+    },
+    "Mòna Mimn": {
+      "name": "Mòna Mimn",
+      "tokenName": "Mòna Mimn",
+      "items": {
+        "Fenbeast Attendants": {
+          "name": "Malabestie Assistenti"
+        },
+        "Bale Eye": {
+          "name": "Occhio Malvagio"
+        },
+        "Channelling (Mòna’s Marsh Magic)": {
+          "name": "Incanalare (Magia Palustre di Mòna)"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Entertain (Storytelling)": {
+          "name": "Intrattenere (Narrativa)"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Theology)": {
+          "name": "Conoscenza (Teologia)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Arcane Magic (Mòna’s Marsh Magic)": {
+          "name": "Magia Arcana (Magia Palustre di Mòna)"
+        },
+        "Instinctive Diction": {
+          "name": "Dizione Istintiva"
+        },
+        "Luck": {
+          "name": "Fortuna"
+        },
+        "Magical Sense": {
+          "name": "Senso Magico"
+        },
+        "Menacing": {
+          "name": "Minaccioso"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "Armour": {
+          "name": "Armatura"
+        },
+        "Night Vision": {
+          "name": "Visione Notturna"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Swamp-strider": {
+          "name": "Palustre"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Bearing": {
+          "name": "Bussola"
+        },
+        "Careful Step": {
+          "name": "Passo Cauto"
+        },
+        "Gust": {
+          "name": "Folata"
+        },
+        "Marsh Lights": {
+          "name": "Fuochi Fatui"
+        },
+        "Spring": {
+          "name": "Sorgente"
+        },
+        "Sounds": {
+          "name": "Suoni"
+        },
+        "Breath": {
+          "name": "Soffio"
+        },
+        "Ward": {
+          "name": "Protezione"
+        },
+        "Fearsome": {
+          "name": "Temibile"
+        },
+        "Entangle": {
+          "name": "Aggrovigliare"
+        },
+        "A Bite of Midges": {
+          "name": "Morso dei Moscerini"
+        },
+        "Despondent Slough": {
+          "name": "Pantano Disperato"
+        },
+        "Inculcate Mizzle": {
+          "name": "Pioggerella Insistente"
+        },
+        "Mystic Mist": {
+          "name": "Nebbia Mistica"
+        },
+        "O Mere Be More": {
+          "name": "Oh, Palude, Cresci!"
+        },
+        "Cold Blooded": {
+          "name": "Sangue Freddo"
+        },
+        "Enchanted Staff": {
+          "name": "Bastone Incantato"
+        },
+        "Mouldy Robes": {
+          "name": "Vesti Ammuffite"
+        },
+        "Grim": {
+          "name": "Tetro"
+        },
+        "Turned Around": {
+          "name": "Smarrito"
+        }
+      }
+    },
+    "Elspeth von Draken": {
+      "name": "Elspeth von Draken",
+      "tokenName": "Elspeth",
+      "items": {
+        "Magical Licence": {
+          "name": "Licenza di Mago"
+        },
+        "Pale Scythe": {
+          "name": "Falce Pallida"
+        },
+        "Death’s Timekeeper": {
+          "name": "Clessidra della Morte"
+        },
+        "High Quality Elaborate Robes": {
+          "name": "Vesti Elaborate di Alta Qualità"
+        },
+        "Animal Care": {
+          "name": "Allevare"
+        },
+        "Channelling (Shyish)": {
+          "name": "Incanalare (Shyish)"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Evaluate": {
+          "name": "Valutare"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Battle)": {
+          "name": "Linguaggio (Battaglia)"
+        },
+        "Language (Classical)": {
+          "name": "Linguaggio (Classico)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Lore (Dragons)": {
+          "name": "Conoscenza (Draghi)"
+        },
+        "Lore (History)": {
+          "name": "Conoscenza (Storia)"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Nuln)": {
+          "name": "Conoscenza (Nuln)"
+        },
+        "Lore (Politics)": {
+          "name": "Conoscenza (Politica)"
+        },
+        "Lore (Warfare)": {
+          "name": "Conoscenza (Arte della Guerra)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Research": {
+          "name": "Ricercare"
+        },
+        "Ride (Dragon)": {
+          "name": "Cavalcare (Draghi)"
+        },
+        "Ride (Horse)": {
+          "name": "Cavalcare (Cavalli)"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Arcane Magic (Death)": {
+          "name": "Magia Arcana (Morte)"
+        },
+        "Bookish": {
+          "name": "Topo di Biblioteca"
+        },
+        "Coolheaded": {
+          "name": "Razionale"
+        },
+        "Combat Aware": {
+          "name": "Vigile"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Doomed": {
+          "name": "Predestinato"
+        },
+        "Fast Hands": {
+          "name": "Mani Veloci"
+        },
+        "Frightening": {
+          "name": "Spaventoso"
+        },
+        "Instinctive Diction": {
+          "name": "Dizione Istintiva"
+        },
+        "Luck": {
+          "name": "Fortuna"
+        },
+        "Magical Sense": {
+          "name": "Senso Magico"
+        },
+        "Menacing": {
+          "name": "Minaccioso"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Perfect Pitch": {
+          "name": "Tono Perfetto"
+        },
+        "Resistance (Disease)": {
+          "name": "Resistenza (Malattia)"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "War Wizard": {
+          "name": "Mago da Guerra"
+        },
+        "Ethereal": {
+          "name": "Etereo"
+        },
+        "Immunity to Psychology": {
+          "name": "Immunità alla Psicologia"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Melee": {
+          "name": "Mischia"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Spiriter Lord": {
+          "name": "Signore degli Spiriti"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Grimoire": {
+          "name": "Grimorio"
+        },
+        "Dart": {
+          "name": "Dardo"
+        },
+        "Drain": {
+          "name": "Risucchio"
+        },
+        "Shock": {
+          "name": "Shock"
+        },
+        "Warning": {
+          "name": "Avvertimento"
+        },
+        "Aethyric Arms (Death)": {
+          "name": "Arma Aethyrica (Morte)"
+        },
+        "Bridge (Death)": {
+          "name": "Ponte (Morte)"
+        },
+        "Flight (Death)": {
+          "name": "Volo (Morte)"
+        },
+        "Teleport (Death)": {
+          "name": "Teletrasporto (Morte)"
+        },
+        "Acceptance of Fate": {
+          "name": "Accettare il Fato"
+        },
+        "Amaranth": {
+          "name": "Amaranto"
+        },
+        "Animus Imprisoned": {
+          "name": "Anima Prigioniera"
+        },
+        "Ashes and Dust": {
+          "name": "Cenere e Polvere"
+        },
+        "Caress of Laniph": {
+          "name": "Carezza di Laniph"
+        },
+        "Compel Spirits": {
+          "name": "Obbligare Spirito"
+        },
+        "Crystal Maze": {
+          "name": "Labirinto di Cristallo"
+        },
+        "Death’s Release": {
+          "name": "Liberazione Funerea"
+        },
+        "Dying Words": {
+          "name": "Ultime Parole"
+        },
+        "Fate of Bjuna": {
+          "name": "Fato di Bjuna"
+        },
+        "Iyrtu’s Embrace": {
+          "name": "Abbraccio di Iyrtu"
+        },
+        "Limbwither": {
+          "name": "Arto Avvizzito"
+        },
+        "Purple Pall of Shyish": {
+          "name": "Feretro Purpureo di Shyish"
+        },
+        "Sanctify": {
+          "name": "Santificare"
+        },
+        "Scythe of Shyish": {
+          "name": "Falce di Shyish"
+        },
+        "Shyish Uncovered": {
+          "name": "Shyish Rivelato"
+        },
+        "Soul Vortex": {
+          "name": "Vortice d'Anime"
+        },
+        "Speed of Lykos": {
+          "name": "Velocità di Lykos"
+        },
+        "Steal Life": {
+          "name": "Rubavita"
+        },
+        "Swift Passing": {
+          "name": "Rapido Trapasso"
+        },
+        "Taste of Death": {
+          "name": "Assaggio di Morte"
+        },
+        "Telepathy": {
+          "name": "Telepatia"
+        },
+        "Tide of Years": {
+          "name": "Marea degli Anni"
+        },
+        "Wild Kin of Zandox": {
+          "name": "Stirpe Selvaggia di Zandox"
+        }
+      }
+    },
+    "Sergov Pfeiffer": {
+      "name": "Sergov Pfeiffer",
+      "tokenName": "Magister Pfeiffer",
+      "items": {
+        "Magical Licence": {
+          "name": "Licenza di Mago"
+        },
+        "Channelling (Aqshy)": {
+          "name": "Incanalare (Aqshy)"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Evaluate": {
+          "name": "Valutare"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Battle)": {
+          "name": "Linguaggio (Battaglia)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Language (Wastelander)": {
+          "name": "Linguaggio (Wasteland)"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Reikland)": {
+          "name": "Conoscenza (Reikland)"
+        },
+        "Lore (Warfare)": {
+          "name": "Conoscenza (Arte della Guerra)"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Arcane Magic (Lore of Fire)": {
+          "name": "Magia Arcana (Sapere del Fuoco)"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Doomed": {
+          "name": "Predestinato"
+        },
+        "Fast Hands": {
+          "name": "Mani Veloci"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Savvy": {
+          "name": "Buon Senso"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Sword": {
+          "name": "Spada"
+        },
+        "Staff": {
+          "name": "Bastone"
+        },
+        "Grimoire": {
+          "name": "Grimorio"
+        },
+        "Wizard's Robes": {
+          "name": "Vesti da Mago"
+        },
+        "Pyromancer": {
+          "name": "Piromante"
+        },
+        "Dazzle": {
+          "name": "Abbagliare"
+        },
+        "Dart": {
+          "name": "Dardo"
+        },
+        "Magic Flame": {
+          "name": "Fiamma Magica"
+        },
+        "Shock": {
+          "name": "Shock"
+        },
+        "Sly Hands": {
+          "name": "Mano Lesta"
+        },
+        "Crown of Flame": {
+          "name": "Corona di Fiamme"
+        },
+        "Firewall": {
+          "name": "Muro di Fuoco"
+        },
+        "Blast (Fire)": {
+          "name": "Scoppio (Fuoco)"
+        },
+        "Distracting (Fire)": {
+          "name": "Distraente (Fuoco)"
+        },
+        "Fearsome (Fire)": {
+          "name": "Temibile (Fuoco)"
+        },
+        "Melee (Basic)": {
+          "name": "Mischia (Armi Base)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        }
+      }
+    },
+    "Incarnate Elemental of Beasts": {
+      "name": "Elementale Incarnato delle Bestie",
+      "tokenName": "Elementale Incarnato delle Bestie",
+      "items": {
+        "Howl of the Great Beast": {
+          "name": "Ululato della Grande Bestia"
+        },
+        "Armour (Hide)": {
+          "name": "Corazzato (Pelle)"
+        },
+        "Construct": {
+          "name": "Costrutto"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Stride": {
+          "name": "Passo Lungo"
+        },
+        "Terror": {
+          "name": "Terrore"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Ward": {
+          "name": "Protezione"
+        },
+        "Weapon (Claws)": {
+          "name": "Arma (Artigli)"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Horns": {
+          "name": "Corna"
+        },
+        "Immunity": {
+          "name": "Immunità"
+        },
+        "Grim": {
+          "name": "Tetro"
+        }
+      }
+    },
+    "Gregor Martak": {
+      "name": "Gregor Martak",
+      "tokenName": "Magister Martak",
+      "items": {
+        "Eagle Totem": {
+          "name": "Totem dell'Aquila"
+        },
+        "Suffuse with Ghur": {
+          "name": "Infuso di Ghur"
+        },
+        "Animal Care": {
+          "name": "Allevare"
+        },
+        "Channelling (Ghur)": {
+          "name": "Incanalare (Ghur)"
+        },
+        "Charm": {
+          "name": "Affascinare"
+        },
+        "Cool": {
+          "name": "Freddezza"
+        },
+        "Dodge": {
+          "name": "Schivare"
+        },
+        "Evaluate": {
+          "name": "Valutare"
+        },
+        "Gossip": {
+          "name": "Pettegolezzi"
+        },
+        "Intimidate": {
+          "name": "Intimidire"
+        },
+        "Intuition": {
+          "name": "Intuire"
+        },
+        "Language (Bretonnian)": {
+          "name": "Linguaggio (Bretonniano)"
+        },
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Leadership": {
+          "name": "Comandare"
+        },
+        "Lore (Animals)": {
+          "name": "Conoscenza (Animali)"
+        },
+        "Lore (Magic)": {
+          "name": "Conoscenza (Magia)"
+        },
+        "Lore (Middenland)": {
+          "name": "Conoscenza (Middenland)"
+        },
+        "Lore (Warfare)": {
+          "name": "Conoscenza (Arte della Guerra)"
+        },
+        "Melee (Brawling)": {
+          "name": "Mischia (Rissa)"
+        },
+        "Melee (Polearm)": {
+          "name": "Mischia (Armi in Asta)"
+        },
+        "Outdoor Survival": {
+          "name": "Sopravvivenza"
+        },
+        "Perception": {
+          "name": "Percepire"
+        },
+        "Research": {
+          "name": "Ricercare"
+        },
+        "Ride (Griffon)": {
+          "name": "Cavalcare (Grifoni)"
+        },
+        "Ride (Horse)": {
+          "name": "Cavalcare (Cavalli)"
+        },
+        "Aethyric Attunement": {
+          "name": "Sintonia Aethyrica"
+        },
+        "Animal Affinity": {
+          "name": "Affinità Animale"
+        },
+        "Arcane Magic (Lore of Beasts)": {
+          "name": "Magia Arcana (Sapere delle Bestie)"
+        },
+        "Combat Aware": {
+          "name": "Vigile"
+        },
+        "Detect Artefact": {
+          "name": "Percepire Artefatti"
+        },
+        "Doomed": {
+          "name": "Predestinato"
+        },
+        "Fast Hands": {
+          "name": "Mani Veloci"
+        },
+        "Frightening": {
+          "name": "Spaventoso"
+        },
+        "Instinctive Diction": {
+          "name": "Dizione Istintiva"
+        },
+        "Iron Will": {
+          "name": "Volontà di Ferro"
+        },
+        "Magical Sense": {
+          "name": "Senso Magico"
+        },
+        "Menacing": {
+          "name": "Minaccioso"
+        },
+        "Orientation": {
+          "name": "Senso dell'Orientamento"
+        },
+        "Petty Magic": {
+          "name": "Magia Minore"
+        },
+        "Read/Write": {
+          "name": "Leggere/Scrivere"
+        },
+        "Second Sight": {
+          "name": "Seconda Vista"
+        },
+        "Sixth Sense": {
+          "name": "Sesto Senso"
+        },
+        "Sturdy": {
+          "name": "Robusto"
+        },
+        "Very Resilient": {
+          "name": "Saldo"
+        },
+        "War Wizard": {
+          "name": "Mago da Guerra"
+        },
+        "Armour (Furs)": {
+          "name": "Corazzato (Pellicce)"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Entertain": {
+          "name": "Intrattenere"
+        },
+        "Charm Animal": {
+          "name": "Domare Animali"
+        },
+        "Melee": {
+          "name": "Mischia"
+        },
+        "Gamble": {
+          "name": "Giocare d'Azzardo"
+        },
+        "Art": {
+          "name": "Arte"
+        },
+        "Endurance": {
+          "name": "Tempra"
+        },
+        "Row": {
+          "name": "Remare"
+        },
+        "Athletics": {
+          "name": "Atletica"
+        },
+        "Stealth": {
+          "name": "Nascondersi"
+        },
+        "Ride": {
+          "name": "Cavalcare"
+        },
+        "Consume Alcohol": {
+          "name": "Reggere Alcolici"
+        },
+        "Bribery": {
+          "name": "Corrompere"
+        },
+        "Drive": {
+          "name": "Condurre Carri"
+        },
+        "Haggle": {
+          "name": "Mercanteggiare"
+        },
+        "Climb": {
+          "name": "Arrampicarsi"
+        },
+        "Navigation": {
+          "name": "Orientarsi"
+        },
+        "Shaman Lord": {
+          "name": "Signore degli Sciamani"
+        },
+        "Enchanted Staff": {
+          "name": "Bastone Incantato"
+        },
+        "Feral": {
+          "name": "Ferale"
+        },
+        "Animal Friend": {
+          "name": "Amico Animale"
+        },
+        "Bearing": {
+          "name": "Bussola"
+        },
+        "Produce Small Animal": {
+          "name": "Creare Piccoli Animali"
+        },
+        "Spring": {
+          "name": "Sorgente"
+        },
+        "Warning": {
+          "name": "Avvertimento"
+        },
+        "Amber Talons": {
+          "name": "Artigli d'Ambra"
+        },
+        "Beast Form": {
+          "name": "Forma della Bestia"
+        },
+        "Beast Master": {
+          "name": "Signore delle Bestie"
+        },
+        "Beast Tongue": {
+          "name": "Parlata delle Bestie"
+        },
+        "Winter Coat": {
+          "name": "Manto dell'Inverno"
+        },
+        "Wyssan’s Wildform": {
+          "name": "Forma Selvaggia di Wyssan"
+        },
+        "Standard Robes": {
+          "name": "Vesti Standard"
+        },
+        "Mark of Ghur": {
+          "name": "Marchio di Ghur"
+        },
+        "Aethyric Armour (Beasts)": {
+          "name": "Armatura Aethyrica (Bestie)"
+        },
+        "Aethyric Arms (Beasts)": {
+          "name": "Arma Aethyrica (Bestie)"
+        },
+        "Breath (Beasts)": {
+          "name": "Soffio (Bestie)"
+        },
+        "Dark Vision (Beasts)": {
+          "name": "Vista Oscura (Bestie)"
+        },
+        "Entangle (Beasts)": {
+          "name": "Aggrovigliare (Bestie)"
+        }
+      }
+    },
+    "Construct": {
+      "name": "Costrutto",
+      "tokenName": "Costrutto",
+      "items": {
+        "Construct": {
+          "name": "Costrutto"
+        },
+        "Painless": {
+          "name": "Senza Dolore"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Stupid": {
+          "name": "Stupido"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Weapon": {
+          "name": "Arma"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        }
+      }
+    },
+    "Xirat’p – The One Who Reads": {
+      "name": "Xirat’p – Colui Che Legge",
+      "tokenName": "Xirat’p",
+      "items": {
+        "Language (Magick)": {
+          "name": "Linguaggio (Magico)"
+        },
+        "Corruption": {
+          "name": "Corruzione"
+        },
+        "Daemonic": {
+          "name": "Demoniaco"
+        },
+        "Distracting": {
+          "name": "Distraente"
+        },
+        "Fear": {
+          "name": "Paura"
+        },
+        "Immunity to Psychology": {
+          "name": "Immunità alla Psicologia"
+        },
+        "Random Caster": {
+          "name": "Incantatore Casuale"
+        },
+        "Size": {
+          "name": "Taglia"
+        },
+        "Unstable": {
+          "name": "Instabile"
+        },
+        "Weapon (Claws)": {
+          "name": "Arma (Artigli)"
+        },
+        "Brass Penny": {
+          "name": "Penny d'Ottone"
+        },
+        "Gold Crown": {
+          "name": "Corona d'Oro"
+        },
+        "Silver Shilling": {
+          "name": "Scellino d'Argento"
+        },
+        "Read (not Write)": {
+          "name": "Leggere (non Scrivere)"
+        }
+      }
+    }
+  }
+}

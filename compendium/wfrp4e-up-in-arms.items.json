@@ -1,823 +1,823 @@
 {
 	"label": "Items (Up In Arms)",
-  "folders": {
-      "Ammunition": "Munitions",
-      "Careers": "Carrières",
-      "Criticals": "Critiques",
-      "Prayers": "Prières",
-      "Skills": "Compétences",
-      "Spells": "Sorts",
-      "Trappings": "Possessions",
-      "Weapons": "Armes"
-  },
-  "mapping": {
-    "skills": {
-      "path": "system.skills",
-      "converter": "career_skills"
-    },
-    "talents": {
-      "path": "system.talents",
-      "converter": "career_talents"
-    },
-    "class": {
-      "path": "system.class.value",
-      "converter": "generic_localization"
-    },
-    "career_careergroup": "system.careergroup.value",
-    "trappings": "system.trappings"
-  },
+	"folders": {
+		"Ammunition": "Munizioni",
+		"Careers": "Carriere",
+		"Criticals": "Critici",
+		"Prayers": "Preghiere",
+		"Skills": "Abilità",
+		"Spells": "Incantesimi",
+		"Trappings": "Averi",
+		"Weapons": "Armi"
+	},
+	"mapping": {
+		"skills": {
+			"path": "system.skills",
+			"converter": "career_skills"
+		},
+		"talents": {
+			"path": "system.talents",
+			"converter": "career_talents"
+		},
+		"class": {
+			"path": "system.class.value",
+			"converter": "generic_localization"
+		},
+		"career_careergroup": "system.careergroup.value",
+		"trappings": "system.trappings"
+	},
 	"entries": {
 		"Ahlspiess": {
 			"name": "Ahlspiess",
-			"description": "<p>The ahlspiess mounts a long thin spike on a spear shaft, compromising its ability to inflict cutting wounds in order to better penetrate armour.</p>"
+			"description": "<p>L’ahlspiess è uno spuntone lungo e sottile montato su un manico da lancia. Sacrifica ogni capacità di taglio per ottenere una migliore penetrazione contro le armature.</p>"
 		},
 		"Animal Carcass": {
-			"name": "Animal Carcass",
-			"description": "<p>An Animal Carcass inflicts Damage +4 to everyone in the area of Blast 3. Furthermore every target within Blast 20 must pass an <strong>Very Easy (+60) Endurance</strong> Test or develop a @UUID[Compendium.wfrp4e-core.items.kKccDTGzWzSXCBOb]{Festering Wound}.</p>"
+			"name": "Carcassa Animale",
+			"description": "<p>Una carcassa di animale infligge Danno +4 a chi si trova nell’area dell’Esplosione 3. Inoltre, tutti coloro che sono nell’area dell’Esplosione 20 devono superare una <strong>Prova Molto Facile (+60) di Tempra per evitare una @UUID[Item.gWepykkOjhELdaeI]{Ferita Purulenta}.</p>"
 		},
 		"Apprentice Artillerist": {
-			"name": "Apprentice Artillerist",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+			"name": "Apprendista Artigliere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artigliere}</p>"
 		},
 		"Aqshy-Infused Powder": {
-			"name": "Aqshy-Infused Powder",
-			"description": "<p>For the very brave or foolish, this powder is created from sand from the Nehekeran desert, infused with additional Aqshy by means known only to the @UUID[Compendium.wfrp4e-altdorf.altdorf-journals.9Jv4y9kD1tAiZWnm]{Bright College} in Altdorf. It is more explosive than normal powder but does wear down barrels far more quickly than its mundane counterpart. Any failed Test that includes either an 8 or 9 on either the 10s or units die counts as a Fumble when using this powder.</p>"
+			"name": "Polvere Infusa d’Aqshy",
+			"description": "<p>Per i coraggiosi o i pazzi, questa polvere viene prodotta dalle sabbie del deserto Nehekarano, infuse di Aqshy tramite un processo noto solo al @UUID[Compendium.wfrp4e-altdorf.altdorf-journals.9Jv4y9kD1tAiZWnm]{Collegio Splendente} di Altdorf. È assai più potente della comune polvere nera, ma rovina le canne molto più in fretta. Quando si usa questa polvere, ogni Prova fallita che includa un 8 o 9 su uno dei due dadi è considerata un Disastro.</p>"
 		},
 		"Archer": {
-			"name": "Archer",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Archer}</p>"
+			"name": "Arciere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Arciere}</p>"
 		},
 		"Archer Captain": {
-			"name": "Archer Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Archer}</p>"
+			"name": "Capitano Arciere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Arciere}</p>"
 		},
 		"Archer Sergeant": {
-			"name": "Archer Sergeant",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Archer}</p>"
+			"name": "Sergente Arciere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Arciere}</p>"
 		},
 		"Arquebus": {
-			"name": "Arquebus",
-			"description": "<p>Little more than a scaled down cannon, the Arquebus is an ancient design indeed, often eschewing such innovations as sights, a trigger, or even a handle or grip. While early examples fired shot similar to or smaller than that used in modern blackpowder weapons, those surviving into current use in the Empire are typically larger bore weapons kept by nobles seeking to impress visitors. However, the sheer size of these relics renders them useful when the calibre of newer designs leaves something to be desired.</p>"
+			"name": "Schioppo",
+			"description": "<p>Poco più che un cannone in miniatura, lo schioppo è un’arma antica, spesso priva di migliorie come mirino, grilletto o calcio. I modelli originali sparavano pallottole di calibro pari o inferiore a quello dei moderni archibugi, ma quelli ancora in uso sono di calibro enorme, spesso usati dai nobili per impressionare gli ospiti. La pura potenza di queste armi le rende ancora utili quando il calibro degli archibugi moderni non è sufficiente.</p>"
 		},
 		"Artillerist": {
-			"name": "Artillerist",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+			"name": "Artigliere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artigliere}</p>"
 		},
 		"Artillerist Captain": {
-			"name": "Artillerist Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+			"name": "Capitano Artigliere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artigliere}</p>"
 		},
 		"Axe": {
-			"name": "Axe",
-			"description": "<p>Much beloved of Dwarfs, the axe is not as agile in the hand as a sword but the heavy cleaving head can make a mess of armour and shields.</p>"
+			"name": "Ascia",
+			"description": "<p>Molto amata dai Nani, l’ascia è meno agile della spada, ma la testa pesante può spaccare armature e scudi.</p>"
 		},
 		"Ball and Powder": {
-			"name": "Ball and Powder",
+			"name": "Palla e Polvere",
 			"description": ""
 		},
 		"Ballista": {
-			"name": "Ballista",
+			"name": "Balista",
 			"description": ""
 		},
 		"Ballock Knife": {
-			"name": "Ballock Knife",
-			"description": "<p>The short, slim blade of a ballock knife makes for a poor weapon, unless you have a heavily armoured opponent at your mercy.</p><p>* <em>Impale</em> and <em>Precise</em> Weapon Qualities added if the target is @Condition[Surprised] or @Condition[Prone].</p>"
+			"name": "Pugnale Ballock",
+			"description": "<p>Questa lama corta e sottile non è una buona arma contro avversari corazzati, a meno di averli alla propria mercé.</p><p>* <em>Penetrante</em> e <em>Precisa</em> si applicano solo se il bersaglio è @Condition[Sorpreso] o @Condition[Prono].</p>"
 		},
 		"Bandoleer": {
-			"name": "Bandoleer",
-			"description": "<p>A bandoleer is a leather belt that is worn diagonally, with a dozen or so small containers hanging from it, usually made of wood. These containers can be filled with a precise measure of blackpowder to make loading a handgun quicker and easier.</p>"
+			"name": "Bandoliera",
+			"description": "<p>Questa cinghia di cuoio viene portata di traverso sul petto, con una dozzina di piccoli contenitori appesi, di solito in legno. Questi possono essere riempiti con una misura esatta di polvere nera, rendendo più facile ricaricare archibugi e pistole.</p>"
 		},
 		"Banner Captain": {
-			"name": "Banner Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikeman}</p>"
+			"name": "Capitano di Bandiera",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Picchiere}</p>"
 		},
 		"Barbed Arrow": {
-			"name": "Barbed Arrow",
+			"name": "Freccia con Barbigli",
 			"description": ""
 		},
 		"Bastard Sword": {
-			"name": "Bastard Sword",
-			"description": "<p>Also known as a hand-and-a-half sword, the bastard sword is longer and heavier than a typical blade, but shorter and lighter than a zweihander. A fighter with Melee (Basic) could use a bastard sword as a single-handed weapon, but it gains the <em>Tiring</em> and <em>Slow</em> Flaws.</p>"
+			"name": "Spada Bastarda",
+			"description": "<p> Detta anche spada a una mano e mezza, questa lama è più lunga e pesante di una spada comune, ma più corta e leggera di una Zweihänder. Chi ha l’Abilità Mischia (Armi Base) può impiegarla con una mano, ma l’arma guadagna i Difetti <em>Faticosa</em> e <em>Lenta</em>.</p>"
 		},
 		"Beat Blade": {
-			"name": "Beat Blade",
-			"description": "<p>You are trained to make sharp controlled blows to your opponent’s weapon, creating an opening for an attack or simply impeding an incoming attack. For your Action, you can choose to Beat Blade before rolling. Perform a Melee Test; if successful, the opposing Advantage Pool loses –1 Advantage, and loses a further –1 if you score 6 SL. This Test is not Opposed. This Talent is of no use if your opponent has no weapon or has a larger Size than you.</p>"
+			"name": "Botta",
+			"description": "<p>Il Personaggio è addestrato a dare colpi controllati all’arma dell’avversario per creare aperture o deflettere attacchi. Come Azione, prima di tirare, può decidere di eseguire una Botta. Effettua una Prova di Mischia e, se ha successo, rimuove 1 Vantaggio dalla Riserva degli avversari, più un altro se ottiene almeno 6 LS. Questa non è una Prova Contrapposta. Questo Talento non ha effetto se il nemico non impugna un’arma o è di Taglia superiore.</p>"
 		},
 		"Bill": {
-			"name": "Bill",
-			"description": "<p>Derived from a farming tool the bill features a hooked blade that can be used to snag foes or chop them down. </p>"
+			"name": "Roncone",
+			"description": "<p>Derivato da uno strumento agricolo, il roncone ha una lama a uncino utile tanto per sbilanciare gli avversari quanto per finirli.</p>"
 		},
 		"Blunderbuss": {
-			"name": "Blunderbuss",
-			"description": "<p>An early form of firearm, the Blunderbuss features a wide bore that exchanges accuracy for ease of operation. It is typically loaded with powder, wadding, and many small projectiles to improve the chance of scoring a hit. It may be loaded with either @UUID[Compendium.wfrp4e-up-in-arms.items.AcL9KS6PCEl3NRyV]{Small Shot and Powder} or @UUID[Compendium.wfrp4e-up-in-arms.items.8Zyc8e60wzrC0AAi]{Scrap and Powder}. </p>"
+			"name": "Trombone",
+			"description": "<p>Questa antiquata arma da fuoco ha la canna molto larga e sacrifica la precisione per una maggiore facilità d’uso. Di solito viene caricata con polvere, borraggio e molti pallini, per aumentare la probabilità di colpire. Può impiegare una @UUID[Compendium.wfrp4e-up-in-arms.items.AcL9KS6PCEl3NRyV]{Carica a Pallini} o a @UUID[Compendium.wfrp4e-up-in-arms.items.8Zyc8e60wzrC0AAi]{Rottami}. </p>"
 		},
 		"Boat Hook": {
-			"name": "Boat Hook",
-			"description": "<p>Hooks are used by stevedores to help with loading and securing cargoes, but they can make vicious weapons if wielded with intent.</p>"
+			"name": "Gaffa",
+			"description": "<p>Usata dagli scaricatori per recuperare e bloccare i carichi, una gaffa può diventare un’arma micidiale nelle mani di un esperto.</p>"
 		},
 		"Bodkin Arrow": {
-			"name": "Bodkin Arrow",
+			"name": "Freccia Bodkin",
 			"description": ""
 		},
 		"Bolt": {
-			"name": "Bolt",
+			"name": "Dardo",
 			"description": ""
 		},
 		"Bomb": {
-			"name": "Bomb",
-			"description": "<p>Often thrown, there have been many attempts to fling devices loaded with blackpowder, pitch, or tar further than can be achieved by hand. Such devices may be loaded into a @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}, and launched quite far indeed.</p><p>Such ammunition cannot be loaded very far in advance, as the ammunition’s fuse must be lit before it can be loaded into the @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}. When loading, you must decide how many turns worth of fuse you have used for the ammunition. </p><p>One turn’s worth of fuse means that it will explode at the end of the current turn, two turns worth means it goes off at the end of your next turn, and so on. The ammunition goes off at that time, regardless of whether you have fired the weapon or not. You should keep track of this, as the GM is not required to remind you until the moment has arrived.</p>"
+			"name": "Bomba",
+			"description": "<p>Ci sono stati molti tentativi di trovare un modo per scagliare questi dispositivi, caricati con polvere nera, pece o catrame, più lontano di quanto si possa fare a mano. Un mortaio a mano è una scelta comune. Queste munizioni non possono essere preparate in anticipo, perché occorre accendere la miccia prima di caricarle nel mortaio. Chi lo fa deve quindi decidere quanti Turni di miccia vuole lasciare. Con uno la bomba esploderà alla fine del Turno in corso, con due alla fine di quello seguente e così via. L’esplosione avviene a prescindere dal fatto che il colpo sia stato sparato o no. Il Giocatore deve tenere traccia del tempo rimasto e il GM non è obbligato a ricordarglielo.</p>"
 		},
 		"Bow String": {
-			"name": "Bow String",
-			"description": "<p>Made from hemp or similar twine, bow strings tend to break, especially at crucial moments. Carrying a couple of spares has got to be a good policy. Quality ones will break less.</p>"
+			"name": "Corda per Arco",
+			"description": "<p>Le corde per arco, di solito fatte di canapa o altre fibre simili, tendono a rompersi nei momenti cruciali. È sempre meglio averne un paio di scorta. Quelle di qualità si rompono meno spesso.</p>"
 		},
 		"Bowman": {
-			"name": "Bowman",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Archer}</p>"
+			"name": "Saettatore",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Arciere}</p>"
 		},
 		"Bright Spark": {
-			"name": "Bright Spark",
+			"name": "Brillante",
 			"description": ""
 		},
 		"Bullet and Powder": {
-			"name": "Bullet and Powder",
-			"description": "<p>Fired from most @UUID[Compendium.wfrp4e-up-in-arms.items.pu2OkOWm15zEqWzz]{Pistols}, @UUID[Compendium.wfrp4e-up-in-arms.items.ivuGhpoG9e9fN3Ks]{Handguns} and their variants, bullets come in a small oiled sack and are typically sold with enough powder to fire them under normal circumstances.</p>"
+			"name": "Pallottole e Polvere",
+			"description": "<p>Usate da @UUID[Compendium.wfrp4e-up-in-arms.items.pu2OkOWm15zEqWzz]{Pistole}, @UUID[Compendium.wfrp4e-up-in-arms.items.ivuGhpoG9e9fN3Ks]{Archibugi} e loro varianti, le pallottole sono conservate in sacchetti di tela oleata e, di solito, vendute insieme a polvere sufficiente a usarle.</p>"
 		},
 		"Bullets and Powder (Swivel Gun)": {
-			"name": "Bullets and Powder (Swivel Gun)",
+			"name": "Pallottole e Polvere (Colubrina)",
 			"description": ""
 		},
 		"Camp Chief": {
-			"name": "Camp Chief",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Camp Follower}</p>"
+			"name": "Capo del Campo",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Vivandiere}</p>"
 		},
 		"Camp Follower": {
-			"name": "Camp Follower",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Camp Follower}</p>"
+			"name": "Vivandiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Vivandiere}</p>"
 		},
 		"Cane Pistol": {
-			"name": "Cane Pistol",
-			"description": "<p>A small-bore pistol concealed in a walking stick or cane, this weapon is somewhat impractical, but very hard to spot. Those looking for concealed weapons must pass a <strong>Hard (-20) Perception</strong> Test to identify this as a weapon, or a <strong>Very Hard (-30) Perception</strong> Test if they are unfamiliar with blackpowder weapons.</p>"
+			"name": "Bastone-Pistola",
+			"description": "<p>Questa pistola di piccolo calibro è nascosta all’interno di un bastone da passeggio. Per quanto poco pratica come arma è assai difficile da notare. Per individuarla, chi è alla ricerca di armi nascoste deve superare una Prova <strong>Ardua (-20) di Percepire</strong>, che diventa <strong>Molto Ardua (-30)</strong> se non ha familiarità con le armi da fuoco.</p>"
 		},
 		"Cannon (large)": {
-			"name": "Cannon (large)",
+			"name": "Cannone (Grande)",
 			"description": ""
 		},
 		"Cannon (medium)": {
-			"name": "Cannon (medium)",
+			"name": "Cannone (Medio)",
 			"description": ""
 		},
 		"Cannon (small)": {
-			"name": "Cannon (small)",
+			"name": "Cannone (Piccolo)",
 			"description": ""
 		},
 		"Captain": {
-			"name": "Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Light Cavalry}</p>"
+			"name": "Capitano",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Stradiotto}</p>"
 		},
 		"Captain Braun's Insta-Boiler": {
-			"name": "Captain Braun's Insta-Boiler",
-			"description": "<p>The Insta-Boiler looks like a tall cooking pot with a domed lid. It has a space at the bottom for the fire, with an enclosed, lidded chamber above that. It is claimed that it can cook stews and the like more quickly and at lower temperatures. Like the @UUID[unknown]{Multi-Stove}, it can be used on the move (if you’re very careful), it requires less fuel, and is harder to spot than an open fire.</p>"
+			"name": "Bollitore Istantaneo del Capitano Braun",
+			"description": "<p>Questo arnese somiglia a una pentola molto alta con il coperchio bombato. Sul fondo si può accendere un fuoco, mentre la parte superiore è un contenitore ermetico. Pare che vi si possa cuocere uno stufato in fretta e a temperatura più bassa del normale. Come il Fornello Multiplo, può essere usato durante la marcia (facendo attenzione). Consuma meno legna ed è più difficile da individuare rispetto a un fuoco da campo.</p>"
 		},
 		"Captain Braun's Multi-Stove": {
-			"name": "Captain Braun's Multi-Stove",
-			"description": "<p>An array of new-fangled equipment seems to emerge from the forges of Nuln every year. This heavy iron box, from the famous inventor Captain Braun, has several compartments within it to allow the cooking of different meals at once. It is even claimed that you can keep cooking on the move, though it does get a bit hot. The main advantages of this contraption are that it requires much less fuel to heat, it keeps its heat longer, and it considerably reduces the tell-tale signs of fire. Some cooks swear by the invention while some find it a waste of effort to cart around when an open fire might do just as well.</p>"
+			"name": "Fornello Multiplo del Capitano Braun",
+			"description": "<p>Ogni anno, le forge di Nuln producono una serie di innovazioni. Questa pesante cassa di ferro, ideata dal famoso Capitano Braun, permette di cuocere più pasti insieme. Pare funzioni anche durante la marcia, anche se tende a surriscaldarsi. Il vantaggio principale rispetto a un fuoco da campo è che richiede meno legna, conserva il calore a lungo ed è molto più difficile da individuare. Alcuni cuochi giurano che sia una meraviglia, altri lo considerano superfluo, dato che un fuoco funziona altrettanto bene.</p>"
 		},
 		"Cartographer": {
-			"name": "Cartographer",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartographer}</p>"
+			"name": "Cartografo",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartografo}</p>"
 		},
 		"Catapult (large)": {
-			"name": "Catapult (large)",
+			"name": "Catapulta (Grande)",
 			"description": ""
 		},
 		"Catapult (medium)": {
-			"name": "Catapult (medium)",
+			"name": "Catapulta (Media)",
 			"description": ""
 		},
 		"Catapult (small)": {
-			"name": "Catapult (small)",
+			"name": "Catapulta (Piccola)",
 			"description": ""
 		},
 		"Cavalry Hammer": {
-			"name": "Cavalry Hammer",
-			"description": "<p>Cavalry hammers are large, weighty weapons, favoured by the Knights of the White Wolf. On foot, they may be used with the Melee (Two-Handed) skill.</p>"
+			"name": "Martello da Cavaliere",
+			"description": "<p>Quest’arma enorme e pesante è la preferita dei Cavalieri del Lupo Bianco e può essere usata a piedi con l’Abilità Mischia (Armi a Due Mani).</p>"
 		},
 		"Chartered Cartographer": {
-			"name": "Chartered Cartographer",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartographer}</p>"
+			"name": "Cartografo Qualificato",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartografo}</p>"
 		},
 		"Cloak": {
-			"name": "Cloak",
-			"description": "<p>Some experts in fencing and parrying recommend keeping a cloak of heavy fabric handy. When bunched around the arm it can be used to distract opponents or divert their attacks. It can even be flung over an opponent in the hope that they will become lost in its folds. However, cloaks are not well suited for entangling attacks. When making a Test to see if an opponent becomes entangled in a cloak, the cloak has a Strength of 25.</p>"
+			"name": "Mantello",
+			"description": "<p>Alcuni esperti schermidori raccomandano di avere sempre con sé un mantello pesante che, arrotolato attorno al braccio, può essere usato per distrarre l’avversario o deflettere gli attacchi. È anche possibile lanciarglielo in faccia, sperando che resti bloccato tra le pieghe. Tuttavia, un mantello non è fatto per questo e, ai fini della Qualità Avvolgente, ha solo Forza 25.</p>"
 		},
 		"Club": {
-			"name": "Club",
-			"description": "<p>Clubs are as often found as they are crafted. The price listed indicates that a purchaser needs such a weapon in a hurry, though if a Character is in a wooded environment, they can source themselves a club by passing an Extended <strong>Challenging (+0) Outdoor Survival</strong> Test requiring a total of 7 SL.</p>"
+			"name": "Randello",
+			"description": "<p>Molti randelli non sono costruiti allo scopo di combattere. Il prezzo indica quanto costa procurarsene uno in caso d’emergenza, ma chi si trova in un bosco può recuperare un pezzo di legno adatto accumulando 7 LS in una <strong>Prova Prolungata Impegnativa (+0) di Sopravvivere</strong>.</p>"
 		},
 		"Command the Legion": {
-			"name": "Command the Legion",
-			"description": "<p>Myrmidia carries your orders across the battlefield. You may issue a command to any ally within line of sight. The command must be relevant to the accomplishment of an armed struggle or ongoing strategy. Any Leadership Tests you make as a result benefit from a +10 bonus.</p>"
+			"name": "Comandare la Legione",
+			"description": "<p>Myrmidia porta gli ordini del Benedetto per tutto il campo di battaglia, raggiungendo qualsiasi alleato in linea di vista. L’ordine deve essere importante per la risoluzione dello scontro o la strategia in corso. Un’eventuale Prova di Comandare effettuata in seguito all’ordine riceve un bonus di +10.</p>"
 		},
 		"Company Commander (Inner Circle)": {
-			"name": "Company Commander (Inner Circle)",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Knight Panther}</p>"
+			"name": "Comandante di Compagnia (Circolo Interno)",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Cavaliere Pantera}</p>"
 		},
 		"Compass": {
-			"name": "Compass",
-			"description": "<p>This rudimentary compass is a metal needle, balanced on a pin. Scholars debate the nature of the device. Some suspect it has an affinity for the very stuff of Chaos. Some suggest it may be attracted to a massive chunk of Warpstone somewhere in the Northern Wastes. But it is reliable and invaluable for navigation.</p>"
+			"name": "Bussola",
+			"description": "<p>Questa bussola rudimentale è formata da un ago metallico in equilibrio. Gli studiosi stanno dibattendo sul suo funzionamento. Alcuni sospettano che abbia un’affinità con il Caos, altri che sia attratta da un enorme blocco di Warpietra che si trova nella Desolazione Settentrionale. In ogni caso è molto affidabile per orientarsi.</p>"
 		},
 		"Crew Commander": {
-			"name": "Crew Commander",
-			"description": "<p>A Character with this talent is practised at managing crews of siege weapons and artillery pieces. The Character may make a <strong>Challenging (+0) Leadership</strong> Test to help a crew manning a weapon with the <em>Crewed</em> Quality within earshot. If the Character passes the Test, the crew members may then use the Character’s Ranged Skill when shooting the weapon.</p>"
+			"name": "Capopezzo",
+			"description": "<p>Il Personaggio è un esperto nel coordinare i serventi di un pezzo d’artiglieria. Può effettuare una <strong>Prova Impegnativa (+0) di Comandare</strong> per dare ordini a una squadra che si trovi entro portata di voce. Se ha successo, la squadra può usare il valore di Mira del Personaggio per fare fuoco con l’arma.</p>"
 		},
 		"Crossbowman": {
-			"name": "Crossbowman",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Siege Specialist}</p>"
+			"name": "Balestriere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Specialista d'Assedio}</p>"
 		},
 		"Dagger": {
-			"name": "Dagger",
-			"description": "<p>These blades are crafted specifically for fighting. A broken sword may be employed as a dagger but gains the <em>Dangerous</em> Flaw if it lacks an integral hilt. </p>"
+			"name": "Pugnale",
+			"description": "<p>Queste lame sono progettate apposta per il combattimento ravvicinato. Una spada spezzata può essere usata come un pugnale, ma se l’elsa è danneggiata ottiene il Difetto <em>Pericolosa</em>.</p>"
 		},
 		"Demi-Lance": {
-			"name": "Demi-Lance",
-			"description": "<p>Lances resemble spears, but with a weighty grip designed to brace the weapon against the arm and chest of a charging knight. The demi-lance is similar, but shorter and lighter.</p><p>* Lances and Demi-Lances count as @UUID[Compendium.wfrp4e-up-in-arms.items.okPRj8ixa55d9ETF]{Improvised Weapons} if used on a round where you have not charged.</p>"
+			"name": "Mezza-Lancia",
+			"description": "<p>La lancia da cavalleria è simile a quella da fante, ma dotata di un’impugnatura a contrappeso che il cavaliere stringe tra braccio e torso durante la carica. La mezza-lancia è simile, ma più corta e leggera.</p>"
 		},
 		"Diamond in the Rough": {
-			"name": "Diamond in the Rough",
+			"name": "Diamante Grezzo",
 			"description": ""
 		},
 		"Dismay Foe": {
-			"name": "Dismay Foe",
-			"description": "<p>You embody Myrmidia in her most wrathful of aspects. Gain the @Terror[1]{Terror 1} Creature Trait.</p>"
+			"name": "Sgomentare il Nemico",
+			"description": "<p>Il Prete incarna l’aspetto più furioso di Myrmidia e ottiene il Tratto @Terror[1]{Terrore 1}.</p>"
 		},
 		"Distract": {
-			"name": "Distract",
-			"description": "<p>You are trained in simple movements to distract or startle your opponent, drawing eyes from your true intent. You may use your Move to perform a Distraction. This is resolved by an <strong>Opposed Athletics/Cool</strong> Test against your target. If you win, your opponent can generate no Advantage for their Pool until the end of the next Round.</p>"
+			"name": "Distrarre",
+			"description": "<p>Il Personaggio è abile nell’usare piccoli movimenti per provocare o nascondere le sue vere intenzioni. Può usare la propria Manovra per Distrarre, effettuando una <strong>Prova Contrapposta Atletica/Freddezza</strong>. Se vince, l’avversario non può aggiungere Vantaggio alla sua Riserva fino al termine del Round seguente.</p>"
 		},
 		"Double-barrelled Handgun": {
-			"name": "Double-barrelled Handgun",
-			"description": "<p>If one barrel is good, surely two is better? About as complex as a firearm can be while still being used by the common soldier, a double-barrelled handgun has two barrels and two triggers. Though heavy, most come with a device for reloading both barrels at once, allowing the user to fire more frequently.</p>"
+			"name": "Archibugio a Doppia Canna",
+			"description": "<p>Se una canna è utile, due sono sicuramente meglio. Questa è forse l’arma più complessa ancora utilizzabile dai comuni soldati, dotata di due canne e due grilletti. È pesante e richiede un dispositivo per ricaricare entrambe le canne contemporaneamente, così da poter sparare più spesso.</p>"
 		},
 		"Dramatic Injury": {
-			"name": "Dramatic Injury",
-			"description": "<p>A prink to the cheek. Gain 1 @Condition[Bleeding] Condition. Once healed, the scar provides a bonus of +1 SL to appropriate social Tests. You can only gain this benefit once.</p>"
+			"name": "Ferita Drammatica",
+			"description": "<p>Un taglio sulla guancia. Causa 1 @Condition[Bleeding]{Sanguinante}. Una volta guarito lascerà una grossa cicatrice, che fornisce +1 LS alle Prove sociali appropriate. Questo bonus può essere ottenuto solo una volta.</p>"
 		},
 		"Drilled": {
-			"name": "Drilled",
-			"description": "<p>You have been trained to fight shoulder-to-shoulder with other soldiers. Characters with the Drilled Talent count as two combatants when determining @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#losing-advantage]{Losing Advantage}.</p>"
+			"name": "Addestrato",
+			"description": "<p>Il Personaggio si è allenato a combattere in formazione. Viene considerato come due combattenti per calcolare @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#losing-advantage]{Perdere Vantaggio}.</p>"
 		},
 		"File Leader": {
-			"name": "File Leader",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikeman}</p>"
+			"name": "Capofila",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Picchiere}</p>"
 		},
 		"First Eagle": {
-			"name": "First Eagle",
-			"description": ""
+			"name": "Prima Aquila",
+			"description": "@UUID[JournalEntry.Xm25vHdfMlXME9Uz.JournalEntryPage.lKjbkmp0AGMYYPp0]{Prete di Myrmidia}"
 		},
 		"First Knight": {
-			"name": "First Knight",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Knight Panther}</p>"
+			"name": "Primo Cavaliere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Cavaliere Pantera}</p>"
 		},
 		"Flail": {
-			"name": "Flail",
-			"description": "<p>Flails made for the battlefield incorporate metal swipples and reinforcements to the handle, enabling them to pack a heftier punch. </p>"
+			"name": "Flagello",
+			"description": "<p>I flagelli da guerra hanno calocchie in ferro e impugnature rinforzate, che conferiscono loro notevole potenza.</p>"
 		},
 		"Flamberge Zweihander": {
-			"name": "Flamberge Zweihander",
-			"description": "<p>The Empire’s famous greatsword regiments are armed with massive steel blades, as long as many polearms. Certain master armourers go to even greater lengths in adding waves and serrated edges to their swords. These weapons are known as flamberge blades, and the wounds they inflict can be deeper as a result of their cutting power.</p>"
+			"name": "Flamberga",
+			"description": "<p>I famosi reggimenti delle Grandispade imperiali usano queste enormi lame d’acciaio, lunghe quanto le impugnature di molte armi in asta. Alcuni mastri armaioli arrivano a realizzare lame serpentiformi o dentellate, dette flamberghe, che causano ferite assai più profonde.</p>"
 		},
 		"Flee!": {
-			"name": "Flee!",
-			"description": "<p>When your life is on the line, you are capable of impressive bursts of speed. Your Movement Attribute counts as 1 higher when Fleeing or when you are the Quarry in a pursuit.</p>"
+			"name": "Fuga!",
+			"description": "<p>Quando la sua vita è in pericolo, il Personaggio è capacedi incredibili scatti. Quando Fugge o è l’Inseguito il suoMovimento aumenta di 1.</p>"
 		},
 		"Foil": {
-			"name": "Foil",
-			"description": "<p>The foil is a light sword with a blade like a thin sharpened spike. They are light in the hand with a balance at the hilt, but short of a dramatic lunge they tend to only inflict small prinking injuries.</p>"
+			"name": "Fioretto",
+			"description": "<p>Questa spada leggera ha una lama simile a un lungo chiodo acuminato. Per quanto agile e bilanciata all’elsa, causa solo piccole punture a meno di eseguire un affondo assai lungo.</p>"
 		},
 		"Freelance Captain": {
-			"name": "Freelance Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freelance}</p>"
+			"name": "Libero Capitano",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Libera Lancia}</p>"
 		},
 		"Freelance Knight": {
-			"name": "Freelance Knight",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freelance}</p>"
+			"name": "Libera Lancia",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Libera Lancia}</p>"
 		},
 		"Fuse": {
-			"name": "Fuse",
-			"description": "<p>Fuse is similar to slow match but burns much more quickly, offering a way to detonate blackpowder from a distance. It is sold by the yard and burns at about one inch per second. Standard Quality fuse is likely to fail about 5% of the time over ten yards. Shoddy fuse must test every five yards.</p><p>* Price is per yard</p>"
+			"name": "Miccia",
+			"description": "<p>Al contrario di quella lenta, questa miccia brucia in fretta ed è ottima per far saltare la polvere nera da una distanza di sicurezza. Viene venduta al metro e brucia con una velocità di 2,5cm a secondo. Una miccia di qualità normale ha una probabilità di spegnersi del 5% ogni 10m, quella cattiva ogni 5m.</p><p>* Il prezzo è al metro.</p>"
 		},
 		"Garrote": {
-			"name": "Garrote",
-			"description": "<p>A garotte is a length of cord or wire intended to be slipped around the neck and drawn tight with the wielder’s hands. A Character in a coaching inn or urban location could make a garotte by passing an extended <strong>Challenging (+0) Trade (Chandler, Engineer, Tailor, or Tanner)</strong> Test requiring a total of 5 SL.</p>"
+			"name": "Garrota",
+			"description": "<p>La garrota è un pezzo di corda o cavo, che viene stretto al collo della vittima. Chi si trova in una stazione di posta o in un insediamento può improvvisarne una accumulando 5 LS in una <strong>Prova Prolungata Impegnativa (+0) di Mestiere (Candelaio, Conciatore, Ingegnere o Sarto)</strong>.</p>"
 		},
 		"Grain Flail": {
-			"name": "Grain Flail",
-			"description": "<p>The common adage that peasants can beat their ploughshares into weapons is overstated, but a grain flail in the right hands is dangerous. A grain flail consists of a wooden handle connected to a heavy stick, known as a swipple, by a length of chain. </p>"
+			"name": "Correggia",
+			"description": "<p>L’idea che i contadini possano trasformare ogni attrezzo in un’arma è esagerata ma, nelle mani giuste, una correggia è assai pericolosa. È formata da una lunga impugnatura di legno collegata a un piccolo bastone pesante, la calocchia, con un pezzo di catena alla fine.</p>"
 		},
 		"Grapeshot and Powder": {
-			"name": "Grapeshot and Powder",
+			"name": "Colpo a Grappolo e Polvere",
 			"description": ""
 		},
 		"Grapple": {
-			"name": "Grapple",
-			"description": "<p>Proposed for the Imperial Navy for use in boarding actions or to foul the enemy’s enemies rigging, Grapples consist of a heavily wadded hook designed to be fired from a @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar} only, along with 20 or so yards of rope. This may be used to attach a rope to a distant point, or snare an escaping enemy, in which case it inflicts one @Condition[Entangled] Condition on a successful hit. Those considering using this device to make a stealthy entry should be reminded that it is extremely loud when fired.</p>"
+			"name": "Rampino",
+			"description": "<p>Ideato per la Marina Imperiale per usarlo durante gli abbordaggi o per distruggere il sartiame, un rampino è un pesante gancio legato a una ventina di metri di corda, che viene sparato da un mortaio a mano. Permette di agganciare la corda a un punto distante o per bloccare un avversario in fuga, causando un Afferrato. Chi volesse impiegarlo per entrare di soppiatto in un edificio dovrebbe ricordarsi che le armi da fuoco sono decisamente rumorose.</p>"
 		},
 		"Great Axe": {
-			"name": "Great Axe",
-			"description": "<p>Rarely used by the Empire, but often employed by Norse tribes as a counter to heavy armour.</p>"
+			"name": "Ascia a Due Mani",
+			"description": "<p>Quest’arma è molto rara nell’Impero, ma i predoni Norscani la usano spesso per sfondare le armature pesanti.</p>"
 		},
 		"Greatsword": {
-			"name": "Greatsword",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Greatsword}</p>"
+			"name": "Grandespada",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Grandespada}</p>"
 		},
 		"Greatsword Cadet": {
-			"name": "Greatsword Cadet",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Greatsword}</p>"
+			"name": "Cadetto Grandespada",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Grandespada}</p>"
 		},
 		"Greatsword Captain": {
-			"name": "Greatsword Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Greatsword}</p>"
+			"name": "Capitano Grandespada",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Grandespada}</p>"
 		},
 		"Greatsword Sergeant": {
-			"name": "Greatsword Sergeant",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Greatsword}</p>"
+			"name": "Sergente Grandespada",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Grandespada}</p>"
 		},
 		"Griffonsfoot Pistol": {
-			"name": "Griffonsfoot Pistol",
-			"description": "<p>This weapon is best employed against a tight group of enemies. A single trigger discharges all six barrels, and reloading requires six shots and commensurate amount of powder.</p>"
+			"name": "Pistola Zampa di Grifone",
+			"description": "<p>Quest’arma dà il massimo contro gruppi di nemici a ranghi serrati. Una sola pressione del grilletto innesca tutte le sei canne, ma ricaricarla richiede sei pallottole e molta polvere.</p>"
 		},
 		"Gun Axe": {
-			"name": "Gun Axe",
-			"description": "<p>This weapon is much as one might imagine — a handgun combined with an axe. It may be used as either a Hand Weapon or a Handgun. However, if used as an axe while loaded, any critical fumble will discharge the weapon into the torso of the user.</p>"
+			"name": "Ascia da Fuoco",
+			"description": "<p>Come si può immaginare, quest’arma combina un archibugio e un’ascia. Può essere usata come l’uno o l’altra, ma quando è carica ottenere un Disastro fa sì che chi la impugna si spari nel Torso.</p>"
 		},
 		"Gun Halberd": {
-			"name": "Gun Halberd",
-			"description": "<p>Employing the same principles as the @UUID[Compendium.moo-dev.dev-items.3KRPhCsimHmFKTxj]{Gun Axe}, this weapon functions both as a halberd and as a handgun, with the firearm’s barrel built into the haft of the Halberd. If used as a halberd while loaded, any critical fumble will discharge the weapon into anyone unlucky enough to be standing directly behind the user.</p>"
+			"name": "Alabarda da Fuoco",
+			"description": "<p>Simile nel principio all’@UUID[Compendium.moo-dev.dev-items.3KRPhCsimHmFKTxj]{Ascia da Fuoco}, quest’arma può essere usata come un’alabarda o un archibugio e la canna è realizzata all’interno del manico. Quando è carica, ottenere un Disastro fa sì che chi si trova dietro il soldato venga colpito.</p>"
 		},
 		"Gunner": {
-			"name": "Gunner",
-			"description": "<p>You can reload blackpowder weapons with practiced ease. You add SL equal to your level in Gunner to any Extended Test to reload a blackpowder weapon. Reloading a ranged weapon during combat also counts as an @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#altered-actions-in-combat]{Assess} action. You gain an extra +1 Advantage when making that Assess Test.</p>"
+			"name": "Fuciliere",
+			"description": "<p>Il Personaggio è esperto nel ricaricare le armi da fuoco e somma il grado di questo Talento al LS della Prove Prolungate per farlo. Inoltre, ricaricare un’arma da fuoco conta anche come un’Azione di @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#altered-actions-in-combat]{Analisi}, che aggiunge +1 Vantaggio alla Riserva.</p>"
 		},
 		"Halberd": {
-			"name": "Halberd",
-			"description": "<p>The archetypal weapon of the forces of the Empire, the halberd can be employed to similar effect as either a spear or an axe.</p>"
+			"name": "Alabarda",
+			"description": "<p>Arma simbolo delle forze dell’Impero, può essere impiegata come un’ascia o una lancia.</p>"
 		},
 		"Halberdier": {
-			"name": "Halberdier",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Halberdier}</p>"
+			"name": "Alabardiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Alabardiere}</p>"
 		},
 		"Halberdier Captain": {
-			"name": "Halberdier Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Halberdier}</p>"
+			"name": "Capitano Alabardiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Alabardiere}</p>"
 		},
 		"Halberdier Recruit": {
-			"name": "Halberdier Recruit",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Halberdier}</p>"
+			"name": "Recluta Alabardiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Alabardiere}</p>"
 		},
 		"Halberdier Sergeant": {
-			"name": "Halberdier Sergeant",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Halberdier}</p>"
+			"name": "Sergente Alabardiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Alabardiere}</p>"
 		},
 		"Hand Mortar": {
-			"name": "Hand Mortar",
-			"description": "<p>Looking like a short, squat @UUID[Compendium.wfrp4e-up-in-arms.items.DQtxITVRh2pd8hxp]{Blunderbuss}, the Hand Mortar is a scaled down mortar designed to lob bombs and other large items in a desired direction. It is quite dangerous to use, as loading a little too much powder, or mistiming the fuse on a loaded bomb, will see the weapon explode quite spectacularly. Any fumble while reloading the weapon causes it to explode. However, the device does open up many opportunities for those willing to risk its use.</p>"
+			"name": "Mortaio a Mano",
+			"description": "<p> Simile a un @UUID[Compendium.wfrp4e-up-in-arms.items.DQtxITVRh2pd8hxp]{Trombone} più corto e largo, quest’arma è un mortaio in miniatura, usata per scagliare bombe e altri oggetti pesanti. È molto pericolosa, perché basta usare un pizzico di polvere di troppo o una miccia troppo corta per la bomba e l’arma scoppia in maniera spettacolare. Un Disastro durante la ricarica fa sì che l’arma esploda, ma chi si sente fortunato potrebbe trarre da questo strumento molte opportunità.</p>"
 		},
 		"Handgun": {
-			"name": "Handgun",
-			"description": "<p>A simple two-handed firearm, typically using a wheellock or flintlock design. Thousands of these are employed by the Empire state troops.</p>"
+			"name": "Archibugio",
+			"description": "<p>Un’arma da fuoco a due mani assai semplice, di solito con innesco a ruota o a pietra. Gli eserciti provinciali dell’Impero ne usano migliaia.</p>"
 		},
 		"Handgunner": {
-			"name": "Handgunner",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Handgunner}</p>"
+			"name": "Archibugiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Archibugiere}</p>"
 		},
 		"Handgunner Captain": {
-			"name": "Handgunner Captain",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Handgunner}</p>"
+			"name": "Capitano Archibugiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Archibugiere}</p>"
 		},
 		"Handgunner Recruit": {
-			"name": "Handgunner Recruit",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Handgunner}</p>"
+			"name": "Recluta Archibugiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Archibugiere}</p>"
 		},
 		"Handgunner Sergeant": {
-			"name": "Handgunner Sergeant",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Handgunner}</p>"
+			"name": "Sergente Archibugiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Archibugiere}</p>"
 		},
 		"Helblaster Volley Gun": {
-			"name": "Helblaster Volley Gun",
-			"description": ""
+			"name": "Cannone a Raffica Tuono d’Inferno",
+			"description": "<p>Quest’arma ha nove canne divise in gruppi di tre e arrangiate attorno a un meccanismo centrale. Ruotando una maniglia, un ingegnoso sistema d’ingranaggi innesca in sequenza le cariche, facendo partire scariche di letali proiettili.</p>"
 		},
 		"Helstorm Rocket Battery": {
-			"name": "Helstorm Rocket Battery",
-			"description": ""
+			"name": "Batteria di Razzi Tempesta Infernale",
+			"description": "<p>Il Mastro Ingegnere Herman Faulkstein inventò quest’arma dopo aver assistito a uno spettacolo di fuochi d’artificio del Catai ad Altdorf. È formata da un traino d’artiglieria su cui sono montati nove razzi caricati a polvere nera. Anche se l’inclinazione può essere modificata per colpire bersagli aerei, la batteria resta imprecisa e funziona meglio contro grossi reggimenti, piuttosto che piccoli gruppi di avventurieri.</p>"
 		},
 		"Hireling": {
-			"name": "Hireling",
+			"name": "Mercenario",
 			"description": ""
 		},
 		"Hochland Long Rifle": {
-			"name": "Hochland Long Rifle",
-			"description": "<p>One of the legendary and incredibly precise weapons used by the hunters of Hochland, such rifles are incredibly prized. Often used to target enemy officers, such weapons are considered unsporting by many nobles and enemy soldiers caught with when them are summarily hanged.</p>"
+			"name": "Moschetto dell’Hochland",
+			"description": "<p>Queste leggendarie armi dei cacciatori dell’Hochland sono incredibilmente precise e costose. Vengono spesso usate per eliminare gli ufficiali nemici da lontano e i nobili le considerano tanto diaboliche che chi ne possiede uno viene spesso impiccato sul posto.</p>"
 		},
 		"Hochmeister": {
 			"name": "Hochmeister",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Knight of the Blazing Sun}</p>"
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Cavaliere del Sole Splendente}</p>"
 		},
 		"Improvised Shot and Powder": {
-			"name": "Improvised Shot and Powder",
-			"description": "<p>A smidge of powder, possibly damp, and whatever stone looks like it might fit down the barrel of a gun. The cost is for the powder only — you are expected to find your own stone.</p>"
+			"name": "Pallottola e Polvere Improvvisate",
+			"description": "<p>Un pizzico di polvere, probabilmente bagnata, e un sasso più o meno del diametro giusto per la canna. Il prezzo è solo quello della polvere, il sasso bisogna procurarselo da soli.</p>"
 		},
 		"Improvised Weapon": {
-			"name": "Improvised Weapon",
-			"description": "<p>Hard and heavy items that are not intended to be used as a weapon may still serve in a desperate moment. This entry covers such items as chair legs, rocks, snooker cues, and bottles.</p>"
+			"name": "Arma Improvvisata",
+			"description": "<p>In caso d’emergenza, qualsiasi oggetto duro e pesante può diventare un’arma (per esempio gambe di sedia, rocce, stecche da biliardo e bottiglie).</p>"
 		},
 		"In Good Order": {
-			"name": "In Good Order",
-			"description": "<p>Knowing that the situation is hopeless you pray that your forces do not suffer from a disastrous rout. While the miracle is in play any allies may break from combat without allowing the enemy to gain advantage or make free attacks (see @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#fleeing]{Fleeing}).</p>"
+			"name": "In Ordine",
+			"description": "<p>Capendo che la situazione è disperata, il Prete prega affinché i suoi alleati non fuggano in modo disastroso. Finché questo Miracolo è attivo, gli alleati nell’area d’effetto possono Disingaggiare senza concedere Vantaggio al nemico o subire attacchi gratuiti (@UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#fleeing]{Fuga}).</p>"
 		},
 		"Incendiary": {
-			"name": "Incendiary",
-			"description": "<blockquote class=\"foundry-note\"><p>This Item is intended as Ammunition for @UUID[JournalEntry.2EGaOiGaaunZ2RuS.JournalEntryPage.SGWjMaw6OrZ06Nbp]{Blackpowder and Engineering} Weapons. For the thrown weapon, use @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Incendiary}, for Siege Ammunition, use @UUID[Item.MQV1cMMZQZnyzZx2]{Incendiary}</p><p>To use with @UUID[Item.d2LzU8hNCH97njsK]{Mortars}, change the Ammunition Type to <strong>Blackpowder and Engineering</strong></p></blockquote><p>Often thrown, there have been many attempts to fling devices loaded with blackpowder, pitch, or tar further than can be achieved by hand. Such devices may be loaded into a @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}, and launched quite far indeed.</p><p>Such ammunition cannot be loaded very far in advance, as the ammunition’s fuse must be lit before it can be loaded into the @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}. When loading, you must decide how many turns worth of fuse you have used for the ammunition.</p><p>One turn’s worth of fuse means that it will explode at the end of the current turn, two turns worth means it goes off at the end of your next turn, and so on. The ammunition goes off at that time, regardless of whether you have fired the weapon or not. You should keep track of this, as the GM is not required to remind you until the moment has arrived.</p>"
+			"name": "Bomba Incendiaria",
+			"description": "<blockquote class=\"foundry-note\"><p>This Item is intended as Ammunition for @UUID[JournalEntry.2EGaOiGaaunZ2RuS.JournalEntryPage.SGWjMaw6OrZ06Nbp]{Armi da Fuoco e Sperimentali}. For the thrown weapon, use @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Incendiary}, for Siege Ammunition, use @UUID[Item.MQV1cMMZQZnyzZx2]{Incendiary}</p><p>To use with @UUID[Item.d2LzU8hNCH97njsK]{Mortars}, change the Ammunition Type to <strong>Blackpowder and Engineering</strong></p></blockquote><p>Often thrown, there have been many attempts to fling devices loaded with blackpowder, pitch, or tar further than can be achieved by hand. Such devices may be loaded into a @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}, and launched quite far indeed.</p><p>Such ammunition cannot be loaded very far in advance, as the ammunition’s fuse must be lit before it can be loaded into the @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}. When loading, you must decide how many turns worth of fuse you have used for the ammunition.</p><p>One turn’s worth of fuse means that it will explode at the end of the current turn, two turns worth means it goes off at the end of your next turn, and so on. The ammunition goes off at that time, regardless of whether you have fired the weapon or not. You should keep track of this, as the GM is not required to remind you until the moment has arrived.</p>"
 		},
 		"Infirm": {
-			"name": "Infirm",
+			"name": "Infermo",
 			"description": ""
 		},
 		"Jarred Arm": {
-			"name": "Jarred Arm",
-			"description": "<p>Your arm is badly jarred in the attack. Drop whatever was held in that hand, which is useless for [[/r 1d10]] - Toughness Bonus Rounds (minimum 1). For this time, treat the hand as lost. (see @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#amputated-parts]{Amputated Parts})</p>"
+			"name": "Tremore Grave",
+			"description": "<p>La mano lascia cadere quello che stringeva, diventando inutilizzabile per [[/r 1d10]] - Bonus Resistenza Round (minimo 1). In questo periodo è considerata persa (vedere @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#amputated-parts]{Amputazioni}).</p>"
 		},
 		"Jolted Wrist": {
-			"name": "Jolted Wrist",
-			"description": "<p>Drop any item held in that hand.</p>"
+			"name": "Tremore",
+			"description": "<p>Si perde quello che si stringeva in mano</p>"
 		},
 		"Knife": {
-			"name": "Knife",
-			"description": "<p>This entry covers short, sharp blades intended for purposes other than fighting, such as kitchen or hunting knives.</p>"
+			"name": "Coltello",
+			"description": "<p>Questa voce include ogni lama corta e affilata non adatta al combattimento, come i coltelli da cucina o da caccia.</p>"
 		},
 		"Knight": {
-			"name": "Knight",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Knight Panther}</p>"
+			"name": "Cavaliere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Cavaliere Pantera}</p>"
 		},
 		"Knight of the Inner Circle": {
-			"name": "Knight of the Inner Circle",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Knight of the Blazing Sun}</p>"
+			"name": "Cavaliere del Circolo Interno",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Cavaliere del Sole Splendente}</p>"
 		},
-		"Kniht Commander": {
-			"name": "Kniht Commander",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freelance}</p>"
+		"Knight Commander": {
+			"name": "Cavaliere Comandante",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Libera Lancia}</p>"
 		},
 		"Know Your Enemy": {
-			"name": "Know Your Enemy",
-			"description": "<p>You call on Myrmidia to inform you of a nearby enemy’s strengths and weaknesses. The GM should allow you to check the profile, traits, skills and talents of the target.</p>"
+			"name": "Conosci il tuo Nemico",
+			"description": "<p>Il Benedetto invoca Myrmidia per conoscere punti di forza e debolezze di un nemico vicino. Il Giocatore può esaminare il profilo completo del bersaglio.</p>"
 		},
 		"Knuckledusters": {
-			"name": "Knuckledusters",
-			"description": "<p>Brass knuckles can add considerable power to a fighter’s strikes, but a set of knuckledusters could be improvised from textiles and tools. A Character in an urban location can make themselves knuckledusters by passing an extended <strong>Challenging (+0) Trade (Carpenter, Engineer, Smith, Tailor or Tanner)</strong> Test requiring a total of 10 SL.</p>"
+			"name": "Tirapugni",
+			"description": "<p>Un tirapugni di metallo aggiunge notevole forza agli attacchi a mani nude, ma l’arma può essere improvvisata usando stoffa e alcuni attrezzi. Chi si trova in un insediamento può costruirsi un tirapugni accumulando 10 LS in una <strong>Prova Prolungata Impegnativa (+0) di Mestiere (Conciatore, Fabbro, Falegname, Ingegnere o Sarto)</strong>.</p>"
 		},
 		"Lance": {
-			"name": "Lance",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Light Cavalry}</p>"
+			"name": "Lancia",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Stradiotto}</p>"
 		},
 		"Large Bullet and Powder": {
-			"name": "Large Bullet and Powder",
-			"description": "<p>Technically a small cannonball, these shots are loaded into large bore weapons such as an @UUID[Compendium.wfrp4e-up-in-arms.items.HblRPlASKOI73aOE]{Arquebus} or @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}. Those firing such a device, or standing within 2 yards of the user, must make a <strong>Challenging (+0) Endurance</strong> Test or gain a @Condition[Deafened] Condition.</p>"
+			"name": "Pallettone e Polvere",
+			"description": "<p>Tecnicamente una piccola palla di cannone, questo proiettile viene usato in armi di grosso calibro, come schioppi e mortai a mano. Chi usa queste armi, o si trova entro 2m da esse, deve superare una <strong>Prova Impegnativa (+0) di Tempra</strong> per non restare @Condition[Deafened]{Assordato}.</p>"
 		},
 		"Light Cavalry": {
-			"name": "Light Cavalry",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Light Cavalry}</p>"
+			"name": "Scorridore",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Stradiotto}</p>"
 		},
 		"Locked Gauntlet": {
-			"name": "Locked Gauntlet",
-			"description": "<p>A locked gauntlet is formed from plates of steel that encase the fist and can be held shut with a screw or catch. Whilst the gauntlet may be used as a Brawling Weapon it is more commonly employed as a method to ensure that the wielder does not drop a weapon held in the gauntleted hand. A locked gauntlet may be purchased as part of a set of plate armour for the arm. Add the price of the locked gauntlet to that of the armour. Use the Encumbrance of the armour itself; the locked gauntlet does not add significant weight.</p><p>If a Character equipped with a locked gauntlet would normally be forced to drop an item held in that hand, they do not drop it. Instead, they suffer a -20 penalty to any Tests made with that item, including Melee Tests, for however long the circumstances that would have caused them to drop it remain in effect (to a minimum of one turn). If something occurs during this time that would cause them to drop the item again, they drop it despite wearing a locked gauntlet.</p><p><strong>Example</strong>: <em>Jenna the Mercenary carries a sword in her right hand. She also has a locked gauntlet on her right hand, and before she enters combat she ensures the catch is secured. During a fight Jenna’s opponent uses the Disarm Talent. This would normally cause Jenna to lose her sword but because of her Locked Gauntlet she keeps hold of it. She suffers a -20 penalty to Melee Tests for a turn, after which she regains her correct grip and fights as normal. </em></p><p><em>Later in the combat, Jenna suffers a critical hit, Clean Break, which would require her to drop anything held by that arm. Jenna still retains her weapon, but this time she suffers the -20 penalty to Melee Tests (as well as other penalties for the broken arm) until she receives medical attention. Whilst in this parlous state her opponent uses the Disarm Talent again, and finally forces Jenna to drop her sword.</em></p>"
+			"name": "Guanto Serrato",
+			"description": "<p> Un guanto serrato è formato da placche d’acciaio che possono essere bloccate in posizione di pugno con una vite o un fermo. Anche se usato come arma da rissa, il suo scopo principale è impedire che il guerriero lasci cadere l’arma che impugna. È possibile acquistarlo come parte di un paio di bracciali di piastre. Il prezzo di arma e armatura si somma, ma l’Ingombro è solo quello dell’armatura, dato che il meccanismo non aggiunge un peso significativo.</p><p>Quando un Personaggio con un guanto serrato è costretto a lasciar cadere ciò che impugna, l’oggetto rimane in mano, ma ogni suo utilizzo subisce una penalità di -20 per un periodo di tempo pari a quello della condizione che avrebbe fatto perdere la presa (minimo 1 Turno). Se un secondo effetto provoca la caduta dell’oggetto prima che la penalità sia scomparsa, il Personaggio lo perde a prescindere dal guanto.</p><p><strong>Esempio</strong>: <em>Jenna la mercenaria impugna una spada nella mano destra, protetta da un guanto serrato. Prima di entrare in combattimento ne blocca il fermo. Durante lo scontro, il suo avversario usa il Talento Disarmare. Normalmente Jenna sarebbe costretta a lasciare la presa sulla spada, ma grazie al guanto la mantiene. Tuttavia subisce una penalità di -20 alle Prove di Mischia per un Turno, poi corregge l’impugnatura.</em></p>"
 		},
 		"Lost Footing": {
-			"name": "Lost Footing",
-			"description": "<p>In the scuffle you lose your footing. Pass a <strong>Challenging (+0) Endurance</strong> Test or gain the @Condition[Prone] Condition.</p>"
+			"name": "Perdita d'Equilibrio",
+			"description": "<p>Nella colluttazione perdi l'equilibrio. Superare una  <strong>Prova Impegnativa (+0) di Tempra</strong> per non cadere @Condition[Prone]{Prono}.</p>"
 		},
 		"Mace": {
-			"name": "Mace",
-			"description": "<p>The typical mace is a metal shaft with a heavy head shaped in flanges or spiked protrusions. Whilst it is less wieldy than a sword it inflicts concussive blows.</p>"
+			"name": "Mazza",
+			"description": "<p>La comune mazza ha l’impugnatura in metallo e una testa pesante, flangiata o chiodata. Per quanto più goffa di una spada infligge colpi tremendi.</p>"
 		},
 		"Main Gauche": {
-			"name": "Main Gauche",
-			"description": "<p>A main gauche is a specially designed dagger used in fencing. It is so called because it is typically wielded in the left hand by right-handed fighters to complement a fencing weapon used as a primary weapon. A fighter with no Melee (Parrying) Skill could still use a main gauche, though they would call it a dagger and it would lose the <em>Defensive</em> Quality.</p>"
+			"name": "Daga Mancina",
+			"description": "<p>Questa daga è progettata apposta per essere impugnata con la mano sinistra, da cui il nome, e usata insieme a una spada da scherma. Chi non ha l’Abilità Mischia (Armi Difensive) può impiegarla come un comune pugnale, perdendo però la Qualità <em>Difensiva</em>.</p>"
 		},
 		"Mancatcher": {
-			"name": "Mancatcher",
-			"description": "<p>The mancatcher is a strange polearm with a semi-circular head festooned with short spikes. The weapon may catch a person around the neck, forcing them to cease struggling for fear of further injury. It is not often seen in the Empire, though Skaven and Hobgoblins regularly employ them. Some Mancatchers come with spring-loaded mechanisms. These cost 4 GC but the wielder benefits from a bonus of +20 to any Strength Tests made to entangle someone with the weapon.</p>"
+			"name": "Forca per Prigionieri",
+			"description": "<p>Questa insolita arma in asta ha una testa semicircolare con una serie di spine e viene usata per bloccare il collo della vittima, che smette di lottare per timore di ferirsi. È molto rara nell’Impero, ma Skaven e Hobgoblin la usano regolarmente. Alcuni modelli hanno un meccanismo a molla; costano 4 corone e conferiscono +20 alle Prove di Forza per bloccare l’avversario.</p>"
 		},
 		"Master Artillerist": {
-			"name": "Master Artillerist",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+			"name": "Mastro Artigliere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artigliere}</p>"
 		},
 		"Master Cartographer": {
-			"name": "Master Cartographer",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartographer}</p>"
+			"name": "Mastro Cartografo",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartografo}</p>"
 		},
 		"Matchlock Blunderbuss": {
-			"name": "Matchlock Blunderbuss",
-			"description": "<p>An earlier design of Blunderbuss, this weapon has the same drawbacks as the @UUID[Compendium.wfrp4e-up-in-arms.items.zcn4bYbkz5N4PZJv]{Matchlock Handgun}.</p>"
+			"name": "Trombone a Miccia",
+			"description": "<p>Una vecchia versione del trombone, che condivide le stesse limitazioni dell’@UUID[Compendium.wfrp4e-up-in-arms.items.zcn4bYbkz5N4PZJv]{Archibugio a Miccia}.</p>"
 		},
 		"Matchlock Handgun": {
-			"name": "Matchlock Handgun",
-			"description": "<p>An earlier design of handgun, a few of these relics persist around the Empire, and can often be had quite cheaply. Before use, a user must spend one action to light the fuse on their weapon. A lit fuse will burn for quite a while unless doused by rain or wind.</p>"
+			"name": "Archibugio a Miccia",
+			"description": "<p>Nell’Impero si trovano ancora alcuni di questi antiquati modelli di archibugio, spesso a buon prezzo. Prima di usarlo, il soldato deve usare un’Azione per accendere la miccia, ma questa brucia a lungo, se non viene spenta dalla pioggia o dal vento.</p>"
 		},
 		"Military Flail": {
-			"name": "Military Flail",
-			"description": "<p>Flails made for the battlefield incorporate metal swipples and reinforcements to the handle, enabling them to pack a heftier punch. </p>"
+			"name": "Flagello Militare",
+			"description": "<p>I flagelli da guerra hanno calocchie in ferro e impugnature rinforzate, che conferiscono loro notevole potenza.</p>"
 		},
 		"Military Pick": {
-			"name": "Military Pick",
-			"description": "<p>Crude picks are little more than a metal spike on the end of a stick, though better made weapons are fashioned from steel. They are not agile weapons but are well designed to crack armour.</p>"
+			"name": "Piccone da Guerra",
+			"description": "<p>Quest’arma brutale è poco più che uno spuntone di ferro in cima a un pezzo di legno (quelli di miglior qualità sono d’acciaio). È progettata per sfondare le armature, ma non è affatto maneggevole.</p>"
 		},
 		"Mortar": {
-			"name": "Mortar",
-			"description": ""
+			"name": "Mortaio",
+			"description": "<p>Un mortaio è l’equivalente a polvere nera di una catapulta e scaglia palle pesanti o bombe in una traiettoria ad arco. Vengono usati soprattutto durante gli assedi per gettare esplosivi oltre le mura.</p>"
 		},
 		"Novice": {
-			"name": "Novice",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Knight of the White Wolf}</p>"
+			"name": "Iniziato",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Cavaliere del Lupo Bianco}</p>"
 		},
 		"Old Salt": {
-			"name": "Old Salt",
+			"name": "Lupo di Mare",
 			"description": ""
 		},
 		"On Deadly Ground": {
-			"name": "On Deadly Ground",
-			"description": "<p>Knowing that victory cannot be secured unless your forces stand firm you call on Myrmidia to banish all thoughts of retreat from the minds of your allies. Whilst the miracle is in effect your allies do not receive @Condition[Broken] Conditions. </p>"
+			"name": "Fino alla Morte",
+			"description": "<p>Sapendo che la vittoria non può essere raggiunta senza tenere la posizione, il Benedetto invoca Myrmidia affinché bandisca dalle menti dei suoi alleati l’idea di ritirarsi. Mentre questo Miracolo è attivo, gli alleati nell’Area d’Effetto non possono subire la Condizione @Condition[Broken]{Atterrito}.</p>"
 		},
 		"Ostrich Feather": {
-			"name": "Ostrich Feather",
-			"description": "<p>These large feathers from strange Arabyan birds are all the rage among courtiers and now the military. They come in all sorts of colours. One might think that a soldier with the brightest feather in their hat might be the most likely to get their head blown off, but soldiers treat this as a test of courage. Some traders try to pass off the feathers of any common or garden bird as genuine ostrich.</p>"
+			"name": "Piume di Struzzo",
+			"description": "<p>Le grandi piume di questo strano uccello dell’Arabia sono di gran moda tra cortigiani e soldati. Ne esistono di ogni colore e si potrebbe pensare che chi ha la più colorata sul cappello corra i rischi maggiori, ma i soldati lo considerano una prova di coraggio. Alcuni mercanti spacciano piume di comuni volatili come autentico struzzo.</p>"
 		},
 		"Paper Cartridge": {
-			"name": "Paper Cartridge",
-			"description": "<p>These are pre prepared packages of shot, powder, and wadding, making reloading blackpowder weapons far easier. Tests made to reload a suitable weapon with this ammunition benefit from a +10 bonus.</p>"
+			"name": "Cartuccia",
+			"description": "<p>Questo pacchetto contiene pallottola, polvere e borraggio, già pronti per ricaricare più in fretta. Conferisce un bonus di +10 alle Prove per ricaricare un’arma del tipo adatto.</p>"
 		},
 		"Partizan/Glaive": {
-			"name": "Partizan/Glaive",
-			"description": "<p>Partizans are spears with thick leaf-shaped blades, whilst glaives are polearms that mount a cleaving blade or sword blade as their head. They both act in the same way, sacrificing some of the reach of the spear to inflict heavier cutting blows.</p>"
+			"name": "Partigiana/Falcione",
+			"description": "<p>La partigiana è una lancia con una testa larga a forma di foglia, mentre il falcione monta una lama da mannaia o spada. Funzionano in maniera simile, sacrificando la portata per riuscire a causare terribili colpi di taglio.</p>"
 		},
 		"Pavise": {
-			"name": "Pavise",
-			"description": "<p>The pavise is a large shield carried by crossbowmen to provide shelter on the battlefield as they reload. Roughly 4 feet tall and often painted with the unit’s coat of arms, the crossbowman plants the pavise on the ground like a personal wall. At its most effective when deployed in a line with other crossbowmen, the pavise provides good cover when firing at opposing troops and defending against enemy sorties, the soldier wielding a spear or sword from behind the planted pavise. </p><p>The pavise can be used in two different ways.</p><p>It can be employed as a large shield. This is not a good way to use a pavise as it is heavy construction of wood and leather. In this case it affords all the Qualities of a @UUID[unknown]{large shield} (<em>Shield 3, Defensive, Undamaging</em>), gains the <em>Slow</em> and <em>Tiring</em> Flaws. A pavise used in this way still has an Encumbrance of 4 and only does +SB+2 Damage.</p><p>It’s intended use is to be set up as a piece of portable cover. It costs the wielder 2 Actions to set the pavise up. This direction could be depending on the compass (north, south, east, or west), relative to the wielder’s body (left, right, front, or back) or from a particular landmark (<em>‘I set it up between me and the castle’</em>).</p><p>Provided the wielder remains within 1 yard behind the pavise, it provides protection to the wielder from any missile attacks that come from the stated direction, granting the <em>Shield 5</em> Quality. Should an opponent engage the wielder in melee, the pavise only provides protection if the attack is made from the stated direction, and only in the first turn of combat.</p><p><strong>Example</strong>: <em>Braganza the Siege Specialist has worked his way up to the south of an enemy fortress. He sets up his pavise so that it faces the fortress. He gains the Shield 5 Quality to any attacks coming from the north, but he has no such protection to attacks coming from the south, west, or east. Should someone sally out of the fortress and charge towards Braganza, he could make use of the Shield 5 Quality for the first round of melee combat. If he is charged from the sides or rear, he cannot use the Shield 5 Quality.</em></p>"
+			"name": "Pavese",
+			"description": "<p>Questo enorme scudo viene usato dai balestrieri come copertura mentre ricaricano. È alto circa 1,2m e spesso decorato con l’insegna dell’unità. Viene piantato nel terreno così da formare un riparo mobile e raggiunge il massimo dell’efficacia se disposto in linea con quelli di altri balestrieri. Ciò fornisce una buona posizione da cui tirare contro le unità in avvicinamento e per resistere alle sortite, purché il soldato abbia una lancia o una spada.</p><p>Il pavese viene impiegato in due modi.</p><p>Può essere usato come un colossale scudo, ma ciò non è molto efficace, dato che si tratta di un pesante pezzo di legno e cuoio. In questo modo ottiene le Qualità di uno @UUID[unknown]{scudo grande} (<em>Difensivo, Inoffensivo, Scudo 3</em>), ma anche i Difetti <em>LentoSlow</em> e <em>Faticoso</em>. Un pavese impugnato in questo modo ha Ingombro 4 e causa +BF+2 Danni.</p><p>L’uso corretto è impiegarlo come riparo mobile. Occorrono 2 Azioni per posizionarlo e il Personaggio deve definire in che direzione disporlo in base ai punti cardinali (nord,sud, est, ovest), al proprio corpo (a destra, a sinistra, di fronte, alle spalle) o a un elemento del terreno (<em>‘Lo piazzo tra me e il castello’</em>).</p><p>Finché il pavese è fisso, e il PG rimane dietro di esso, entro 1m, lo scudo ottiene <em>Scudo 5</em> e <em>Difensivo</em> contro tutti gli attacchi provenienti dalla direzione indicata. In caso di mischia, il pavese protegge solo dagli avversari provenienti da tale direzione e soltanto per il primo Round.</p><p><strong>Esempio</strong>: <em>Braganza, uno specialista, si è portato a sud della fortezza nemica e posiziona il suo pavese in direzione di essa. Ottiene Scudo 5 contro tutti gli attacchi provenienti da nord, ma nulla dalle altre direzioni. In caso di una sortita, Braganza beneficerà di Scudo 5 per il primo Round di mischia, ma nulla se l’attacco dovesse arrivare alle spalle o su un fianco.</em></p>"
 		},
 		"Pebble": {
-			"name": "Pebble",
+			"name": "Ciottolo",
 			"description": ""
 		},
 		"Pepperbox": {
-			"name": "Pepperbox",
-			"description": "<p>A simpler form of a @UUID[Compendium.wfrp4e-up-in-arms.items.Neriv2FSubZWLTTq]{Repeater Pistol}, a Pepperbox is an arrangement of four preloaded barrels placed in front of a single firing mechanism. Each time the weapon is discharged, it must be rotated, cranked, or otherwise manually prepared to fire again. This takes very little time compared to reloading the weapon, but it does mean that the user must have a second hand free to operate it or it loses its <em>Repeater</em> trait.</p>"
+			"name": "Pepaiola",
+			"description": "<p>Questa versione semplificata della @UUID[Compendium.wfrp4e-up-in-arms.items.Neriv2FSubZWLTTq]{Pistola a Ripetizione} è formata da quattro canne e un singolo innesco. Dopo ogni colpo, le canne devono essere ruotate manualmente. Ciò richiede meno tempo di una ricarica, ma obbliga ad avere una mano libera per evitare che l’arma perda la Qualità <em>Ripetizione</em>.</p>"
 		},
 		"Pick": {
-			"name": "Pick",
-			"description": "<p>Two-handed military picks are rarely seen, their use being superseded by various forms of polearm. Certain subterranean species are known to employ them.</p>"
+			"name": "Piccone",
+			"description": "<p>Il piccone militare è divenuto assai raro da quando è stato rimpiazzato dalle armi in asta, ma alcune specie del sottosuolo lo usano ancora.</p>"
 		},
 		"Pike": {
-			"name": "Pike",
-			"description": "<p>These very long heavy spears are not commonly employed outside of specially trained regiments. Tilean mercenaries are particularly famed for their mastery of pikes and pike formations.</p>"
+			"name": "Picca",
+			"description": "<p>Questa lancia lunga e pesante viene impiegata quasi esclusivamente da reggimenti specializzati. I mercenari Tileani sono celebri per la loro maestria nel suo utilizzo, in particolare in formazione.</p>"
 		},
 		"Pikeman": {
-			"name": "Pikeman",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikeman}</p>"
+			"name": "Picchiere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Picchiere}</p>"
 		},
 		"Pistol": {
-			"name": "Pistol",
-			"description": "<p>A smaller blackpowder weapon designed to be fired with one hand, these are often used in duels or by cavalry soldiers such as Outriders who require one hand to hold the reins of their mount. Wealthy individuals sometimes carry a brace pistols in lieue of reloading.</p>"
+			"name": "Pistola",
+			"description": "<p>Questa piccola arma da fuoco richiede una mano sola e viene spesso usata in duello o da unità di cavalleria, come i Pistolieri, che devono avere almeno una mano libera per reggere le redini. Individui molto ricchi spesso ne portano molteplici, così da non dover ricaricare.</p>"
 		},
 		"Pollaxe": {
-			"name": "Pollaxe",
-			"description": "<p>The pollaxe takes many forms, but the archetypal design features a head with a short spike on the top for thrusting, an axe head to one side for cutting, and a hammer head on the other side for pummelling.</p>"
+			"name": "Azza",
+			"description": "<p>Esistono molte versioni dell’azza, ma quella più nota ha uno spuntone corto in cima, con una penna d’ascia da un lato per i colpi taglienti e una testa da martello dall’altro per i colpi contundenti.</p>"
 		},
 		"Precision Shot and Powder": {
-			"name": "Precision Shot and Powder",
-			"description": "<p>Expertly prepared powder and carefully smoothed and rounded bullets can be combined to allow for more reliable, precise shots with any suitable Blackpowder weapon.</p>"
+			"name": "Pallottole e Polvere di Precisione",
+			"description": "<p>Polvere attentamente preparata e misurata e pallottole ben levigate vengono combinate per ottenere colpi affidabili e precisi.</p>"
 		},
 		"Priest Captain": {
-			"name": "Priest Captain",
-			"description": ""
+			"name": "Prete Capitano",
+			"description": "@UUID[JournalEntry.Xm25vHdfMlXME9Uz.JournalEntryPage.lKjbkmp0AGMYYPp0]{Prete di Myrmidia}"
 		},
 		"Priest Sergeant": {
-			"name": "Priest Sergeant",
-			"description": ""
+			"name": "Prete Sergente",
+			"description": "@UUID[JournalEntry.Xm25vHdfMlXME9Uz.JournalEntryPage.lKjbkmp0AGMYYPp0]{Prete di Myrmidia}"
 		},
 		"Quarterstaff": {
-			"name": "Quarterstaff",
-			"description": "<p>Quarterstaffs are straight lengths of wood about as tall as their wielder. They are as often found as they are crafted. The price listed indicates that a purchaser needs such a weapon in a hurry, though if a Character is in a wooded environment, they can source themselves a quarterstaff by passing an extended <strong>Challenging (+0) Outdoor Survival</strong> Test requiring a total of 20 SL.</p>"
+			"name": "Bastone",
+			"description": "<p>Un bastone è un pezzo di legno dritto alto quanto chi lo impugna. Molti non sono costruiti allo scopo, ma semplicemente recuperati. Il prezzo indica quanto costa procurarsene uno in caso d’emergenza, ma chi si trova in un bosco può trovare un pezzo di legno adatto accumulando 20 LS in una <strong>Prova Prolungata Impegnativa (+0) di Sopravvivere</strong>.</p>"
 		},
 		"Quick Strike": {
-			"name": "Quick Strike",
-			"description": "<p>Infused with Myrmidia’s power, you benefit from heightened reflexes and can anticipate your opponent’s moves. At the start of every round whilst the Miracle is in effect, you may attempt a <strong>Challenging (+0) Initiative</strong> Test to gain an immediate free attack outside the normal turn sequence. This attack is resolved with whatever weapon you are carrying in your primary hand.</p>"
+			"name": "Colpo Rapido",
+			"description": "<p>Infuso del potere di Myrmidia, il Benedetto ottiene riflessi fulminei e la capacità di anticipare le mosse dell’avversario. Mentre questo Miracolo è attivo, all’inizio di ogni Round, il Benedetto può effettuare una <strong>Prova Impegnativa (+0) di Iniziativa</strong> per poter eseguire un attacco gratuito fuori dal suo Turno. Questo deve essere eseguito con l’arma che impugna nella mano principale.</p>"
 		},
 		"Rapid Reload": {
-			"name": "Rapid Reload",
-			"description": "<p>You can reload ranged weapons with practiced ease. You add SL equal to your level in Rapid Reload to any Extended Test to reload a ranged weapon. Reloading a ranged weapon during combat also counts as an @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#altered-actions-in-combat]{Assess} action. You gain an extra +1 Advantage when making that Assess Test. </p>"
+			"name": "Ricarica Rapida",
+			"description": "<p>Il Personaggio ricarica le armi con grande destrezza. Somma il grado in questo Talento al LS delle Prove Prolungate per ricaricare le armi a distanza. Inoltre, ciò conta anche come un’Azione di Analisi, che aggiunge +1 Vantaggio alla Riserva.</p>"
 		},
 		"Rapier": {
-			"name": "Rapier",
-			"description": "<p>The rapier is a long thin sword. Like the foil it comes to a fine point for thrusting, but the sharp blade retains much of the cutting power of a traditional sword.</p>"
+			"name": "Stocco",
+			"description": "<p>Questa lama lunga e sottile ha una punta da stoccata come il fioretto, ma conserva parte del filo di una spada tradizionale.</p>"
 		},
 		"Recruit": {
-			"name": "Recruit",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikeman}</p>"
+			"name": "Recluta",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Picchiere}</p>"
 		},
 		"Reformed Rogue": {
-			"name": "Reformed Rogue",
+			"name": "Furfante Ravveduto",
 			"description": ""
 		},
 		"Reiver": {
-			"name": "Reiver",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Light Cavalry}</p>"
+			"name": "Scorridore",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Stradiotto}</p>"
 		},
 		"Relentless": {
-			"name": "Relentless",
-			"description": "<p>When you have your mind set on a target, there is nothing anyone can do to stop you reaching them. The advantage cost of the @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#benefits-of-advantage]{Flee from Harm} action is reduced to 1. </p>"
+			"name": "Inesorabile",
+			"description": "<p>Nulla può impedire al Personaggio di raggiungere i suoi obiettivi. @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#benefits-of-advantage]{Fuggire dal Pericolo} gli costa un solo Vantaggio.</p>"
 		},
 		"Repeater Handgun": {
-			"name": "Repeater Handgun",
-			"description": "<p>A Repeater Handgun uses a cunning method, often involving clockwork or other intricate mechanisms, to place fresh ammunition into a position to fire each time the weapon is discharged. Rarely are two such weapons identical, though rotating mechanisms are a common feature.</p>"
+			"name": "Archibugio a Ripetizione",
+			"description": "<p>Queste armi usano complessi meccanismi, spesso simili a orologi, per caricare un nuovo colpo di fronte all’innesco dopo aver sparato. È raro che se ne trovino due identiche, ma molte impiegano un sistema di canne rotanti.</p>"
 		},
 		"Repeater Pistol": {
-			"name": "Repeater Pistol",
-			"description": "<p>Even more challenging to create than a @UUID[Compendium.wfrp4e-up-in-arms.items.vwvprQOKH9Rtti4b]{Repeater Handgun} due to their smaller size, Repeater Pistols otherwise share much in common with their larger cousins. Clockwork mechanisms are common, as are rotating chambers filled with ammunition. Minute adjustments are required constantly, and in the hands of an untrained user such weapons often misfire spectacularly.</p>"
+			"name": "Pistola a Ripetizione",
+			"description": "<p>A causa delle dimensioni ridotte, quest’arma è più complessa dell’@UUID[Compendium.wfrp4e-up-in-arms.items.vwvprQOKH9Rtti4b]{Archibugio a Ripetizione}, pur condividendone molti elementi. Spesso impiega meccanismi da orologio per ruotare le canne già caricate. Questa pistola richiede continui piccoli aggiustamenti e, nelle mani di un dilettante, causa spettacolari malfunzionamenti.</p>"
 		},
 		"Reversal": {
-			"name": "Reversal",
-			"description": "<p>You are used to desperate combats, able to turn even the direst circumstances to your advantage. If you win an <strong>Opposed Melee</strong> Test, instead of gaining +1 Advantage, you may take 1 Advantage from the opposing Advantage Pool and add it to your own. If you do this, you do not cause any Damage, even if it is your Turn in the Round.</p>"
+			"name": "Ribaltamento",
+			"description": "<p>Il Personaggio è abituato agli scontri disperati e sa ribaltarli a proprio vantaggio. Quando vince una Prova Contrapposta di Mischia, invece di ottenere un Vantaggio può rubarne uno dalla Riserva degli avversari e aggiungerlo alla propria. Se lo fa non causa alcun Danno, neppure se era l’attaccante.</p>"
 		},
 		"Ribaud": {
-			"name": "Ribaud",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Camp Follower}</p>"
+			"name": "Ribaldo",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Vivandiere}</p>"
 		},
 		"Rocket": {
-			"name": "Rocket",
+			"name": "Razzo",
 			"description": ""
 		},
 		"Roughrider": {
-			"name": "Roughrider",
-			"description": "<p>You are at home in the saddle in even the most difficult of circumstances, and know how to get the best out of your mount during conflict. Assuming you have the Ride skill, you can direct your mount to take an Action, not just a Move, without a Ride Test.</p><p>In addition, you treat your size as being the same as that of your mount for the purposes of resisting Fear and Terror caused solely by the size of your opponent, such is your confidence when mounted.</p><p><em><strong>Example</strong>: Another person on a horse would not cause Fear, but a Daemon or an Undead creature would.</em></p>"
+			"name": "Nato in Sella",
+			"description": "<p>Il Personaggio è a suo agio in sella anche nelle circostanze peggiori e sa controllare la cavalcatura negli scontri. Se possiede l’Abilità Cavalcare adatta, può ordinare all’animale di compiere un’Azione, non solo una Manovra, senza alcuna Prova.</p><p>Inoltre, ha tanta fiducia in sé quando è in sella da essere considerato della stessa Taglia della propria cavalcatura per resistere a Paura e Terrore, ma solo se causati dalle dimensioni del nemico.</p><p><em><strong>Esempio</strong>: Un’altra persona a cavallo non causerebbe Paura, mentre un Demone o un Nonmorto sì.</em></p>"
 		},
 		"Sabre": {
-			"name": "Sabre",
-			"description": "<p>The sabre is similar to the scimitar, but a little longer and straighter. It may be used on foot with Melee (Basic), though its <em>Slash (1A)</em> Quality becomes <em>Slash (2A)</em>. Skilled fencers can make good use of a Sabre — used with Melee (Fencing), the sabre retains its <em>Slash (1A)</em> Quality.</p>"
+			"name": "Sciabola",
+			"description": "<p>Simile alla scimitarra, ma più lunga e diritta, la sciabola può essere usata a piedi con l’Abilità Mischia (Armi Base), ma ciò ne riduce la Qualità <em>Squarcio (1V)</em> a <em>Squarcio (2V)</em>. Un abile schermidore che usa l’Abilità Mischia (Armi da Scherma), riesce a conservare <em>Squarcio (1V)</em> anche a piedi.</p>"
 		},
 		"Sap": {
-			"name": "Sap",
-			"description": "<p>A well-made Sap consists of a leather or textile sheath stuffed with sand, musket balls, iron rods or similar small heavy items. In desperation a sap could be constructed from suitable materials gathered from an urban environment. A Character in a tavern, shop, or urban location could make themselves a Sap by passing an <strong>Extended Challenging (+0) Trade (Carpenter, Engineer, Smith, Tailor or Tanner)</strong> Test requiring a total of 15 SL.</p>"
+			"name": "Manganello",
+			"description": "<p>Un manganello ben fatto è un sacchetto di tela o cuoio riempito di sabbia, pallottole, pezzi di ferro o altri oggetti piccoli e pesanti. In caso disperato, è possibile improvvisarne uno con materiale di fortuna. Chi si trova in una taverna, negozio o insediamento può costruirsi un manganello accumulando 15 LS in una <strong>Prova Prolungata Impegnativa (+0) di Mestiere (Conciatore, Fabbro, Falegname, Ingegnere o Sarto)</strong>.</p>"
 		},
 		"Sapper": {
-			"name": "Sapper",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Siege Specialist}</p>"
+			"name": "Geniere",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Specialista d'Assedio}</p>"
 		},
 		"Scimitar": {
-			"name": "Scimitar",
-			"description": "<p>Popular in the east of the Empire, Kislev and Araby, the scimitar has a curved blade which can inflict terrible cutting wounds. Its design does compromise the welder’s ability to lunge and thrust, meaning that even though scimitars are a similar length to straight swords they have a shorter reach.</p>"
+			"name": "Scimitarra",
+			"description": "<p>Molto popolare nell’est dell’Impero, nel Kislev e nell’Arabia, la scimitarra ha una lama ricurva, che causa terribili squarci. Il disegno ne limita l’uso nella stoccata per cui, a parità di dimensioni, una spada dritta ha più portata.</p>"
 		},
 		"Scrap and Powder": {
-			"name": "Scrap and Powder",
-			"description": "<p>Scrap is a catch-all term for old roofing nails, used horseshoe fragments, arrow heads, and other bits of sharp and pointy material scavenged from whatever pile or rust or slag can be found. Attacks made using this shot benefit from the @UUID[Compendium.wfrp4e-core.items.V0c3qBU1CMm8bmsW]{Infected} Creature Trait</p>"
+			"name": "Polvere e Rottami",
+			"description": "<p>Con “rottami” si intende chiodi vecchi, pezzi di ferri da cavallo, punte di freccia e altri oggetti acuminati recuperati nella spazzatura. Gli attacchi con queste munizioni hanno il Tratto @UUID[Compendium.wfrp4e-core.items.V0c3qBU1CMm8bmsW]{Infetto}</p>"
 		},
 		"Sealskin": {
-			"name": "Sealskin",
-			"description": "<p>A sealskin overcoat will keep the most inclement weather out. The fishermen of the Sea of Claws swear by them. The further inland you get the less likely they are to be made of genuine sealskin, but other furry imitations in the same style do almost as good a job. They usually come with matching over-mittens which are great for keeping hands warm but make dextrous acts impossible. A good sealskin can give bonuses to resist @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#exposure]{cold exposure}.</p>"
+			"name": "Pelle di Foca",
+			"description": "<p>Un cappotto di pelle di foca protegge anche dal tempo più inclemente, come dimostrato dai pescatori del Mare degli Artigli. Più ci si spinge nell’entroterra più è difficile trovare vera pelle di foca, anche se alcune imitazioni sono decenti. Di solito questi completi includono guanti per tenere le mani al caldo, impedendo però di compiere lavori di precisione. Una buona pelle di foca fornisce bonus per resistere al  @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#exposure]{freddo}.</p>"
 		},
 		"Seasoned Scavenger": {
-			"name": "Seasoned Scavenger",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Camp Follower}</p>"
+			"name": "Razziatore Esperto",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Vivandiere}</p>"
 		},
 		"Sharp Stick": {
-			"name": "Sharp Stick",
+			"name": "Bastone Appuntito",
 			"description": ""
 		},
 		"Shattered Skull": {
-			"name": "Shattered Skull",
-			"description": "<p>Your head is caved in and you collapse, instantly dead.</p>"
+			"name": "Cranio Distrutto",
+			"description": "<p>La testa viene distrutta e il Personaggio crolla al suolo, morto sul colpo.</p>"
 		},
 		"Shieldmaiden's Devotion": {
-			"name": "Shieldmaiden's Devotion",
-			"description": "<p>Your chanted prayers fill the hearts of the faithful with the fearlessness of her bravest Shieldmaidens. All Myrmidians within range gain the @UUID[Compendium.wfrp4e-core.items.8pVzgPkgWpTJvfhG]{Fearless (Enemy)} Talent. This enemy may either be a particular individual, or a particular species.</p>"
+			"name": "Devozione della Damigella Guerriera",
+			"description": "<p>Il Benedetto intona una preghiera che riempie i cuori dei fedeli con il coraggio delle più grandi Damigelle Guerriere. Tutti i Myrmidiani entro la gittata ottengono +1 al Talento @UUID[Compendium.wfrp4e-core.items.8pVzgPkgWpTJvfhG]{Temerario (Nemico)}, che può essere applicato a un singolo individuo o a un’intera specie.</p>"
 		},
 		"Shieldsman": {
-			"name": "Shieldsman",
-			"description": "<p>You are skilled at using your shield to manoeuvre others in combat so you can take advantage of a desperate situation. When using a Shield to defend, once per turn, you may spend 2 Advantage to either cause Damage when you are attacked as if it were your Action or to push your opponent 2 yards directly back from yourself and no longer count as engaged. </p>"
+			"name": "Esperto con lo Scudo",
+			"description": "<p>Il Personaggio è abile nell’impiegare lo scudo in combattimento, specie in situazioni disperate. Una volta per Turno, quando si difende con uno scudo, può spendere 2 Vantaggi per causare Danno all’avversario come se lo stesse attaccando oppure allontanarlo di 2m, rompendo l’Ingaggio.</p>"
 		},
 		"Siege Master": {
-			"name": "Siege Master",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Siege Specialist}</p>"
+			"name": "Maestro d’Assedio",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Specialista d'Assedio}</p>"
 		},
 		"Siege Specialist": {
-			"name": "Siege Specialist",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Siege Specialist}</p>"
+			"name": "Specialista d’Assedio",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Specialista d'Assedio}</p>"
 		},
 		"Silk Underwear": {
-			"name": "Silk Underwear",
-			"description": "<p>Little luxuries help to relieve the stress and drudgery of military life. One such luxury, for the parade ground and on campaign, is the finest Cathayan silk underwear. It also reduces chafing.</p>"
+			"name": "Biancheria di Seta",
+			"description": "<p>Qualche piccolo lusso aiuta a sopportare le fatiche della vita militare. Uno di questi, utile tanto sul campo quanto in parata, è la biancheria in vera seta del Catai, che riduce le irritazioni.</p>"
 		},
 		"Skill of Combat": {
-			"name": "Skill of Combat",
-			"description": "<p>You embody in your allies the skill of Myrmidia. Whilst this Miracle is in effect, all allies in range benefit from a +10 bonus to their WS and BS.</p>"
+			"name": "Abilità d'Armi",
+			"description": "<p>Il Benedetto infonde l’abilità di Myrmidia nei suoi alleati.Mentre questo Miracolo è attivo, tutti gli alleati entrogittata ottengono un bonus di +10 ad AC e AB.</p>"
 		},
 		"Slow Match": {
-			"name": "Slow Match",
-			"description": "<p>A slow match is a length of thin rope infused with flammable substances. It burns slowly and steadily, providing a ready spark for a matchlock weapon. It is sold by the yard, and burns at about a foot per hour.</p><p>* Price is per yard</p>"
+			"name": "Miccia Lenta",
+			"description": "<p>Un pezzo di corda sottile, intriso di sostanze infiammabili. Brucia in modo lento e regolare, perfetta per innescare le armi a miccia. Viene venduta al metro e brucia alla velocità di 30cm l’ora.</p><p>* il Prezzo è al metro</p>"
 		},
 		"Small Shot and Powder": {
-			"name": "Small Shot and Powder",
-			"description": "<p>Often used for hunting birds and other small, fast moving creatures, Small Shot is far smaller than the barrels of most weapons, and the user is expected to use a dozen or so for each load.</p>"
+			"name": "Carica a Pallini",
+			"description": "<p>Spesso usati per la caccia a uccelli e altri piccoli animali, questi pallini sono troppo piccoli per essere usati in molte armi, per cui se ne carica una dozzina alla volta.</p>"
 		},
 		"Small Shot and Powder (Swivel Gun)": {
-			"name": "Small Shot and Powder (Swivel Gun)",
+			"name": "Carica a Pallini (Colubrina)",
 			"description": ""
 		},
 		"Smallsword": {
-			"name": "Smallsword",
-			"description": "<p>A light version of the foil. The smallsword is not considered a serious weapon and is more often employed in sporting contests or duels to first blood. Smallswords with blunt tips and blades are often used as sport weapons, gaining the <em>Undamaging</em> Flaw.</p>"
+			"name": "Spadino",
+			"description": "<p>Questa versione leggera del fioretto non è considerata davvero un’arma e di solito viene usata solo in contese sportive o duelli al primo sangue. Alcuni modelli sportivi hanno la punta smussata e ottengono il Difetto <em>Inoffensivo</em>.</p>"
 		},
 		"Spear": {
-			"name": "Spear",
-			"description": "<p>Besides the club, the spear is probably the most ubiquitous weapon in the Old World. Almost all species and nations employ troops armed with spears, aside from the Dwarfs who tend to eschew polearms in general.</p>"
+			"name": "Lancia",
+			"description": "<p>Dopo il randello, la lancia è probabilmente l’arma più diffusa nel Vecchio Mondo. Quasi tutte le specie e le nazioni usano truppe di lancieri, tranne i Nani che non amano le armi in asta.</p>"
 		},
 		"Spiked Gauntlet": {
-			"name": "Spiked Gauntlet",
-			"description": "<p>A spiked gauntlet may be purchased as part of a set of plate armour for the arm. Add the price of the spiked gauntlet to that of the armour, but just use the Encumbrance of the armour itself; the spiked gauntlet does not involve significant additional weight or bulk.</p>"
+			"name": "Guanto Chiodato",
+			"description": "<p>È possibile acquistare un guanto chiodato come parte di un paio di bracciali di piastre. Il prezzo di arma e armatura si somma, ma l’Ingombro è solo quello dell’armatura, dato che gli spuntoni non aggiungono un peso significativo.</p>"
 		},
 		"Squire": {
-			"name": "Squire",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Knight Panther}</p>"
+			"name": "Iniziato",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Cavaliere Pantera}</p>"
 		},
 		"Stone": {
-			"name": "Stone",
+			"name": "Pietra",
 			"description": ""
 		},
 		"Strike to Injure": {
-			"name": "Strike to Injure",
-			"description": "<p>You are an expert in striking your enemies most vulnerable areas. When rolling on a Critical Damage table, make two rolls and choose which result you prefer.</p>"
+			"name": "Colpo Crudele",
+			"description": "<p>l Personaggio è uno specialista nel colpire i punti deboli. Quando causa una Ferita Critica tira due volte sulla tabella e usa il risultato che preferisce.</p>"
 		},
 		"Stubbed Toe": {
-			"name": "Stubbed Toe",
-			"description": "<p>In the scuffle, you stub your toe. Pass a <strong>Average (+20) Endurance </strong>Test or suffer -10 on Agility Tests until the end of the next turn.</p>"
+			"name": "Dito Schiacciato",
+			"description": "<p>Nella colluttazione ti fai male all’alluce. Superare una Prova Media (+20) di Tempra per non subire -10 alle Prove di Agilità fino alla fine del Turno seguente.</p>"
 		},
 		"Surveyor": {
-			"name": "Surveyor",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartographer}</p>"
+			"name": "Cartografo",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Cartografo}</p>"
 		},
 		"Swivel Gun": {
-			"name": "Swivel Gun",
+			"name": "Colubrina",
 			"description": ""
 		},
 		"Sword": {
-			"name": "Sword",
-			"description": "<p>The sword is the weapon by which all others are measured. A quality sword has a needle point tip for thrusting, a blade that is razor sharp to either side, and is balanced so that the weight is close to the hand, making it agile for attack and defence.</p>"
+			"name": "Spada",
+			"description": "<p>La spada è l’arma con cui si confrontano tutte le altre. Quelle di miglior qualità hanno una punta acuminata per la stoccata, due fili affilati come rasoi e sono bilanciate vicino all’elsa, rendendo facile passare dall’attacco alla difesa.</p>"
 		},
 		"Swordbreaker": {
-			"name": "Swordbreaker",
-			"description": "<p>These weapons are designed like long daggers or sturdy shortswords. Their blades are thicker than those of swords, and along one side several deep grooves are cut into the blade. This design greatly compromises the weapon’s ability to cut, but enables a skilled user to catch an opponent’s blade and hold it fast.</p>"
+			"name": "Spezzalama",
+			"description": "<p> Quest’arma somiglia a un lungo pugnale o a una spada corta molto robusta con una serie di tacche lungo la lama. Ciò compromette la sua capacità offensiva, ma permette a un guerriero abile di usarla per intrappolare la lama del nemico.</p>"
 		},
 		"Templar Sergeant": {
-			"name": "Templar Sergeant",
-			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Knight of the White Wolf}</p>"
+			"name": "Sergente Templare",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Cavaliere del Lupo Bianco}</p>"
 		},
 		"Theodolite": {
-			"name": "Theodolite",
-			"description": "<p>A theodolite is a piece of technical equipment used for measuring angles over long distances and handy for surveying land. Anyone with <em>Trade (Cartographer)</em> can use one effectively.</p><p>Some are little more than loops of metal to look through and an adjustable angle. The new-fangled ones coming out of Tilea can be adjusted in three dimensions and incorporate precision angle measurements, vernier scales, and telescopic eyepieces. They come with adjustable tripods and require at least one round to set up.</p>"
+			"name": "Teodolite",
+			"description": "<p>Si tratta di uno strumento di precisione per misurare gli angoli a lunghe distanze, molto utile per effettuare rilievi. Chi ha l’Abilità <em>Mestiere (Cartografo)</em> può usarlo efficacemente.</p><p>Alcuni sono poco più che semplici anelli di metallo attraverso cui guardare e con un angolo regolabile. I nuovi modelli Tilea possono essere regolati in tre dimensioni e incorporano misurazioni angolari di precisione, scale graduate e oculari telescopici. Sono dotati di treppiedi regolabili e richiedono almeno un round per essere montati.</p>"
 		},
 		"Vengeful Wrath": {
-			"name": "Vengeful Wrath",
-			"description": "<p>You are filled with the righteous indignation of Myrmidia. Whilst this Miracle is in effect, you must charge and attack the nearest unrepentant enemy. You may reroll any Melee Skill rolls you make whilst the Miracle is in effect.</p>"
+			"name": "Ira Vendicatrice",
+			"description": "<p>Il Benedetto è sopraffatto dal giusto sdegno di Myrmidia. Mentre questo Miracolo è attivo, è obbligato a caricare il nemico irriducibile più vicino, ma può tirare di nuovo ogni Prova di AC.</p>"
 		},
 		"Veteran of Adventures": {
-			"name": "Veteran of Adventures",
+			"name": "Avventuriero Veterano",
 			"description": ""
 		},
 		"Volley Gun": {
-			"name": "Volley Gun",
-			"description": ""
+			"name": "Archibugio Multicanna",
+			"description": "<p>Queste armi sono simili agli archibugi a ripetizione e dotate di un complesso sistema a manovella. Di solito hanno sette canne, una al centro e le altre montate intorno a formare un esagono. Sono letali, ma anche pericolose per gli inesperti. Chi ne usa uno deve superare una <strong>Prova Media (+20) di Tempra</strong> per non subire 1 Ferita per ogni Livello di Fallimento, a causa del tremendo rinculo contro la spalla. Con un Fallimento Incredibile, il tiratore subisce una Ferita Critica alla spalla (usare la Tabella delle Ferite Critiche alle Braccia modificando i dettagli se necessario).</p>"
 		},
 		"Warhammer": {
-			"name": "Warhammer",
-			"description": "<p>The two-handed warhammer is a difficult weapon to master, but it is associated with the Dwarfs and the Sigmarite cult.</p>"
+			"name": "Martello da Guerra",
+			"description": "<p>Il martello da guerra a due mani è un'arma difficile da padroneggiare, ma è associato ai Nani e al culto sigmarita.</p>"
 		},
 		"Warrior Priest": {
-			"name": "Warrior Priest",
-			"description": ""
+			"name": "Prete Guerriero",
+			"description": "@UUID[JournalEntry.Xm25vHdfMlXME9Uz.JournalEntryPage.lKjbkmp0AGMYYPp0]{Prete di Myrmidia}"
 		},
 		"Weighted Net": {
-			"name": "Weighted Net",
-			"description": "<p>A weighted net is cumbersome and clumsy, but capable of severely impeding an opponent’s fighting ability when used in a timely fashion. When making a Test to see if an opponent becomes entangled in a weighted net, the net has a Strength of 55.</p>"
+			"name": "Rete Pesante",
+			"description": "<p>Le reti sono armi goffe e pesanti, ma usate al momento giusto sono ottime per ostacolare i movimenti dell’avversario. Ai fini della Qualità Avvolgente la rete ha Forza 55.</p>"
 		},
 		"Whetstone": {
-			"name": "Whetstone",
-			"description": "<p>Keeping your blades sharp is always good practice. It’s up to the GM what happens if you don’t. Sharpening services are common enough across the Empire and a knife sharpener will do the job for a couple of pennies per blade. If you want to do it yourself, however, it might be worth investing in a whetstone. </p>"
+			"name": "Cote",
+			"description": "<p>Tenere affilate le lame è un’ottima cosa. È il GM a decidere quali sono le eventuali conseguenze della mancanza di manutenzione. Gli arrotini si trovano in tutto l’Impero e lavorano per un paio di penny per ogni lama. Chi preferisce fare da sé deve procurarsi una cote.</p>"
 		},
 		"Winded": {
-			"name": "Winded",
-			"description": "<p>Gain a @Condition[Stunned] Condition. Make an <strong>Average (+20) Endurance</strong> Test, or gain the @Condition[Prone] Condition. Movement is halved for [[/r 1d10]] Rounds as you get your breath back.</p>"
+			"name": "Fiato Mozzo",
+			"description": "<p>Causa 1 @Condition[Stunned]{Stordito}. Superare una <strong>Prova Media (+20) di Tempra</strong> per non cadere @Condition[Prone]{Prono}. Movimento dimezzato per [[/r 1d10]] Round, mentre si riprende fiato.</p>"
 		},
 		"Zweihander": {
 			"name": "Zweihander",
-			"description": "<p>The Empire’s famous greatsword regiments are armed with massive steel blades, as long as many polearms. Certain master armourers go to even greater lengths in adding waves and serrated edges to their swords. These weapons are known as flamberge blades, and the wounds they inflict can be deeper as a result of their cutting power.</p>"
+			"description": "<p>I famosi reggimenti delle Grandispade imperiali usano queste enormi lame d’acciaio, lunghe quanto le impugnature di molte armi in asta. Alcuni mastri armaioli arrivano a realizzare lame serpentiformi o dentellate, dette flamberghe, che causano ferite assai più profonde.</p>"
 		}
 	}
 }

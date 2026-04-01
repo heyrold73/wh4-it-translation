@@ -8,16 +8,16 @@
   },
   "entries": {
     "Head Critical Wounds (Up In Arms)": {
-      "name": "Head Critical Wounds (Up In Arms)"
+      "name": "Ferite Critiche alla Testa (Alle Armi)"
     },
     "Leg Critical Wounds (Up In Arms)": {
-      "name": "Leg Critical Wounds (Up In Arms)"
+      "name": "Ferite Critiche alla Gamba (Alle Armi)"
     },
     "Arm Critical Wounds (Up In Arms)": {
-      "name": "Arm Critical Wounds (Up In Arms)"
+      "name": "Ferite Critiche al Braccio (Alle Armi)"
     },
     "Body Critical Wounds (Up In Arms)": {
-      "name": "Body Critical Wounds (Up In Arms)"
+      "name": "Ferite Critiche al Torso (Alle Armi)"
     }
   }
 }
