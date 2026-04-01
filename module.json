@@ -8,7 +8,7 @@
     }
   ],
   "url": "https://github.com/heyrold73/wh4-it-translation",
-  "version": "9.3.2",
+  "version": "9.3.3",
   "esmodules": [
     "modules/babele-register.js",
     "modules/addon-register.js",
