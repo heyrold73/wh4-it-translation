@@ -1,772 +1,788 @@
 {
   "entries": [
     {
-      "description": "<p><span class=\"fontstyle0\">A la fin d'un Round, si la créature a plus d'Avantages que tout les attaquants au contact, elle absorbe l'un de ses attaquants, de taille égale ou inférieure. Une victime absorbée reçoit un nombre d'états </span><em><span class=\"fontstyle2\">Empêtré</span></em><span class=\"fontstyle0\"> égal au Bonus de Force de la créature, et est considéré comme étant Entravé. Une victime absorbée perd un nombre de Points de Blessures à la fin de chaque round égale à au Bonus de Force de la créature, les Points d'Armure et le Bonus d'Endurance ne sont pas pris en compte. La créature guéri du même nombre de points de Blessure en même temps. Si une victime absorbée est tuée, la créature bat en retraite pour digérer le corps pendant les jours qui suivent. Chaque attaque qui touche la créature affecte aussi la victime absorbée, qui reçoit donc le même nombre de Dommages.</span> </p>",
+      "description": "<p><span class=\"fontstyle0\">Alla fine di un Round, se la creatura ha più Vantaggio di ogni avversario con cui è Ingaggiata, ne assorbe uno, di Taglia pari o inferiore alla propria. La vittima subisce un numero di </span>@Condition[Afferrato] <span class=\"fontstyle0\">pari al Bonus Forza della creatura ed è considerata impegnata in @UUID[Compendium.wfrp4e-core.journals.NS3YGlJQxwTggjRX.JournalEntryPage.wmA76Q2zJJ9HrkvA#lotta]{Lotta}. Inoltre, la vittima perde un numero di Ferite pari al Bonus Forza della creatura al termine di ogni Round, ignorando Bonus Resistenza e Punti Armatura, e il mostro ne guarisce altrettante. Se la vittima muore, la creatura si ritira per digerirla nel corso di alcuni giorni. Ogni attacco che infligge Danni al mostro ne causa altrettanti alla vittima al suo interno. </span></p>",
       "id": "Absorb",
-      "name": "Absorber"
+      "name": "Assorbire"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">La créature est un blob amorphe. Elle divise par deux toutes les Blessures subis, autre que provoqués par le froid extrême, le feu ou la magie. Elle ignore toutes les Blessures Critiques, et ne peut être détruite qu'en amenant ses points de Blessures à 0 avec du Feu, du Froid Extrême ou de la magie. Si elle est réduite à 0 Blessures par d'autres moyens, elle tombe inanimée pour <a class=\"chat-roll\">d10</a> Rounds, et regénère alors 1 Blessure. Les créatures amorphes fuient les sources de froid ou de chaleur extrêmes.</span> .</p>",
+      "description": "<p><span class=\"fontstyle0\">La creatura è una massa amorfa. Dimezza tutte le Ferite subite, eccetto quelle causate da fuoco, freddo o magia. Ignora tutte le Ferite Critiche e può essere distrutta solo se ridotta a 0 Ferite da freddo estremo, fuoco o magia; in ogni altro caso diventa inattiva pe</span>r [[/r 1d10]] Round, quindi rigenera 1 Ferita. Le creature Amorfe scappano di fronte a fuoco o freddo.</span></p>",
       "id": "Amorphous",
-      "name": "Amorphe"
+      "name": "Amorfo"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">La créature est porteuse de la maladie indiquée, et elle peut la transmettre au toucher. Si une victime est touchée, elle doit effectuer un Test de Contraction, mais le test est plus difficile de 2 niveaux. Si la maladie est contractée, sa durée d'Incubation devient instantannée.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">La creatura è portatrice della malattia indicata e può trasmetterla con il tocco. La vittima deve effettuare una normale prova di Contagio, ma la Difficoltà è due gradi più alta del normale. Se contrae la malattia, il tempo d’incubazione diventa Istantaneo.</span></p>",
       "id": "Blighted",
-      "name": "Pourri"
+      "name": "Untore"
     },
     {
       "description": "",
       "id": "Chosen of Tzeentch",
-      "name": "Elu de Tzeentch"
+      "name": "Prescelto di Tzeentch"
     },
     {
-      "description": "<p>Saisonnière, comme la chute des feuilles au automne, le Rhume est néammoins un fléau régumire du Vieux Monde. Ce qui commence par une toux et des éternuements peut se transformer en quelque chose de grave en quelques jours, s'il n'est pas soigné. Chaque ancien dans l'Empire a ses propres remèdes maison et protections contre la maladie, ainsi que des souvenirs d'aggravation, ainsi que d'amis et de proches partis dans les bras de Morr.</p><p> Les personnages atteints d'un Rhume qui subissent à nouveau une exposition à la pluie ou à la neige voient la durée de la maladie allongée de <a class=\"chat-roll\">d10</a> jours. Si un personnage souffre d'un rhume pendant plus de 14 jours, il se transforme alors en Pneumonie.</p>",
+      "description": "<p>Stagionale come le foglie gialle in autunno, il Raffreddore rimane un flagello del  Vecchio Mondo. Se non vengono curati, una leggera tosse e degli starnuti possono aggravarsi nel giro di pochi giorni. Tutti gli anziani hanno in casa rimedi e protezioni contro questa malattia, oltre ai ricordi di quando si è aggravata, portando amici e parenti nell’abbraccio di Morr.</p><p>Un Personaggio con il Raffreddore che subisce di nuovo gli effetti di Pioggia o Neve allunga la durata della malattia di [[/r 1d10]] giorni. Se il Raffreddore continua per oltre 14 giorni diventa una @UUID[Compendium.wfrp4e-eis.items.K74AhzejwTdzTc1w]{Polmonite}.</p>",
       "id": "Common Cold",
-      "name": "Rhume"
+      "name": "Raffreddore"
     },
     {
       "description": "",
       "id": "Cult Acolyte",
-      "name": "Acolyte du Culte"
+      "name": "Accolito del Culto"
     },
     {
       "description": "",
       "id": "Cult Magus",
-      "name": "Magus du Culte"
+      "name": "Mago del Culto"
     },
     {
-      "description": "<p>Quand une mutation apparait, lancez deux fois sur la table des Mutations et choisissez l'un des 2 résultats.</p>",
+      "description": "<p>Quando il Personaggio ottiene una mutazione, tira due volte sulla tabella e sceglie uno dei due risultati.</p>",
       "id": "Disciple of Change",
-      "name": "Disciple du Changement"
+      "name": "Discepolo del Cambiamento"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous êtes si habile à maintenir votre identité secrête que vous vous êtes capable de vivre deux vies complètement séparées. Quand ce Talent est acquis, vous pouvez choisir une seconde Carrière en parallèle de votre Carrière Chaotique. Vous êtes maintenant considéré comme ayant deux Carrières en même temps, et vous pouvez acheter des Augmentations et des Talents depuis l'une ou l'autre. Comme toujours, tout changement de carrière nécessite l'approbatioon de votre MJ, afin de respecter le déroulement de la campgane et de refléter correctement votre double vie.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Il Personaggio è tanto abile nello sfruttare la propria Identità Segreta da poter vivere due vite distinte. Quando sceglie questo Talento può iniziare una seconda Carriera parallela a quella attuale. È considerato appartenente a entrambe e può acquisire Avanzamenti e Talenti da tutte e due, oltre a poter intraprendere una nuova Carriera a partire da una o dall’altra. Come sempre, ogni cambio di Carriera richiede l’approvazione del GM, quindi bisogna fare sì che lo sviluppo della campagna coincida con quello della doppia vita.</span></p>",
       "id": "Double Life",
-      "name": "Double Vie"
+      "name": "Doppia Vita"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">La créature, qui doit posséder le Trait @Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Démoniaque}</span><span class=\"fontstyle2\">&nbsp;</span><span class=\"fontstyle0\">, peut porter l'apparence de n'importe quel humain qu'elle a tué. De plus, elle peut parfaitement imiter la personne, y compris sa voix et ses manières. Préparer cette apparence prend <a class=\"chat-roll\">1d10</a> Rounds, après quoi cette aparence peut être enlevée ou remise en 1 Round. Une fois revêtue, l'apparence disparait uniquement si la créature est tuée, et elle peut-être atteinte par des armes normales. Si la créature le souhaite, elle peut gratuitement transformer cette apparence d'une manière horrible, gagnant aisni le Trait @Compendium[wfrp4e-core.items.kJNAY1YRaCy9IgmT]{Terreur 1}</span><span class=\"fontstyle2\"> &nbsp;</span><span class=\"fontstyle0\"> pendant 1 Round. L'apparence ainsi transformée est détruite par l'opération et ne peut plus être utilisée par la créature.</span></p>\n<p><span class=\"fontstyle0\"><br>Ceux qui connaissent la personne dont l'apparence a été prise peut tenter un Test </span><strong><span class=\"fontstyle3\">d'Intuition Futile (-40)</span></strong><span class=\"fontstyle0\"> pour détecter su'il ya quelque chose de curieux, mais sans savoir exactement quoi.</span> .</p>",
+      "description": "<p><span class=\"fontstyle0\">Ladro di Pelli. La creatura, che deve possedere anche il Tratto @UUID[Compendium.wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoniaco}, </span><span class=\"fontstyle2\"> </span><span class=\"fontstyle0\">può indossare la pelle di qualsiasi Umano abbia ucciso, imitandolo alla perfezione, persino nella voce e nei comportamenti.Preparare la pelle richiede [[/r 1d10]] Round, dopo di che può essere indossata e tolta a volontà in un Round. La pelle così preparata inizia a marcire solo se la creatura muore, ma può essere danneggiata normalmente. Se lo desidera, la creatura può emergere in maniera orribile dalla pelle, ottenendo il Tratto @UUID[Compendium.wfrp4e-core.items.kJNAY1YRaCy9IgmT]{Terrore} 1</span><span class=\"fontstyle2\"> </span><span class=\"fontstyle0\"> per un Round, ma distrugge definitivamente il proprio travestimento.</span></p><p><span class=\"fontstyle0\">Chi conosce il Personaggio impersonato può effettuare una Prova </span><span class=\"fontstyle3\"><strong>Futile (-40) di Intuire </strong></span><span class=\"fontstyle0\">per notare qualche dettaglio sbagliato, ma non saprà mai indicarlo esattamente</span>.</p>",
       "id": "Fleshthief",
-      "name": "Voleur de chair"
+      "name": "Ladro di Pelli"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Tzeentch, le seigneur du Changement a marqué la créature avec sa marque, proclamant son importance dans ses plans. Cette créature gagne <a class='roll'>1D10/3</a>, arrondi au supérieur, en alternant mutations Physiques et Mentales. Toutes les mutations Physiques doivent être tirées sur la colonne 'Tzeentch'. Cette créature gagne Etiquette (Suivants de Tzeentch), et est est sujette à l'Animosité envers les fidèles de Nurgle. Les fidèles de Nurgle reçoivent également Animosité conte elle, tant que la marque de Tzeentch est visible. De plus, la créature peut prendre les Talents suivants comme des Augmentations de carrières : Harmonisation Aethyrique, Magie des Arcanes (Au choix), Magie du Chaos (Tzeentch), Mains agiles, Diction Instinctive, Sens de la Magie, Magie Mineure, Seconde vue, Mage de guerre, et Sorcier, pour leur coût normal en PX.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Tzeentch, Signore del Cambiamento, ha marchiato fisicamente questa creatura, indicandola come un pezzo importante del grande gioco. La creatura riceve [[/r ceil(1d10/3)]]{1d10/3} Mutazioni alternando una mentale e una fisica dalla colonna Tzeentch. Inoltre ottiene il Talento @UUID[Compendium.wfrp4e-core.items.sYbgpSnRqSZWgwFP]{Etichetta (Seguaci di Tzeentch)}, ma è vittima di Animosità da parte dei fedeli di Nurgle, se il marchio è visibile. Potrà acquistare, al normale costo in PE, i seguenti Talenti come se fossero parte della sua Carriera: @UUID[Compendium.wfrp4e-core.items.BYChSVfMG004eflQ]{Dizione Istintiva}, @UUID[Compendium.wfrp4e-core.items.3O9clK7LGyuLTHPW]{Magia Arcana (qualsiasi)}, @UUID[Compendium.wfrp4e-core.items.hiU7vhBOVpVI8c7C]{Magia del Caos (Tzeentch)}, @UUID[Compendium.wfrp4e-core.items.mdPGZsn2396dEpOf]{Magia Minore}, @UUID[Compendium.wfrp4e-core.items.F2EiuAc6IpaGd4J7]{Mago da Guerra}, @UUID[Compendium.wfrp4e-core.items.9sMAf0xmehjEmUao]{Mani Veloci}, @UUID[Compendium.wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Seconda Vista}, @UUID[Compendium.wfrp4e-core.items.6w30u0VPsAicrqb5]{Senso Magico}, @UUID[Compendium.wfrp4e-core.items.1IZWRr7BYOIcqPlQ]{Sintonia Aethyrica} e @UUID[Compendium.wfrp4e-core.items.qdMbxW09FUoYBzmB]{Strega!}",
       "id": "Mark of Tzeentch",
-      "name": "Marque de Tzeentch"
+      "name": "Marchio di Tzeentch"
     },
     {
       "description": "",
       "id": "Master Magus",
-      "name": "Maitre Magus"
+      "name": "Maestro Magus"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">La créature est stupide, uniquement pilotée par ses instincs ou par magie. Elle n'a pas d'Initiative, Intelligence, Force Mentale et de Sociabilité. and n'effectue jamais de tests sous ces Caractéristiques. Le Bonus de Force est utilisé à la place du Bonus de Force Mentale pour le calcul de ses Blessures. Elle agit également à la fin de chaque Round, puisqu'elle ne possède pas d'Initiative</span> .</p>",
+      "description": "<p><span class=\"fontstyle0\">Questa creatura è priva di mente e agisce solo in base all’istinto o a costrizioni magiche. Non ha punteggi di Iniziativa, Intelligenza, Volontà e Socialità e non effettua mai le Prove collegate. Per calcolare le Ferite, il Bonus Forza sostituisce quello di Volontà. Essendo priva di Iniziativa, agisce sempre per ultima in ogni Round </span>.</p>",
       "id": "Mindless",
-      "name": "Sans cerveau"
+      "name": "Senza Mente"
     },
     {
-      "description": "<p>Il s'agit d'une accumulation de liquide dans les poumon, provenant d'autres maladies qui provoquent une inflammation, de la fièvre et parfois même la mort. La pneumonie est connue sous le nom de «hochet de Morr», du nom du bruit de cliquetis effrayant que fait la personne infectée lorsqu'elle tente de respirer profondément. Un personnage atteint de pneumonie doit réussir un test <strong>d'Endurance Intermédiaire (0)</strong> tous les jours ou il voyage, combat ou effectue toute autre activité physique. Un échec fait que le symptôme de la fièvre devient sévère. Pendant que la fièvre est sévère, le même test doit être passé tous les jours, sinon la maladie développe également une Toxine.</p>",
+      "description": "<p>Questo accumulo di fluidi nei polmoni, dovuto ad altre malattie, causa infiammazioni, febbre e, a volte, la morte. La Polmonite è comunemente conosciuta come &lsquo;Sonaglio di Morr&rsquo; a causa del rantolo emesso dai malati che cercano di inspirare aria.</p>\n<p>Ogni giorno, un Personaggio con la Polmonite deve superare una Prova <strong>Impegnativa (+0) di Tempra </strong> per poter viaggiare, battersi o compiere altre attività fisiche. In caso di fallimento la Febbre diventa Severa. Finché la Febbre (Severa) non viene sconfitta, la stessa prova giornaliera deve essere superata per evitare che si aggiunga anche il Sintomo Consunzione.</p>",
       "id": "Pneumonia",
-      "name": "Pneumonie"
+      "name": "Polmonite"
     },
     {
-      "description": "<p>Gideon porte cet annuea d'or, avec une pierre d'obsidienne noire incrustée.</p>",
+      "description": "<p>Gideon indossa un anello d’oro con una gemma di ossidiana dalle molte sfaccettature.</p>",
+      "gmdescription": "<p>Pare che sia stato realizzato oltre trecento anni fa, molto tempo prima della fondazione dei Collegi di Magia. Il suo creatore, Kurtis Krammovic, intendeva nascondere la propria natura magica a coloro che odiavano le streghe in quell’epoca buia. L’Alta Astromante Filonia Perls se lo aggiudicò a un’asta esclusiva di artefatti magici a Marienburg nel 2498 C.I. Cinque anni fa, Teugen lo rubò all’Astromante Perls, perché Gideon sosteneva di averne bisogno per stabilizzare la propria forma quando non indossava una pelle rubata. Inoltre, l’anello era necessario per il rituale volto a “salvare l’anima di Teugen”. La Perls, una maga di corte, che legge il futuro ai nobili di Altdorf, rivuole indietro l’anello e ha promesso una ricompensa di @Credit[10gc SPLIT]{10 Corone} a chi glielo riporta.</p>\n<h3>Regole</h3>\n<p>Un Demone che indossa questo anello ignora il Tratto @UUID[Compendium.wfrp4e-core.items.D0ImWEIMSDgElsnl]{Instabile} e non può essere individuato grazie alla @UUID[Compendium.wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Seconda Vista}. Inoltre, anche i suoi incantesimi sono invisibili alla Seconda Vista finché non li ha lanciati e nessun Personaggio può Disperderli.</p>\n<p>Un mortale che indossi l’anello ottiene gli effetti dell’Incantesimo @UUID[Compendium.wfrp4e-core.items.T9cEYAUhqBiTxrp2]{Aura Mondana}.</p>\n<p>Sfortunatamente, l’anello è stato esposto alle energie demoniache di Gideon per diversi anni, diventando pericoloso. Per ogni mese in cui lo indossa, un mortale deve resistere a un’@Corruption[minor]{Esposizione Minore alla Corruzione}. Questa contaminazione può essere rimossa soltanto grazie a rari rituali e incantesimi dell’Ordine della Luce.</p>",
       "id": "Ring of Opsianon",
-      "name": "Anneau d'Opsianon"
+      "name": "Anello di Opsianon"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Cette créature peut changer à volonter de forme, entre celle indiquée et se forme propre. La transformation dure 1 Round, durant lequel aucune autre action n'est possible. Quand la Mannslieb est pleine, la crature doir effectuer un Test </span><strong><span class=\"fontstyle2\">de Force Mentale Accessible (+20)</span></strong><span class=\"fontstyle0\"> au crépuscule pour éviter de se tansformer spontanément. Les créatures qui gagnent ce Trait peuvent avoir une difficulté supérieure pour ce Tests, à la discrétion du MJ. Lorsqu'elle est transformée, la créature conserve ses caractéristiques mentales (</span><span class=\"fontstyle2\">Intelligence</span><span class=\"fontstyle0\">, </span><span class=\"fontstyle2\">Force Mentale</span><span class=\"fontstyle0\">, et </span><span class=\"fontstyle2\">Sociabilité</span><span class=\"fontstyle0\">), mais le reste des caractéristiques deviennent celles de la créature indiquée.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Questa creatura può passare dalla propria forma naturale a quella indicata e viceversa. La trasformazione richiede un intero Round, durante il quale Spostamento e Azione sono impossibili. Al tramonto, quando Mannslieb è piena, la creatura deve superare una Prova </span><strong><span class=\"fontstyle2\">Media (+20) di Volontà </span></strong><span class=\"fontstyle0\">per non trasformarsi automaticamente. A discrezione del GM, chi ha appena acquisito questo Tratto potrebbe avere maggiori difficoltà di controllo. Quando si trasforma, la creatura conserva le proprie Caratteristiche mentali (</span><span class=\"fontstyle2\">Int</span><span class=\"fontstyle0\">, </span><span class=\"fontstyle2\">Vol </span><span class=\"fontstyle0\"> e </span><span class=\"fontstyle2\">Soc</span><span class=\"fontstyle0\">), ma il resto del profilo viene sostituito da quello dell’essere indicato.</span></p>",
       "id": "Shapeshifter",
-      "name": "Changeforme"
+      "name": "Mutaforma"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Si la créature subit une Blessure Critique, ou tombe à 0 Blessures, elle se divise en deux et est remplacée par 2 Horreurs Bleues, qui sont toutes les deux en pleine santé.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Se questa creatura subisce una Ferita Criticao viene ridotta a 0 Ferite, viene rimpiazzata da due furibondi @UUID[Compendium.wfrp4e-eis.actors.cLOGeMqUty61nYB9]{Orrori Blu}, che emergono dal suo corpo in un vortice di luccicante energia magica. I nuovi Orrori sono privi di Ferite.</span></p>",
       "id": "Split",
-      "name": "Séparation"
+      "name": "Scissione"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Tout les sorts a lancés à moins de (Bonus de Force Mentale) mètres gagne +1DR pour leur incantation. Ce bonus ne peut être utilisé qu'une seule fois par incantation, il n'est pas cumulable par exemple si d'autres personnages avec ce Talent sont présents alentours.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Tutti gli Incantesimi lanciati vicino al Personaggio, entro il suo Bonus Volontà in metri, ottengono +1 LS. Questo bonus può essere applicato solo una volta, non importa il numero di presenti con questo Talento.</span></p>",
       "id": "Suffused with Magic",
-      "name": "Répand la Magie"
+      "name": "Infuso di Magia"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Tzeentch, le Dieu de la Magie du Chaos, vous a béni avec un parasite dans votre esprit. Quand vous achetez ce Talent, un sort surgit dans votre tête et y reste, vous murmurant parfois pendant votre sommeil. Le sort peut provenir de n'importe quelle Couleur de Magie</span></p>\n<p><span class=\"fontstyle0\"><br>Ultérieurement, vous pouvez achetez un ou plusieurs sorts pour 100 XP chaque pour chaque sort du Domaine de Tzeentch que vous possédez.</span> </p>",
+      "description": "<p><span class=\"fontstyle0\">Tzeentch, Dio del Caos della Magia, dona al Personaggio un verme parassita, che si fa strada nella sua mente. Quando si acquisisce questo Talento, un incantesimo si libera nel suo cervello e, ogni tanto, gli parla nel sonno. L’incantesimo può appartenere a qualsiasi Sapere.</span></p><p><span class=\"fontstyle0\">In seguito il Personaggio può acquisire un altro incantesimo dei Venti della Magia per ogni incantesimo del Sapere di Tzeentch che conosce, al prezzo di 100 PE l’uno.</span></p>",
       "id": "Tzeentch's Blessing",
-      "name": "Bénédiction de Tzeentch"
+      "name": "Benedizione di Tzeentch"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">La créature est courronnée par le Feu de Tzeentch, qui s'échappe frequemment par les doigts, la mouche ou les yeux. Toutes les créatures d'un même type (ie toutes les Horreurs Roses, toutes les Horreur Bleues) dans le voisinnage groupent leur pouvoirs. L'une des Horreurs est choisie pour recevoir ce pouvoir et peut Incanter 1 sort de Tzeentch. Les Horreurs Roses lancent le sort  @Compendium[wfrp4e-eis.items.sklbZU3K8ogeu3mC]{Flammes Roses de Tzeentch}; les autres peuvent lancer @Compendium[wfrp4e-eis.items.mR4cEXEAfLCqlnQ6]{Flamme Bleue de Tzeentch}. Chaque créature supplémentaire qui contribue ajoute gratuitement +1 DR, jusqu'à un maximum de +9 DR</span></p>",
+      "description": "<p><span class=\"fontstyle0\">La creatura è avvolta dal fuoco di Tzeentch che, ogni tanto, vola dalle sue dita, dalle bocche o dagli occhi. Un gruppo di creature dello stesso tipo con questo Tratto (per esempio Orrori Rosa o Orrori Blu) può condividere tale potere. Uno di essi ne diventa il punto focale (incantatore) e può lanciare un Incantesimo di Tzeentch durante il proprio Turno. Gli Orrori Rosa usano il @UUID[Compendium.wfrp4e-eis.items.sklbZU3K8ogeu3mC]{Fuoco Rosa di Tzeentch}, le altre creature il @UUID[Compendium.wfrp4e-eis.items.wY6JAt76eArBroYC]{Fuoco Blu di Tzeentch}. Ogni creatura nel gruppo, escluso l’incantatore, fornisce +1 LS alla prova di lancio, fino a un massimo di +9 LS.</span></p>",
       "id": "Tzeentch's Fire",
-      "name": "Feu de Tzeentch"
+      "name": "Fuoco di Tzeentch"
     },
     {
-      "description": "<p>@Actor[iaVpUaCKx1qEYkq1]{Chien}</p>\n<p>Capacité de portage: 8</p>",
+      "description": "<p>@Actor[iaVpUaCKx1qEYkq1]{Cane}</p>\n<p>Capacità di Carico: 8</p>",
       "id": "Dog",
-      "name": "Chien"
+      "name": "Cane"
     },
     {
-      "description": "<p>@Actor[4DTXl9hXbWlfLa5J]{Cheval de Monte} (aussi  Palefroi)</p>\n<p>Capacité de portage: 16</p>",
+      "description": "<p>@Actor[4DTXl9hXbWlfLa5J]{Cavallo da Sella} (Palafreno)</p>\n<p>Capacità di Carico: 16</p>",
       "id": "Riding Horse",
-      "name": "Cheval de Monte"
+      "name": "Cavallo da Sella"
     },
     {
-      "description": "<p>@Actor[lOO8BfzQfP7omFe0]{Ane} ou @Actor[jd77heDEL6v768Nd]{Mule}</p>\n<p>Capacité de portage: 14</p>",
+      "description": "<p>@UUID[Actor.lOO8BfzQfP7omFe0]{Asino} o @UUID[Actor.jd77heDEL6v768Nd]{Mulo}</p>\n<p>Capacità di Carico: 14</p>",
       "id": "Donkey or Mule",
-      "name": "Ane ou Mule"
+      "name": "Asino o Mulo"
     },
     {
-      "description": "<p>@Actor[guaFC5d5WK8ExDhk]{Cheval de trait}</p>\n<p>Capacité de portage: 20</p>",
+      "description": "<p>@UUID[Actor.guaFC5d5WK8ExDhk]{Cavallo da Tiro}</p>\n<p>Capacità di Carico: 20</p>",
       "id": "Draught Horse",
-      "name": "Cheval de trait"
+      "name": "Cavallo da Tiro"
     },
     {
-      "description": "<p>@Actor[PZiW5RRL0sqmGjaL]{Cheval de trait lourd}</p>\n<p>Capacité de portage: 30</p>",
+      "description": "<p>@UUID[Actor.PZiW5RRL0sqmGjaL]{Cavallo da Tiro Pesante}</p>\n<p>Capacità di Carico: 30</p>",
       "id": "Heavy Draught Horse",
-      "name": "Cheval de trait lourd"
+      "name": "Cavallo da Tiro Pesante"
     },
     {
-      "description": "<p>@Actor[NJxgxApkhZixXYEj]{Cheval de guerre lourd} (également Destrier)</p>\n<p>Capacité de portage: 20</p>",
+      "description": "<p>@Actor[NJxgxApkhZixXYEj]{Cavallo da Guerra Pesante} (Destriero)</p>\n<p>Capacità di Carico: 20</p>",
       "id": "Heavy Warhorse",
-      "name": "Cheval de guerre lourd"
+      "name": "Cavallo da Guerra Pesante"
     },
     {
-      "description": "<p>@Actor[QhEFgUrPzF2NNWoS]{Cheval de guerre léger} (aka Canasson)</p>\n<p>Capacité de portage: 18</p>",
+      "description": "<p>@Actor[QhEFgUrPzF2NNWoS]{Cavallo da Guerra Leggero} (Corsiero)</p><p>Capacità di Carico: 18</p>",
       "id": "Light Warhorse",
-      "name": "Cheval de guerre léger"
+      "name": "Cavallo da Guerra Leggero"
     },
     {
-      "description": "<p>@Actor[l7G0hmzl6VMnAXtL]{Boeuf}</p>\n<p>Capacité de portage: 30</p>",
+      "description": "<p>@Actor[l7G0hmzl6VMnAXtL]{Bue}</p>\n<p>Capacità di Carico: 30</p>",
       "id": "Ox",
-      "name": "Boeuf"
+      "name": "Bue"
     },
     {
-      "description": "<p>@Actor[12ARFrc7Dokxc72q]{Poney}</p>\n<p>Capacité de portage: 14</p>",
+      "description": "<p>@Actor[12ARFrc7Dokxc72q]{Pony}</p>\n<p>Capacità di Carico: 14</p>",
       "id": "Pony",
-      "name": "Poney"
+      "name": "Pony"
     },
     {
-      "description": "<p>La fièvre cérébrale pourpre est une maladie redoutée. La tête gonfle jusqu’à atteindre une taille impressionnante et s’accompagne de fièvres et de délires. Le visage prend une couleur prune effrayante, les yeux sortent de leurs orbites et la langue gonfle jusqu’à ce que la bouche ne puisse plus la contenir. La mort survient généralement au bout d’une semaine.</p>",
+      "description": "<p>La Febbre Cerebrale Purpurea è un male molto temuto. Fa gonfiare la testa fino a dimensioni incredibili ed è accompagnato da febbri, rossori e deliri. Il volto diventa di uno spaventoso color prugna, gli occhi escono dalle orbite e la lingua si gonfia fino al punto da non riuscire a stare in bocca. Di solito la morte arriva entro una settimana.</p>",
       "id": "Purple Brain Fever",
-      "name": "Fièvre Cérébrale Pourpre"
+      "name": "Febbre Cerebrale Purpurea"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous canalisez le pouvoir de transformation du Chaos dans votre propre chair, sacrifiant temporairement votre forme mortelle sur l’autel de la volonté de votre dieu. Votre corps est déformé, prenant les aspects d’un démon loyal à votre dieu protecteur. Lancez 1d10 sur le  <a class=\"table-click\" data-table=\"demonic-mien\">Tableau de la page 78</a>, et appliquez le Trait pertinent pour toute la durée du Sort. Pour chaque +2 DR, vous pouvez à la fois prolonger la durée et refaire un jet sur le Tableau. Si vous obtenez le Trait <span class=\"fontstyle3\">@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]Démoniaque</span> et que vous êtes réduit à 0 Blessure, votre âme est aspirée dans les Royaumes du Chaos, comme décrit dans les règles des Traits de créature.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone incanala nelle proprie carni il potere trasformatore del Caos, sacrificando temporaneamente la propria forma mortale al volere del dio, mutandosi temporaneamente in uno dei suoi demoni. Il Giocatore tira sulla tabella @UUID[RollTable.lvcevDhlRqnuzcic]{Aspetto Demoniaco - Qualsiasi Potere} e ottiene il Tratto indicato per la durata dell’incantesimo. Per ogni +2 </span><span class=\"fontstyle2\">LS </span><span class=\"fontstyle0\"> è possibile estendere la durata o effettuare un tiro aggiuntivo. </span><span class=\"fontstyle0\">Se, mentre ha il Tratto  </span><span class=\"fontstyle3\">@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoniaco}, lo stregone viene ridotto a 0 Ferite, la sua anima precipita nel Reame del Caos, come spiegato nel Regolamento dei Tratti delle Creature.</span></p>",
       "id": "Demonic Mien (Undivided)",
-      "name": "Allure Démoniaque (Indivisible)"
+      "name": "Aspetto Demoniaco (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous canalisez le pouvoir de transformation du Chaos dans votre propre chair, sacrifiant temporairement votre forme mortelle sur l’autel de la volonté de votre dieu. Votre corps est déformé, prenant les aspects d’un démon loyal à votre dieu protecteur. Lancez 1d10 sur le  <a class=\"table-click\" data-table=\"demonic-mien\">Tableau de la page 78</a>, et appliquez le Trait pertinent pour toute la durée du Sort. Pour chaque +2 DR, vous pouvez à la fois prolonger la durée et refaire un jet sur le Tableau. Si vous obtenez le Trait <span class=\"fontstyle3\">@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]Démoniaque</span> et que vous êtes réduit à 0 Blessure, votre âme est aspirée dans les Royaumes du Chaos, comme décrit dans les règles des Traits de créature.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone incanala nelle proprie carni il potere trasformatore del Caos, sacrificando temporaneamente la propria forma mortale al volere del dio, mutandosi temporaneamente in uno dei suoi demoni. Il Giocatore tira sulla tabella @UUID[RollTable.jZfvtB0SbuAHLycI]{Aspetto Demoniaco - Tzeentch} e ottiene il Tratto indicato per la durata dell’incantesimo. Per ogni +2 </span><span class=\"fontstyle2\">LS </span><span class=\"fontstyle0\"> è possibile estendere la durata o effettuare un tiro aggiuntivo. </span><span class=\"fontstyle0\">Se, mentre ha il Tratto  </span><span class=\"fontstyle3\">@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoniaco}, lo stregone viene ridotto a 0 Ferite, la sua anima precipita nel Reame del Caos, come spiegato nel Regolamento dei Tratti delle Creature.</span></p><p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Demonic Mien (Tzeentch)",
-      "name": "Allure Démoniaque (Tzeentch)"
+      "name": "Aspetto Demoniaco (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Le lanceur de sorts imprègne la Cible (peut-être lui-même) avec un vernis corrompu d’<i>Ulgu</i> infusé par <i>Dhar</i>, l’enveloppant dans une aura de dissimulation. Tant que le Sort est en vigueur, la Cible apparaît sans défaut, ni tache. Les cicatrices, les difformités et, surtout, les Mutations sont indétectables, sauf par des moyens divins. Si les vices évidents sont cachés, les Cibles peuvent paraître étranges ou excentriques, trop débordantes de vie ou anormalement séduisantes. La réussite d’un Test de <strong>Perception Difficile (-20)</strong> révèle que quelque chose ne va pas, mais sans révéler quoi. Pour les Personnages possédant le Talent Seconde vue, le Test est <strong>Intermédiaire (+0)</strong>, et s’ils le réussissent, ils se rendront compte qu’un Sort est en place, mais pas ce qu’il dissimule.</span> </p>",
+      "description": "<p><span class=\"fontstyle0\">Una membrana corrotta di </span><em><span class=\"fontstyle2\">Ulgu </span></em><span class=\"fontstyle0\">infuso di </span><em><span class=\"fontstyle2\">Dhar </span></em><span class=\"fontstyle0\">avvolge il bersaglio, o l’incantatore stesso, camuffandolo. Per la durata dell’incantesimo, il bersaglio appare privo di difetti. Cicatrici, deformità e, soprattutto, mutazioni sono impercettibili, eccetto per chi possiede poteri divini. &nbsp;</span></p>\n<p><span class=\"fontstyle0\">Ciononostante, il bersaglio potrebbe apparire comunque strano, troppo vitale o innaturalmente bello. Superare una <strong>Prova</strong> </span><strong><span class=\"fontstyle2\">Ardua (-20) di Percepire </span></strong><span class=\"fontstyle0\">permette di accorgersi che qualcosa non va, senza però poterla identificare. Per chi ha il Talento @Compendium[wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Seconda Vista}</span><em><span class=\"fontstyle3\">&nbsp;</span></em><span class=\"fontstyle0\">la prova è <strong>I</strong></span><strong><span class=\"fontstyle2\">mpegnativa (+0)</span></strong><span class=\"fontstyle0\"> e se la supera capisce che c’è una magia in azione, anche se non sa cosa nasconde.</span></p><p>\n\n <p></p>",
       "id": "Joyous Aspect (Undivided)",
-      "name": "Aspect Sublimé (Indivisible)"
+      "name": "Apparenza Gioiosa (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Le lanceur de sorts imprègne la Cible (peut-être lui-même) avec un vernis corrompu d’<i>Ulgu</i> infusé par <i>Dhar</i>, l’enveloppant dans une aura de dissimulation. Tant que le Sort est en vigueur, la Cible apparaît sans défaut, ni tache. Les cicatrices, les difformités et, surtout, les Mutations sont indétectables, sauf par des moyens divins. Si les vices évidents sont cachés, les Cibles peuvent paraître étranges ou excentriques, trop débordantes de vie ou anormalement séduisantes. La réussite d’un Test de <strong>Perception Difficile (-20)</strong> révèle que quelque chose ne va pas, mais sans révéler quoi. Pour les Personnages possédant le Talent Seconde vue, le Test est <strong>Intermédiaire (+0)</strong>, et s’ils le réussissent, ils se rendront compte qu’un Sort est en place, mais pas ce qu’il dissimule.</span> </p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "p><span class=\"fontstyle0\">Una membrana corrotta di </span><em><span class=\"fontstyle2\">Ulgu </span></em><span class=\"fontstyle0\">infuso di </span><em><span class=\"fontstyle2\">Dhar </span></em><span class=\"fontstyle0\">avvolge il bersaglio, o l’incantatore stesso, camuffandolo. Per la durata dell’incantesimo, il bersaglio appare privo di difetti. Cicatrici, deformità e, soprattutto, mutazioni sono impercettibili, eccetto per chi possiede poteri divini. &nbsp;</span></p>\n<p><span class=\"fontstyle0\">Ciononostante, il bersaglio potrebbe apparire comunque strano, troppo vitale o innaturalmente bello. Superare una <strong>Prova</strong> </span><strong><span class=\"fontstyle2\">Ardua (-20) di Percepire </span></strong><span class=\"fontstyle0\">permette di accorgersi che qualcosa non va, senza però poterla identificare. Per chi ha il Talento @Compendium[wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Seconda Vista}</span><em><span class=\"fontstyle3\">&nbsp;</span></em><span class=\"fontstyle0\">la prova è <strong>I</strong></span><strong><span class=\"fontstyle2\">mpegnativa (+0)</span></strong><span class=\"fontstyle0\"> e se la supera capisce che c’è una magia in azione, anche se non sa cosa nasconde.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Joyous Aspect (Tzeentch)",
-      "name": "Aspect Sublimé (Tzeentch)"
+      "name": "Apparenza Gioiosa (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Ce Sort est l’un des plus simples et des plus pratiques dans l’arsenal d’un sorcier de Tzeentch. Un tourbillon de feu jaune est invoqué à partir de l’Aethyr et enveloppe le corps du Lanceur, le protégeant des coups et des projectiles. Tant que le Sort est en vigueur, le Lanceur bénéficie du Trait de créature @Compendium[wfrp4e-core.items.Bvd2aZ0gQUXHfCTh]{Protection 9+}.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Questo è uno degli incantesimi più diretti e pratici nell’arsenale di uno stregone di Tzeentch. Un vortice di fuoco giallo, evocato dall’Aethyr, ricopre lo stregone, proteggendolo da colpi e proiettili. Per tutta la durata ottiene il Tratto @Compendium[wfrp4e-core.items.Bvd2aZ0gQUXHfCTh]{Protezione 9+}.</span><span class=\"fontstyle2\">&nbsp;</span><span class=\"fontstyle0\">.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Tzeentch's Golden Aura",
-      "name": "Aura Dorée de Tzeentch"
+      "name": "Aura Dorata di Tzeentch"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vos paroles, imprégnées de la prescience labyrinthique du Changeur de Voies, remodèlent votre esprit, vous donnant accès à de nouvelles connaissances arcaniques. Choisissez un  Sort dans n’importe quel Domaine (pour assurer un jeu rapide, le MJ peut imposer une limite de temps de neuf secondes). Pendant que l’Avantage de Tzeentch est en vigueur, vous pouvez lancer votre nouveau Sort comme si vous l’aviez mémorisé, sans pouvoir le transcrire dans un grimoire, un parchemin ou autre. Si vous focalisez pour lancer le nouveau Sort, vous pouvez utiliser soit Focalisation (<i>Dhar</i>), soit la Compétence de Focalisation appropriée au Domaine que le Sort requiert normalement, si vous la possédez. </span></p><p><span class=\"fontstyle0\">Si vous subissez une Incantation Imparfaite lors d'une Focalisation ou d'une Incantation en lançant ce nouveau sort, le sort Avantage de Tzeentch quitte votre esprit avec dégoût, et s'efface également de votre Grimoire si toutefais il y était inscrit.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Pronunciando parole infuse della labirintica precognizione di Colui che Cambia le Vie, lo stregone altera la propria mente per ottenere nuove conoscenze arcane. Sceglie un incantesimo da qualsiasi Sapere (per accelerare il gioco il GM può stabilire che la scelta sia fatta in nove secondi) e, finché il </span><em><span class=\"fontstyle2\">Dono di Tzeentch </span></em><span class=\"fontstyle0\">è attivo, può lanciarlo come se lo avesse memorizzato, ma non può trascriverlo su grimori, pergamene o altro. In caso voglia incanalare potere in questo incantesimo, il mago può usare sia Incanalare ((</span><em><span class=\"fontstyle2\">Dhar</span></em><span class=\"fontstyle0\">) ) sia l’Abilità legata al Sapere originale, se la possiede.<br></span></p>\n<p><span class=\"fontstyle0\">Un Incidente Magico nel lanciare o incanalare l’incantesimo scelto pone fine al </span><em><span class=\"fontstyle2\">Dono di Tzeentch</span></em><span class=\"fontstyle0\"> che, disgustato, abbandona la mente del mago e si cancella dal suo grimorio, se vi era stato trascritto.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Boon of Tzeentch",
-      "name": "Avantage de Tzeentch"
+      "name": "Dono di Tzeentch"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous canalisez la Magie noire en un éclair de puissance corrosive. Il s’agit d’un <i>Projectile magique</i> infligeant Dégâts +6. Les Cibles affectées par le Sort doivent réussir un Test de <strong>Résistance Intermédiaire (+0)</strong>, ou gagner 1 Corruption. /span></p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone incanala energie profane in un’esplosione di corruzione. È un proiettile magico con Danno +5 che colpisce tutto ciò che si trova nell’Area d’Effetto. Tutti i bersagli devono superare una Prova </span><strong><span class=\"fontstyle2\">Impegnativa (+0) di Tempra </span></strong><span class=\"fontstyle0\">, o ricevere 1 Corruzione.</span></p>",
       "id": "Blast of Corruption (Undivided)",
-      "name": "Décharge de Corruption (Indivisible)"
+      "name": "Scoppio di Corruzione (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous canalisez la Magie noire en un éclair de puissance corrosive. Il s’agit d’un <i>Projectile magique</i> infligeant Dégâts +6. Les Cibles affectées par le Sort doivent réussir un Test de Résistance Intermédiaire (+0), ou gagner 1 Corruption. /span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de <strong>Résistance Intermédiaire (+0)</strong> ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone incanala energie profane in un’esplosione di corruzione. È un proiettile magico con Danno +5 che colpisce tutto ciò che si trova nell’Area d’Effetto. Tutti i bersagli devono superare una Prova </span><strong><span class=\"fontstyle2\">Impegnativa (+0) di Tempra </span></strong><span class=\"fontstyle0\">, o ricevere 1 Corruzione.</span></p><p>\n\n <b>Sapere:</b>I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.<p>",
       "id": "Blast of Corruption (Tzeentch)",
-      "name": "Décharge de Corruption (Tzeentch)"
+      "name": "Scoppio di Corruzione (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vos mots ignobles et profanes déchirent le tissu de la réalité, creusant une brèche dans le monde, au travers de laquelle les serviteurs des Dieux Sombres sont libres de passer. Un portail déchiqueté vers l’Aethyr apparaît.</span></p><p><span class=\"fontstyle0\">À la fin de chaque round, un démon mineur traverse le portail depuis les Royaumes du Chaos. Ces démons ne sont pas sous votre contrôle, mais sont susceptibles de vous défendre et d’attaquer vos ennemis, si telle est la volonté de votre maître impie. Les démons invoqués dépendent de votre Domaine du Chaos : démonettes de Slaanesh, porte-peste de Nurgle, horreurs de Tzeentch, sanguinaires de Khorne, et, pour les sorciers du Chaos Indivisible, des furies du Chaos. Pendant toute la durée du sort, tous les démons qu’il invoque sont immunisés aux effets du Trait de créature Instable.</span></p><p><span class=\"fontstyle0\">Pour chaque +5 DR de Surincantation, vous pouvez augmenter le rythme d’arrivée des démons de +1. </span></p><p><span class=\"fontstyle0\">Les créatures vivantes doivent réussir un Test de <strong>Résistance Accessible (+20)</strong> à la fin de chaque Round où elles voient la déchirure, ou gagner +1 Corruption. Toute créature vivante assez stupide ou malchanceuse pour entrer dans la faille choit dans les Royaumes du Chaos et est immédiatement tuée, à moins qu’un Point de Destin ne soit dépensé. Dans ce cas, elle est renvoyée dans la réalité, peut-être sauvée par une Puissance quelconque dans un but encore inachevé.</span></p><p><span class=\"fontstyle0\">Si vous ratez l’Incantation de ce Sort, les démons qui traversent les Royaumes du Chaos appartiennent à une divinité rivale et peuvent être immédiatement hostiles à leur invocateur !</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Le parole malefiche e profane dello stregone strappano il tessuto della realtà, aprendo una breccia nell’Aethyr, da cui emergono i servi degli Dei Oscuri.</span></p><p><span class=\"fontstyle0\">Alla fine di ogni Round, un Demone Minore lascia il Reame del Caos attraverso questo portale. Queste creature non sono sotto il controllo dello stregone, ma è probabile che lo difendano e attacchino i suoi nemici… se tale è il volere del loro sacrilego padrone. Il tipo di Demoni dipende dal Sapere del Caos utilizzato: @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{Demonette per Slaanesh}, Untori per Nurgle, @UUID[Compendium.wfrp4e-eis.actors.iDy8SDTwJSlCzZMl]{Orrori per Tzeentch}, @UUID[Compendium.wfrp4e-core.actors.KZkuwdOYmE3nwB2n]{Sanguinari per Khorne} e @UUID[Compendium.wfrp4e-eis.actors.piVHq2Y1a9PhHlZJ]{Furie per il Caos Indiviso}. Finché l’incantesimo è attivo, i demoni sono immuni al Tratto @UUID[Compendium.wfrp4e-core.items.D0ImWEIMSDgElsnl]{Instabile}.</span></p><p><span class=\"fontstyle0\"> Per +5 LS è possibile aumentare di uno il numero di Demoni che appaiono.</span></p><p><span class=\"fontstyle0\">Al termine di ogni Round, una creatura vivente in grado di vedere la breccia deve superare una Prova </span><span class=\"fontstyle3\"><strong>Media (+20) di Tempra </strong></span><span class=\"fontstyle0\">per non accumulare 1 Corruzione. Chi è tanto pazzo o sfortunato da entrare nel portale precipita nel Reame del Caos e muore all’istante, a meno che spenda un Punto Fato. In tal caso viene riportato nella realtà, forse da qualche potere ignoto per scopi ancora più sconosciuti.</span></p><p><span class=\"fontstyle0\">Un Disastro nel lanciare questo incantesimo fa sì che i Demoni evocati siano servi di una divinità ostile allo Stregone e lo attacchino immediatamente! </span></p",
       "id": "Rend Aethyr (Undivided)",
-      "name": "Déchirer l'Aethyr (Indivisible)"
+      "name": "Lacerare l'Aethyr (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vos mots ignobles et profanes déchirent le tissu de la réalité, creusant une brèche dans le monde, au travers de laquelle les serviteurs des Dieux Sombres sont libres de passer. Un portail déchiqueté vers l’Aethyr apparaît.</span></p><p><span class=\"fontstyle0\">À la fin de chaque round, un démon mineur traverse le portail depuis les Royaumes du Chaos. Ces démons ne sont pas sous votre contrôle, mais sont susceptibles de vous défendre et d’attaquer vos ennemis, si telle est la volonté de votre maître impie. Les démons invoqués dépendent de votre Domaine du Chaos : démonettes de Slaanesh, porte-peste de Nurgle, horreurs de Tzeentch, sanguinaires de Khorne, et, pour les sorciers du Chaos Indivisible, des furies du Chaos. Pendant toute la durée du sort, tous les démons qu’il invoque sont immunisés aux effets du Trait de créature Instable.</span></p><p><span class=\"fontstyle0\">Pour chaque +5 DR de Surincantation, vous pouvez augmenter le rythme d’arrivée des démons de +1. </span></p><p><span class=\"fontstyle0\">Les créatures vivantes doivent réussir un Test de <strong>Résistance Accessible (+20)</strong> à la fin de chaque Round où elles voient la déchirure, ou gagner +1 Corruption. Toute créature vivante assez stupide ou malchanceuse pour entrer dans la faille choit dans les Royaumes du Chaos et est immédiatement tuée, à moins qu’un Point de Destin ne soit dépensé. Dans ce cas, elle est renvoyée dans la réalité, peut-être sauvée par une Puissance quelconque dans un but encore inachevé.</span></p><p><span class=\"fontstyle0\">Si vous ratez l’Incantation de ce Sort, les démons qui traversent les Royaumes du Chaos appartiennent à une divinité rivale et peuvent être immédiatement hostiles à leur invocateur !</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Le parole malefiche e profane dello stregone strappano il tessuto della realtà, aprendo una breccia nell’Aethyr, da cui emergono i servi degli Dei Oscuri.</span></p><p><span class=\"fontstyle0\">Alla fine di ogni Round, un Demone Minore lascia il Reame del Caos attraverso questo portale. Queste creature non sono sotto il controllo dello stregone, ma è probabile che lo difendano e attacchino i suoi nemici… se tale è il volere del loro sacrilego padrone. Il tipo di Demoni dipende dal Sapere del Caos utilizzato: @UUID[Compendium.wfrp4e-core.actors.8gG2Wim6wAlJWRax]{Demonette per Slaanesh}, Untori per Nurgle, @UUID[Compendium.wfrp4e-eis.actors.iDy8SDTwJSlCzZMl]{Orrori per Tzeentch}, @UUID[Compendium.wfrp4e-core.actors.KZkuwdOYmE3nwB2n]{Sanguinari per Khorne} e @UUID[Compendium.wfrp4e-eis.actors.piVHq2Y1a9PhHlZJ]{Furie per il Caos Indiviso}. Finché l’incantesimo è attivo, i demoni sono immuni al Tratto @UUID[Compendium.wfrp4e-core.items.D0ImWEIMSDgElsnl]{Instabile}.</span></p><p><span class=\"fontstyle0\"> Per +5 LS è possibile aumentare di uno il numero di Demoni che appaiono.</span></p><p><span class=\"fontstyle0\">Al termine di ogni Round, una creatura vivente in grado di vedere la breccia deve superare una Prova </span><span class=\"fontstyle3\"><strong>Media (+20) di Tempra </strong></span><span class=\"fontstyle0\">per non accumulare 1 Corruzione. Chi è tanto pazzo o sfortunato da entrare nel portale precipita nel Reame del Caos e muore all’istante, a meno che spenda un Punto Fato. In tal caso viene riportato nella realtà, forse da qualche potere ignoto per scopi ancora più sconosciuti.</span></p><p><span class=\"fontstyle0\">Un Disastro nel lanciare questo incantesimo fa sì che i Demoni evocati siano servi di una divinità ostile allo Stregone e lo attacchino immediatamente! </span></p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Rend Aethyr (Tzeentch)",
-      "name": "Déchirer l'Aethyr (Tzeentch)"
+      "name": "Lacerare l'Aethyr (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Un éclair pulsant d’une scintillante énergie chaotique déchire l'air. L'Éclair du changement est un <i>Projectile magique</i>, et la Cible subit des Dégâts +7. De plus, elle doit effectuer un Test de </strong>Résistance Intermédiaire (+0)</strong>. Une Cible qui échoue gagne +1 Point de Corruption. En cas de Maladresse, la Cible effectue immédiatement un jet de Mutation, et gagne le Talent Compendium[wfrp4e-core.items.hiU7vhBOVpVI8c7C]{Magie du Chaos (Tzeentch)}. Un Personnage affecté par ce sort peut résister à une Mutation en dépensant un Point de Détermination.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p>Un dardo pulsante di scintillante energia Caotica fende l’aria. <strong>Dardo di Cambiamento</strong> è un <em>proiettile magico</em> con Danno +7. Inoltre, il bersaglio deve superare una <strong>Prova Impegnativa (+0) di Tempra</strong> per non accumulare 1 Corruzione. Se ottiene un Disastro deve tirare immediatamente per una Mutazione (@Table[expandedmutatemental]{Mentale} o @Table[expandedmutatephys]{Fisica}) e riceve il Talento @UUID[Compendium.wfrp4e-core.items.hiU7vhBOVpVI8c7C]{Magia del Caos (Tzeentch)} . È possibile resistere alla Mutazione spendendo un Punto Risolutezza. </p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Bolt of Change",
-      "name": "Éclair du changement"
+      "name": "Dardo di Cambiamento"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous implorez votre divinité pour qu’elle s’empare de l’âme de votre Cible et la remplace par quelque chose de terrible. Faites un Test opposé de <strong>Force Mentale</strong>, que vous devez gagner d’au moins +2 DR. Si vous y parvenez, l’âme de la victime est envoyée dans les Royaumes du Chaos et le corps est possédé par un démon. À moins que la Cible ne dépense un Point de Destin, le contrôle du Personnage passe au MJ. Si vous ne gagnez pas le Test opposé par au moins +2 DR, vous subissez une  <a class=\"table-click\" data-table=\"majormis\">Incantation imparfaite majeure</table>, et le Sort échoue. Si vous ne réussissez pas le Test, votre arrogance est punie par votre dieu. Votre âme est arrachée à son corps, pour ne jamais revenir, à moins que vous ne dépensiez un Point de Destin pour y résister. Mais votre dieu ne sera guère ravi si vous rejetez son autorité de manière aussi flagrante.</span></p> <p><span class=\"fontstyle0\"> Étant donné les risques et les limites inhérents à ce Sort, il est généralement lancé sur des victimes qui ont été « préparées » pour leur sacrifice ; elles ont été attachées, droguées et/ou autrement neutralisées.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone implora il proprio patrono di prendere l’anima del bersaglio e sostituirla con qualcosa di terribile. Se l’incantatore supera una Prova </span><strong><span class=\"fontstyle2\">Contrapposta di Volontà </span></strong><span class=\"fontstyle0\">di almeno 2+ LS, l’anima della vittima è scagliata, urlante, nel Reame del Caos e il corpo viene posseduto da un Demone. A meno che il bersaglio spenda un Punto Fato, il controllo del Personaggio passa al GM. Se l’incantatore perde la Prova </span><strong><span class=\"fontstyle2\">Contrapposta di Volontà </span></strong><span class=\"fontstyle0\">di almeno 2+ LS, subisce un @Table[majormis]Incidente Magico Maggiore e l’incantesimo fallisce. In caso di un Disastro, il suo patrono lo punisce per tanta arroganza, strappandogli l’anima. Questa non ritornerà mai, a meno che lo Stregone spenda un Punto Fato per resistere, ma è probabile che il dio sarà molto irritato da questa sfida al suo volere. <br></span></p>\n<p><span class=\"fontstyle0\">Considerati i rischi e le limitazioni, questo incantesimo viene usato quasi esclusivamente su vittime preparate al sacrificio: legate, drogate e/o trattenute in altro modo.</span></p><p>\n\n</p>",
       "id": "Slave to Darkness (Undivided)",
-      "name": "Esclave des ténèbres (Indivisible)"
+      "name": "Schiavo delle Tenebre (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous implorez votre divinité pour qu’elle s’empare de l’âme de votre Cible et la remplace par quelque chose de terrible. Faites un Test opposé de </strong>Force Mentale</strong>, que vous devez gagner d’au moins +2 DR. Si vous y parvenez, l’âme de la victime est envoyée dans les Royaumes du Chaos et le corps est possédé par un démon. À moins que la Cible ne dépense un Point de Destin, le contrôle du Personnage passe au MJ. Si vous ne gagnez pas le Test opposé par au moins +2 DR, vous subissez une  <a class=\"table-click\" data-table=\"majormis\">Incantation imparfaite majeure</table>, et le Sort échoue. Si vous ne réussissez pas le Test, votre arrogance est punie par votre dieu. Votre âme est arrachée à son corps, pour ne jamais revenir, à moins que vous ne dépensiez un Point de Destin pour y résister. Mais votre dieu ne sera guère ravi si vous rejetez son autorité de manière aussi flagrante.</span></p> <p><span class=\"fontstyle0\"> Étant donné les risques et les limites inhérents à ce Sort, il est généralement lancé sur des victimes qui ont été « préparées » pour leur sacrifice ; elles ont été attachées, droguées et/ou autrement neutralisées.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone implora il proprio patrono di prendere l’anima del bersaglio e sostituirla con qualcosa di terribile. Se l’incantatore supera una Prova </span><strong><span class=\"fontstyle2\">Contrapposta di Volontà </span></strong><span class=\"fontstyle0\">di almeno 2+ LS, l’anima della vittima è scagliata, urlante, nel Reame del Caos e il corpo viene posseduto da un Demone. A meno che il bersaglio spenda un Punto Fato, il controllo del Personaggio passa al GM. Se l’incantatore perde la Prova </span><strong><span class=\"fontstyle2\">Contrapposta di Volontà </span></strong><span class=\"fontstyle0\">di almeno 2+ LS, subisce un @Table[majormis]Incidente Magico Maggiore e l’incantesimo fallisce. In caso di un Disastro, il suo patrono lo punisce per tanta arroganza, strappandogli l’anima. Questa non ritornerà mai, a meno che lo Stregone spenda un Punto Fato per resistere, ma è probabile che il dio sarà molto irritato da questa sfida al suo volere. <br></span></p>\n<p><span class=\"fontstyle0\">Considerati i rischi e le limitazioni, questo incantesimo viene usato quasi esclusivamente su vittime preparate al sacrificio: legate, drogate e/o trattenute in altro modo.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Slave to Darkness (Tzeentch)",
-      "name": "Esclave des ténèbres (Tzeentch)"
+      "name": "Schiavo delle Tenebre (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous canalisez la Magie profane en un souffle explosif de  Corruption. Il s’agit d’un <i>Projectile magique</i> infligeant Dégâts +5 qui Cible tout le monde dans la Zone d’Effet. Toute personne affectée par le Sort doit réussir un Test de <strong>Résistance Intermédiaire (+0)</strong>, ou gagner 1 Corruption.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone incanala la magia oscura in un dardo di energia corrosiva. È un proiettile magico con Danno +6. Il bersaglio deve superare una Prova </span><strong><span class=\"fontstyle2\">Impegnativa (+0) di Tempra </span></strong><span class=\"fontstyle0\">o ricevere 1 Corruzione.</span></p><p></p>",
       "id": "Bolt of Corruption (Undivided)",
-      "name": "Explosion de Corruption (Indivisible)"
+      "name": "Dardo di Corruzione (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous canalisez la Magie profane en un souffle explosif de  Corruption. Il s’agit d’un <i>Projectile magique</i> infligeant Dégâts +5 qui Cible tout le monde dans la Zone d’Effet. Toute personne affectée par le Sort doit réussir un Test de </strong>Résistance Intermédiaire (+0)</strong>, ou gagner 1 Corruption.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone incanala la magia oscura in un dardo di energia corrosiva. È un proiettile magico con Danno +6. Il bersaglio deve superare una Prova </span><strong><span class=\"fontstyle2\">Impegnativa (+0) di Tempra </span></strong><span class=\"fontstyle0\">o ricevere 1 Corruzione.</span></p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Bolt of Corruption (Tzeentch)",
-      "name": "Explosion de Corruption (Tzeentch)"
+      "name": "Dardo di Corruzione (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vos mots invoquent une boule de feu d’un bleu scintillant qui engloutit vos ennemis. Le Feu bleu de Tzeentch est un <i>Projectile magique</i>. Toute personne se trouvant dans les limites de votre Bonus d’Initiative en mètres autour de la cible subit +3 Points de Dégâts, et gagne 1 État <i>En flammes</i>.</span></p><p><span class=\"fontstyle0\">Si un Personnage de Taille Petite ou supérieure est réduit à 0 Blessure par ce Sort, alors qu’il est sous l’effet de l’État En flammes dû au Feu bleu de Tzeentch, lancez 1d10. Sur un résultat de 9, deux horreurs bleues (voir page 85) se frayent un chemin à travers la chair hurlante du Personnage, le tuant au passage.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p>Le parole dello stregone evocano una contorta sfera di splendente fuoco blu, che avvolge i suoi nemici. <em>Fuoco Blu di Tzeentch</em> è un proiettile magico che colpisce chiunque si trovi nell’Area d’Effetto, causando Danno +3 e 1 @Condition[In Fiamme].</p><p>Se un Personaggio di taglia Piccola o superiore viene ridotto a 0 Ferite da questo incantesimo o dalla Condizione In Fiamme collegata, il GM tira [[/r 1d10]]. Con un risultato di 9, due @UUID[Compendium.wfrp4e-eis.actors.cLOGeMqUty61nYB9]{Orrori Blu di Tzeentch} emergono dalle carni bruciate, uccidendo il Personaggio.</p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Blue Fire of Tzeentch",
-      "name": "Feu Bleu de Tzeentch"
+      "name": "Fuoco Blu di Tzeentch"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Des éclairs de feu rose tourbillonnent du bout de vos doigts tendus, faisant hurler d’angoisse la réalité. Le Feu rose de Tzeentch est un <i>Projectile magique</i>. La Cible touchée subit Dégâts +6, et gagne +1 État <i>En flammes</i>.</span></p><p><span class=\"fontstyle0\">Si un Personnage de Taille petite ou plus grande est réduit à 0 Blessure par ce Sort, alors qu’il est sous l’effet de l’État En flammes causé par le Feu rose de Tzeentch, lancez un d10. Sur un résultat de 9, une horreur rose (voir page 85) se fraie un chemin hors du corps convulsé de la Cible, la tuant aussitôt.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Dalle dita dello stregone scaturiscono vorticanti dardi di fuoco rosa, che fanno urlare di dolore la realtà. </span><span class=\"fontstyle2\"><em>Fuoco Rosa di Tzeentch </em></span><span class=\"fontstyle0\">è un </span><span class=\"fontstyle2\"><em>proiettile magico</em></span><span class=\"fontstyle0\"> che causa Danno +6 e aggiunge 1 <span class=\"fontstyle0\">Condizione @Condition[In Fiamme].</span></p><p><span class=\"fontstyle0\">Se un Personaggio di taglia Piccola o superiore viene ridotto a 0 Ferite da </span><span class=\"fontstyle2\"><em>Fuoco Rosa di Tzeentch </em></span><span class=\"fontstyle0\"> o dalla Condizione In Fiamme collegata al <span class=\"fontstyle2\"><em>Fuoco Rosa di Tzeentch </em></span><span class=\"fontstyle0\">, tira [[/r 1d10]]. Con un risultato di 9, un @UUID[Compendium.wfrp4e-eis.actors.iDy8SDTwJSlCzZMl]{Orrore Rosa} emerge dalle carni bruciate, uccidendo il Personaggio.</span></p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Pink Fire of Tzeentch",
-      "name": "Feu Rose de Tzeentch"
+      "name": "Fuoco Rosa di Tzeentch"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">L’air se déforme au bout de vos doigts, formant un éclair d’énergie magique brumeuse et chatoyante que vous pouvez lancer sur votre Cible. Toute personne affectée par Feu spirituel doit réussir un Test de <strong>Calme Intermédiaire (+0)</strong>, ou gagner 1 Point de Corruption. Pour chaque +2 DR, vous pouvez faire gagner un Point de Corruption supplémentaire à la Cible dont le Test de <strong>Calme</strong> est raté. Si une Mutation se produit à la suite de ce Sort, la Cible effectue automatiquement un jet sur le tableau des <a class=\"table-click\" data-table=\"expandedmutatemental\">Mutations mentales</a>, et gagne +1 État <i>En flammes</i> alors que du feu surnaturel jaillit de chaque orifice de sa tête.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">L’aria si deforma attorno alle dita dello stregone, creando un dardo scintillante di energia magica. Chi viene colpito da </span><span class=\"fontstyle2\"><em>Fuoco Mentale </em></span><span class=\"fontstyle0\">deve superare una Prova <strong>I</strong></span><span class=\"fontstyle3\"><strong>mpegnativa (+0) di Freddezza </strong></span><span class=\"fontstyle0\">per non ricevere 1 Corruzione (più un’altra per ogni +2 LS). Se questo causa una Mutazione, il bersaglio deve tirare obbligatoriamente sulla @Table[mutazionimentaliespanse]{Mutazioni Mentali} e subisce 1 </span> @Condition[In Fiamme] <span class=\"fontstyle0\">, mentre un fuoco sovrannaturale esce da ogni orifizio della sua testa.</span></p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Mindfire",
-      "name": "Feu Spirituel"
+      "name": "Fuoco Mentale"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous invoquez un torrent de feu magique, qui crache, crépite et brûle sans aucun combustible matériel. Ce feu n’a aucune propriété physique et ne brûle pas, n’endommage pas et n’émet pas de chaleur. Toutes les créatures vivantes et les démons qui peuvent le percevoir peuvent choisir de relancer chaque Test une fois, comme s’ils avaient dépensé un Point de Chance, même s’ils ont réussi le Test. Chaque fois, ils doivent réussir un Test de <strong>Résistance Intermédiaire (+0)</strong> ou gagner +1 Point de Corruption. Les Personnages portant la marque de Tzeentch sont immunisés à cette Corruption. Le Test pour  résister au gain de Corruption ne peut pas être relancé en       utilisant l’effet de ce Sort.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone evoca un torrente di fuoco magico, che crepita e scoppietta senza alcun carburante. Il fuoco non ha proprietà fisiche, non brucia, danneggia o emette calore. Tutte le creature viventi e i Demoni che lo vedono possono ritentare una volta ogni Prova, come se avessero speso un Punto Fortuna, persino se hanno già avuto successo. Ogni volta che lo fanno, però, devono superare una Prova </span><strong><span class=\"fontstyle2\">Impegnativa (+0) di Tempra</span></strong><span class=\"fontstyle0\">per non accumulare 1 Corruzione (@Corruption[minore]{Minore}). Chi possiede il Marchio di Tzeentch è immune a questo effetto negativo. Ovviamente, la Prova per resistere alla Corruzione non può essere ritentata grazie a questo Incantesimo.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "The Flickering Flames of Fickle Fate",
-      "name": "Flammes vacillantes du capricieux destin"
+      "name": "Fiamme Tremanti del Fato Capriccioso"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Les sorciers de Tzeentch négocient souvent avec leur maître pour obtenir des indications sur leur destin. Cette recherche est dangereuse, car Tzeentch est un dieu capricieux, même envers ses serviteurs favoris. Une fois que le Sort est lancé, il ne peut plus l’être à nouveau, jusqu’à ce que sa durée soit écoulée.</span></p><p><span class=\"fontstyle0\">Calculez la réussite du Test de <strong>Langue (Magick)</strong> nécessaire pour lancer le Sort. Pour chaque DR positif, le Lanceur bénéficie d’un Point de Chance qu’il peut utiliser normalement pendant la durée du Sort. Cependant, si le Sort échoue, pour chaque DR négatif, le Lanceur reçoit un Point de Corruption pour avoir examiné un éventail vertigineux d’inquiétants échos futurs.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Gli stregoni di Tzeentch mercanteggiano spesso con il loro patrono per conoscere il proprio fato. È un’azione pericolosa, perché Tzeentch è un dio capriccioso, anche nei confronti dei propri servi prediletti. Questo incantesimo non può essere lanciato di nuovo finché la sua durata non si è esaurita.</span></p>\n<p><span class=\"fontstyle0\">Una volta effettuata la Prova di </span><strong><span class=\"fontstyle2\">Linguaggio (Magico)</span></strong><span class=\"fontstyle0\">, per ogni LS positivo lo stregone ottiene un Punto Fortuna, che può usare normalmente entro la durata dell’effetto. Se invece fallisce, per ogni LS negativo riceve 1 Corruzione, mentre la sua mente è stordita dagli echi del futuro.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Master of Fortune",
-      "name": "Maître du Destin"
+      "name": "Padrone della Sorte"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Selon la tradition tzeentchienne, tous les Sorts découlent de la volonté du Dieu et lui appartiennent donc. En utilisant ce Sort, un sorcier de Tzeentch peut faire perdre à un autre sorcier la connaissance et la capacité de lancer un Sort dont il avait auparavant la maîtrise.</span></p><p><span class=\"fontstyle0\">Si la Malédiction de Tzeentch est un succès, le Lanceur doit alors faire un Test opposé de <strong>Force Mentale</strong> contre la Cible. Si le Lanceur gagne, la Cible perd l’accès à un Sort pris au hasard. Les effets de la Malédiction durent un jour pour chaque DR obtenu par le Lanceur lors du Test opposé.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Secondo il Sapere di Tzeentch, tutta la magia nasce dal volere del dio e a lui appartiene. Usando questo potere lo stregone può far dimenticare a un altro mago uno degli incantesimi che padroneggia.<br></span></p>\n<p><span class=\"fontstyle0\">Se la maledizione viene lanciata con successo, lo stregone deve superare una Prova Contrapposta di </span><span class=\"fontstyle2\"><strong>Volontà</strong> </span><span class=\"fontstyle0\"> contro la vittima. Se vince, questa perde accesso a un incantesimo scelto a caso per un numero di giorni pari al LS ottenuto della Prova Contrapposta.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Curse of Tzeentch",
-      "name": "Malédiction de Tzeentch"
+      "name": "Maledizione di Tzeentch"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Alors que votre langue émet les motifs sonores déformés de ce Sort blasphématoire, deux voix semblent sortir de votre gorge, en une harmonie impie et contre nature. Vos mots renferment une signification supplémentaire pour ceux qui sont affectés par le Sort, même si les Cibles ne peuvent pas se souvenir de ce qui a été dit. Elles en conservent un sentiment obsédant de pressentiment, comme si elles avaient oublié quelque chose de très important concernant leur propre avenir.</span></p>\n<p><span class=\"fontstyle0\"><br>. Les Cibles vivantes affectées par le Sort doivent faire un Test opposé d’<strong>Intelligence</strong>. Si la Cible perd, elle gagne 1 État <i>Sonné</i>, +1 État <i>Sonné</i> supplémentaire pour chaque DR d’écart. En cas de Maladresse, elle gagne l’État <i>Inconscient</i>, et +1 Point de Corruption.<br></span></p>\n<p><span class=\"fontstyle0\">Une fois que tous les États ont été retirés, les Cibles affectées doivent réussir un Test de <strong>Résistance Accessible (+20)</strong>, ou gagner +1 Corruption. Si elles obtiennent une Maladresse, elles gagnent immédiatement 1 Mutation mentale, et ne peuvent pas prendre d’Ambition à court terme pendant les 1d10 semaines suivantes.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Dalla gola dello stregone emergono due voci, che danno vita a suoni deformi in un’armonia innaturale e sacrilega. Ogni sua parola acquista un ulteriore significato alle orecchie del bersaglio, che però non potrà mai ricordare cosa gli è stato detto. Gli resterà solo una vaga inquietudine, come se avesse dimenticato qualcosa di molto importante per il proprio futuro.</span></p><p><span class=\"fontstyle0\">Un bersaglio vivente effettua una Prova </span><span class=\"fontstyle2\"><strong>Contrapposta di Intelligenza</strong></span><span class=\"fontstyle0\">. Se perde subisce </span> 1 @Condition[Stordito], (più un altro per ogni LS negativo). In caso di un Disastro cade @Condition[Svenuto], e accumula 1 Corruzione.</p><p><span class=\"fontstyle0\">Una volta che tutte queste Condizioni sono state rimosse, la vittima deve superare una Prova </span><span class=\"fontstyle2\"><strong>Media (+20) di Tempra </strong></span><span class=\"fontstyle0\">per non accumulare 1 Corruzione. Se ottiene un Disastro subisce una @Table[mutazionimentaliespanse]{Mutazione Mentale}, e non può scegliere una nuova Ambizione a Breve Termine per le prossime [[/r 1d10]] settimane.</span></p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Word of Tzeentch",
-      "name": "Parole de Tzeentch"
+      "name": "Parola di Tzeentch"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous devez posséder un objet chéri ou précieux appartenant à la Cible. Vous instillez magiquement de la matière brute du Chaos dans l’objet qui, à son tour, affecte la Cible. Elle devient obsédée par quelque chose : la nature précise de l’obsession dépend de l’individu en question, et de votre Domaine. Par exemple, lorsqu’il s’agit de Nurgle, <i>Obsession</i> peut pousser la Cible récemment blessée à gratter frénétiquement ses croûtes. Le Domaine de Slaanesh peut pousser un épicurien ou un gourmand à se goinfrer.</span></p><p><span class=\"fontstyle0\">La Cible doit réussir un Test de <strong>Résistance Accessible (+20)</strong> toutes les heures, ou succomber à son obsession. En cas d’échec, les Tests suivants deviennent <strong>Intermédiaire (+0)</strong>, puis si les échecs s’enchaînent, les Tests sont de plus en plus difficiles, jusqu’à ce qu’ils deviennent <strong>Très difficiles (-30)</strong>. Si la Cible obtient une Maladresse à l’un d’entre eux (en lançant un double), elle devient complètement obsédée. Elle ne peut rien faire d’autre que céder à cette obsession, quels qu’en soient le coût et les conséquences, pendant un nombre d’heures égal à 1d10 - Bonus de Force Mentale (minimum 1 heure). À la fin de la durée du Sort, en plus de toutes les autres implications physiques, sociales ou financières, la Cible doit réussir un Test de <strong>Résistance Intermédiaire (+0)</strong> ou gagner +1 Point de Corruption.</span></p><p><span class=\"fontstyle0\">Une Cible ne peut être affectée par ce Sort qu’une seule fois pour chaque Domaine avec lequel il est lancé. Toute tentative ultérieure sur la même Cible avec ce Sort est sans effet.</span> </p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone intesse una trama di energia grezza del Caos su un oggetto caro o prezioso per la vittima, colpendola di riflesso. Questa sviluppa un’ossessione collegata alla propria personalità e al Sapere dello stregone. Per esempio, lanciare </span><span class=\"fontstyle2\"><em>Ossessione </em></span><span class=\"fontstyle0\">con il Sapere di Nurgle fa in modo che la vittima inizi a grattarsi le croste delle ferite più recenti. Il Sapere di Slaanesh può far sì che un buongustaio si ingozzi senza ritegno.</span></p><p><span class=\"fontstyle0\">La vittima deve superare una <strong>Prova </strong></span></p><p><span class=\"fontstyle0\">Media (+20) di Tempra</strong></span><span class=\"fontstyle0\">ogni ora per non soccombere all’ossessione. Se fallisce, le prove ulteriori per resistere divengono </span><span class=\"fontstyle3\"><strong> Impegnative (+0) </strong></span><span class=\"fontstyle0\">. Un altro fallimento le rende </span><span class=\"fontstyle3\"><strong>Difficili (-10) </strong></span><span class=\"fontstyle0\"> e così via fino a un massimo di </span><span class=\"fontstyle3\"><strong>Molto Ardue (-30)</strong></span><span class=\"fontstyle0\">. Un Disastro fa sì che il bersaglio ceda completamente e non possa far altro che indulgere alla propria ossessione, incurante delle conseguenze, per [[/r d10]]-Bonus Volontà ore (minimo 1). Al termine dell’incantesimo la vittima deve superare una Prova </span><span class=\"fontstyle3\"><strong>Impegnativa (+0) di Tempra </strong></span><span class=\"fontstyle0\">per non accumulare 1 Corruzione, in aggiunta alle conseguenze fisiche, mentali e sociali del proprio comportamento. </span></p><p><span class=\"fontstyle0\">Un bersaglio può essere colpito con questo incantesimo solo una volta per Sapere. Ogni ulteriore tentativo non ha effetto.</span></p>",
       "id": "Obsession (Undivided)",
-      "name": "Obsession (Indivisible)"
+      "name": "Ossessione (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous devez posséder un objet chéri ou précieux appartenant à la Cible. Vous instillez magiquement de la matière brute du Chaos dans l’objet qui, à son tour, affecte la Cible. Elle devient obsédée par quelque chose : la nature précise de l’obsession dépend de l’individu en question, et de votre Domaine. Par exemple, lorsqu’il s’agit de Nurgle, <i>Obsession</i> peut pousser la Cible récemment blessée à gratter frénétiquement ses croûtes. Le Domaine de Slaanesh peut pousser un épicurien ou un gourmand à se goinfrer.</span></p><p><span class=\"fontstyle0\">La Cible doit réussir un Test de <strong>Résistance Accessible (+20)</strong> toutes les heures, ou succomber à son obsession. En cas d’échec, les Tests suivants deviennent <strong>Intermédiaire (+0)</strong>, puis si les échecs s’enchaînent, les Tests sont de plus en plus difficiles, jusqu’à ce qu’ils deviennent <strong>Très difficiles (-30)</strong>. Si la Cible obtient une Maladresse à l’un d’entre eux (en lançant un double), elle devient complètement obsédée. Elle ne peut rien faire d’autre que céder à cette obsession, quels qu’en soient le coût et les conséquences, pendant un nombre d’heures égal à 1d10 - Bonus de Force Mentale (minimum 1 heure). À la fin de la durée du Sort, en plus de toutes les autres implications physiques, sociales ou financières, la Cible doit réussir un Test de <strong>Résistance Intermédiaire (+0)</strong> ou gagner +1 Point de Corruption.</span></p><p><span class=\"fontstyle0\">Une Cible ne peut être affectée par ce Sort qu’une seule fois pour chaque Domaine avec lequel il est lancé. Toute tentative ultérieure sur la même Cible avec ce Sort est sans effet.</span> </p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone intesse una trama di energia grezza del Caos su un oggetto caro o prezioso per la vittima, colpendola di riflesso. Questa sviluppa un’ossessione collegata alla propria personalità e al Sapere dello stregone. Per esempio, lanciare </span><span class=\"fontstyle2\"><em>Ossessione </em></span><span class=\"fontstyle0\">con il Sapere di Nurgle fa in modo che la vittima inizi a grattarsi le croste delle ferite più recenti. Il Sapere di Slaanesh può far sì che un buongustaio si ingozzi senza ritegno.</span></p><p><span class=\"fontstyle0\">La vittima deve superare una <strong>Prova </strong></span></p><p><span class=\"fontstyle0\">Media (+20) di Tempra</strong></span><span class=\"fontstyle0\">ogni ora per non soccombere all’ossessione. Se fallisce, le prove ulteriori per resistere divengono </span><span class=\"fontstyle3\"><strong> Impegnative (+0) </strong></span><span class=\"fontstyle0\">. Un altro fallimento le rende </span><span class=\"fontstyle3\"><strong>Difficili (-10) </strong></span><span class=\"fontstyle0\"> e così via fino a un massimo di </span><span class=\"fontstyle3\"><strong>Molto Ardue (-30)</strong></span><span class=\"fontstyle0\">. Un Disastro fa sì che il bersaglio ceda completamente e non possa far altro che indulgere alla propria ossessione, incurante delle conseguenze, per [[/r d10]]-Bonus Volontà ore (minimo 1). Al termine dell’incantesimo la vittima deve superare una Prova </span><span class=\"fontstyle3\"><strong>Impegnativa (+0) di Tempra </strong></span><span class=\"fontstyle0\">per non accumulare 1 Corruzione, in aggiunta alle conseguenze fisiche, mentali e sociali del proprio comportamento. </span></p><p><span class=\"fontstyle0\">Un bersaglio può essere colpito con questo incantesimo solo una volta per Sapere. Ogni ulteriore tentativo non ha effetto.</span></p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Obsession (Tzeentch)",
-      "name": "Obsession (Tzeentch)"
+      "name": "Ossessione (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous invoquez un essaim de démons mineurs asservis à votre volonté. Leur forme varie en fonction de la divinité révérée. Les démons porteront un court message (environ vingt-cinq mots) à votre Cible. Ils voyagent presque instantanément et sont invisibles (et inaudibles) pour toute personne ne possédant pas le Talent Seconde vue, même lorsqu’ils délivrent leur message. Toute personne possédant ce Talent peut effectuer un Test de <strong>Perception Difficile (-20)</strong> pour remarquer l’essaim et entendre son message. Pour chaque +2 DR, vous pouvez doubler la longueur du message.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone evoca uno sciame di Demoni Minori assoggettandoli al proprio volere. L’aspetto delle creature dipende dal dio patrono, ma tutte consegnano un breve messaggio (di circa venticinque parole) a un individuo scelto dall’incantatore. Viaggiano istantaneamente e sono invisibili (e inudibili) a chi non possiede il Talento @UUID[Compendium.wfrp4e-it-translation-system7xx.items.OEjUvJKi0xmBwbS2]{Seconda Vista}, </span><span class=\"fontstyle2\">&nbsp;</span><span class=\"fontstyle0\">anche all’atto della consegna. Chi possiede questo Talento può effettuare una Prova </span><strong><span class=\"fontstyle3\">Ardua (-20) di Percepire </span></strong><span class=\"fontstyle0\"><strong>Test</strong> per accorgersi dello sciame e origliareil messaggio. Per ogni +2 LS si può raddoppiare la lunghezza della comunicazione.</span></p><p>\n\n <p></p>",
       "id": "Foul Messenger (Undivided)",
-      "name": "Odieux Messager (Indivisible)"
+      "name": "Messaggero Immondo (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous invoquez un essaim de démons mineurs asservis à votre volonté. Leur forme varie en fonction de la divinité révérée. Les démons porteront un court message (environ vingt-cinq mots) à votre Cible. Ils voyagent presque instantanément et sont invisibles (et inaudibles) pour toute personne ne possédant pas le Talent Seconde vue, même lorsqu’ils délivrent leur message. Toute personne possédant ce Talent peut effectuer un Test de </strong>Perception Difficile (-20)</strong> pour remarquer l’essaim et entendre son message. Pour chaque +2 DR, vous pouvez doubler la longueur du message.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone evoca uno sciame di Demoni Minori assoggettandoli al proprio volere. L’aspetto delle creature dipende dal dio patrono, ma tutte consegnano un breve messaggio (di circa venticinque parole) a un individuo scelto dall’incantatore. Viaggiano istantaneamente e sono invisibili (e inudibili) a chi non possiede il Talento @UUID[Compendium.wfrp4e-it-translation-system7xx.items.OEjUvJKi0xmBwbS2]{Seconda Vista}, </span><span class=\"fontstyle2\">&nbsp;</span><span class=\"fontstyle0\">anche all’atto della consegna. Chi possiede questo Talento può effettuare una Prova </span><strong><span class=\"fontstyle3\">Ardua (-20) di Percepire </span></strong><span class=\"fontstyle0\"><strong>Test</strong> per accorgersi dello sciame e origliareil messaggio. Per ogni +2 LS si può raddoppiare la lunghezza della comunicazione.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Foul Messenger (Tzeentch)",
-      "name": "Odieux Messager (Tzeentch)"
+      "name": "Messaggero Immondo (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vos yeux brillent de rose et bleu tandis que vous prononcez des mots de pouvoir interdits. Vos yeux se dessillent et vous percevez, pendant quelques instants fugaces, le destin interconnecté de toutes choses. Vous pouvez choisir une Cible que vous pouvez voir, et le MJ doit révéler la Motivation, l’Ambition à court terme et l’Ambition à long terme de cette Cible.</span> </p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone pronuncia parole proibite e i suoi occhi iniziano a brillare di rosa e blu. Il velo viene rimosso e per pochi attimi può osservare il fato interconnesso di tutte le cose. Sceglie una creatura visibile e il GM deve comunicargli quali siano le sue Motivazioni e Ambizioni, a Breve e Lungo Termine.</span> </p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Sense the Skein",
-      "name": "Percevoir l’écheveau"
+      "name": "Percepire il Groviglio"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous appelez les Dieux Sombres du Chaos à vous aider en pratiquant une petite déchirure dans l’Aethyr. Tous les Sorts lancés dans un rayon de quelques mètres du point ciblé par le Sort voient leur NI réduit de moitié. Toute personne se trouvant dans la Zone d’Effet doit réussir un Test de </strong>Résistance Accessible (+20)</strong> à la fin de chaque Round ou gagner +1 Point de Corruption. Quiconque lance un Sort dans la Zone d’Effet fait son Test avec une </strong>Difficulté Accessible (+20)</strong>.</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone si appella agli Dei Oscuri del Caos affinché lo aiutino aprendo una piccola breccia nell’Aethyr. Qualsiasi incantesimo lanciato nell’Area d’Effetto ha il proprio VL dimezzato e la Prova di Lancio ha difficoltà Media (+20). Chi si trova nell’area deve superare una Prova </span><strong><span class=\"fontstyle2\"><strong>Media (+20) di Tempra</strong></strong></span><span class=\"fontstyle0\"> alla fine di ogni Round per non accumulare 1 Corruzione.</span></p><p>\n\n<p></p>",
       "id": "Power of Chaos (Undivided)",
-      "name": "Pouvoir du Chaos (Indivisible)"
+      "name": "Potere del Caos (Qualsiasi Potere)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Vous appelez les Dieux Sombres du Chaos à vous aider en pratiquant une petite déchirure dans l’Aethyr. Tous les Sorts lancés dans un rayon de quelques mètres du point ciblé par le Sort voient leur NI réduit de moitié. Toute personne se trouvant dans la Zone d’Effet doit réussir un Test de <strong>Résistance Accessible (+20)</strong> à la fin de chaque Round ou gagner +1 Point de Corruption. Quiconque lance un Sort dans la Zone d’Effet fait son Test avec une <strong>Difficulté Accessible (+20)</strong>.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">Lo stregone si appella agli Dei Oscuri del Caos affinché lo aiutino aprendo una piccola breccia nell’Aethyr. Qualsiasi incantesimo lanciato nell’Area d’Effetto ha il proprio VL dimezzato e la Prova di Lancio ha difficoltà Media (+20). Chi si trova nell’area deve superare una Prova </span><strong><span class=\"fontstyle2\"><strong>Media (+20) di Tempra</strong></strong></span><span class=\"fontstyle0\"> alla fine di ogni Round per non accumulare 1 Corruzione.</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Power of Chaos (Tzeentch)",
-      "name": "Pouvoir du Chaos (Tzeentch)"
+      "name": "Potere del Caos (Tzeentch)"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Une tempête tourbillonnante de feu arcanique violet jaillit, invoquée par vos gloussements impies. La Tempête de feu de Tzeentch est un <i>Projectile magique</i>. Les personnes touchées subissent +9 Points de Dégâts et gagnent +1 Etat <i>En flammes</i>.</span></p>\n<p><span class=\"fontstyle0\"><br>Si un Personnage de Taille petite ou plus grande est réduit à 0 Blessure par ce Sort, ou pendant qu’il souffre d’un État <i>En flammes</i> dû à la <i>Tempête de feu de Tzeentch</i>, lancez 1d10. Sur un résultat de 9, deux horreurs roses (voir page 85) s’extirpent du corps de la Cible, qui brûle magiquement, et tuent le pauvre malheureux.</span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p><span class=\"fontstyle0\">La risata profana dello stregone evoca una turbinante tempesta di fuoco magico. </span><span class=\"fontstyle2\"><em>Tempesta di Fuoco di Tzeentch</em></span><span class=\"fontstyle0\">è un </span><span class=\"fontstyle2\"><em>proiettile magico </em></span><span class=\"fontstyle0\"> con Danno +9 che causa 1 </span><span class=\"fontstyle2\"><em> </em></span><span class=\"fontstyle0\">Condizione @Condition[In Fiamme].</span></p><p><span class=\"fontstyle0\">Se un Personaggio di taglia Piccola o superiore viene ridotto a 0 Ferite da questo incantesimo o dalla Condizione <em>In Fiamme</em> collegata, il GM tira [[/r 1d10]]. Con un risultato di 9, due @UUID[Compendium.wfrp4e-eis.actors.iDy8SDTwJSlCzZMl]{Orrori Rosa} emergono dalle carni bruciate, uccidendo il Personaggio.</span></p><p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Tzeentch's Firestorm",
-      "name": "Tempête de feu de Tzeentch"
+      "name": "Tempesta di Fuoco di Tzeentch"
     },
     {
-      "description": "<p>Ce sort est une malédiction mesquine utilisée par les sorciers de la Main Pourpre pour intimider et calmer les co-conspirateurs agressifs. De tous les codes non verbaux utilisés par la Main Pourpre, le sens de cette malédiction est clair : corrigez vos actes immédiatement ou soyez punis.</span></p><p><span class=\"fontstyle0\">Pour lancer le Sort, le sorcier doit d'abord obtenir un petit morceau de sa Cible : un cheveu perdu ou une rognure d'ongle d'orteil suffisent. Si cet objet est obtenu et que le Sort est lancé avec succès, les paumes des mains de la Cible deviennent d'un profond violet. Les effets du Sort durent une heure pour chaque niveau de réussite obtenu par le Lanceur lors de l'Incantation. </span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p>Questa piccola maledizione viene usata dagli stregoni della Mano Purpurea per intimidire o persuadere i propri compagni più bellicosi. È uno dei codici non verbali più chiari e univoci del culto: fai ammenda subito o affronta la punizione.</p>\n<p>Per lanciare l’incantesimo lo stregone deve procurarsi un pezzo del bersaglio (basta una ciocca di capelli o delle unghie tagliate). Se ha successo, i palmi delle mani della vittima diventano di un porpora acceso. L’effetto dura un’ora per LS ottenuto durante la Prova di Lancio.</p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "The Purple Hand",
-      "name": "La Main Pourpre"
+      "name": "Mano Purpurea"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Sur votre ordre, des liens de feu aethyrique s’élèvent de la terre, puis s’enroulent autour de votre Cible, l’enveloppant dans un cocon d’énergie magique. Les Cibles affectées gagnent l’État <i>À Terre</i> et sont considérées comme impuissantes pour toute la durée du Sort. Lorsque la Transformation de Tzeentch prend fin, la Cible doit faire un Test de <strong>Résistance Intermédiaire (+0)</strong>, auquel vous opposez votre Compétence Langue (Magick). Si elle perd, elle gagne +1 Point de Corruption, +1 Point supplémentaire pour chaque DR d’écart. </span></p><p>\n\n <b>Domaine:</b> Les Cibles des Sorts issus du Domaine de Tzeentch sont déchirées par la Magie transformatrice du Chaos. Celles affectées par un Sort du Domaine de Tzeentch doivent réussir un Test de Résistance Intermédiaire (+0) ou gagner +1 point de Corruption. Si elles réussissent leur Test, elles gagnent +1 Point de Chance, qu'elles peuvent utiliser normalement. Tels sont les caprices de Tzeentch.<p>",
+      "description": "<p>All’ordine dello stregone, spire di fuoco aethyrico emergono dal suolo, avvolgendo la vittima in un bozzolo di energia magica. Il bersaglio cade @Condition[Prono] ed è considerato Inerme per la durata dell’effetto. Quando l’incantesimo ha termine, la vittima deve eseguire <span class=\"fontstyle0\">una Prova </span><strong><span class=\"fontstyle3\">Impegnativa (+0) di Tempra </span></strong><span class=\"fontstyle0\">, contrapposta a quella di Linguaggio (Magico) dello stregone. Se fallisce accumula 1 Corruzione (più un’altra per ogni LS negativo).</span></p><p>\n\n <p><strong>Sapere:</strong> I bersagli degli Incantesimi del Sapere di Tzeentch sono squarciati dal potere trasformatore del Caos e devono superare una Prova Impegnativa (+0) di Tempra per non accumulare 1 Corruzione. Se la superano ottengono, invece, 1 Punto Fortuna, che può essere usato normalmente. Tali sono i capricci di Tzeentch.</p><p></p>",
       "id": "Transformation of Tzeentch",
-      "name": "Transformation de Tzeentch"
+      "name": "Trasformazione di Tzeentch"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.M5QSWOYt2Rbv2yxW]{Sang corrosif}</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.M5QSWOYt2Rbv2yxW]{Sangue Corrosivo}&nbsp</p>",
       "id": "Acid Blood",
-      "name": "Sang acide"
+      "name": "Sangue Acido"
     },
     {
-      "description": "<p>Gagnez le Talent @Compendium[wfrp4e-core.items.qdMbxW09FUoYBzmB]{Sorcier!}</p>",
+      "description": "<p>Ottiene il Talento @Compendium[wfrp4e-core.items.qdMbxW09FUoYBzmB]{Strega!}</p>",
       "id": "Aethyric Leak",
-      "name": "Fuite Aethérique"
+      "name": "Perdita Aetherica"
     },
     {
-      "description": "+1 Mouvement; cette mutation ne peut-être cachée que par des vêtements; les Tests d'Athlétisme reçoivent une pénalité de -10 pour marcher avec une démarche normale",
+      "description": "<p>Può nasconderle con abiti abbastanza ampi, ma il passo è innaturale. Ottiene +1 Movimento. Prova <strong>Difficile (-10) di Atletica</strong> per camminare normalmente.</p>",
       "id": "Animalistic Legs",
-      "name": "Jambes Animales"
+      "name": "Gambe Animalesche"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.AGcJl5rHjkyIQBPP]{Bestial} pour <strong><a class=\"chat-roll\">1d10</a></strong> heures si vous échouez à n'importe quel Test dérivé de Force Mentale</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.AGcJl5rHjkyIQBPP]{Bestiale} per [[/r 1d10]] ore dopo aver fallito una Prova basata su Volontà</p>",
       "id": "Animalistic Psyche",
-      "name": "Esprit Animal"
+      "name": "Psiche Animale"
     },
     {
-      "description": "<p>Lorsque vous êtes sujet à la Psychologie, gagnez le Trait de Creature @Compendium[wfrp4e-core.items.xsGbDFqK2qh7lsIj]{Corruption} (Mineure)</p>",
+      "description": "<p>Ogni volta che è soggetto alla Psicologia ottiene il Tratto @Compendium[wfrp4e-core.items.xsGbDFqK2qh7lsIj]{Corruzione} (Minore); -10 Soc</p>",
       "id": "Beacon of Corruption",
-      "name": "Balise de Corruption"
+      "name": "Faro di Corruzione"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure}&nbsp;+3; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso}&nbsp;+3; questa mutazione non può essere nascosta</p>",
       "id": "Beaked Face",
-      "name": "Bec au visage"
+      "name": "Becco"
     },
     {
-      "description": "<p>+1 PA à la tête; Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure} +9 ; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>+1 PA alla Testa; ottiene il Tratto @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso} +9; questa mutazione non può essere nascosta</p>",
       "id": "Bear Head",
-      "name": "Tête d'Ours"
+      "name": "Testa di Orso"
     },
     {
-      "description": "<p>Faites un jet sur la table <a class=\"table-click\" data-table=\"bestialheads\"><strong>Têtes Bestiales</strong></a>; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Lanciare sulla Tabella @UUID[Compendium.wfrp4e-eis.tables.ViruKIslPphOEEqC]{Testa Animalesca}; questa mutazione non può essere nascosta</p>",
       "id": "Beast Head",
-      "name": "Tête de bête"
+      "name": "Testa Animalesca"
     },
     {
-      "description": "Réduction permanente de la Dexterité à 0. Vous ne pouvez être désarmé; cette mutation ne peut pas être cachée",
+      "description": "<p>La Destrezza è ridotta per sempre a 0; non si può essere disarmati; questa mutazione non può essere nascosta</p>",
       "id": "Beweaponed Extremities",
-      "name": "Extrémités armées"
+      "name": "Estremità Acuminate"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.wMwSRDmgiF2IdCJr]{Insensible à la douleur}</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.wMwSRDmgiF2IdCJr]{Senza Dolore}</p>",
       "id": "Beyond Pain",
-      "name": "Au delà de la souffrance"
+      "name": "Oltre il Dolore"
     },
     {
-      "description": "<p>Gagnez le Talent @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Sens auguisé}&nbsp;(Ouïe); cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Talento @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Senso Acuto}&nbsp;(Udito); questa mutazione può essere nascosta solamente con degli abiti opportuni</p>",
       "id": "Big Ears",
-      "name": "Grandes Oreilles"
+      "name": "Grandi Orecchie"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.rOV2s6PQBBrhpMOv]{Arboricole}</p>",
+      "description": "<p>Ottiene il tratto @Compendium[wfrp4e-core.items.rOV2s6PQBBrhpMOv]{Arboreo}</p>",
       "id": "Bird's Feet",
-      "name": "Pieds d'Oiseaux"
+      "name": "Zampe da Uccello"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Peur}&nbsp;2; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Spaventoso}&nbsp;2; questa mutazione può essere nascosta solo tramite abbigliamento opportuno</p>",
       "id": "Blank Face",
-      "name": "Visage Vide"
+      "name": "Volto Vuoto"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.aE3pyW20Orvdjzj0]{Haine} (Religion)</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.aE3pyW20Orvdjzj0]{Odio} (Religione)</p>",
       "id": "Blasphemous Soul",
-      "name": "Ame blasphématoire"
+      "name": "Anima Blasfema"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.IAWyzDfC286a9MPz]{Immunité psychologique} pour <strong><a class=\"chat-roll\">1d10</a></strong>&nbsp; Rounds au lieu de subir un état Brisé, après quoi subissez <strong><a class=\"chat-roll\">1d10</a></strong> états Brisés</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.IAWyzDfC286a9MPz]{Immunità alla Psicologia} per [[/r 1d10]] Round invece di subire la Condizione @Condition[Atterrito]; al termine subisce [[/r 1d10]] Atterrito</p>",
       "id": "Blasted Mind",
-      "name": "Esprit dévasté"
+      "name": "Mente Distrutta"
     },
     {
-      "description": "<p>+1 PA à la Tête; @Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Cornes (Défenses)}; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>+1 PA alla Testa; ottiene il Tratto @Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Corna (Zanne)}; questa mutazione non può essere nascosta</p>",
       "id": "Boar Head",
-      "name": "Tête de Sanglier"
+      "name": "Testa di Cinghiale"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.uqGxFOEqeurwkAO3]{Souffle}&nbsp;5 (Feu)</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.uqGxFOEqeurwkAO3]{Soffio}&nbsp;5 Fuoco</p>",
       "id": "Breathe Fire",
-      "name": "Souffe Enflammé"
+      "name": "Soffio di Fuoco"
     },
     {
-      "description": "+10 en Initiative; cette mutation ne peut-être cachée qu'avec des vêtements",
+      "description": "<p>+10 Iniziativa; questa mutazione può essere nascosta da un abito appropriato</p>",
       "id": "Bulging Eyes",
-      "name": "Yeux Globuleux"
+      "name": "Occhi Sporgenti"
     },
     {
-      "description": "<p>+1 PA à la Tête; Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Cornes}; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>+1 Punto Armatura alla Testa; ottiene il Tratto @Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Corna}; questa mutazione non può essere nascosta</p>",
       "id": "Bull Head",
-      "name": "Tête de Taureau"
+      "name": "Testa di Toro"
     },
     {
-      "description": "Les créatures et objets qui vous touchent doivent réussir un Test d'Athlétisme ou recevoit un état En Flammes; cette mutation ne peut pas être cachée",
+      "description": "<p>Ogni creatura o oggetto che tocchi il Mutante deve superare una Prova di Atletica o subire 1 @Condition[In Fiamme]; questa mutazione non può essere nascosta</p>",
       "id": "Burning Skin",
-      "name": "Peau Enflammée"
+      "name": "Pelle Bruciante"
     },
     {
-      "description": "<p>+1 PA sur 2 parties aléatoires du corps; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>+1 Punto Armatura in due Locazioni casuali; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Carapace",
       "name": "Carapace"
     },
     {
-      "description": "<p>Les main sont considérées comme des armes : @Compendium[wfrp4e-core.items.AtpAudHA4ybXVlWM]{Weapon}, avec des dommages égal au Bonus de Force; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Le mani contano come @Compendium[wfrp4e-core.items.AtpAudHA4ybXVlWM]{Arma} della Creatura di Danno pari al BF; questa mutazione non può essere nascosta</p>",
       "id": "Claws",
-      "name": "Griffes"
+      "name": "Artigli"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Distraente}; questa mutazione non può essere nascosta</p>",
       "id": "Cloud of Flies",
-      "name": "Nuage de Mouches"
+      "name": "Nube di Mosche"
     },
     {
-      "description": "-1 Mouvement, +5 Force, +5 Endurance",
+      "description": "<p>-1 Movimento, +5 Forza, +5 Resistenza</p>",
       "id": "Corpulent",
-      "name": "Corpulent"
+      "name": "Corpulento"
     },
     {
-      "description": "<p>Gagnez le Talent @Compendium[wfrp4e-core.items.6l3jvIAvrKxt0lA9]{Attirant}&nbsp;lorsque vous interagissez avec des Muntants ou des Hommes-Bêtes; cette mutation ne peut pas être cachée</p>",
+      "description": "<<p>Ottiene il Talento @Compendium[wfrp4e-core.items.6l3jvIAvrKxt0lA9]{Attraente} nei confronti di Mutanti e Uominibestia; questa mutazione non può essere nascosta</p>",
       "id": "Crested Head",
-      "name": "Crête de Coq"
+      "name": "Testa Crestata"
     },
     {
-      "description": "<p>Gagnez le Talent @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Distraente}</p>",
       "id": "Deafening Cry",
-      "name": "Cri Assourdissant"
+      "name": "Urlo Assordante"
     },
     {
-      "description": "+10 Dextérité; cette mutation ne peut pas être cachée",
+      "description": "<p>+10 Destrezza; questa mutazione non può essere nascosta</p>",
       "id": "Distended Digits",
-      "name": "Doigts Distendus"
+      "name": "Falangi Allungate"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure} +5; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso +5}; questa mutazione non può essere nascosta</p>",
       "id": "Dog Head",
-      "name": "Tête de Chien"
+      "name": "Testa di Cane"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure} +4; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso} +4; questa mutazione non può essere nascosta</p>",
       "id": "Eagle Head",
-      "name": "Tête d'Aigle"
+      "name": "Testa d'Aquila"
     },
     {
-      "description": "Vous pouvez étendre la porté des armes de Mêlée de 2 grades supplémentaires",
+      "description": "<p>La portata delle armi da mischia è di due gradi maggiore</p>",
       "id": "Elastic Arms",
-      "name": "Bras Elastiques"
+      "name": "Braccia Elastiche"
     },
     {
-      "description": "-10 Force, +5 Agilité",
+      "description": "<p>-10 Forza, +5 Agilità</p>",
       "id": "Emaciated",
-      "name": "Emacié"
+      "name": "Emaciato"
     },
     {
       "description": "",
       "id": "Evil Eye",
-      "name": "Oeil Maudit"
+      "name": "Malocchio"
     },
     {
-      "description": "+5 Agilité; cette mutation ne peut pas être cachée",
+      "description": "<p>+5 Agilità; questa mutazione non può essere nascosta</p>",
       "id": "Extra Leg Joints",
-      "name": "Jambes Articulées"
+      "name": "Ginocchio Aggiuntivo"
     },
     {
-      "description": "<p>Faites un jet sur la table des Localisations pour savoir où elle se trouve; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Lancia sulla Tabella @Table[hitloc]{Locazioni} per sapere dove; Questa mutazione può essere nascosta con abbigliamento opportuno</p>",
       "id": "Extra Mouth",
-      "name": "Bouche Supplémentaire"
+      "name": "Bocca Aggiuntiva"
     },
     {
-      "description": "Vous voyez par-dessus et autour des obstacles; cette mutation ne peut pas être cachée",
+      "description": "<p>Può guardare oltre gli ostacoli; questa mutazione non può essere nascosta</p>",
       "id": "Eyestalks",
-      "name": "Yeux Mobiles"
+      "name": "Occhi Tentacolari"
     },
     {
-      "description": "-5 Initiative, -5 Force Mentale",
+      "description": "<p>-5 Iniziativa, -5 Volontà</p>",
       "id": "Fantasist",
-      "name": "Imprévisible Fantaisiste"
+      "name": "Fantasie Errabonde"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.aE3pyW20Orvdjzj0]{Haine} (Cible). Effectuez un lancer sur la table des <a class=\"table-click\" data-table=\"fixations\">Fixations</a> une fois par jour pour déterminer la cible</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.aE3pyW20Orvdjzj0]{Odio} (Bersaglio). Lanciare sulla Tabella @Table[ossessioni]{Ossessioni} quotidianamente per il Bersaglio</p>",
       "id": "Fitful Hatred",
-      "name": "Haine Changeante"
+      "name": "Odio Incostante"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.4xF7M6ylIiGntekh]{# Tentacules}&nbsp;; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.4xF7M6ylIiGntekh]{# Tentacoli}; questa mutazione può essere nascosta solo con l'Abbigliamento appropriato</p>",
       "id": "Fleshy Tentacle",
-      "name": "Tentacule de Chair"
+      "name": "Tentacolo Carnoso"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;</p>",
+      "description": "<p>Ottiene il tratto @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Distraente}</p>",
       "id": "Foul Odour",
-      "name": "Odeur Nauséabonde"
+      "name": "Puzzo Orrendo"
     },
     {
-      "description": "Vous ne souffrez plus du froid dû au climat; les effets de l'exposition aux climats chauds sont doublés; cette mutation ne peut pas être cachée",
+      "description": "<p>Il Mutante non soffre più gli effetti del Clima Freddo, ma raddoppia quelli del Caldo; questa mutazione non può essere nascosta</p>",
       "id": "Furred Skin",
-      "name": "Peau de Fourrure"
+      "name": "Pelliccia"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure} +3 et @Compendium[wfrp4e-core.items.gFkRm9wS65qe18Xv]{Venin (Intermédiaire}, cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene i Tratti @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso} +3 e @Compendium[wfrp4e-core.items.gFkRm9wS65qe18Xv]{Veleno (Medio)}, questa mutazione non può essere nascosta</p>",
       "id": "Giant Spider Head",
-      "name": "Tête d'Araignée Géante"
+      "name": "Testa di Ragno Gigante"
     },
     {
-      "description": "Vous pouvez respirer sous l'eau; cette mutation ne peut-être cachée qu'avec des vêtements",
+      "description": "<p>Il Mutante può respirare sott’acqua; questa mutazione può essere nascosta con un abbigliamento adeguato</p>",
       "id": "Gills",
-      "name": "Branchies"
+      "name": "Branchie"
     },
     {
-      "description": "<p><span class=\"fontstyle0\">Gagnez l'état </span><span class=\"fontstyle2\">Extenué </span><span class=\"fontstyle0\"> pour chaque semaine passée sans gain de Point de Corruption, ou quand vous n'êtes pas responsable lorsqu'un autre personnage gagne un Point de Corruption; perdez tout les états Exténué dans les autres cas</span></p>",
+      "description": "<p><span class=\"fontstyle0\">Subisce 1 </span><span class=\"fontstyle2\">@Condition[Affaticato] </span><span class=\"fontstyle0\">per ogni ottimana in cui non accumula almeno un Punto Corruzione o ne fa accumulare uno a qualcun altro; quando una delle due condizioni si avvera rimuove tutti gli Affaticato</span></p>",
       "id": "Glorious Corruption",
-      "name": "Corruption Glorieuse"
+      "name": "Gloriosa Corruzione"
     },
     {
-      "description": "Lumière d'une bougie; cette mutation ne peut pas être cachée",
+      "description": "<p>Luce pari a una candela; questa mutazione non può essere nascosta</p>",
       "id": "Glowing Skin",
-      "name": "Peau Luisante"
+      "name": "Pelle Luminescente"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Cornes}, cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Corna}, questa mutazione non può essere nascosta</p>",
       "id": "Goat Head",
-      "name": "Tête de Chèvre"
+      "name": "Testa di Capra"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Peur}&nbsp;2; les coups à la tête sont considérés comme ratés; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Spaventoso}&nbsp;2; i colpi alla testa contano come mancato; questa mutazione non può essere nascosta</p>",
       "id": "Headless",
-      "name": "Sans-tête"
+      "name": "Senza Testa"
     },
     {
-      "description": "<p>Votre Mouvement est réduit de 2 et ne peut plus êter augmenté; gagnez le Trait de Créature @Compendium[wfrp4e-core.items.j6v78dnOOdCB6c3d]{Bond}&nbsp;; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Il movimento è ridotto a 2 e non può essere incrementato; ottiene il Tratto @Compendium[wfrp4e-core.items.j6v78dnOOdCB6c3d]{Balzo}; questa mutazione non può essere nascosta</p>",
       "id": "Hopper",
-      "name": "Sauteur"
+      "name": "Saltatore"
     },
     {
-      "description": "<p>Gagnez le Symptôme <strong><a class=\"symptom-tag\">Malaise</a></strong> pour <strong><a class=\"chat-roll\">1d10</a></strong> heures lorsque vous échouez à une Test dérive de la Force Mentale</p>",
+      "description": "<p>Subisci il Sintomo @Symptom[Malessere] per [[/r 1d10]] ore dopo aver fallito una prova Basata su Volontà</p>",
       "id": "Hounds of Despair",
-      "name": "Chiens du Desespoir"
+      "name": "Segugi della Disperazione"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.GbDyBCu8ZjDp6dkj]{Belliqueux}; vous ne pouvez pas fuir volontairement</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.GbDyBCu8ZjDp6dkj]{Bellicoso}; non può fuggire volontariamente</p>",
       "id": "Hurried Masochism",
-      "name": "Masochisme Urgent"
+      "name": "Improvviso Masochismo"
     },
     {
-      "description": "+10 Sociabilité; vous ne faites jamais de cicatrices",
+      "description": "<p>+10 Socialità; niente cicatrici</p>",
       "id": "Inhuman Beauty",
-      "name": "Beauté Inhumaine"
+      "name": "Bellezza Inumana"
     },
     {
-      "description": "+2 PA sur tout le corps; -10 en Agilité",
+      "description": "<p>+2 Punti Armatura in tutte le Locazioni; -10 Agilità</p>",
       "id": "Iron Skin",
-      "name": "Peau d'Acier"
+      "name": "Pelle di Ferro"
     },
     {
-      "description": "<p>Gagnez le Symptôme <strong><a class=\"symptom-tag\">Nausée</a></strong> pour <strong><a class=\"chat-roll\">1d10</a></strong>&nbsp; heures après avoir interagit avec de la saleté</p>",
+      "description": "<p>Subisce il Sintomo @Symptom[Nausea] per [[/r 1d10]]  ore dopo un contatto con qualcosa di sporco</p>",
       "id": "Lingering Foulness",
-      "name": "Grossiereté Persistante"
+      "name": "Fobia dei Germi"
     },
     {
-      "description": "-10 à tout les Tests de Language lorsque vous parlez; cette mutation ne peut pas être cachée",
+      "description": "<p>-10 a tutte le Prove di Linguaggio Parlato; questa mutazione non può essere nascosta</p>",
       "id": "Lolling Tongue",
-      "name": "Langue Pendante"
+      "name": "Lingua Pendula"
     },
     {
-      "description": "Si vous et votre opposant avez des armes de même Portée, votre arme compte comme étant plus longue; cette mutation ne peut pas être cachée",
+      "description": "<p>A parità di Portata, l’arma del Mutante è considerata più lunga; questa mutazione non può essere nascosta</p>",
       "id": "Long Arms",
-      "name": "Bras Allongés"
+      "name": "Braccia Lunghe"
     },
     {
-      "description": "+2 Mouvement; cette mutation ne peut pas être cachée",
+      "description": "<p>+2 Movimento; questa mutazione non può essere nascosta</p>",
       "id": "Long Legs",
-      "name": "Jambes Allongées"
+      "name": "Gambe Lunghe"
     },
     {
-      "description": "La moitié des coups portés au corps le sont à la Tête; cette mutation ne peut pas être cachée",
+      "description": "<p>Metà dei colpi al Torso finiscono alla Testa; questa mutazione non può essere nascosta</p>",
       "id": "Long Neck",
-      "name": "Coup Allongé"
+      "name": "Collo Lungo"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.9GNpAqgsKzxZKJpp]{Stupide} lorsque seul</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.9GNpAqgsKzxZKJpp]{Stupido} se lasciato solo</p>",
       "id": "Mindless Wandering",
-      "name": "Errance Sans Esprit"
+      "name": "Distrazioni Irragionevoli"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.IPKRMGry6WotuS1G]{Craintif}</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.IPKRMGry6WotuS1G]{Ombroso}</p>",
       "id": "Monstrous Paranoia",
-      "name": "Paranoïa Monstrueuse"
+      "name": "Paranoia Mostruosa"
     },
     {
-      "description": "<p>Gagnez 1 Attaque gratuite; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene un Attacco Gratuito; questa mutazione non può essere nascosta</p>",
       "id": "Multiple Arms",
-      "name": "Bras Multiples"
+      "name": "Braccia Aggiuntive"
     },
     {
-      "description": "+1 Mouvement; cette mutation ne peut pas être cachée",
+      "description": "<p>+1 movimento; questa mutazione non può essere nascosta</p>",
       "id": "Multiple Legs",
-      "name": "Jambes Multiples"
+      "name": "Gambe Aggiuntive"
     },
     {
-      "description": "-20 Capacité de Tir; cette mutation ne peut-être cachée qu'avec des vêtements",
+      "description": "<p>-20 Abilità Balistica; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "One Eye",
-      "name": "Un Oeil"
+      "name": "Occhio Singolo"
     },
     {
       "description": "",
       "id": "Panicked Urgency",
-      "name": "Urgence Paniqué"
+      "name": "Bisogno Profano"
     },
     {
-      "description": "<p>Lancez deux fois sur la table de localisations pour les placer</p>",
+      "description": "<p>Tirare due volte sulla Tabella @Table[hitloc] per determinare la locazione</p>",
       "id": "Patchy Feathers",
-      "name": "Plumes Eparses"
+      "name": "Chiazze di Piume"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.9GNpAqgsKzxZKJpp]{Stupide}&nbsp;; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottienne il Tratto @Compendium[wfrp4e-core.items.9GNpAqgsKzxZKJpp]{Stupido}; questa mutazione non può essere nascosta.</p>",
       "id": "Pin Head",
-      "name": "Tête d'épingle"
+      "name": "Testolina"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.9GNpAqgsKzxZKJpp]{Stupide}&nbsp;; vous ne pouvez pas porter de casque; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.9GNpAqgsKzxZKJpp]{Stupido}; Non può indossare un elmetto; Questa mutazione non può essere nascosta</p>",
       "id": "Pointed Head",
-      "name": "Tête Pointue"
+      "name": "Testa a Punta"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure} +4 et @Compendium[wfrp4e-core.items.V0c3qBU1CMm8bmsW]{Infecté}s; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene i Tratti @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso} +4 e @Compendium[wfrp4e-core.items.V0c3qBU1CMm8bmsW]{Infetto}; questa mutazione non può essere nascosta</p>",
       "id": "Rat Head",
-      "name": "Tête de Rat"
+      "name": "Testa di Ratto"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.xneBqGOs1QS7kfUr]{Affamé}</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.xneBqGOs1QS7kfUr]{Affamato}</p>",
       "id": "Ravenous Hunger",
-      "name": "Faim Vorace"
+      "name": "Fame Insaziabile"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Peur}&nbsp;1; Les Personnages cherchant à savoir si vous mentez subissent un malus de -20 à leurs tests d'Intuition; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Spaventoso}&nbsp;1; Chi cerca di determinare se mente subisce una penalità -20 alla Prova di Intuire; questa mutazione può essere nascosta con l'abbigliamento appropriato</p>",
       "id": "Rearranged Face",
-      "name": "Visage Arrangé"
+      "name": "Volto Ridisposto"
     },
     {
       "description": "<p>Gagnez les Traits de Créature @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Peur} 2, et @Compendium[wfrp4e.traits.V0c3qBU1CMm8bmsW]{Infecté}&nbsp;</p>",
       "id": "Rotting Flesh",
-      "name": "Chaire Pourrie"
+      "name": "Carne Marcescente"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Distraente}; questa mutazione non può essere nascosta</p>",
       "id": "Shifting Colours",
-      "name": "Couleurs Changeantes"
+      "name": "Colori Mutevoli"
     },
     {
-      "description": "-1 Mouvement; cette mutation ne peut pas être cachée",
+      "description": "<p>-1 Movimento; questa mutazione non può essere nascosta</p>",
       "id": "Short Legs",
-      "name": "Jambes Rétrécies"
+      "name": "Gambe Corte"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Peur}&nbsp;2; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Spaventoso}&nbsp;2; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Skull Face",
-      "name": "Face de Crâne"
+      "name": "Volto di Teschio"
     },
     {
-      "description": "<p>+1 PA à la Tête; Gagnez les Traits de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure} +3 et @Compendium[wfrp4e-core.items.gFkRm9wS65qe18Xv]{Venin (Intermédiaire)}; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>+1 Punto Armatura alla Testa; ottiene i Tratti @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso} +3 e @Compendium[wfrp4e-core.items.gFkRm9wS65qe18Xv]{Veleno (Medio)}; questa mutazione non può essere nascosta</p>",
       "id": "Snake Head",
-      "name": "Tête de Serpent"
+      "name": "Testa di Serpente"
     },
     {
-      "description": "<p>Pas d'armure possible; +1 PA sur tout les corps; gagnez une attaque gratuite (@Compendium[wfrp4e-core.items.AtpAudHA4ybXVlWM]{Arme}&nbsp;+4) lors des Charges; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Non può indossare armature; Non può indossare armature; ottiene un Attacco Gratuito (@Compendium[wfrp4e-core.items.AtpAudHA4ybXVlWM]{Arma}&nbsp;+4) in Carica; questa mutazione non può essere nascosta</p>",
       "id": "Spiked Skin",
-      "name": "Peau Cloutée"
+      "name": "Pelle Spinata"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.KII1gWnxIZ8HzmU5]{Grimpant}&nbsp;; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.KII1gWnxIZ8HzmU5]{Arrampicamuri}; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Suckered Hands and Feet",
-      "name": "Mains et Pieds Ventouses"
+      "name": "Ventose su Mani e Piedi"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.4CMKeDTDrRQZbPIJ]{Craintif} (Cible), faites un jet sur table des <a class=\"table-click\" data-table=\"fixations\">Idées Fixes</a> pour déterminer la cible</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.4CMKeDTDrRQZbPIJ]{Timoroso} (Bersaglio), lanciando sulla Tabella @Table[ossessioni]{Ossessioni} per determinare il Bersaglio</p>",
       "id": "Terrible Phobia",
-      "name": "Phobie Terrible"
+      "name": "Terribile Fobia"
     },
     {
-      "description": "+1 PA sur tout le corps; cette mutation ne peut-être cachée qu'avec des vêtements",
+      "description": "<p>+1 Punto Armatura in tutte le Locazioni; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Thorny Scales",
-      "name": "Ecailles Epineuses"
+      "name": "Scaglie Cornee"
     },
     {
-      "description": "<p>Gagnez le Talent @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Sens aiguisé}&nbsp;(Vue); cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "p>Ottiene il Talento @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Senso Acuto}&nbsp;(Vista); questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Three Eyes",
-      "name": "Troisième Oeil"
+      "name": "Tre Occhi"
     },
     {
-      "description": "",
+      "description": "<p>+10 Volontà, -10 Iniziativa</p>",
       "id": "Thrill Seeker",
-      "name": "Amateur de sensations fortes"
+      "name": "Ricerca del Brivido"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Peur}&nbsp;2; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.pTorrE0l3VybAbtn]{Spaventoso}&nbsp;2; questa mutazione non può essere nascosta</p>",
       "id": "Transparent Skin",
-      "name": "Peau Transparente"
+      "name": "Pelle Trasparente"
     },
     {
-      "description": "<p>Gagnez leTalent @Compendium[wfrp4e-core.items.IFKWu98qmWpaSfUi]{Ambidextre}; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>Ottiene il Talento @Compendium[wfrp4e-core.items.IFKWu98qmWpaSfUi]{Ambidestro}; questa mutazione non può essere nascosta</p>",
       "id": "Two Heads",
-      "name": "Bicéphale"
+      "name": "Due Teste"
     },
     {
-      "description": "+1 PA à la Tête; compte comme une Arme (Bonus Force); cette mutation ne peut pas être cachée",
+      "description": "<p>+1 PA alla Testa; conta come Tratto @Compendium[wfrp4e-core.items.AtpAudHA4ybXVlWM]{Arma} di Danno pari al BF; questa mutazione non può essere nascosta</p>",
       "id": "Uneven Horns",
-      "name": "Cornes Disparates"
+      "name": "Corna Asimmetriche"
     },
     {
-      "description": "Couleur bizarre ou texture spéciale: orange, rayée, piquée, verruqueuse, etc.; cette mutation ne peut pas être cachée",
+      "description": "<p>Strani colori o strutture: arancione, a strisce, a macchie, verrucosa, ecc.; questa mutazione non può essere nascosta</p>",
       "id": "Unusual Skin",
-      "name": "Peau Curieuse"
+      "name": "Pelle Insolita"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.yRhhOlt18COq4e1q]{Frénésie}&nbsp;; Quand vous entrez en Frénésie, gagnez temporairement une autre mutation physique</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.yRhhOlt18COq4e1q]{Furia}; mentre la Furia è attiva ottiene una nuova mutazione temporanea casuale</p>",
       "id": "Warp Frenzy",
-      "name": "Frénésie Mutagène"
+      "name": "Furia Warp"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.sJ3yX1kvzu2hgNq5]{Amphibie}&nbsp;; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.sJ3yX1kvzu2hgNq5]{Anfibio}; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Webbed Feet",
-      "name": "Pieds Palmés"
+      "name": "Piedi Palmati"
     },
     {
-      "description": "Lancez deux fois sur la table de localisation the <a class = 'table-click' data-table='hitloc'</b></a> pour savoir où",
+      "description": "<p>Lanciare due volte sulla Tabella @Table[hitloc] per determinare la locazione</p>",
       "id": "Weeping Pus",
-      "name": "Suintement de Pus"
+      "name": "Secrezioni di Pus"
     },
     {
-      "description": "+10 Pistage; cette mutation ne peut-être cachée qu'avec des vêtements",
+      "description": "<p>+10 Seguire Tracce; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Whiskered Snout",
-      "name": "Groin Poilu"
+      "name": "Naso Peloso"
     },
     {
-      "description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-core.items.EO05HX7jql0g605A]{Vol} 60; cette mutation ne peut-être cachée qu'avec des vêtements</p>",
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.EO05HX7jql0g605A]{Volante} 60; questa mutazione può essere nascosta solo da abiti opportuni</p>",
       "id": "Wings",
-      "name": "Ailes"
+      "name": "Ali"
     },
     {
-      "description": "<p>+1 PA à la Tête; gagnez le Trait de Créature @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morsure} +6; gagnez le Talent @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Sens Aiguisé (Odorat)}; cette mutation ne peut pas être cachée</p>",
+      "description": "<p>+1 PA alla Testa; ottiene il Tratto @Compendium[wfrp4e-core.items.pLW9SVX0TVTYPiPv]{Morso} +6; ottiene il Talento @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Senso Acuto (Olfatto)}; questa mutazione non può essere nascosta</p>",
       "id": "Wolf Head",
-      "name": "Tête de Loup"
+      "name": "Testa di Lupo"
+    },
+    {
+      "description": "<p>Il Personaggio ha un desiderio irrefrenabile di mettersi a quattro zampe e ululare. Quando la sua mandibola si apre al massimo, inizia a tossire senza controllo e un muso coperto di fitta peluria emerge dal suo volto. Naso, labbra e denti umani cadono, ormai ricordi di un’esistenza passata, rimpiazzati dal muso ringhiante di un cane.</p>\n<p>Il Personaggio perde 20 punti di Socialità e 10 di Intelligenza, ma ottiene il Talento @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Senso Acuto (Olfatto)}.</p>",
+      "id": "UEtCmYgyDGU1bPSF",
+      "name": "Volto Bestiale (Cane)"
+    },
+    {
+      "description": "<p>Subisce il Sintomo @Symptom[Convulsioni] per [[/r 1d10]] ore dopo aver fallito una prova basata su Volontà</p>",
+      "id": "outL99LlRQa3aSbe",
+      "name": "Mal d'Anima"
+    },
+    {
+      "description": "<p>Ottiene il Tratto @Compendium[wfrp4e-core.items.UnJ25lL8aUzem5JO]{Attacco di Coda} +3; questa mutazione può essere nascosta solo da abiti opportuni.</p>",
+      "id": "VSISxXBnDMIuZFCu",
+      "name": "Coda"
     }
   ],
   "folders": {
-    "Ammunition": "Munitions",
-    "Careers": "Carrières",
-    "Diseases": "Maladies",
-    "Spells": "Sorts",
-    "Talents": "Talents",
-    "Trappingcs": "Possessions",
-    "Trappings": "Possessions",
-    "Weapons": "Armes"
+    "Ammunition": "Munizioni",
+    "Careers": "Carriere",
+    "Diseases": "Malattie",
+    "Spells": "Incantesimi",
+    "Talents": "Talenti",
+    "Trappingcs": "Averi",
+    "Trappings": "Averi",
+    "Weapons": "Armi"
   },
-  "label": "Items Ennemis Intérieur",
+  "label": "Elementi del Nemico Dentro",
   "mapping": {
     "careergroup": {
       "converter": "career_careergroup",

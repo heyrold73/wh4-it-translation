@@ -1,333 +1,380 @@
 {
-  "label": "Tables (Ennemi dans l'Ombre)",
+  "label": "Tabelle (Nemico nell'Ombra)",
   "entries": [
     {
       "id": "Beast Head - Khorne",
-      "name": "Têtes de Bêtes - Khorne",
+      "name": "Testa Animalesca - Khorne",
       "results": {
-        "66-80": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chèvre<\/b><\/a>",
-        "81-99": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Loup<\/b><\/a>",
-        "100-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Serpent<\/b><\/a>",
-        "1-10": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Ours<\/b><\/a>",
-        "11-25": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Sanglier<\/b><\/a>",
-        "26-45": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Taureau<\/b><\/a>",
-        "46-60": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chien<\/b><\/a>",
-        "61-65": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Aigle<\/b><\/a>"
+        "66-80": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cinghiale<\/b><\/a>",
+        "81-99": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Loupo<\/b><\/a>",
+        "100-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Serpente<\/b><\/a>",
+        "1-10": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Orso<\/b><\/a>",
+        "11-25": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Capra<\/b><\/a>",
+        "26-45": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Toro<\/b><\/a>",
+        "46-60": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cane<\/b><\/a>",
+        "61-65": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Aquila<\/b><\/a>"
       }
     },
     {
       "id": "Beast Head - Nurgle",
-      "name": "Têtes de Bêtes - Nurgle",
+      "name": "Testa Animalesca - Nurgle",
       "results": {
-        "61-80": "<a class = 'item-lookup' data-name='Giant Spider Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Araignée Géante<\/b><\/a>",
-        "81-95": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chèvre<\/b><\/a>",
-        "96-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Serpent<\/b><\/a>",
-        "1-5": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Ours<\/b><\/a>",
-        "6-20": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Sanglier<\/b><\/a>",
-        "21-35": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chien<\/b><\/a>",
-        "36-40": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Aigle<\/b><\/a>",
-        "41-60": "<a class = 'item-lookup' data-name='Rat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Rat<\/b><\/a>"
+        "61-80": "<a class = 'item-lookup' data-name='Giant Spider Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Ragno Gigante<\/b><\/a>",
+        "81-95": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cinghiale<\/b><\/a>",
+        "96-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Serpente<\/b><\/a>",
+        "1-5": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Orso<\/b><\/a>",
+        "6-20": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Capra<\/b><\/a>",
+        "21-35": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cane<\/b><\/a>",
+        "36-40": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Aquila<\/b><\/a>",
+        "41-60": "<a class = 'item-lookup' data-name='Rat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Ratto<\/b><\/a>"
       }
     },
     {
       "id": "Beast Head - Slaanesh",
-      "name": "Têtes de Bêtes - Slaanesh",
+      "name": "Testa Animalesca - Slaanesh",
       "results": {
-        "16-25": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chien<\/b><\/a>",
-        "26-35": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Aigle<\/b><\/a>",
-        "36-75": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chèvre<\/b><\/a>",
-        "76-80": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Loup<\/b><\/a>",
-        "81-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Serpent<\/b><\/a>",
-        "1-5": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Ours<\/b><\/a>",
-        "6-10": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Sanglier<\/b><\/a>",
-        "11-55": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Taureau<\/b><\/a>"
+        "16-25": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cane<\/b><\/a>",
+        "26-35": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Aquila<\/b><\/a>",
+        "36-75": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cinghiale<\/b><\/a>",
+        "76-80": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Loupo<\/b><\/a>",
+        "81-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Serpente<\/b><\/a>",
+        "1-5": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Orso<\/b><\/a>",
+        "6-10": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Capra<\/b><\/a>",
+        "11-55": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Toro<\/b><\/a>"
       }
     },
     {
       "id": "Beast Head - Tzeentch",
-      "name": "Têtes de Bêtes - Tzeentch",
+      "name": "Testa Animalesca - Tzeentch",
       "results": {
-        "1-10": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Ours<\/b><\/a>",
-        "11-20": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Sanglier<\/b><\/a>",
-        "21-30": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Taureau<\/b><\/a>",
-        "31-40": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chien<\/b><\/a>",
-        "41-50": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Aigle<\/b><\/a>",
-        "51-60": "<a class = 'item-lookup' data-name='Rat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Rat<\/b><\/a>",
-        "61-70": "<a class = 'item-lookup' data-name='Giant Spider Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Araignée Géante<\/b><\/a>",
-        "71-80": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chèvre<\/b><\/a>",
-        "81-90": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Loup<\/b><\/a>",
-        "91-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Serpent<\/b><\/a>"
+        "1-10": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Orso<\/b><\/a>",
+        "11-20": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Capra<\/b><\/a>",
+        "21-30": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Toro<\/b><\/a>",
+        "31-40": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cane<\/b><\/a>",
+        "41-50": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Aquila<\/b><\/a>",
+        "51-60": "<a class = 'item-lookup' data-name='Rat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Ratto<\/b><\/a>",
+        "61-70": "<a class = 'item-lookup' data-name='Giant Spider Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Ragno Gigante<\/b><\/a>",
+        "71-80": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cinghiale<\/b><\/a>",
+        "81-90": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Loupo<\/b><\/a>",
+        "91-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Serpente<\/b><\/a>"
       }
     },
     {
       "id": "Beast Head - Undivided",
-      "name": "Têtes de Bêtes - Commun",
+      "name": "Testa Animalesca - Qualsiasi Potere",
       "results": {
-        "1-5": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Ours<\/b><\/a>",
-        "6-15": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Sanglier<\/b><\/a>",
-        "15-25": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Taureau<\/b><\/a>",
-        "26-30": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chien<\/b><\/a>",
-        "31-35": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Aigle<\/b><\/a>",
-        "36-50": "<a class = 'item-lookup' data-name='Rat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Rat<\/b><\/a>",
-        "51-55": "<a class = 'item-lookup' data-name='Giant Spider Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête d'Araignée Géante<\/b><\/a>",
-        "56-80": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Chèvre<\/b><\/a>",
-        "81-95": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Loup<\/b><\/a>",
-        "91-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Tête de Serpent<\/b><\/a>"
+        "1-5": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Orso<\/b><\/a>",
+        "6-15": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Capra<\/b><\/a>",
+        "15-25": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Toro<\/b><\/a>",
+        "26-30": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cane<\/b><\/a>",
+        "31-35": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa d'Aquila<\/b><\/a>",
+        "36-50": "<a class = 'item-lookup' data-name='Rat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Ratto<\/b><\/a>",
+        "51-55": "<a class = 'item-lookup' data-name='Giant Spider Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Ragno Gigante<\/b><\/a>",
+        "56-80": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Cinghiale<\/b><\/a>",
+        "81-95": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Loupo<\/b><\/a>",
+        "91-100": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Testa di Serpente<\/b><\/a>"
       }
     },
     {
       "id": "Coincidental Encounters",
-      "name": "Rencontres Fortuites",
+      "name": "Incontri Accidentali",
       "results": {
-        "31-40": "<b>Ah non, pas eux!<\/b>:Un rival ou une autre source d'ennuis viennent perturber le voyage des Personnages. Ces ennuis sont réellement ennuyeux, voir récurrents, mais ne sont pas là pour déclencher des combats. Peut-être que Delberz Trötte (page 54) ne peut s'arrêter d'essayer d'entraîner les Personnages dans une autre combine pour devenir riche rapidement.",
-        "41-50": "<b>Tentations sur la Route<\/b>:Quelque chose sortant de l'ordinaire a attiré l'attention des Personnages — une somptueuse et tentante auberge au milieu de nulle part, un feu de camp inattendu avec un appétissant sanglier roti, les sons d'une troupe de cirque en mouvement. Les Personnages vont-ils faire un détour pour en savoir plus ? Quels dangers cachés se cachent derrière ces tentations ?",
-        "51-60": "<b>Mauvaise Influence!<\/b>:Les Personnages font du tort à un autre voyageur sur la route — ce peut-être une perception erronnée, une collision accidentelle, ou encore une insulte intentionnelle. Quoiqu'il en soit, le voyageur commence à répandre de fausses rumeurs ou des ragots malsains sur le groupe.",
-        "61-70": "<b>Route à Péage<\/b>:Un noble local ou une 'entreprise privé' a établi un péage sur la route devant les Personnages. Vont-ils payer la taxe exhorbitante qui leur ai demandée - en proportion de leur statut social è ou vont-ils tenter de contourner le problème?",
-        "71-80": "<b>La Chose Qui ne doit pas Etre<\/b>:Il y a quelque chose qui ne devrait âs être là — un obleisque de roche noire u milieu d'une forêt verdoyante, d'étranges runes gravées sur des troncs d'arbres,  fa black stone obelisk in the middle of a verdant forest, strange runes carved on the trunks of trees, une lumière étrange juste à la limite du feu de camp. Quelle que soit son origine, d'autres l'ont déja vu, et les rumeurs abondent une fois arrivés à leur destination.",
-        "1-10": "<b>Environnement Suspect<\/b>:Quelque chose semble bizarre pendant ce trajet du jour — la route est curieusement calme, il n'y a pas de jeux locaux, ou les quelques voyageurs croisés vous jettent des regards en coin. Quelque chose ne toutne pas rond... Ou peut-être est-ce juste votre imagination.",
-        "11-20": "<b>Champ de Bataille<\/b>:Les Personnages arrivent sur le site d'un combat récent. Etait-ce un massacre par les Peaux-Vertes, une attaque de bandits de grand chemin, une embuscade ou quelque chose de pire ? Was it a massacre by Greenskins, a highway robbery, a skirmish with bandits, or something worse? Les corps sont peu abîmés par les charognards, et les cadavres semblent encore frais. Mais à quelle distance sont les coupables, et comment réagiront-ils aux Personnages qui fouillent les coprs ?",
-        "91-100": "<b>Un ami dans le besoin<\/b>:Un autre voyageur ou groupe de voyageurs, ont besoin de l'aide des Personnages. Peut-être que leur chariot s'est cassé, ou qu'ils sont harcelés par des Loups. Si les Personnages les escortent jusqu'à leur ldestinationn ils pourront exprimer leur gratitude une fois saufs.",
-        "21-30": "<b>Foule Compacte<\/b>:Les Personnages dépassent une procession d'individus serrés les uns contre les autres. Est-ce des réfugiés, des pénitents, des lépreux ou quelque chose de plus sournois ? Quelque soit la nature de ce groupe, ils peuvent cacher des menaces potentielles.",
-        "80-90": "<b>Providence<\/b>:Les Dieux envoient un message aux personnages — une révélation à propos du passé, une lecture du présent, ou un avertissement pour le futur. Mais les Dieux ne parlent pas au mortels, en utilisent plutôt des signes dans la nature ou l'environnement. Un corbeau avec un scorpion se tortillant dans son bec. Un cerf transpercé par une branche fleurie. Un test de Savoir (Théologie) peut être réalisé pour en savoir plus, mais les symboles sont évidents pour les citoyens de l'Empire"
+        "31-40": "<b>Ancora Voi!</b>: Durante il viaggio i Personaggi sono perseguitati da un rivale o un altro essere fastidioso. Questo individuo va presentato in modo umoristico, ma anche snervante, così che diventi un’autentica persecuzione. Per esempio, Delberz Trötte (pag. 52) potrebbe continuare a coinvolgerli in piani per arricchirsi in fretta.",
+        "41-50": "<b>Tentazioni della Strada</b>: Qualcosa fuori dall’ordinario coglie l’attenzione dei Personaggi: una sontuosa stazione di posta nel mezzo del nulla, un falò abbandonato su cui arrostisce un succulento cinghiale o il rumore di un circo. Fanno una deviazione per investigare e godersi la compagnia? Ma quali possono essere i pericoli nascosti?",
+        "51-60": "<b>Cattiva Influenza!</b>: I Personaggi fanno uno sgarro a un altro viaggiatore, come una collisione accidentale, oppure un insulto volontario o involontario. Questi inizia a spargere brutte voci sul loro conto, proprio nel luogo dove sono diretti.",
+        "61-70": "<b>Pedaggio</b>: Un nobile locale, un’azienda o un “privato imprenditore” impone un pedaggio sulla strada che i Personaggi intendono usare. Pagano questa tassa esorbitante, proporzionata al loro Status, o cercano di evitarla? Vedere @UUID[JournalEntry.t3btEsGyiZjofqZ8.JournalEntryPage.Rk1hXBHuKmJnM6fS#caselli]{Caselli} per maggiori dettagli.",
+        "71-80": "<b>Ciò Che Non Dovrebbe Esistere</b>: Qui c’è qualcosa che non dovrebbe esistere, come un obelisco di pietra nera nel mezzo di una foresta rigogliosa, strane rune incise sui tronchi degli alberi, una luce fredda che appare appena oltre i margini di un falò. Qualunque cosa sia altri l’hanno vista e se ne parla molto a destinazione.",
+        "1-10": "<b>Paraggi Sospetti</b>: C’è qualcosa di strano nei dintorni: la strada è insolitamente silenziosa, la selvaggina scarseggia e i pochi viaggiatori che si incontrano gettano occhiate di traverso prima di allontanarsi in fretta. Tutto sembra sbagliato… o forse è solo immaginazione.",
+        "11-20": "<b>Campo di Battaglia</b>: I Personaggi incontrano il luogo di una battaglia recente. È stato un massacro operato dai Pelleverde? Una rapina? Una schermaglia con alcuni banditi? O peggio? Qualcuno ha già ripulito i cadaveri, ma c’è ancora molto da recuperare… ma quanto sono lontani i colpevoli? E come reagiranno se i Personaggi si appropriano di quello che hanno lasciato?",
+        "91-100": "<b>Un Amico in Difficoltà</b>: Un altro viaggiatore o gruppo ha bisogno dell’aiuto dei Personaggi. Forse il loro carretto si è rotto o è inseguito dai lupi. Se i Personaggi lo scortano a destinazione sarà molto grati.",
+        "21-30": "<b>Folla Derelitta</b>: I Personaggi incontrano una processione di poveri e derelitti. Sono rifugiati, penitenti, lebbrosi… o qualcosa di più sinistro? A prescindere dalla loro natura, in questa folla potrebbero nascondersi altre minacce, come pestilenze, criminali, Mutanti o peggio.",
+        "81-90": "<b>Provvidenza</b>: Gli dei inviano un messaggio ai Personaggi: una rivelazione sul passato, un chiarimento sul presente o un avvertimento per il futuro. Tuttavia, gli dei non parlano direttamente coi mortali, ma nascondono segni nel mondo naturale, come un corvo con uno scorpione stretto nel becco o un cervo trafitto allo sterno da un ramo fiorito. Una <b>Prova di Conoscenza (Teologia)</b> permette di ricavarne più informazioni, ma la simbologia dovrebbe essere chiara a qualunque abitante dell’Impero."
       }
     },
     {
       "id": "Delirium",
-      "name": "Délire",
+      "name": "Delirio",
       "results": {
-        "10-10": "<b>Hallucinations<\/b>:Vous avez des visions étranges et terrifiantes, et vous devez faire un Test contre la terreur 3 toutes les 10 minutes pendant l'heure qui suit. Vous gagnez également +1 Condition <a class='condition-chat'><i class='fas fa-user-injured'><\/i> Assommé<\/a> pendant les <b><a class='chat-roll'>1d10<\/a><\/b> heures suivantes.",
-        "1-2": "<b>Interval de lucidité<\/b>:Vous avez une période de calme béni. Tous les Etats que vous avez précédemment gagnées grâce à votre délire sont supprimées.",
-        "6-9": "<b>Confusion<\/b>:En proie à des visions étranges et déformées, vous obtenez un état <a class='condition-chat'><i class='fas fa-user-injured'><\/i> Etourdis<\/a> pendant l'heure qui suit.",
-        "3-5": "<b>Sommeil réparateur<\/b>:On se tourne et on se retourne, on dort mais on ne se repose pas. Gagnez 1 état <a class='condition-chat'><i class='fas fa-user-injured'><\/i> Inconscient<\/a> pendant la prochaine heure, et 1 état <a class='condition-chat'><i class='fas fa-user-injured'><\/i> Extenué<\/a> pendant les <b><a class='chat-roll'>1d10<\/a><\/b> prochaines heures."
+        "10-10": "<b>Allucinazioni</b>: Il personaggio ha visioni strane e terribili e deve resistere a Terrore 3 ogni 10 minuti per tutta l’ora successiva. Inoltre subisce 1 @Condition[Stordito] per [[/r 1d10]] ore seguenti.",
+        "1-2": "<b>Intervallo di Lucidità</b>: Il Personaggio ha un momento di calma, tutti gli effetti del Delirio accumulati vengono rimossi..",
+        "6-9": "<b>Confusione</b>: Perseguitato da strane visioni distorte, il Personaggio subisce 1 @Condition[Stordito] per l’ora seguente.",
+        "3-5": "<b>Sonno Irregolare</b>: Il Personaggio si rigira nel sonno e non riposa. Subisce 1 Privo di Sensi che dura un’ora e accumula 1 Affaticato per [[/r 1d10]] ore seguenti."
       }
     },
     {
       "id": "Demonic Mien - Nurgle",
-      "name": "Trait Démonique - Nurgle",
+      "name": "Aspetto Demoniaco - Nurgle",
       "results": {
-        "1-1": "@Compendium[wfrp4e-core.items.a8MC97PLzl10WocT]{Grand}",
-        "2-2": "@Compendium[wfrp4e-core.items.uqGxFOEqeurwkAO3]{Souffle +7 (Corrosion & Poison)}",
-        "3-3": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Démoniaque 7}",
-        "4-4": "@Compendium[wfrp4e-core.items.PaW8i6JOxWyzAZCz]{Maladie (Nurgle's Rot)}",
-        "5-5": "@Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Perturbant (Puanteur)}",
-        "6-6": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Peur (3)}",
-        "7-7": "@Compendium[wfrp4e-core.items.TBcdTlYSRH8Rd1x0]{Infecté}",
-        "8-8": "<a class = 'table-click' data-table='expandedmutatephys'>Mutation<\/a>",
-        "9-9": "@Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Régénération}",
-        "10-10": "@Compendium[wfrp4e-core.items.JzeN9MZ0xUDvpE2l]{Vomissement}"
+        "1-1": "@Compendium[wfrp4e-core.items.a8MC97PLzl10WocT]{Grosso}",
+        "2-2": "@Compendium[wfrp4e-core.items.uqGxFOEqeurwkAO3]{Soffio +7 (Corrosione e Veleno)}",
+        "3-3": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoniaco 7}",
+        "4-4": "@Compendium[wfrp4e-core.items.PaW8i6JOxWyzAZCz]{Malattia(Putrefazione di Nurgle)}",
+        "5-5": "@Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Distraente(Tanfo)}",
+        "6-6": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Spaventoso(3)}",
+        "7-7": "@Compendium[wfrp4e-core.items.TBcdTlYSRH8Rd1x0]{Infestazione}",
+        "8-8": "<a class = 'table-click' data-table='expandedmutatephys'>Mutazione<\/a>",
+        "9-9": "@Compendium[wfrp4e-core.items.SfUUdOGjdYpr3KSR]{Rigenerazione}",
+        "10-10": "@Compendium[wfrp4e-core.items.JzeN9MZ0xUDvpE2l]{Vomito}"
       }
     },
     {
       "id": "Demonic Mien - Slaanesh",
-      "name": "Trait Démonique - Slaanesh",
+      "name": "Aspetto Demoniaco - Slaanesh",
       "results": {
-        "1-1": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Démoniaque (6)}",
-        "2-2": "@Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Perturbant}",
-        "4-4": "@Compendium[wfrp4e-core.items.yRhhOlt18COq4e1q]{Frénésie}",
-        "5-5": "@Compendium[wfrp4e-core.items.IAWyzDfC286a9MPz]{Immunité Psychologique}",
-        "7-7": "@Compendium[wfrp4e-core.items.wMwSRDmgiF2IdCJr]{Insensible à la douleur}",
-        "8-8": "@Compendium[wfrp4e-core.items.0eEJ280MIC0IbEop]{Regard pétrifiant}",
-        "9-9": "@Compendium[wfrp4e-core.items.xg6z63j6BH5AaqLL]{Langue préhensile (6 mètres) +6}",
-        "10-10": "@Compendium[wfrp4e-core.items.gFkRm9wS65qe18Xv]{Venin}",
-        "3-3": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Peur (3)}",
-        "6-6": "<a class = 'table-click' data-table='expandedmutatephys'>Mutation<\/a>"
+        "1-1": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoniaco (6)}",
+        "2-2": "@Compendium[wfrp4e-core.items.MVI0lXcg6vvtooAF]{Distraente (Fascino Sovrannaturale)}",
+        "4-4": "@Compendium[wfrp4e-core.items.yRhhOlt18COq4e1q]{Furia}",
+        "5-5": "@Compendium[wfrp4e-core.items.IAWyzDfC286a9MPz]{Immunità alla Psicologia}",
+        "7-7": "@Compendium[wfrp4e-core.items.wMwSRDmgiF2IdCJr]{Senza Dolore}",
+        "8-8": "@Compendium[wfrp4e-core.items.0eEJ280MIC0IbEop]{Sguardo Pietrificante}",
+        "9-9": "@Compendium[wfrp4e-core.items.xg6z63j6BH5AaqLL]{Attacco con la Lingua (6 metri) +6}",
+        "10-10": "@Compendium[wfrp4e-core.items.gFkRm9wS65qe18Xv]{Veleno}",
+        "3-3": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Spaventoso(3)}",
+        "6-6": "<a class = 'table-click' data-table='expandedmutatephys'>Mutazione<\/a>"
       }
     },
     {
       "id": "Demonic Mien - Tzeentch",
-      "name": "Trait Démonique - Tzeentch",
+      "name": "Aspetto Demoniaco - Tzeentch",
       "results": {
-        "4-4": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Peur (3)}",
-        "8-9": "<a class = 'table-click' data-table='expandedmutatephys'>Mutation<\/a>",
-        "1-1": "@Compendium[wfrp4e-core.items.uqGxFOEqeurwkAO3]{Souffle +9 (Feu)}",
-        "2-2": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Démoniaque (9)}",
-        "3-3": "@Compendium[wfrp4e-core.items.tNWrJUOArwfWXsPw]{Ethéré}",
-        "5-5": "@Compendium[wfrp4e-core.items.EO05HX7jql0g605A]{Vol (9)}",
-        "6-6": "@Compendium[wfrp4e-core.items.mDgEMOoJpi8DkRYb]{Magique}",
-        "7-7": "@Compendium[wfrp4e-core.items.yrkI7ATjqLPDTFmZ]{Résistance à la Magie}}",
-        "10-10": "@Compendium[wfrp4e-core.items.vY0CHKsJRV3gYBj3]{Lanceur de Sorts (Au choix)}"
+        "4-4": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Spaventoso(3)}",
+        "8-9": "<a class = 'table-click' data-table='expandedmutatephys'>Mutazione<\/a>",
+        "1-1": "@Compendium[wfrp4e-core.items.uqGxFOEqeurwkAO3]{Soffio +9 (Fuoco)}",
+        "2-2": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoniaco (9)}",
+        "3-3": "@Compendium[wfrp4e-core.items.tNWrJUOArwfWXsPw]{Etereo}",
+        "5-5": "@Compendium[wfrp4e-core.items.EO05HX7jql0g605A]{Volo (9)}",
+        "6-6": "@Compendium[wfrp4e-core.items.mDgEMOoJpi8DkRYb]{Magico}",
+        "7-7": "@Compendium[wfrp4e-core.items.yrkI7ATjqLPDTFmZ]{Resistenza alla Magia}}",
+        "10-10": "@Compendium[wfrp4e-core.items.vY0CHKsJRV3gYBj3]{Incantatore (qualsiasi)}"
       }
     },
     {
       "id": "Demonic Mien - Undivided",
-      "name": "Trait Démonique - Commun",
+      "name": "Aspetto Demoniaco - Qualsiasi Potere",
       "results": {
-        "8-8": "@Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Cornes +10}",
-        "10-10": "@Compendium[wfrp4e-core.items.UnJ25lL8aUzem5JO]{Attaque Caudale (+10)}",
-        "5-5": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Peur (3)}",
-        "9-9": "@Compendium[wfrp4e-core.items.mDgEMOoJpi8DkRYb]{Magique}",
-        "1-2": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Démoniaque (8)}",
+        "8-8": "@Compendium[wfrp4e-core.items.BqPZn6q3VHn9HUrW]{Corna +10}",
+        "10-10": "@Compendium[wfrp4e-core.items.UnJ25lL8aUzem5JO]{Coda +10}",
+        "5-5": "@Compendium[wfrp4e-core.traits.pTorrE0l3VybAbtn]{Spaventoso(3)}",
+        "9-9": "@Compendium[wfrp4e-core.items.mDgEMOoJpi8DkRYb]{Magico}",
+        "1-2": "@Compendium[wfrp4e-core.items.v3uzEthcq0JRar0J]{Demoniaco (8)}",
         "3-3": "@Compendium[wfrp4e-core.items.9NROryHer1uXAKwY]{Elite}",
-        "4-4": "@Compendium[wfrp4e-core.items.9MjH4xyVrd3Inzak]Rapide}",
-        "6-6": "@Compendium[wfrp4e-core.items.EO05HX7jql0g605A]{Vol (8)}"
+        "4-4": "@Compendium[wfrp4e-core.items.9MjH4xyVrd3Inzak]Rapido}",
+        "6-6": "@Compendium[wfrp4e-core.items.EO05HX7jql0g605A]{Volo (8)}"
       }
     },
     {
       "id": "Expanded Mental Mutations - Khorne",
-      "name": "Mutations Mentales Etendues - Khorne"
+      "name": "Mutazioni Mentali Espanse - Khorne"
     },
     {
       "id": "Expanded Mental Mutations - Nurgle",
-      "name": "Mutations Mentales Etendues - Nurgle"
+      "name": "Mutazioni Mentali Espanse - Nurgle"
     },
     {
       "id": "Expanded Mental Mutations - Slaanesh",
-      "name": "Mutations Mentales Etendues - Slaanesh"
+      "name": "Mutazioni Mentali Espanse - Slaanesh"
     },
     {
       "id": "Expanded Mental Mutations - Tzeentch",
-      "name": "Mutations Mentales Etendues - Tzeentch"
+      "name": "Mutazioni Mentali Espanse - Tzeentch"
     },
     {
       "id": "Expanded Mental Mutations - Undivided",
-      "name": "Mutations Mentales Etendues - Commun"
+      "name": "Mutazioni Mentali Espanse - Qualsiasi Potere"
     },
     {
       "id": "Expanded Physical Mutations - Khorne",
-      "name": "Mutations Physiques Etendues - Khorne"
+      "name": "Mutazioni Fisiche Espanse - Khorne"
     },
     {
       "id": "Expanded Physical Mutations - Nurgle",
-      "name": "Mutations Physiques Etendues - Nurgle"
+      "name": "Mutazioni Fisiche Espanse - Nurgle"
     },
     {
       "id": "Expanded Physical Mutations - Slaanesh",
-      "name": "Mutations Physiques Etendues - Slaanesh"
+      "name": "Mutazioni Fisiche Espanse - Slaanesh"
     },
     {
       "id": "Expanded Physical Mutations - Tzeentch",
-      "name": "Mutations Physiques Etendues - Tzeentch"
+      "name": "Mutazioni Fisiche Espanse - Tzeentch"
     },
     {
       "id": "Expanded Physical Mutations - Undivided",
-      "name": "Mutations Physiques Etendues - Commun"
+      "name": "Mutazioni Fisiche Espanse - Qualsiasi Potere"
     },
     {
       "id": "Fixations",
-      "name": "Idée Fixes",
+      "name": "Ossessioni",
       "results": {
-        "2-2": "Objets Inanimés",
-        "3-3": "Pauvreté",
-        "4-4": "Feu",
-        "5-5": "Figures\/Symboles de Guerre",
-        "6-6": "Figures\/Symboles de l'Autorité",
-        "7-7": "Figures\/Symboles Religieux",
-        "8-8": "Monstres",
-        "9-9": "Mutants",
-        "10-10": "Halflings",
-        "11-11": "Humains",
-        "12-12": "Nains",
-        "13-13": "Elfes",
-        "14-14": "Animaux Sauvages",
-        "15-15": "Animaux Domestiques",
-        "16-16": "Magie",
-        "17-17": "Maladie",
-        "18-18": "Eau",
-        "19-19": "Affluence",
-        "20-20": "Bonheur"
+        "2-2": "Oggetti Inanimati",
+        "3-3": "Povertà",
+        "4-4": "Fuoco",
+        "5-5": "Simboli/Oggetti di Guerra",
+        "6-6": "Simboli/Oggetti di Autorità",
+        "7-7": "Simboli/Oggetti Religiosi",
+        "8-8": "Mostri",
+        "9-9": "Mutanti",
+        "10-10": "Halfling",
+        "11-11": "Umani",
+        "12-12": "Nani",
+        "13-13": "Elfi",
+        "14-14": "Animali Selvatici",
+        "15-15": "Animali Domestici",
+        "16-16": "Magia",
+        "17-17": "Malattia",
+        "18-18": "Acqua",
+        "19-19": "Ricchezza",
+        "20-20": "Felicità"
       }
     },
     {
       "id": "Harmful Encounters",
-      "name": "Rencontres Dangereuses",
+      "name": "Incontri Negativi",
       "results": {
-        "41-50": "<b>Même la nature vous hait!<\/b>:Les personnages se retrouvent en danger dans la nature. Animaux mortels, tempêtes, maladies, insectes, à votre guise. Cette situation peut dégénérer en violence, ou sur un Etat, ou devenir une petite mais vicieuse rencontre s'ils choisissent la mauvaise cabane de berger comme abri. Vous pouvez utilisez les Créatures de la section 'Bêtes du Reikland' dans le Livre de Base.",
-        "51-70": "<b>Météo Catastrophique<\/b>:Alors que les Personnages installent leur campement, le ciel vire à l'orage, le vent se lève and le temps change brutalement pendant la nuit. Pour le prochein test de Météo sur la table @Table[weather]{Météo}, ajoutez +40 (clique droit). S'i s'agit de l'étape finale du voyage, If this is the final stage of the journey, le mauvas temps détruit leur destination à la place, laissant probablement tout le monde de mauvaise humeur.",
-        "71-80": "<b>Matériel détruit<\/b>:A cause d'une route cahotique, un sac perdu ou une tente abîmée, de l'équipement vital des Personnages a été perdu ou détruit. Cela peut-être un manteau huilé, une tente, ou la roue d'un chariot. Des réparations peuvent être nécessaires, ou les Personnages devront braver les élements, et subir les risques d'Exposition.",
-        "81-90": "<b>Sales Conditions!<\/b>:A cause d'un mauvais campement, ou d'une auberge infestée, les Personnages ont tous été exposés à la terrible @Compendium[wfrp4e.diseases.BC4QyBeYAiw8cRuM]{Vérole du Tanneur!}.",
-        "1-10": "<b>Voyage fatiguant!<\/b>:La route est bloquée. Un pont peut-être tombé,une rivière bloquée ou une route inondée, ou tout autre obstacle insurmontable. L'un des personnages doit réussir un Test de Survie en Extérieur Accessible (+20) pour trouver une route alternative viable, ou bien tout les personnages reçoivent l'état @Condition[Fatigued]{Extenué}.",
-        "11-20": "<b>Voleurs!<\/b>:D'une manière ou d'une autre, les Personnages ont été volés. Peut-être était-ce quelqu'un voyageant avec eux, partageant leur feu de camp pour la nuit ou seulement une brève conversation sur la route. Ils perdent rapidement le voleur de vue, mais durant leur phase d'arrivée, ils le rattrapent. Peut-être que leur porte-monnaie est rombé entre les mains  de Wolmar Rotte (page 49), ou peut-être que Wilhelm Kind (page 55) est parti avec leurs montures.",
-        "21-30": "<b>Territoire Hostile<\/b>:Alors que les Personnages voyagent, il leur apparait comme évident que la région est le repaire de bandits, monstres ou pire. Ils peuvent prendre le risque de se déplacer dans la zone, ce qui nécessite un Test de Discrétion (Rural) Intermédiaire (0) pour chaque Personnage, ou bien tomber dans une embuscade. Ils peuvent également chercher une autre voie de passage, ce qui leur fait recevoir un état @Condition[Fatigued].",
-        "31-40": "<b>Terre Empoisonnée<\/b>:La région que les Personnages traversent a été corrompue par une ancienne magie, guerre ou autre. En apparence, tout à l'air normal, mais la rivière porte la maladie, les animaux sont corrompus et les miasmes flottent dans l'air. Tout Personnage effectuant une activité de Forage, prélevant des produits de cette région ou passant trop de temps dans la zone devra subir les effets des poisons, maladies ou même Corruption de la zone.",
-        "91-100": "<b>Montage compliqué!<\/b>:Dans la nuit, l'un des personnages répare le campement ou l'étable et il manque des éléments. Le Personnage reçoit un Etat @Condition[Fatigued]{Exténué} alors qu'il recherche la pièce manquante, and et doit éventuellement subir les effets des Expositions s'il cherche sous la pluie, la neige ou dans le blizzard."
+        "41-50": "<b>La Natura Vi Odia!</b>: I Personaggi si scoprono vittime della natura: animali selvaggi, tempeste, malattie, insetti e così via. Questo può portare a scontri e a subire Condizioni, o a brutti incontri se provano a rifugiarsi nella capanna del pastore sbagliato. Il GM dovrebbe dare un’occhiata alle @UUID[Compendium.wfrp4e-core.journals.3ZynTGhFpgwv6l1n.JournalEntryPage.ahM2hOJnyXcSKrdS]{Bestie del Reikland}.",
+        "51-70": "<b>Clima Tremendo</b>: I Personaggi si sono appena accampati, quando il cielo si scurisce, si alza il vento e il clima cambia in modo inatteso. Il GM aggiunge +40 (click destro per attualizzare) al prossimo tiro per il @Table[weather]{Clima}. Se questa è l’ultima tappa il cambiamento colpisce la destinazione, lasciando tutti gli abitanti di pessimo umore.",
+        "71-80": "<b>Danni Importanti</b>: A causa del clima, delle pessime strade, di uno zaino smarrito o di una tenda strappata, un pezzo essenziale dell’equipaggiamento da viaggio è rotto o perduto. Potrebbe essere un cappotto cerato, una tenda o una ruota del carro. Potrebbero essere necessarie delle riparazioni o affrontare gli elementi, rischiando una Prova contro il Clima.",
+        "81-90": "<b>Alloggi Schifosi!</b>: A causa di un accampamento sfortunato o di una locanda infetta, i Personaggi sono stati esposti al temuto @UUID[Compendium.wfrp4e-core.items.BC4QyBeYAiw8cRuM]{Vaiolo del Conciatore!}.",
+        "1-10": "<b>Viaggio Faticoso!</b>: La strada è bloccata a causa di un ponte crollato, di un fiume esondato o di un altro ostacolo insormontabile. Un Personaggio deve superare una <strong>Prova Media (+20) di Sopravvivenza</strong> per trovare un percorso alternativo, altrimenti rischiano di prendere una strada altrettanto difficile, subendo 1 @Condition[Affaticato]",
+        "11-20": "<b>Al Ladro!</b>: I Personaggi sono stati derubati. Il colpevole può essere qualcuno che viaggia con loro, con cui hanno condiviso un fuoco la notte o con cui hanno avuto una breve conversazione lungo la strada. In ogni caso il ladro si dilegua in fretta, ma durante la Fase di Arrivo il gruppo lo intravede, con il bottino ancora in mano. Potrebbero essere stati vittime delle dita agili di @UUID[Actor.Akw4KEOxJei6b0Hf]{Wolmar Rotte} o @UUID[Actor.bemI8rGjEeeIrKvI]{Wilhelm Kind} ha rubato loro i cavalli.",
+        "21-30": "<b>Territorio Ostile</b>: Durante il viaggio diventa chiaro che la regione è infestata da banditi, mostri o peggio. Se i Personaggi osano attraversarla devono superare tutti una Prova <strong>Impegnativa (+0) di Nascondersi (Rurale)</strong> per non subire un’imboscata. In alternativa possono aggirarla, ma subiscono tutti 1 @Condition[Affaticato] a causa del lungo percorso.",
+        "31-40": "<b>Terra Avvelenata</b>: La regione che il gruppo sta attraversando è stata inquinata da vecchie industrie, dalla guerra o dalla magia oscura. All’apparenza è tutto normale, ma i fiumi sono inquinati, gli animali contaminati e la malattia incombe nell’aria. Chi tenta l’Attività Procacciare, acquista beni nella regione o passa troppo tempo qui dovrà affrontare veleni, malattie e, forse, Corruzione.",
+        "91-100": "<b>Cavalcatura Fuggita!</b>: Durante la notte una delle cavalcature del gruppo fugge dal campo o dalla stalla. Per ritrovarla un Personaggio deve subire 1 @Condition[Affaticato] e, se lo fa di notte, sotto Pioggia, Diluvio, Neve o Tormenta, deve anche superare una Prova contro il Clima."
       }
     },
     {
       "id": "Hit Location - Quadruped",
-      "name": "Localisation - Quadrupède",
+      "name": "Locazione dei colpi - Quadrupedi",
       "results": {
-        "17-56": "Corps",
-        "57-67": "Jambe gauche avant",
-        "68-78": "Jambe droite avant",
-        "79-89": "Jambe arrière gauche",
-        "90-100": "Jambe arrière droite",
-        "1-16": "Tête"
+        "17-56": "Torso",
+        "57-67": "Zampa Anteriore Sinistra",
+        "68-78": "Zampa Anteriore Destra",
+        "79-89": "Zampa Posteriore Sinistra",
+        "90-100": "Zampa Posteriore Destra",
+        "1-16": "Testa"
       }
     },
     {
       "id": "Positive Encounters",
-      "name": "Rencontres Positives",
+      "name": "Incontri Positivi",
       "results": {
-        "1-25": "<b>Bonne Compagnie<\/b>:Une rencontre fortuite sur la route avec d'autres voyageurs sert à rappeler aux personnages qu'il y a encore des gens correctes dans l'Empire. Bien sûr, s'ils ne sont pas eux-mêmes des personnes correctes, ils peuvent chercher à profiter de la situation.",
-        "26-45": "<b>Maintenant c'est Utile!<\/b>:Les personnages découvrent quelque chose de pertinent pour leur aventure - des ragots, un message perdu, une scène dont ils n'étaient pas censés être témoins, ou quelque chose de similaire.",
-        "96-100": "<b>Voyage Reposant<\/b>:Le voyage se déroule sans incident, les personnages se reposent bien, le paysage est particulièrement inspirant et peut-être même rencontrent-ils un guérisseur PNJ ou un prêtre. Les personnages peuvent soigner toutes les blessures et récupérer de toutes les conditions Exténué.",
-        "46-60": "<b>Merveilleux Hébergement<\/b>:Les personnages passent devant une auberge confortable et s’ils sont prêts à dépenser quelques pièces, ils gagneront une quiétude d'esprit, un ventre plein et un corps libéré de toute condition persistante.",
-        "91-95": "<b>Raccourci!<\/b>:En revérifiant les cartes ou en sollicitant des conseils auprès de locaux, les Personnages découvrent un raccourci. Ils peuvent sauter l'étape suivante de leur voyage.",
-        "61-75": "<b>Temps de Pause<\/b>:Le voyage est si calme et sans danger que les personnages se retrouvent avec du temps libre. Chaque personnage peut effectuer un test de voyage supplémentaire.",
-        "76-90": "<b>Un mot gentil<\/b>:Un simple acte de bonne volonté de la part des personnages ravi un compagnon de voyage - l'acte des personnages se propage à leur destination, et au moins un PNJ qu'ils rencontrent aura une bonne opinion des personnages."
+        "1-25": "<b>Buona Compagnia</b>: Un incontro casuale lungo la strada ricorda al gruppo che ci sono ancora brave persone nel mondo. Ovviamente, i Personaggi più subdoli potrebbero avvantaggiarsi della situazione.",
+        "26-45": "<b>Ecco, Questo è Utile!</b>: I Personaggi scoprono un elemento importante per l’avventura, come un messaggio perduto, un pettegolezzo, qualcosa che non avrebbero dovuto vedere, o altro.",
+        "96-100": "<b>Viaggio Riposante</b>: Il viaggio è fortunatamente privo di eventi, i Personaggi possono riposare bene, il panorama è magnifico e magari incontrano un guaritore o un prete volenteroso. I Personaggi possono guarire di tutte le Ferite e recuperano tutte le Condizioni @Condition[Affaticato] accumulate.",
+        "46-60": "<b>Ottimi Alloggi</b>: I Personaggi arrivano a un’ottima stazione di posta e, se sono disposti a spendere qualche moneta, potranno prendersela con calma e riempirsi lo stomaco, guarendo da tutte le Condizioni accumulate.",
+        "91-95": "<b>Scorciatoia!</b>: Ricontrollando la mappa, o grazie a una guida locale, i Personaggi scoprono una scorciatoia attraverso la regione. Possono saltare la prossima Tappa del viaggio.",
+        "61-75": "<b>Tempo da Perdere</b>: Il viaggio è talmente rilassato e calmo che i Personaggi si ritrovano con molto tempo libero. Ciascuno può eseguire un’Attività di Viaggio in più.",
+        "76-90": "<b>Una Parola Gentile</b>: Un semplice atto di cortesia da parte dei PG fa un’ottima impressione a un altro viaggiatore. Le voci sul loro conto si diffondono fino alla destinazione, dove almeno un PNG avrà una buona opinione di loro."
       }
     },
     {
       "id": "Riding Mishaps",
-      "name": "Maladresse de Monture",
+      "name": "Incidenti in Sella",
       "results": {
-        "41-85": "<b>Fer perdu<\/b>:L'animal perd un de ses fers. Le cavalier doit réussir un Test de Chevaucher Difficile (–10) ou chutter au sol (à une distance de 2 mètres). L'animal doit se déplacer en Marche jusqu'à ce que le fer ait été remplacé par un maréchal-ferrand. En forçant l'animal à se déplacer plus vite, il deviendra Boiteux",
-        "99-100": "<b>Jambe cassée<\/b>:L'animal subbit un Traumatisme Jambe Fracturée (Majeure), et deviens immobile. Si l'os brisé guérit un jour, le Mouvement de l'animal sera réduit de moitié. En général, lorsqu'un cheval ou un animal similaire se casse la jambe, il a peu d'espoir de survivre.",
-        "1-40": "<b>Harnachement cassé<\/b>:Une sangle de selle déchirée, un harnais en lambeau ou un étrier perdu — une partie de l'harnachement de votre monture a été endomagée, rendant le voyage plus difficile. Le cavalier doit réussir un Test de Chevaucher Difficile (–10) ou chutter au sol (à une hauteur de 2 mètres). Jusqu'à ce que l'harnachement soit réparé, tous les prochains Test de Chevaucher subissent un malus de –20.",
-        "86-98": "<b>Boiteux<\/b>:L'animal ne peut pas se déplacer de plus de la moitié de sa vitesse de Marche, il ne peut pas être chevauché et ne peut ni porter ni tirer de charges. Tenter d'amener l'animal plus loin dans le voyage en utilisant les @JournalEntry[The Story]{Voyages} augmente la longeur du voyage d'1 Etape. Toute tentative de faire l'une de ces actions à l'animal lui en coutera 1d10 Blessures, sans tenir compte de son Bonus d'Endurence. Sur un résultat de 8+, l'animal doit réussir un Test d'Endurence Accessible (+0) ou subir une @Table[critleg]{Blessure Critique} à ses jambes."
+        "41-85": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#ferro-perso]{Ferro Perso}",
+        "99-100": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#zampa-rotta]{Zampa Rotta}",
+        "1-40": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#finimenti-rotti]{Finimenti Rotti}",
+        "86-98": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#azzoppato]{Azzoppato}"
       }
     },
     {
       "id": "Vehicle Mishaps",
-      "name": "Maladresse de Véhicule",
+      "name": "Incidenti su Veicoli",
       "results": {
-        "1-50": "<b>Hors de Contrôle!<\/b>:Par malchance, les rênes cassent et le conducteur n'a plus aucun contrôle sur la vitesse du véhicule. Si le conducteur ne prend aucune action pur arrêter le véhicule, celui-ci risque d'entrer en collision avec quelque chose! Si le véhicule roulait à une vitesse de marche et n'est pas sous contrôle dans [[\/r 1d10]] Rounds, il heurte un obstacle et devient Endommagé (voir ci-dessous). Si le véhicule se déplaçait plus vite qu'une vitesse de marche, il est Détruit (cf plus bas).<br><br>Cette maladresse peut aussi survenir si le conducteur est tué ou si il est empeché de conduire le véhicule.",
-        "96-100": "<b>Détruit!<\/b>:Le véhicule percute un obstacle à grande vitesse. Les occupants d'un véhicule Détruit subissent [[\/r 2d10]] Blessures moifiées par le Bonus d'Endurance et l'Armure, avec un minimum de 1 Blessures. Le véhicule subit également [[\/r 2d10] dommages, modifié par le Bonus d'Endurance avec un minimum de 1. Les véhicules détruits ne peuvent plus rouler et doivent être réparés par par quelqu'un avec les Compétences appropriées telles que Métier (Charpentier) ou Métier (Charron).",
-        "51-79": "<b>Endommagé<\/b>:Une pièce importante est endommagée: une roue se tord, l'essieu se déforme ou tout autre problème similaire. Le véhicule peut continuer à une vitesse de marche seulement, jusqu'à ce qu'il soit réparé par quelqu'un avec les Compétences appropriées telles que Métier (Charpentier) ou Métier (Charron). Si le véhicule est amené à se déplacer plus vite, il se brise au bout de [[\/r 1d10]] Rounds.",
-        "80-95": "<b>Brisé<\/b>:Une pièce importante est brisé: un harnais, une roue ou l'essieu. Si le véhicule est tracté par des animaux, ils peuvent se détacher du véhicule : le conducteur doit réussir un Test d'Athlétisme Intermédiaire (+0) pour éviter d'être projeté hors de son siège. Un échec implique la chute du conducteur et le risque d'être tracté, comme indiqué dans @JournalEntry[Driving And Riding]{Maladresse de Monture}.<br><br>Le véhicule subit [[\/r 1d10]] Dommages, modifié par son Bonus d'Endurance avec un minimum de 1. Le véhicule ne peut plus avancer jusqu'à ce qu'il soit réparé par quelqu'un avec les Compétences appropriées telles que Métier (Charpentier) ou Métier (Charron). Toutes les personnes à l'intérieur du véhicule subissent 1 Blessure, non modifié par l'Armure ou le Bonus d'Endurance.<br.<br>Si le véhicule roulait plus vite que la vitesse de marche, appliquer 'Détruit!' au lieu de 'Brisé'."
+        "1-50": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#fuori-controllo!]{Fuori Controllo!}",
+        "96-100": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#schianto!]{Schianto!}",
+        "51-79": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#danneggiato]{Danneggiato}",
+        "80-95": "@UUID[Compendium.wfrp4e-eis.journals.GHueUtHKzlhvsd8L.JournalEntryPage.lLe63oYqpVSctopI#rotto]{Rotto}"
       }
     },
     {
       "id": "Weather Table - Autumn",
-      "name": "Météo - Automne",
+      "name": "Tabella Clima - Autunno",
       "results": {
-        "91-98": "<b>Pluie diluvienne<\/b>:De terribles orages réduissent la visibilité proche de 0, rendant n'importe quel son moins fort qu'un cri impossible à entendre et impose une pénalité de -10% à tous les Tests physiques. Tous ceux qui ne sont pas à l'abri seront trempés en quelques minutes. De l'eau s'écoule de la route, creusant des ravins de telles sortes que celle-ci ne ressemble plus qu'à un bourbier. Les armes à distance subissent une pénalité de -20% en raison des terribles conditions météorologiques et la poudre explosive exposée est immédiatement détruite. Les animaux possédant le Traît nerveux peuvent également être effrayés par la foudre lors de violents orages.",
-        "1-30": "<b>Sec<\/b>:Le temps sec prolongé est à l'origine de rideaux de poussière qui soufflent sur la route à la moindre brise, obscursisant la vision et désséchant les gorges. Voyager est simple; mais incofortable; les tentatives de forage sont à -10%, le temps rendant la recherche d'eau plus difficile.",
-        "31-60": "<b>Beau<\/b>:Pour une fois le temps est clément, il n'y a aucun dangers liés à la météo.",
-        "61-90": "<b>Pluie<\/b>:La pluie peut durer de quelques heures à plusieurs jours.Les 'courtes averses du printemps', tant appréciées des poètes peuvent certaines fois durer jusqu'à une semaine, prouvant que les poètes passent peu de temps à l'exterieur loin du vin et de la chaleur. La pluie réduit la visibilité à 23 mètres ou moins. De plus, les armes à distance subissent une pénalité de -10% lors de leurs utilisations en raison du vent et de la pluie battante.",
-        "99-100": "<b>Neige<\/b>:Une douce neige recouvre le monde d'un manteau blanc, donnant l'impression que tout est neuf et propre. C'est indéniablement beau jusqu'à l'instant oû il faut se déplacer dedans. La neige réduit la visibilité à 45 mètres, et il est impossible d'aller plus vite que la marche. Les personnages voyageant dans la neige doivent faire un Test <b>Accessible (+20) d'Endurance<\/b> ou gagner un état <b><a class = 'condition-chat'>Exténué<\/a><\/b>."
+        "91-98": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#diluvio]{Diluvio}",
+        "1-30": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#secco]{Secco}",
+        "31-60": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#mite]{Mite}",
+        "61-90": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#pioggia]{Pioggia}",
+        "99-100": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#neve]{Neve}"
       }
     },
     {
       "id": "Weather Table - Spring",
-      "name": "Météo - Printemps",
+      "name": "Tabella Clima - Primavera",
       "results": {
-        "31-90": "<b>Pluie<\/b>:La pluie peut durer de quelques heures à plusieurs jours.Les 'courtes averses du printemps', tant appréciées des poètes peuvent certaines fois durer jusqu'à une semaine, prouvant que les poètes passent peu de temps à l'exterieur loin du vin et de la chaleur. La pluie réduit la visibilité à 23 mètres ou moins. De plus, les armes à distance subissent une pénalité de -10% lors de leurs utilisations en raison du vent et de la pluie battante.",
-        "91-95": "<b>Pluie diluvienne<\/b>:De terribles orages réduissent la visibilité proche de 0, rendant n'importe quel son moins fort qu'un cri impossible à entendre et impose une pénalité de -10% à tous les Tests physiques. Tous ceux qui ne sont pas à l'abri seront trempés en quelques minutes. De l'eau s'écoule de la route, creusant des ravins de telles sortes que celle-ci ne ressemble plus qu'à un bourbier. Les armes à distance subissent une pénalité de -20% en raison des terribles conditions météorologiques et la poudre explosive exposée est immédiatement détruite. Les animaux possédant le Traît nerveux peuvent également être effrayés par la foudre lors de violents orages.",
-        "1-10": "<b>Sec<\/b>:Le temps sec prolongé est à l'origine de rideaux de poussière qui soufflent sur la route à la moindre brise, obscursisant la vision et désséchant les gorges. Voyager est simple; mais incofortable; les tentatives de forage sont à -10%, le temps rendant la recherche d'eau plus difficile.",
-        "96-100": "<b>Neige<\/b>:Une douce neige recouvre le monde d'un manteau blanc, donnant l'impression que tout est neuf et propre. C'est indéniablement beau jusqu'à l'instant oû il faut se déplacer dedans. La neige réduit la visibilité à 45 mètres, et il est impossible d'aller plus vite que la marche. Les personnages voyageant dans la neige doivent faire un Test <b>Accessible (+20) d'Endurance<\/b> ou gagner un état <b><a class = 'condition-chat'>Exténué<\/a><\/b>.",
-        "11-30": "<b>Beau<\/b>:Pour une fois le temps est clément, il n'y a aucun dangers liés à la météo."
+        "31-90": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#pioggia]{Pioggia}",
+        "91-95": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#diluvio]{Diluvio}",
+        "1-10": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#secco]{Secco}",
+        "96-100": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#neve]{Neve}",
+        "11-30": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#mite]{Mite}"
       }
     },
     {
       "id": "Weather Table - Summer",
-      "name": "Météo - Eté",
+      "name": "Tabella Clima - Estate",
       "results": {
-        "1-40": "<b>Sec<\/b>:Le temps sec prolongé est à l'origine de rideaux de poussière qui soufflent sur la route à la moindre brise, obscursisant la vision et désséchant les gorges. Voyager est simple; mais incofortable; les tentatives de forage sont à -10%, le temps rendant la recherche d'eau plus difficile.",
-        "96-100": "<b>Pluie diluvienne<\/b>:De terribles orages réduissent la visibilité proche de 0, rendant n'importe quel son moins fort qu'un cri impossible à entendre et impose une pénalité de -10% à tous les Tests physiques. Tous ceux qui ne sont pas à l'abri seront trempés en quelques minutes. De l'eau s'écoule de la route, creusant des ravins de telles sortes que celle-ci ne ressemble plus qu'à un bourbier. Les armes à distance subissent une pénalité de -20% en raison des terribles conditions météorologiques et la poudre explosive exposée est immédiatement détruite. Les animaux possédant le Traît nerveux peuvent également être effrayés par la foudre lors de violents orages.",
-        "41-70": "<b>Beau<\/b>:Pour une fois le temps est clément, il n'y a aucun dangers liés à la météo.",
-        "71-95": "<b>Pluie<\/b>:La pluie peut durer de quelques heures à plusieurs jours.Les 'courtes averses du printemps', tant appréciées des poètes peuvent certaines fois durer jusqu'à une semaine, prouvant que les poètes passent peu de temps à l'exterieur loin du vin et de la chaleur. La pluie réduit la visibilité à 23 mètres ou moins. De plus, les armes à distance subissent une pénalité de -10% lors de leurs utilisations en raison du vent et de la pluie battante."
+        "1-40": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#secco]{Secco}",
+        "96-100": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#diluvio]{Diluvio}",
+        "41-70": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#mite]{Mite}",
+        "71-95": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#pioggia]{Pioggia}"
       }
     },
     {
       "id": "Weather Table - Winter",
-      "name": "Météo - Hiver",
+      "name": "Tabella Clima - Inverno",
       "results": {
-        "11-60": "<b>Pluie<\/b>:La pluie peut durer de quelques heures à plusieurs jours.Les 'courtes averses du printemps', tant appréciées des poètes peuvent certaines fois durer jusqu'à une semaine, prouvant que les poètes passent peu de temps à l'exterieur loin du vin et de la chaleur. La pluie réduit la visibilité à 23 mètres ou moins. De plus, les armes à distance subissent une pénalité de -10% lors de leurs utilisations en raison du vent et de la pluie battante.",
-        "61-65": "<b>Pluie diluvienne<\/b>:De terribles orages réduissent la visibilité proche de 0, rendant n'importe quel son moins fort qu'un cri impossible à entendre et impose une pénalité de -10% à tous les Tests physiques. Tous ceux qui ne sont pas à l'abri seront trempés en quelques minutes. De l'eau s'écoule de la route, creusant des ravins de telles sortes que celle-ci ne ressemble plus qu'à un bourbier. Les armes à distance subissent une pénalité de -20% en raison des terribles conditions météorologiques et la poudre explosive exposée est immédiatement détruite. Les animaux possédant le Traît nerveux peuvent également être effrayés par la foudre lors de violents orages.",
-        "66-90": "<b>Neige<\/b>:Une douce neige recouvre le monde d'un manteau blanc, donnant l'impression que tout est neuf et propre. C'est indéniablement beau jusqu'à l'instant oû il faut se déplacer dedans. La neige réduit la visibilité à 45 mètres, et il est impossible d'aller plus vite que la marche. Les personnages voyageant dans la neige doivent faire un Test <b>Accessible (+20) d'Endurance<\/b> ou gagner un état <b><a class = 'condition-chat'>Exténué<\/a><\/b>.",
-        "91-100": "<b>Blizzard<\/b>:La neige transforme tout en un enfer blanc sans visibilité. La route disparaît sous un manteau de neige qui s'accumule rapidement, ne laissant que les arbres pour s'orienter. La visibilité est proche de zéro. Les mouvements plus rapides que la marche sont impossibles. Les armes à distance sont inutiles dans de telles conditions. Les personnages voyageant dans un blizzard doivent faire un Test <b>Intermédiaire (+0) d'Endurance<\/b> ou gagner un état <b><a class = 'condition-chat'>Exténué<\/a><\/b> .",
-        "1-10": "<b>Beau<\/b>:Pour une fois le temps est clément, il n'y a aucun dangers liés à la météo."
+        "11-60": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#pioggia]{Pioggia}",
+        "61-65": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#diluvio]{Diluvio}",
+        "66-90": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#neve]{Neve}",
+        "91-100": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#tormenta]{Tormenta}",
+        "1-10": "@UUID[Compendium.wfrp4e-eis.journals.1tdhntCNqK83TS94.JournalEntryPage.WHkF67bhn4ZHktqe#mite]{Mite}"
+      }
+    },
+    {
+      "id": "Oi3bKabrrjoEiVRQ",
+      "name": "Incontri Opzionali nelle Fogne (Tunnel Maggiore)",
+      "results": {
+        "1-5": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ameba]{Ameba}",
+        "6-15": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#pipistrelli]{Pipistrelli}",
+        "16-25": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#muffa-letale]{Muffa Letale}",
+        "26-35": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ratti]{Ratti}",
+        "36-40": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ladro]{Ladro}",
+        "41-50": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#sacca-di-metano]{Sacca di Metano}",
+        "51-80": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#passerella-pericolosa]{Passerella Pericolosa}",
+        "81-100": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ostacolo-nascosto]{Ostacolo Nascosto}"
+      }
+    },
+    {
+      "id": "8s1L1v6RzXks3NBY",
+      "name": "Incontri Opzionali nelle Fogne (Tunnel Minore)",
+      "results": {
+        "1-10": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ameba]{Ameba}",
+        "11-15": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#pipistrelli]{Pipistrelli}",
+        "16-40": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#muffa-letale]{Muffa Letale}",
+        "41-70": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#sacca-di-metano]{Sacca di Metano}",
+        "71-90": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#ostacolo-nascosto]{Ostacolo Nascosto}",
+        "91-100": "@UUID[Compendium.wfrp4e-eis.journals.qxnXlkXKtBuIHNfu.JournalEntryPage.HT7DjzPOPFuzWrpw#buca]{Buca}"
+      }
+    },
+    {
+      "id": "tAC9KkxanOvPiLH3",
+      "name": "Incontri Opzionali (Schaffenfest)",
+      "results": {
+        "1-4": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#accusa]{Accusa}",
+        "5-8": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#arresto]{Arresto}",
+        "9-13": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#tenda-della-birra]{Tenda della Birra}",
+        "14-18": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#mendicante]{Mendicante}",
+        "19-23": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#bigotti]{Bigotti}",
+        "24-26": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#guardia-del-corpo]{Guardia del Corpo}",
+        "27-33": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#rissa]{Rissa}",
+        "34-36": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#artista-della-truffa]{Artista della Truffa}",
+        "37-43": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#intrattenitore]{Intrattenitore}",
+        "44-46": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#bestiame-in-fuga]{Bestiame in Fuga}",
+        "47-52": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#giochi-da-fiera]{Giochi da Fiera}",
+        "53-55": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#mercenari]{Mercenari}",
+        "56-90": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#bancarella/venditore]{Bancarella/Venditore}",
+        "91-95": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#ladro]{Ladro}",
+        "96-100": "@UUID[Compendium.wfrp4e-eis.journals.MB5a0zBGJcZhEYUI.JournalEntryPage.KrRntV6J4kytBcjR#pattuglia-della-milizia]{Pattuglia della Milizia}"
       }
     }
   ]

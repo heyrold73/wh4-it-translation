@@ -235,7 +235,7 @@
     {
       "description": "",
 
-      "id": "Bolt",
+      "id": "kFROfGFdExfyJTg9",
       "name": "Quadrelli (12)"
     },
     {
@@ -11902,7 +11902,7 @@
     {
       "description": "<p>Il Mago concentra la magia in un dardo fatato. È un <em>proiettile magico</em> con Danno +4.</p>",
 
-      "id": "Bolt",
+      "id": "QmjYLCaEn3YKHxdv",
       "name": "Strale"
     },
     {
@@ -13619,28 +13619,6 @@
       "name": "Minaccia Strisciante"
     },
     {
-      "description": "<p>L’ingrediente chiave di questa magia è un oggetto personale o una ciocca di capelli del bersaglio. Per la Durata, questi subirà una serie di sfortune (lacci strappati, sedie che si rompono e altri inconvenienti narrativi) e un -10 a tutte le Prove, in aggiunta a ogni altro modificatore. Inoltre non potrà spendere Punti Fortuna.</p><p>\n\n <b>Sapere:</b> Ogni volta che un praticante di Stregoneria tira sulla Tabella degli Incidenti Magici ottiene anche 1 Punto Corruzione. D’altro canto può causare 1 @Condition[Sanguinante] a chiunque sia bersaglio di un Incantesimo di questo Sapere. Infine, ogni tentativo di Lanciare o Incanalare questi Incantesimi senza usare ingredienti richiede un tiro sulla Tabella degli @Table[minormis]{Incidenti Magici Minori}, ma l’ingrediente non fornirà alcuna protezione in caso di un Disastro. Per fortuna, questi materiali sono comuni ed economici, di solito pezzi di piccoli animali. Il prezzo è il VL dell’Incantesimo in penny (invece che in scellini). In alternativa, una Strega può usare l’Abilità Sopravvivere per ottenere 1+LS ingredienti (vedere @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{Raccogliere Cibo ed Erbe}).</p>",
-      "effects": [
-        {
-          "_id": "sq47SZ1v9Pofa4L1",
-          "changes": [],
-          "duration": {},
-          "flags": {
-            "wfrp4e": {
-              "applicationData": {},
-              "scriptData": [],
-              "_legacyData": {}
-            }
-          },
-          "icon": "modules/wfrp4e-core/icons/spells/witchcraft.png",
-          "label": "Sapere della Stregoneria",
-          "transfer": false
-        }
-      ],
-      "id": "Curse of Ill–Fortune",
-      "name": "Maledizione della Sfortuna"
-    },
-    {
       "description": "<p>Il Mago forgia una magnifica corona di fuoco dall’<em>Aqshy</em>. Per la durata, ottiene il Tratto @UUID[Compendium.wfrp4e-core.items.pTorrE0l3VybAbtn]{Spaventoso (1)}, +1 al Talento @UUID[Compendium.wfrp4e-core.items.vCgEAetBMngR53aT]{Condottiero}&nbsp; e +10 a tutte le Prove di Lancio e Incanalare legate ad Aqshy.</p>\n<p>Per ogni +2 LS può incrementare il grado di <em>Paura</em> o Condottiero di +1.</p><p>\n\n <b>Sapere:</b> Il Mago può causare, a piacere, 1 @Condition[In Fiamme] a tutti i bersagli, a meno che non possiedano a propria volta il Talento Magia Arcana (Fuoco). Inoltre, ogni condizione In Fiamme entro un numero di metri pari al suo Bonus Volontà dal Mago gli conferisce +10 alle Prove di Lancio o Incanalare legate ad Aqshy.</p>",
       "effects": [
         {
@@ -13804,7 +13782,7 @@
           "transfer": true
         }
       ],
-      "id": "Curse of Ill-Fortune",
+      "id": "sq47SZ1v9Pofa4L1",
       "name": "Maledizione della Sfortuna"
     },
     {

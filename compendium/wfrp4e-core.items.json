@@ -99,7 +99,7 @@
     },
     {
       "description": "",
-      "id": "Bolt",
+      "id": "kFROfGFdExfyJTg9",
       "name": "Quadrelli (12)"
     },
     {
@@ -3763,7 +3763,7 @@
     },
     {
       "description": "<p>Il Mago concentra la magia in un dardo fatato. È un <em>proiettile magico</em> con Danno +4.</p>",
-      "id": "Bolt",
+      "id": "QmjYLCaEn3YKHxdv",
       "name": "Strale"
     },
     {
@@ -3815,6 +3815,11 @@
       "description": "<p>Il Mago concentra la magia in un dardo fatato. È un <em>proiettile magico</em> con Danno +4.</p><p>\n\n <b>Sapere:</b>Ogni effetto protettivo ammanta il Mago di ombre e fumo, rendendolo in parte incorporeo o lasciando che le lame lo oltrepassino senza recargli danno apparente. Infine, tutti gli effetti che infliggono Danno ignorano i punti Armatura non magici.</p>",
       "id": "Bolt (Shadow)",
       "name": "Strale (Ombre)"
+    },
+    {
+      "description": "<p>Il Mago concentra la magia in un dardo fatato. È un <em>proiettile magico</em> con Danno +4.</p><p>\n\n <b>Sapere:</b> Questi Incantesimi, a causa delle antiche tradizioni e delle credenze a essi collegate, non possono essere lanciati senza ingredienti, che sono parte essenziale del procedimento. <br><br>Per fortuna, si tratta, di solito, di erbe e piante facili da trovare ai margini degli insediamenti. Effettuando una Prova di Conoscenza (Erbe) per @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{trovare erbe e piante}, il Mago ottiene 1+LS ingredienti, oppure può acquistarli a 5 penny l’uno.</p>",
+      "id": "Bolt (Hedgecraft)",
+      "name": "Strale (Soglia)"
     },
     {
       "description": "<p>Il Mago concentra la magia in un dardo fatato. È un <em>proiettile magico</em> con Danno +4.</p><p>\n\n <b>Sapere:</b> Ogni volta che un praticante di Stregoneria tira sulla Tabella degli Incidenti Magici ottiene anche 1 Punto Corruzione. D’altro canto può causare 1 @Condition[Sanguinante] a chiunque sia bersaglio di un Incantesimo di questo Sapere. Infine, ogni tentativo di Lanciare o Incanalare questi Incantesimi senza usare ingredienti richiede un tiro sulla Tabella degli @Table[minormis]{Incidenti Magici Minori}, ma l’ingrediente non fornirà alcuna protezione in caso di un Disastro. Per fortuna, questi materiali sono comuni ed economici, di solito pezzi di piccoli animali. Il prezzo è il VL dell’Incantesimo in penny (invece che in scellini). In alternativa, una Strega può usare l’Abilità Sopravvivere per ottenere 1+LS ingredienti (vedere @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{Raccogliere Cibo ed Erbe}).</p>",
@@ -3945,6 +3950,11 @@
       "description": "<p>Il Mago crea un ponte di energia magica, con lunghezza e larghezza massime pari al suo Bonus Volontà in metri. Per ogni +2 LS può incrementare una delle due dimensioni di un valore in metri pari al Bonus Volontà.</p><p>\n\n <b>Sapere:</b> Ogni volta che un praticante di Stregoneria tira sulla Tabella degli Incidenti Magici ottiene anche 1 Punto Corruzione. D’altro canto può causare 1 @Condition[Sanguinante] a chiunque sia bersaglio di un Incantesimo di questo Sapere. Infine, ogni tentativo di Lanciare o Incanalare questi Incantesimi senza usare ingredienti richiede un tiro sulla Tabella degli @Table[minormis]{Incidenti Magici Minori}, ma l’ingrediente non fornirà alcuna protezione in caso di un Disastro. Per fortuna, questi materiali sono comuni ed economici, di solito pezzi di piccoli animali. Il prezzo è il VL dell’Incantesimo in penny (invece che in scellini). In alternativa, una Strega può usare l’Abilità Sopravvivere per ottenere 1+LS ingredienti (vedere @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{Raccogliere Cibo ed Erbe}).</p>",
       "id": "Bridge (Witchcraft)",
       "name": "Ponte (Stregoneria)"
+    },
+    {
+      "description": "<p>Il Mago crea un ponte di energia magica, con lunghezza e larghezza massime pari al suo Bonus Volontà in metri. Per ogni +2 LS può incrementare una delle due dimensioni di un valore in metri pari al Bonus Volontà.</p><p>\n\n <b>Sapere:</b> Questi Incantesimi, a causa delle antiche tradizioni e delle credenze a essi collegate, non possono essere lanciati senza ingredienti, che sono parte essenziale del procedimento. <br><br>Per fortuna, si tratta, di solito, di erbe e piante facili da trovare ai margini degli insediamenti. Effettuando una Prova di Conoscenza (Erbe) per @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{trovare erbe e piante}, il Mago ottiene 1+LS ingredienti, oppure può acquistarli a 5 penny l’uno.</p>",
+      "id": "Bridge (Hedgecraft)",
+      "name": "Ponte (Soglia)"
     },
     {
       "description": "<p>La magia fluisce attorno ai piedi del Mago, facendo sì che non danneggi i materiali organici che calpesta: i rametti non si spezzano, l’erba ritorna nella posizione originaria e persino i fiori più delicati restano intatti. Chi tenta di seguirlo in un ambiente rurale subisce -30 alla Prova di Seguire Tracce.</p><p>\n\n <b>Sapere:</b> Nessuno</p>",
@@ -4138,7 +4148,7 @@
     },
     {
       "description": "<p>L’ingrediente chiave di questa magia è un oggetto personale o una ciocca di capelli del bersaglio. Per la Durata, questi subirà una serie di sfortune (lacci strappati,sedie che si rompono e altri inconvenienti narrativi) e un -10 a tutte le Prove, in aggiunta a ogni altro modificatore. Inoltre non potrà spendere Punti Fortuna. </p><p>\n\n <b>Sapere:</b> Ogni volta che un praticante di Stregoneria tira sulla Tabella degli Incidenti Magici ottiene anche 1 Punto Corruzione. D’altro canto può causare 1 @Condition[Sanguinante] a chiunque sia bersaglio di un Incantesimo di questo Sapere. Infine, ogni tentativo di Lanciare o Incanalare questi Incantesimi senza usare ingredienti richiede un tiro sulla Tabella degli @Table[minormis]{Incidenti Magici Minori}, ma l’ingrediente non fornirà alcuna protezione in caso di un Disastro. Per fortuna, questi materiali sono comuni ed economici, di solito pezzi di piccoli animali. Il prezzo è il VL dell’Incantesimo in penny (invece che in scellini). In alternativa, una Strega può usare l’Abilità Sopravvivere per ottenere 1+LS ingredienti (vedere @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{Raccogliere Cibo ed Erbe}).</p>",
-      "id": "Curse of Ill-Fortune",
+      "id": "sq47SZ1v9Pofa4L1",
       "name": "Maledizione della Sfortuna"
     },
     {
@@ -4355,6 +4365,11 @@
       "description": "<p>Il Mago crea una cupola di energia magica che blocca gli attacchi in arrivo. Chiunque si trovi sotto di essa ottiene il Tratto @UUID[Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh]{Protezione (6+)} contro gli attacchi magici o a distanza in arrivo dall’esterno. Gli attacchi dall’interno funzionano normalmente e la cupola non impedisce il movimento. </p>",
       "id": "Dome (Witchcraft)",
       "name": "Cupola (Stregoneria)"
+    },
+    {
+      "description": "<p>Il Mago crea una cupola di energia magica che blocca gli attacchi in arrivo. Chiunque si trovi sotto di essa ottiene il Tratto @UUID[Compendium.wfrp4e-core.items.Item.Bvd2aZ0gQUXHfCTh]{Protezione (6+)} contro gli attacchi magici o a distanza in arrivo dall’esterno. Gli attacchi dall’interno funzionano normalmente e la cupola non impedisce il movimento. </p>",
+      "id": "Dome (Hedgecraft)",
+      "name": "Cupola (Soglia)"
     },
     {
       "description": "<p>Il Mago tesse attorno a sé una maschera e un manto di <em>Ulgu</em>, assumendo l’aspetto di un altro umanoide a lui familiare (a discrezione del GM). Chiunque sia privo del Talento @UUID[Compendium.wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Seconda Vista}&nbsp; verrà ingannato, anche se potrebbe notare che i modi non sono gli stessi. Chi ha il Talento può effettuare una Prova <strong>Difficile (-10) di Percepire</strong> per notare il travestimento. Questo, però, non permetterà di vedere oltre: è necessario Disperdere l’effetto.</p><p>\n\n <b>Sapere:</b>Ogni effetto protettivo ammanta il Mago di ombre e fumo, rendendolo in parte incorporeo o lasciando che le lame lo oltrepassino senza recargli danno apparente. Infine, tutti gli effetti che infliggono Danno ignorano i punti Armatura non magici.</p>",
@@ -4822,6 +4837,11 @@
       "name": "Scudo Magico (Stregoneria)"
     },
     {
+      "description": "<p>Il Mago si protegge con bande d’energia. Per la durata dell’effetto, somma il proprio Bonus Volontà al LS di ogni tentativo di Dispersione che compie.</p><p>\n\n <b>Sapere:</b> Questi Incantesimi, a causa delle antiche tradizioni e delle credenze a essi collegate, non possono essere lanciati senza ingredienti, che sono parte essenziale del procedimento. <br><br>Per fortuna, si tratta, di solito, di erbe e piante facili da trovare ai margini degli insediamenti. Effettuando una Prova di Conoscenza (Erbe) per @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{trovare erbe e piante}, il Mago ottiene 1+LS ingredienti, oppure può acquistarli a 5 penny l’uno.</p>",
+      "id": "Magic Shield (Hedgecraft)",
+      "name": "Scudo Magico (Soglia)"
+    },
+    {
       "description": "<p>Il Mago incanala un nauseante flusso di <em>Dhar</em>, creando uno squarcio temporaneo nella realtà, da cui si manifesta immediatamente un Demone Minore (vedere due esempi, il @UUID[Compendium.wfrp4e-core.actors.Actor.KZkuwdOYmE3nwB2n]{Sanguinario} e la @UUID[Compendium.wfrp4e-core.actors.Actor.8gG2Wim6wAlJWRax]{Demonetta}). Il Mago effettua una Prova <strong>Contrapposta di Incanalare (Dhar) contro la Volontà</strong> del Demone. Se vince, la creatura eseguirà un singolo ordine, in maniera piuttosto letterale, prima di svanire (purché possa essere portato a termine entro la Durata). In caso di fallimento, il Demone attacca immediatamente.</p>",
       "id": "Manifest Lesser Daemon",
       "name": "Manifestare Demone Minore"
@@ -5110,6 +5130,11 @@
       "description": "<p>Tutte le creature viventi in un raggio pari al Bonus Volontà in metri dal Mago vengono respinte di Bonus Volontà metri e cadono @Condition[Prone]. Se sbattono contro ostacoli grandi, come un muro,subiscono Danni pari alla distanza percorsa in metri. Ogni +2 LS è possibile respingere le creature di ulteriori Bonus Volontà metri.</p><p>\n\n <b>Sapere:</b> Questi Incantesimi, a causa delle antiche tradizioni e delle credenze a essi collegate, non possono essere lanciati senza ingredienti, che sono parte essenziale del procedimento. <br><br>Per fortuna, si tratta, di solito, di erbe e piante facili da trovare ai margini degli insediamenti. Effettuando una Prova di Conoscenza (Erbe) per @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{trovare erbe e piante}, il Mago ottiene 1+LS ingredienti, oppure può acquistarli a 5 penny l’uno.</p>",
       "id": "Push (Witchcraft)",
       "name": "Spinta (Stregoneria)"
+    },
+    {
+      "description": "<p>Tutte le creature viventi in un raggio pari al Bonus Volontà in metri dal Mago vengono respinte di Bonus Volontà metri e cadono @Condition[Prone]. Se sbattono contro ostacoli grandi, come un muro,subiscono Danni pari alla distanza percorsa in metri. Ogni +2 LS è possibile respingere le creature di ulteriori Bonus Volontà metri.</p><p>\n\n <b>Sapere:</b> Questi Incantesimi, a causa delle antiche tradizioni e delle credenze a essi collegate, non possono essere lanciati senza ingredienti, che sono parte essenziale del procedimento. <br><br>Per fortuna, si tratta, di solito, di erbe e piante facili da trovare ai margini degli insediamenti. Effettuando una Prova di Conoscenza (Erbe) per @UUID[Compendium.wfrp4e-core.journals.6zOdTLv3YeYeJ4hR.JournalEntryPage.cFqWFER60SjM5Wn3#opzione:-raccogliere-cibo-ed-erbe]{trovare erbe e piante}, il Mago ottiene 1+LS ingredienti, oppure può acquistarli a 5 penny l’uno.</p>",
+      "id": "Push (Hedgecraft)",
+      "name": "Spinta (Soglia)"
     },
     {
       "description": "<p>Il Mago incanala nel suolo un potente flusso di <em>Dhar</em>, facendo sì che le vecchie ossa si riuniscano e risorgano. Al termine del Round, 1+LS Scheletri emergono nell’Area d’Effetto, disposti secondo i desideri del Mago, ma @Condition[Proni]. Questi esseri sono totalmente controllati dal Mago e possono eseguire ordini semplici. Se il Necromante viene ucciso o cade @Condition[Privo di Sensi], l’Incantesimo ha termine e gli scheletri collassano. Per ogni +2 LS è possibile evocare un numero di Scheletri extra pari al LS.</p>",
