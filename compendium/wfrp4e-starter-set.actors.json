@@ -1,0 +1,41 @@
+{
+  "label": "Personaggi (Starter Set)",
+  "mapping": {
+    "description": "system.details.biography.value",
+    "gmNotes": "system.details.gmnotes.value",
+    "items": {
+      "path": "items",
+      "converter": "bestiary_traits"
+    },
+    "characteristics": {
+      "path": "system.characteristics",
+      "converter": "npc_characteristics"
+    }
+  },
+  "folders": {
+    "Blood & Snow": "Sangue & Neve",
+    "Da Lit'lest Waaagh!": "La Pikkolizzima Waaagh!",
+    "Making the Rounds": "Giro di Ronda",
+    "Memories of Blood": "Memorie di Sangue",
+    "Old Blue Eyes Is Back!": "Il Vecchio Occhi Azzurri è Tornato!",
+    "Pregens": "Pregenerati",
+    "Red Moon Burning": "Fiamma Alla Luna Rossa",
+    "The Riddle of Silver": "L'Enigma d'Argento",
+    "Two Wrongs Make A Right": "Due Torti Fanno una Ragione",
+    "Ubersreik NPCs": "PNG di Ubersreik",
+    "Unions & Reunions": "Unioni & Riunioni"
+  },
+  "entries": {
+    "Amris Emberfell": {
+      "name": "Amris Bracecadente",
+      "tokenName": "Amris Bracecadente",
+      "description": "<h4><strong>Citazioni</strong></h4>\n<p><em>Vivete qui? In questo… tugurio? Cielo, siete coraggioso.’</em></p>\n<p><em>‘Com’è il Cothique? Caliethar. Ebbene, è meno… disordinata.’</em></p>\n<p><em>‘Ma, quell’edificio è stato costruito solamente dieci anni fa!’</em></p>\n<p><em>‘Caledorianathys Aqshinthia!’</em></p>\n<h4><strong>Chi è Amris?</strong></h4>\n<p>Il padre di Amris è un Principe Mercante del Cothique e desidera che il figlio segua le sue orme. Questi, però, non ha alcun desiderio di farlo, perché si è innamorato… dell’Umanità. Dopo appena vent’anni ad Altdorf, è rimasto sconcertato e deliziato di quanto sia cambiata. L’Impero è una mutevole e caotica fonte di assoluto stupore, ed Amris lo adora. L’anno scorso, strinse un patto con Sali: lei lo avrebbe fatto evadere dalla proprietà paterna, se lui l’avesse aiutata a rubare una spilla al suo stesso cugino. Tutto questo sembrava troppo emozionante per dire di no. Certo, ora Amris è in fuga e il padre considera Sali una ladra e una rapitrice; ma è davvero possibile dire che non sia così?</p>\n<h4><strong>Che tipo è?</strong></h4>\n<p>Giovane, ingenuo e spaventosamente intelligente.</p>\n<h4><strong>Perché giocare Amris?</strong></h4>\n<p>Amris è un Elfo dotato di una mente acuta e di un passato misterioso.</p>\n<p>Sceglilo se:</p>\n<p>&bull; Vuoi giocare un Personaggio decisamente diverso ed estraneo rispetto al resto del gruppo.</p>\n<p>&bull; Ti piace l’idea di un Personaggio tuttofare, che si basa più sulle abilità che sulla fortuna.</p>\n<p>&bull; Hai una propensione per gli Elfi.</p>\n<p>&nbsp;</p>\n<h3><strong>Dettagli del Personaggio</strong></h3>\n<h4><strong>Madre: </strong>Principessa Imryth Bracecadente</h4>\n<h4><strong>Padre: </strong>Alantha Stemmadoro</h4>\n<h4><strong>Fratelli e Sorelle:</strong> 1 Sorella</h4>\n<h4><strong>Compagni: </strong>Nessuno</h4>\n<h4><strong>Luogo di Nascita: </strong>Avethir, Caledor</h4>\n<p>&nbsp;</p>\n<h3><strong>Motivazione</strong></h3>\n<p>Scegli una tra le seguenti tre frasi come motivazione:</p>\n<ul>\n<li>Scoprire fatti nuovi e affascinanti sull’Umanità.</li>\n<li>Scovare un nuovo volume di tradizione esoterica Umana.</li>\n<li>Sfuggire ai servitori al soldo di tuo padre.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Legami</strong></h3>\n<p><em>Scegli uno o più tra i seguenti legami con il resto del gruppo per definire la personalità di Amris.</em></p>\n<ul>\n<li>Sei affascinato dalla dedizione e dall’umore mutevole di Salundra.</li>\n<li>Ami Molli come si ama una sorellina e lei ne è parecchio contenta.</li>\n<li>Gunnar è alquanto triste e vorresti che fosse felice. Devi impegnarti di più a questo scopo.</li>\n<li>Ferdinand è come un bambino che scrive sulla sabbia: un soggetto assolutamente interessante.</li>\n<li>Else è così fredda e chiusa che trovi difficile comunicare con lei.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Segreti</strong></h3>\n<p><em>Scegli uno o più tra i seguenti segreti. Ognuno ti darà [[/r 1d10]] Scellini d'Argento in più all’inizio della partita.</em></p>\n<ul>\n<li>Tua madre, una principessa del Caledor, è gravemente malata e tu ne sei l’erede.</li>\n<li>In realtà, ti importa poco dell’Umanità: la tua è tutta finzione. Ottieni +3 Corruzione.</li>\n<li>Sei affascinato dagli Asrai, gli Elfi Silvani, e vorresti studiarli a fondo.</li>\n<li>In realtà, sei una spia di tua madre, incaricato di tenere d’occhio gli Umani.</li>\n<li>Sei affascinato dal fuoco e devi superare una Prova di Freddezza per non fissarlo.</li>\n</ul>\n<p>&nbsp;</p>\n<h3><strong>Denaro Iniziale</strong></h3>\n<p><em>Inizi la partita con [[/r 1d10]] scellini d’argento, più un altro [[/r 1d10]] per ogni segreto che hai scelto.</em></p>"
+    },
+    "Andrea Pfeffer": {
+      "name": "Andrea Pfeffer",
+      "tokenName": "Andrea Pfeffer",
+      "gmNotes": "<p>La capitana Pfeffer ha una folta capigliatura rosso acceso e occhi blu scuro, gelidi come l’acciaio. Ha circa venticinque anni: è molto giovane per un comando così difficile, ma chi conosce la sua famiglia non ne è sorpreso; i Pfeffer hanno combattuto in prima linea negli eserciti dell’Impero per secoli. La Capitana è schietta e ha il tetro umorismo del militare. Non le piacciono le scuse, ma si rende conto che alcune situazioni richiedano una certa “sottigliezza tattica”; così, lascia correre di fronte ai buoni risultati. Chiunque porti discredito alla Milizia, la renderà esageratamente irritata.</p>"
+    }
+  }
+}
+

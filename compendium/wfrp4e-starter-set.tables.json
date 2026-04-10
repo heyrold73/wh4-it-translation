@@ -1,5 +1,5 @@
 {
-  "label": "Tables (Starter Set)",
+  "label": "Tabelle (Starter Set)",
   "mapping": {
     "results": {
       "path": "results",
@@ -8,16 +8,16 @@
   },
   "entries": {
     "3m4LPj58xoNju80B": {
-      "name": "Blessures Critiques - Tête (Starter Set)"
+      "name": "Ferite Critiche - Testa (Starter Set)"
     },
     "BlDLji1LeqHOVj8r": {
-      "name": "Blessures Critiques - Jambe (Starter Set)"
+      "name": "Ferite Critiche - Gambe (Starter Set)"
     },
     "yYfGtudjckO3bubF": {
-      "name": "Blessures Critiques - Bras (Starter Set)"
+      "name": "Ferite Critiche - Braccia (Starter Set)"
     },
     "yvzv7xxQuxX7N16b": {
-      "name": "Blessures Critiques - Corps (Starter Set)"
+      "name": "Ferite Critiche - Torso (Starter Set)"
     }
   }
 }

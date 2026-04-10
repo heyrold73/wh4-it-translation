@@ -1,10 +1,12 @@
 {
-	"label": "Items (Starter Set)",
+	"label": "Articoli Vari (Starter Set)",
   "folders": {
-    "Criticals": "Critiques",
-    "Diseases": "Maladies",
-    "Spells": "Sorts",
-    "Trappings": "Possessions"
+    "Criticals": "Critici",
+    "Diseases": "Malattie",
+    "Spells": "Incantesimi",
+    "Trappings": "Averi",
+	"Mutations": "Mutazioni",
+	"Traits": "Tratti"
   },
   "mapping": {
     "skills": {
@@ -25,163 +27,168 @@
 	"entries": [
 		{
 			"id": "Ameliorative Elixir",
-			"name": "Élixir Améliorant",
-			"description": "<p>Contenant de la mystracine, cette potion épaisse au goût terreux procure une certaine euphorie et des hallucinations agréables. La potion offre un bonus de +10 aux Tests de Force Mentale, mais une pénalité de -10 aux Tests d’Agilité, d’Initiative et d’Intelligence. Durée: [[/r 1d10]] x 10 minutes.</p>"
+			"name": "Elisir Migliorativo",
+			"description": "<p>Questa misteriosa pozione contiene Radice stramba: è densa, terrosa e provoca un senso di euforia e piacevoli allucinazioni. Fornisce un bonus di +10 alle Prove di Volontà, ma una penalita di -10 a quelle di Agilita, Iniziativa e Intelligenza.</p><p><strong>Durata: </strong>[[/r 1d10 * 10]] minuti.</p>"
 		},
 		{
 			"id": "Basilisk's Baleful Bile",
-			"name": "Basilisk's Baleful Bile",
-			"description": "<p>This poison is created from combining ﬂuids from the eyes and poison sacks of a freshly slain Basilisk. It is a foul tasting poison, and anyone ingesting food or drink laced with Basilisk&rsquo;s Baleful Bile will be called to take an<strong> Easy (+40) Perception</strong> Test. Success indicates they detect the taint of something wrong before suﬀering the bile&rsquo;s eﬀects, but gain the @Condition[Sonné] Condition for one Round whilst they vomit it up. If ingested, the concoction inﬂicts 2 @Condition[Empoisonné] Conditions, resisted with a <strong>Difficult (-10) Endurance</strong> Test. If the target fails to resist the @Condition[Empoisonné] Conditions, they are permanently turned to stone.</p>"
+			"name": "Bile Nefasta di Basilisco",
+			"description": "<p>Questo veleno è creato dalla combinazione dei fluidi oculari e delle sacche velenifere di un Basilisco appena ucciso. E' un veleno dal sapore disgustoso e chiunque ingerisca cibo o bevande contaminati con la Bile Nefasta di Basilisco deve effettuare una<strong> Prova Facile (+40) di Percepire</strong>. Un Successo indica che la persona si accorge della contaminazione prima di subire gli effetti del veleno, ma ottiene una Condizione @Condition[Stordito] per un Round mentre lo vomita. Se ingerito, l’intruglio infligge 2 Condizioni @Condition[Avvelenato] contrastabili con una <strong>Prova Difficile (-10) di Tempra</strong>. Se il bersaglio non riesce a resistere alle Condizioni @Condition[Avvelenato], viene permanentemente tramutato in pietra.</p>"
 		},
 		{
 			"id": "Bronze Fever",
-			"name": "La Fièvre de bronze",
-			"description": "<p>La Fièvre de bronze est fréquente dans le sud du Vieux Monde, là où le climat est plus chaud et humide, car elle se propage à cause des piqûres d’insectes. La plupart des malades guérissent en quelques jours, mais, en de rares occasions, des complications peuvent mener jusqu’à la mort.&nbsp;</p>"
+			"name": "Febbre del Bronzo",
+			"description": "<p>La Febbre del Bronzo è piu diffusa nel Sud del Vecchio Mondo, in climi caldi e umidi, dove si diffonde attraverso le punture d’insetto. Molti degli afflitti si riprendono in pochi giorni, ma in alcuni casi si manifestano complicazioni che possono condurre addirittura alla morte</p>"
 		},
 		{
 			"id": "Bruised",
-			"name": "Bleus aux côtes",
-			"description": "<p>Tous les Tests basés sur l’Agilité sont effectués avec un malus de -10 pendant [[/r 1d10]] jours.</p>"
+			"name": "Livido",
+			"description": "<p>Tutte le <strong>Prove di Agilità</strong> subiscono -10 per [[/r 1d10]] giorni.</p>"
 		},
 		{
 			"id": "Clutch of Eyes",
-			"name": "Pullulement d’Yeux",
-			"description": "<p>Des kystes tremblotants bouillonnent sous votre chair, puis la douleur vous transperce alors que des pustules sanglantes émergent et s’ouvrent, révélant une portée de nouveaux yeux horrifiés.</p><p>Jetez @Table[hitloc]{Hit Location} pour déterminer la Localisation de ces nouveaux yeux. Vous pouvez désormais voir depuis cette Localisation.Augmentez votre Caractéristique d’Initiative de [[/r 1d10]]. Si vous ne possédiez pas de Caractéristique d’Initiative, vous gagnez +[[/r 2d10]] supplémentaires dans celle-ci. Tous les coups qui atteignent la Localisation dotée de votre Pullulement d’Yeux infligent également un État @Condition[Aveuglé].</p>"
+			"name": "Grappolo d'Occhi",
+			"description": "<p>Bolle e cisti si agitano sotto il derma del Personaggio, fino a dischiudersi dolorosamente, rivelando grappoli di orridi nuovi bulbi oculari.</p><p>Lanciare @Table[hitloc]{Locazione} per determinare la Locazione di questi nuovi occhi. Il Personaggio può vedere attraverso di essi e la sua Iniziativa aumenta di [[/r 1d10]]. Se non possiede tale punteggio, ottiene altri [[/r 2d10]]. Tutti i colpi contro la Locazione dei bulbi oculari causano anche 1 @Condition[Accecato].</p>"
 		},
 		{
 			"id": "Cracked Bone",
-			"name": "Os fêlé",
-			"description": "<p>Gagnez un État @Condition[Sonné]. Tous les Tests subissent un malus de -10 jusqu’à ce que vous receviez un Test de Soins réussi.</p>"
+			"name": "Osso Incrinato",
+			"description": "<p>Causa 1 @Condition[Stordito] e tutte le Prove subiscono –10 finchè non ricevono adeguate cure con una <strong>Prova di Guarire</strong>.</p>"
 		},
 		{
 			"id": "Crippling Wound",
-			"name": "Blessure incapacitante",
-			"description": "<p>Gagnez un État @Condition[A terre]{À Terre} qui ne peut être enlevé que grâce à un Test <strong>Simple de Soins</strong> réussi. Tous les Tests subissent un malus de -20 jusqu’à ce que vous receviez cette Aide Médicale, et passiez au moins une semaine à vous reposer.</p>"
+			"name": "Tendine Lesionato",
+			"description": "<p>Causa @Condition[Prono] che può essere rimosso solo con una <strong>Prova Impegnativa (+0) di Guarire</strong>. Inoltre, tutte le Prove subiscono –20 finchè non si ricevono cure mediche e si passa un'intera ottimana a letto.</p>"
 		},
 		{
 			"id": "Doppelganger",
 			"name": "Doppelganger",
-			"description": "<p>le PNJ peut adopter la forme de n’importe quelle créature de Taille Moyenne. Il doit pour cela obtenir au moins 5 DR sur un Test <strong>Étendu de Perception</strong> tout en observant sa cible. Il a ensuite besoin de 2 Rounds pour prendre l’apparence de la cible. Les vêtements de la cible et les petits accessoires sont également répliqués; ils font cependant partie de la créature et ne peuvent être retirés. Les objets plus gros, comme les épées et les sacs à dos, ne sont pas copiés. Lorsque ceux qui connaissent la victime rencontrent la créature transformée, ils effectuent un Test <strong>Simple d’Intuition Difficile (-20)</strong>. S’ils réussissent, ils sentent que quelque chose ne va pas. S’ils échouent, ils sont convaincus que la créature est bien la personne qu’ils connaissent.</p>"
+			"description": "<p>Il PNG puo assumere la forma di qualsiasi creatura umanoide di Taglia Media. Una volta ottenuti almeno 5 LS in una <strong>Prova Prolungata di Percepire</strong> per esaminare il bersaglio, può trasformarsi in esso, cosa che gli richiede 2 Round. Abiti e piccoli oggetti vengono duplicati, ma sono parte della creatura e non possono essere rimossi. Gli Averi di grandi dimensioni, come spade o zaini, non possono essere copiati. Quando una persona che conosce bene la vittima incontra il Doppelganger, deve effettuare una <strong>Prova Difficile (−20) di Intuire</strong>. Se la supera, nota che qualcosa non va, altrimenti rimane convinto che la creatura sia esattamente la persona conosciuta.</p>"
 		},
 		{
 			"id": "Flensed Muscle",
-			"name": "Muscle dépecé",
-			"description": "<p>Gagnez 4 États @Condition[Hémorragique]. Toute nouvelle blessure reçue sur la Localisation affectée au cours des 4 prochaines semaines infligera également 2 États Hémorragiques suite à la réouverture de la plaie.</p><blockquote class=\"foundry-note\"><p>The Active Effect script for this item needs your input. Once applied to an Actor, replace <span style=\"font-family: Courier\">LOCATION_HERE</span> with <span style=\"font-family: Courier New\">head</span>, <span style=\"font-family: Courier New\">body</span>, <span style=\"font-family: Courier\">lArm</span>, <span style=\"font-family: Courier\">rArm</span>, <span style=\"font-family: Courier\">lLeg</span>, or <span style=\"font-family: Courier\">rLeg,</span> matching which location was hit</p></blockquote>"
+			"name": "Muscolo Strappato",
+			"description": "<p>Causa 4 @Condition[Sanguinante] e, per quattro ottimane, ogni ulteriore colpo ricevuto alla Locazione fa riaprire la ferita causando 2 Sanguinante.</p><blockquote class=\"foundry-note\"><p>Lo script Active Effect per questo elemento richiede il tuo contributo. Una volta applicato a un Personaggio, sostituisci <span style=\"font-family: Courier\">QUESTA LOCAZIONE</span> con <span style=\"font-family: Courier New\">Testa</span>, <span style=\"font-family: Courier New\">Torso</span>, <span style=\"font-family: Courier\">Braccio Sinistro</span>, <span style=\"font-family: Courier\">Braccio Destro</span>, <span style=\"font-family: Courier\">Gamba Sinistra</span>, o <span style=\"font-family: Courier\">Gamba Destra,</span> corrispondente a quale posizione è stata colpita</p></blockquote>"
 		},
 		{
 			"id": "Focusing Philtre",
-			"name": "Philtre de Concentration",
-			"description": "<p>Ce Philtre, sombre et amer, permet de focaliser son esprit et aide à se concentrer. Il confère un bonus de +20 aux Tests d’Intelligence et d’Endurance. Lorsque son effet se dissipe, subissez 1 État @Condition[Extenué]{Exténué} qui perdurera au moins une journée entière. Durée: [[/r 1d10]] heures.</p>"
+			"name": "Filtro della Concentrazione",
+			"description": "<p>Un sorso di questo filtro, scuro e amabile, acuisce la mente e aiuta la concentrazione. Fornisce un bonus di +20 alle Prove d’Intelligenza e di Tempra. Quando i suoi effetti si esauriscono, nondimeno, provoca 1 @Condition[Affaticato] che dura almeno un giorno. </p><p><span style=\"font-family: Calibri\"><strong>Durata: </strong></span>[[/r 1d10]] ore. </p>"
 		},
 		{
 			"id": "Fractured Bone",
-			"name": "Os fracturé",
-			"description": "<p>Gagnez un État @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance</strong> ou obtenez également l’État @Condition[A terre]{À Terre}. Tous les Tests subissent un malus de -10 pendant les 4 prochaines semaines.</p>"
+			"name": "Osso Fratturato",
+			"description": "<p>Causa 1 @Condition[Stordito] e richiede una <strong>Prova Impegnativa (+0) di Tempra</strong> per non cadere @Condition[Prono]. inoltre, tutte le Prove subiscono –10 per le quattro ottimane seguenti.</p>"
 		},
 		{
 			"id": "Gaping Wound",
-			"name": "Blessure béante",
-			"description": "<p>Gagnez 3 États @Condition[Hémorragique]. Toute nouvelle blessure reçue sur la Localisation affectée au cours de la semaine suivante infligera un État Hémorragique supplémentaire, car cette blessure se sera rouverte.</p><blockquote class=\"foundry-note\"><p>The Active Effect script for this item needs your input. Once applied to an Actor, replace <span style=\"font-family: Courier\">LOCATION_HERE</span> with <span style=\"font-family: Courier New\">head</span>, <span style=\"font-family: Courier New\">body</span>, <span style=\"font-family: Courier\">lArm</span>, <span style=\"font-family: Courier\">rArm</span>, <span style=\"font-family: Courier\">lLeg</span>, or <span style=\"font-family: Courier\">rLeg,</span> matching which location was hit</p></blockquote>"
+			"name": "Ferita Aperta",
+			"description": "<p>Causa 3 @Condition[Sanguinante] e, per un'ottimana, ogni ulteriore colpo ricevuto alla Locazione fa riaprire la ferita causando 1 Sanguinante.</p><blockquote class=\"foundry-note\"><p>Lo script Active Effect per questo elemento richiede il tuo contributo. Una volta applicato a un Personaggio, sostituisci <span style=\"font-family: Courier\">QUESTA LOCAZIONE</span> con <span style=\"font-family: Courier New\">Testa</span>, <span style=\"font-family: Courier New\">Torso</span>, <span style=\"font-family: Courier\">Braccio Sinistro</span>, <span style=\"font-family: Courier\">Braccio Destro</span>, <span style=\"font-family: Courier\">Gamba Sinistra</span>, o <span style=\"font-family: Courier\">Gamba Destra,</span> corrispondente a quale posizione è stata colpita</p></blockquote>"
 		},
 		{
 			"id": "Gash",
-			"name": "Rien qu'une égratignure!",
-			"description": "<p>Gagnez 1 État @Condition[Hémorragique].</p>"
+			"name": "Squarcio",
+			"description": "<p>Causa 1 @Condition[Sanguinante]</p>"
 		},
 		{
 			"id": "Gut Blow",
-			"name": "Coup au ventre",
-			"description": "<p>Gagnez 1 État @Condition[Sonné].</p>"
+			"name": "Colpo al Ventre",
+			"description": "<p>Causa 1 @Condition[Stordito]</p>"
 		},
 		{
 			"id": "Itchy Nuisance",
-			"name": "Démangeaisons",
-			"description": "<p>Vous agitez les doigts et des spores de champignons irritants s’en échappent et se déposent dans les zones sensibles de la cible. Ces spores se développent rapidement en causant de terribles démangeaisons. La cible subit un malus de -10 % à tous les Tests, et diminue de moitié son Mouvement pendant toute la durée du sort.</p>"
+			"name": "Fastidio Pruriginoso",
+			"description": "<p>Lo sciamano agita le dita, lanciando dalle punte delle piccole spore fungine pruriginose, che si insinuano nelle zone più sensibili del bersaglio. Qui vi prosperano rapidamente, causando un prurito insopportabile. La vittima subisce un -10 a tutte le Prove e dimezza il proprio Movimento per la durata dell’effetto.</p>"
 		},
 		{
 			"id": "Katya's Cordial",
-			"name": "Sirop de Katya",
-			"description": "<p>Ce mélange diffuse une odeur légèrement sucrée de couleur rose perle au goût épicé. Cette potion augmente le charme de celui qui l’ingère, avec cependant un effet indésirable. Lorsqu’elle est sous l’effet de la potion, la personne qui l’a ingérée gagne le Talent @Compendium[wfrp4e-core.items.6l3jvIAvrKxt0lA9]{Attractive}. Cependant, dès que l’effet se dissipe, ce dernier subit une pénalité de -20 à tous les Tests de Sociabilité pendant [[/r 1d10]] jours au cours desquels sa peau et ses yeux dégorgeront des sécrétions jaunâtres à l’odeur nauséabonde. Durée : [[/r 1d10]] heures.</p>"
+			"name": "Cordiale di Katya",
+			"description": "<p>Si tratta di un’emulsione profumata, di un rosa opalescente e dal sapore piccante. Questa pozione rende il bevitore leggermente più affascinante, ma a un prezzo. Mentre è sotto la sua influenza, il bevitore ottiene benefici del Talento @Compendium[wfrp4e-core.items.6l3jvIAvrKxt0lA9]{Attraente} ,ma al termine subirà una penalita di -20 a tutte le Prove di Socialità per [[/r 1d10]]&nbsp;giorni, mentre secernerà un fluido giallastro e maleodorante dalla pelle e dagli occhi.&nbsp;</p>\n<p>Durata:&nbsp;[[/r 1d10]] ore&nbsp;</p>"
 		},
 		{
 			"id": "Liquor of Luck",
-			"name": "Liqueur de Chance",
-			"description": "<p>Ce liquide bleu brillant exhale une légère odeur de réglisse. Le boire confère +1 Point de Chance. De plus, alors que la Liqueur est active, lancez roll [[/r 1d100]] lorsque vous dépensez un Point de Chance. Si vous obtenez un double, vous regagnez un Point de Chance. Lorsque l’effet se dissipe, perdez tous les Points de Chance et subissez un État @Condition[Extenué]{Exténué} qui perdurera au moins une journée entière. Durée : [[/r 1d10]] minutes.</p>"
+			"name": "Liquore della Fortuna",
+			"description": "<p>Questo liquido blu brillante odora leggermente di liquirizia. Consumato, fornisce +1 Punto Fortuna. Inoltre, quando chi è sotto il suo effetto usa un Punto Fortuna, deve lanciare&nbsp;[[/r 1d100]]. ISe ottiene un doppio, recupera subito il punto speso. Quando l’effetto svanisce, tuttavia, perderà tutti i propri Punti Fortuna e subirà 1&nbsp;@Condition[Affaticato]&nbsp;della durata di almeno un giorno.&nbsp;</p>\n<p>Durata:&nbsp;[[/r 1d10]] minuti.</p>"
 		},
 		{
 			"id": "Low Blow!",
-			"name": "Dans les bijoux de famille",
-			"description": "<p>Obtenez 1 État @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance Difficile (-20)</strong> ou gagnez 2 États Sonné supplémentaires.</p>"
+			"name": "Colpo Basso!",
+			"description": "<p>Causa 1 @Condition[Stordito] e richiede una <strong>Prova Ardua (-20) di Tempra</strong> per non subire altri 2 Stordito.</p>"
 		},
 		{
 			"id": "Massive Intellect",
-			"name": "Cerveau Massif",
-			"description": "<p>Du sang frais, des esquilles d’os et de la chair martyrisée se déversent par vos orifices pendant que votre ancien cerveau est évacué. Lentement, au fil des semaines, un nouveau grandit à sa place, faisant s’étirer douloureusement votre tête grâce à des bandes translucides autour de votre cerveau enflé et luisant. Augmentez votre Caractéristique d’Intelligence de [[/r 2d10]]. Si vous n’aviez pas de Caractéristique de Sociabilité, vous en acquérez une d’une valeur égale au résultat de [[/r 2d10]]. De plus, tous les coups à la tête infligent désormais une @Table[crithead]{Blessure Critique} lorsque ce n’est pas déjà le cas.</p>"
+			"name": "Enorme Intelletto",
+			"description": "<p>Sangue caldo, frammenti d’osso e pelle suppliziata si riversano da ogni oriizio del Personaggio, mentre vomita il suo vecchio cervello. Lentamente, nel corso delle settimane, gliene cresce uno nuovo, luminoso e rigonfio, che gli dilata, dolorosamente, la testa rendendola una membrana traslucida.</p><p>La sua Intelligenza aumenta di [[/r 2d10]]. Se non possiede tale punteggio, ottiene altri [[/r 2d10]]. Tutti i colpi diretti alla Testa causano automaticamente una @Table[crithead]{Ferita Critica} (se non sono già Critici).</p>"
 		},
 		{
 			"id": "Painful Cut",
-			"name": "Entaille douloureuse",
-			"description": "<p>Gagnez 2 États @Condition[Hémorragique] et un État @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance Difficile (-20)</strong> ou obtenez l’État @Condition[Inconscient] en vous évanouissant sous la douleur.</p>"
+			"name": "Taglio Doloroso",
+			"description": "<p>Causa 2 @Condition[Sanguinante], 1 @Condition[Stordito] e richiede una <strong>Prova Ardua (–20) di Tempra</strong> per non finire @Condition[Privo di Sensi] per il dolore</p>"
 		},
 		{
 			"id": "Reactionary Restorative",
-			"name": "Revigorant Réparateur",
-			"description": "<p>Liquide rouge sang épais au goût répugnant, ce breuvage augmente considérablement les réactions au danger de celui qui l’ingère. Tant que son effet perdure, vous ne pouvez jamais subir l’État @Condition[Surpris]. Lorsque son effet se dissipe, subissez 1 État @Condition[Extenué]{Exténué} qui perdurera au moins une journée entière. Durée : [[/r 1d10]] heures.</p>"
+			"name": "Ricostuente Reazionario",
+			"description": "<p>Questo liquido rosso sangue, molto denso e dal sapore sgradevole, migliora i tempi di reazione di fronte al pericolo. Chi è sotto i suoi effetti non subisce mai la Condizione Sorpreso. Quando l’effetto svanisce, però, subirà 1 Affaticato che durerà almeno un’intera giornata.&nbsp;</p>\n<p><strong>Durata</strong>: [[/r 1d10]] ore.</p>"
 		},
 		{
 			"id": "Ruined",
-			"name": "Anéanti",
-			"description": "<p>Gagnez un État @Condition[Inconscient] qui ne peut être enlevé que grâce à un Test <strong>Simple de Soins</strong> réussi. La Localisation affectée est inutilisable tant que vous n’avez pas passé un mois à garder le lit.</p>"
+			"name": "Distrutto",
+			"description": "<p>Causa @Condition[Privo di Sensi] che può essere rimosso solo con una <strong>Prova Impegnativa (+0) di Guarire</strong>. La Locazione colpitaè inservibile finchè non si passa almeno un mese a letto.</p>"
 		},
 		{
 			"id": "Saif al-Janub",
 			"name": "Saif al-Janub",
-			"description": "<p>Offert en cadeau à Lohner en remerciement des actions décisives effectuées lors de la défense de Sudenburg contre les morts-vivants en 2498 CI, cette lame courbe a été forgée par le célèbre philosophe-artisan Hataq al-Kundi en 1445 CI. Cette arme exceptionnelle vaut dix fois le prix indiqué en Arabie.</p>"
+			"description": "<p>Questa lama ricurva, donata a Lohner per aver preso parte all’azione decisiva nella difesa di Sudenburg contro i Nonmorti nel 2498 C.I., fù realizzata dal famoso filosofo-artigiano Hataq al-Kundi nel 1445 C.I. E' un oggetto straordinario e in Arabia varrebbe dieci volte il prezzo indicato.</p>"
 		},
 		{
 			"id": "Shattered Bone",
-			"name": "Os brisé",
-			"description": "<p>Gagnez un État @Condition[Sonné] qui ne peut être enlevé que grâce à un Test <strong>Simple de Soins</strong> réussi. Tous les Tests subissent un malus de -20 jusqu’à ce que vous receviez cette Aide Médicale, et passiez au moins une semaine à vous reposer.</p>"
+			"name": "Osso Polverizzato",
+			"description": "<p>Causa @Condition[Stordito] che può essere rimosso solo con una <strong>Prova Impegnativa (+0) di Guarire</strong>. Inoltre, tutte le Prove subiscono –20 finchè non si ricevono cure mediche e si passa un'intera ottimana a letto.</p>"
 		},
 		{
 			"id": "Slippery Skin",
-			"name": "Peau glissante",
-			"description": "<p>Vous transpirez constamment, votre peau exsudant un mucus fin et visqueux un peu comme celui que produisent les myxines. C’est déplaisant au toucher, cela imbibe vos vêtements en une heure ou deux, et cela rend votre poigne incertaine. Tous les Tests qui nécessitent que vous teniez quelque chose dans vos mains (comme une arme) subissent une pénalité de -20, et vous souffrez également d’un malus de -20 aux Tests de Sociabilité. Lorsque vous tentez d’échapper à une Empoignade, si vous réussissez, vous pouvez choisir d’utiliser soit votre DR, soit le nombre affiché sur le dé des unités. Un jet réussi de 28 peut donc être utilisé pour obtenir +8 DR.</p>"
+			"name": "Pelle Scivolosa",
+			"description": "<p>Il Personaggio trasuda in continuazione, producendo un sottile strato di viscido muco, simile a quello che secerne un’anguilla. Non solo il muco è disgustoso al tatto, ma permea i suoi vestiti nel giro di un paio d’ore e rende la sua presa incerta.</p><p>Il Personaggio subisce una penalità di -20 a tutte le prove che richiedono di impugnare qualcosa (come un’arma) e quelle appropriate di Socialità. Tuttavia, riesce a sfuggire a qualsiasi presa, caso in cui può decidere se usare il normale LS o il valore del dado delle unità. Per esempio, un risultato di 28 potrebbe essere usato come +8 LS.</p>"
 		},
 		{
 			"id": "Sneaky Stabbin'",
-			"name": "Attaque sournoiz’",
-			"description": "<p>Vous enchantez les lames de vos alliés, de façon à ce qu’elles cherchent le point faible dans l’armure de vos adversaires. Les cibles acquièrent immédiatement +1 Avantage, et leurs attaques gagnent la Qualité Pénétrante tant qu’ils ont de l’Avantage.</p>"
+			"name": "Pugnalata Subdola",
+			"description": "<p>Lo sciamano incanta le lame dei propri alleati, così che riescano a colpire i punti deboli delle armature nemiche. I bersagli ottengono +1 Vantaggio e, finché lo conservano, i loro attacchi guadagnano la Qualità delle Armi Penetranti.</p>"
 		},
 		{
 			"id": "Telepathy",
-			"name": "Télépathie",
-			"description": "<p>Votre esprit se libère de ses chaînes matérielles, murmurant de joie alors qu’il perçoit de nouvelles façons de s’imposer aux autres. Avec un Test <strong>Simple de Force Mentale</strong> vous pouvez communiquer avec n’importe quelle créature consciente se trouvant dans les Force Mentale en mètres, dans votre ligne de vue. Cela dure pendant un nombre de minutes égal à votre Caractéristique d’Initiative. Vous pouvez également lire les pensées superficielles de n’importe quelle créature avec laquelle vous communiquez par télépathie avec un Test <strong>Opposé de Force Mentale</strong>. Si vous ratez le Test, vous ne pouvez plus lire l’esprit du sujet pendant les prochains [[/r 1d10]] jours. Lorsque vous utilisez la télépathie, vos yeux luisent étrangement. Chaque fois que cette Mutation est développée, la portée jusqu’à laquelle vous pouvez utiliser ce pouvoir double.</p><p> </p><p> </p>"
+			"name": "Telepatia",
+			"description": "<p>La mente del Personaggio si svincola dalla sua catena materiale e balbetta di gioia nel tempo in cui scopre come imporsi sulle menti altrui.</p><p>Con una <strong>Prova Semplice di Volontà</strong>, il Personaggio può comunicare telepaticamente con qualsiasi creatura senziente visibile entro un numero di metri pari alla propria Volontà. Questo effetto dura un numero di minuti pari alla sua Iniziativa. Inoltre può leggere le menti di tutti coloro con cui comunica sensorialmente, superando una <strong>Prova Contrapposta di Volontà</strong>. Se fallisce, non può piu leggere la mente di quella creatura per [[/r 1d10]] giorni. Quando utilizza questo potere, le pupille del Personaggio luccicano in modo spettrale. Ogni volta che ottiene di nuovo questa mutazione, il raggio d’azione viene raddoppiato.</p><p> </p><p> </p>"
 		},
 		{
 			"id": "The Marvelous Medicinal Mixture",
-			"name": "Le Merveilleux Mélange Thérapeutique",
-			"description": "<p>Ce liquide écœurant diffuse une odeur de poisson, et quiconque souhaite ingérer cette décoction doit dans un premier temps réussir un Test Moyen (+20) de Calme. Ensuite, cette personne subit un État @Condition[Extenué]{Exténué}, qui ne disparaîtra qu’après une bonne nuit de repos. La potion ne déclenche aucun autre effet. Cependant, son goût est si abject que les clients de von Holzenauer sont convaincus de son efficacité à guérir n’importe quel malaise</p>"
+			"name": "La Meravigliosa Mistura Medicinale",
+			"description": "<p>Chiunque desideri mandar giù questo liquido dolciastro dall’olezzo di pesce, deve superare una <strong>Prova Media (+20) di Freddezza</strong>. Una volta fatto, riceverà 1 Affaticato che non potrà essere sanato senza una buona notte di sonno. La pozione ha altri effetti ma, a causa del terribile sapore, i clienti di von Holzenauer rimangono convinti della sua efficacia nel curare qualsiasi malanno.</p>"
 		},
 		{
 			"id": "Tonic of Sight Beyond Sight",
-			"name": "Tonique de Vue au-delà de la Vue",
-			"description": "<p>L’étiquette de la bouteille contenant ce liquide vert foncé est ornée d’un grand globe oculaire rouge. Cette potion porte la promesse d’améliorer la vision de celui qui la boit. La boire vous conférera l’un des Talents suivants, voire plusieurs (lancer [[/r 1d10]]) : 1-2 : @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Acute Sense (Sight)}; 3-4 : @Compendium[wfrp4e-core.items.Nj3tC8A5fZ3zEdMR]{Holy Visions}; 5-6 : @Compendium[wfrp4e-core.items.6w30u0VPsAicrqb5]{Magical Sense}; 7-8 : @Compendium[wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Second Sight}; 9-10 : tous les effets ci-dessus. Durée : [[/r 1d10]] minutes</p>"
+			"name": "Tonico della Vista Oltre la Vista",
+			"description": "<p>L’etichetta di questo liquido verde scuro mostra un grande occhio rosso e promette di migliorare la vista del bevitore. Berla conferisce i benefici di uno o più Talenti come di seguito ([[/r 1d10]]):</p>\n<p>1-2: @Compendium[wfrp4e-core.items.9h82z72XGo9tfgQS]{Senso Acuto (Vista)};</p>\n<p>3-4: @Compendium[wfrp4e-core.items.Nj3tC8A5fZ3zEdMR]{Visioni Mistiche};</p>\n<p>5-6: @Compendium[wfrp4e-core.items.6w30u0VPsAicrqb5]{Senso Magico};</p>\n<p>7-8: @Compendium[wfrp4e-core.items.OEjUvJKi0xmBwbS2]{Seconda Vista};</p>\n<p>9-10: Tutto quanto descritto sopra.&nbsp;</p>\n<p>Durata:&nbsp;[[/r 1d10]]minuti.</p>"
 		},
 		{
 			"id": "Torn Apart",
-			"name": "Éventré",
-			"description": "<p>Vous êtes coupé en deux. La moitié supérieure atterrit à [[/r 1d10]] x 30cm dans une direction aléatoire, et tous les Personnages à proximité sont recouverts de sang.</p>"
+			"name": "Smembrato",
+			"description": "<p>Il Personaggio viene tagliato in due. La metà superiore cade a [[/r 1d10]]x30 cm di distanza e tutti i presenti vengono insozzati di sangue.</p>"
 		},
 		{
 			"id": "Torn Flesh",
-			"name": "Chairs déchirées",
-			"description": "<p>Gagnez 2 État @Condition[Hémorragique].</p>"
+			"name": "Lacerazione",
+			"description": "<p>Causa 2 @Condition[Sanguinante]</p>"
 		},
 		{
 			"id": "Winded",
-			"name": "Soufle coupé",
-			"description": "Gagnez 2 États @Condition[Sonné]. Réussissez un Test <strong>Simple de Résistance Accessible (+20)</strong> ou obtenez 1 État @Condition[A terre]{À Terre}. Le Mouvement est divisé par deux pendant [[/r 1d10]] Rounds, le temps de récupérer votre souffle.</p>"
+			"name": "Fiato Mozzo",
+			"description": "<p>Causa 2 @Condition[Stordito] e richiede una <strong>Prova Media (+20) di Tempra</strong> per non cadere @Condition[Prono]. Il Movimento del Personaggio è dimezzato per [[/r 1d10]] Round, finchè non riprende fiato.</p>"
+		},
+		{
+			"id": "Piercing Gaze",
+			"name": "Sguardo Penetrante",
+			"description": "<p>Maurer ha la capacità unica di vedere chiaramente i difetti in tutto ciò che osserva per almeno qualche attimo. Ha usato il suo dono principalmente per scolpire la pietra. Il Dio del Caos Tzeentch sa che una simile abilità potrebbe diventare un’arma terribile, poiché Maurer può intravedere finanche i difetti nelle persone, nelle organizzazioni, nei governi… e, se solo lo volesse, potrebbe facilmente scoprire il modo migliore per annientarli. Durante uno scontro, se Maurer usa un’Azione per studiare un avversario, in quella successiva può attaccarlo ignorando sia il suo Bonus Resistenza che i Punti Armatura.</p>"
 		}
 	]
 }
