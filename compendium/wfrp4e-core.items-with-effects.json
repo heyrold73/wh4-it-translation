@@ -7071,7 +7071,7 @@
       "name": "Vista Oscura"
     },
     {
-      "description": "<p>Non importa quanto duramente venga colpita; questa creatura si rialza sempre. Può guarire da tutte le Ferite Critiche non letali, semplicemente riattaccandosi le parti mancanti, magari con punti o chiodi. Persino la ‘morte’ potrebbe non essere definitiva, se le parti perse vengono ricollocate al loro posto. All’inizio di ogni Round, per un numero di Round pari al suo Bonus Resistenza dopo la morte, se tutte le parti del corpo sono al loro posto, potrà tentare una Prova <strong>Résistance Intermédiaire (+0)</strong>. Se ottiene almeno <strong>6 LS</strong> ritornerà in vita con 1 Ferita.</p>",
+      "description": "<p>Non importa quanto duramente venga colpita; questa creatura si rialza sempre. Può guarire da tutte le Ferite Critiche non letali, semplicemente riattaccandosi le parti mancanti, magari con punti o chiodi. Persino la ‘morte’ potrebbe non essere definitiva, se le parti perse vengono ricollocate al loro posto. All’inizio di ogni Round, per un numero di Round pari al suo Bonus Resistenza dopo la morte, se tutte le parti del corpo sono al loro posto, potrà tentare una <strong>Prova Impegnativa (+0)di Tempra</strong>. Se ottiene almeno <strong>6 LS</strong> ritornerà in vita con 1 Ferita.</p>",
       "id": "Die Hard",
       "name": "Duro da Uccidere"
     },
