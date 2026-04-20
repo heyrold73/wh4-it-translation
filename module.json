@@ -8,7 +8,7 @@
     }
   ],
   "url": "https://github.com/heyrold73/wh4-it-translation",
-  "version": "10.0.1",
+  "version": "10.0.2",
   "esmodules": [
     "modules/babele-register.js",
     "modules/addon-register.js",
@@ -30,78 +30,6 @@
   ],
   "packs": [
     {
-      "label": "Plats d'Auberges",
-      "type": "RollTable",
-      "name": "plats-dauberges",
-      "path": "packs/plats-dauberges",
-      "system": "wfrp4e",
-      "flags": {},
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "Dons de Rhya",
-      "type": "JournalEntry",
-      "name": "dons-de-rhya",
-      "path": "packs/dons-de-rhya",
-      "system": "wfrp4e",
-      "flags": {},
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "Aides de Jeu FR",
-      "type": "JournalEntry",
-      "name": "aides-de-jeu-fr",
-      "path": "packs/aides-de-jeu-fr",
-      "system": "wfrp4e",
-      "flags": {},
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "Herbes & Potions",
-      "type": "Item",
-      "name": "antidotes-and-remedes",
-      "path": "packs/antidotes-and-remedes",
-      "system": "wfrp4e",
-      "flags": {},
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "Tables des Traductions",
-      "type": "JournalEntry",
-      "name": "tables-des-traductions",
-      "path": "packs/tables-des-traductions",
-      "system": "wfrp4e",
-      "flags": {},
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "Apothicarium",
-      "type": "JournalEntry",
-      "name": "apothicarium",
-      "path": "packs/apothicarium",
-      "system": "wfrp4e",
-      "flags": {},
-      "ownership": {
-        "PLAYER": "NONE",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
       "label": "Talenti con Effetti Tradotti",
       "type": "Item",
       "name": "talenti-con-effetti-tradotti",
@@ -114,10 +42,10 @@
       }
     },
     {
-      "label": "Bestiario Tradotto",
+      "label": "PNG e Creature Tradotte",
       "type": "Actor",
-      "name": "bestiario-tradotto",
-      "path": "packs/bestiario-tradotto",
+      "name": "png-e-creature-tradotte",
+      "path": "packs/png-e-creature-tradotte",
       "system": "wfrp4e",
       "flags": {},
       "ownership": {
@@ -132,20 +60,14 @@
       "sorting": "m",
       "color": "#00435c",
       "packs": [
-        "apothicarium",
-        "tables-des-traductions",
-        "antidotes-and-remedes",
-        "aides-de-jeu-fr",
-        "dons-de-rhya",
-        "plats-dauberges",
         "talenti-con-effetti-tradotti",
-        "bestiario-tradotto"
+        "png-e-creature-tradotte"
       ],
       "folders": []
     }
   ],
   "manifest": "https://github.com/heyrold73/wh4-it-translation/releases/latest/download/module.json",
-  "download": "https://github.com/heyrold73/wh4-it-translation/releases/latest/download/module.zip",
+  "download": "https://github.com/heyrold73/wh4-it-translation/releases/latest/download/module.json",
   "id": "wh4-it-translation",
   "compatibility": {
     "minimum": "13",
